@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'OpenWeb Icons';
+    src: url('../font/openwebicons.eot');
+    src: url('../font/openwebicons.eot?#iefix') format('embedded-opentype'),
+         url('../font/openwebicons.woff') format('woff'),
+         url('../font/openwebicons.ttf') format('truetype'),
+         url('../font/openwebicons.svg#OpenWebIconsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class^="owi-"]:before, [class*=" owi-"]:before {
+    font-family: 'OpenWeb Icons';
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    vertical-align: center;
+    font-size: 0.9em;
+}
+a [class^="owi-"], a [class*=" owi-"] {
+    display: inline-block;
+    text-decoration: inherit;
+}
+
+.owi-apml:before { content: "a"; }
+.owi-apml-colored:before { content: "a"; color: #AFDD63; }
+
+.owi-open-share:before { content: "T"; }
+.owi-open-share-colored:before { content: "T"; color: #538439; }
+
+.owi-share:before { content: "t"; }
+.owi-share-colored:before { content: "t"; color: #538439; }
+
+.owi-feed:before { content: "F"; }
+.owi-feed-simple:before { content: "E"; }
+.owi-feed-colored:before { content: "F"; color: #EA680B; }
+
+.owi-ostatus:before { content: "S"; }
+.owi-ostatus-simple:before { content: "s"; }
+.owi-ostatus-colored:before { content: "S"; color: #FF6600; }
+
+.owi-opml:before { content: "o"; }
+.owi-opml-colored:before { content: "o"; color: #2490A1; }
+
+.owi-activity:before { content: "W"; }
+.owi-activity-colored:before { content: "W"; color: #4FB2D9; }
+
+.owi-microformats:before { content: "M"; }
+.owi-microformats-colored:before { content: "M"; color: #96C70D; }
+
+.owi-geo:before { content: "G"; }
+.owi-geo-colored:before { content: "G"; color: #CB0000; }
+
+.owi-opensearch:before { content: "f"; }
+.owi-opensearch-colored:before { content: "f"; color: #5050f3; }
+
+.owi-oauth:before { content: "A"; }
+.owi-openid:before { content: "O"; }
+.owi-rdf:before, .owi-rdfa:before, .owi-owl:before { content: "R"; }
