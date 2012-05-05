@@ -21,7 +21,7 @@
 [class^="icon-oauth"]:before, [class*=" icon-oauth"]:before,
 [class^="icon-openid"]:before, [class*=" icon-openid"]:before,
 [class^="icon-rdf"]:before, [class*=" icon-rdf"]:before {
-    font-family: 'OpenWeb Icons';
+  font-family: 'OpenWeb Icons';
 }
 
 .icon-apml:before { content: "a"; }
