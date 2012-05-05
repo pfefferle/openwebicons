@@ -8,20 +8,6 @@
     font-weight: normal;
     font-style: normal;
 }
-[class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: 'OpenWeb Icons';
-    font-weight: normal;
-    font-style: normal;
-    display: inline-block;
-    text-decoration: inherit;
-    vertical-align: center;
-    font-size: 0.9em;
-}
-a [class^="icon-"], a [class*=" icon-"] {
-    display: inline-block;
-    text-decoration: inherit;
-}
-
 .icon-apml:before { content: "a"; }
 .icon-apml-colored:before { content: "a"; color: #AFDD63; }
 
