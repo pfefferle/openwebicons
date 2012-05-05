@@ -1,3 +1,5 @@
 .table i {
-  font-size: 100px;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 1 !important;
 }

@@ -35,9 +35,9 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-feed-simple:before { content: "E"; }
 .icon-feed-colored:before { content: "F"; color: #EA680B; }
 
-.icon-ostatus:before { content: "S"; }
-.icon-ostatus-simple:before { content: "s"; }
-.icon-ostatus-colored:before { content: "S"; color: #FF6600; }
+.icon-ostatus:before { content: "s"; }
+.icon-ostatus-simple:before { content: "S"; }
+.icon-ostatus-colored:before { content: "s"; color: #FF6600; }
 
 .icon-opml:before { content: "o"; }
 .icon-opml-colored:before { content: "o"; color: #2490A1; }
