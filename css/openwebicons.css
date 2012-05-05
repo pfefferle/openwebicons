@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'OpenWeb Icons';
+    src: url('../font/openwebicons.eot');
+    src: url('../font/openwebicons.eot?#iefix') format('embedded-opentype'),
+         url('../font/openwebicons.woff') format('woff'),
+         url('../font/openwebicons.ttf') format('truetype'),
+         url('../font/openwebicons.svg#OpenWebIconsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: 'OpenWeb Icons';
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    vertical-align: center;
+    font-size: 0.9em;
+}
+a [class^="icon-"], a [class*=" icon-"] {
+    display: inline-block;
+    text-decoration: inherit;
+}
+
+.icon-apml:before { content: "a"; }
+.icon-apml-colored:before { content: "a"; color: #AFDD63; }
+
+.icon-open-share:before { content: "T"; }
+.icon-open-share-colored:before { content: "T"; color: #538439; }
+
+.icon-share:before { content: "t"; }
+.icon-share-colored:before { content: "t"; color: #538439; }
+
+.icon-feed:before { content: "F"; }
+.icon-feed-simple:before { content: "E"; }
+.icon-feed-colored:before { content: "F"; color: #EA680B; }
+
+.icon-ostatus:before { content: "S"; }
+.icon-ostatus-simple:before { content: "s"; }
+.icon-ostatus-colored:before { content: "S"; color: #FF6600; }
+
+.icon-opml:before { content: "o"; }
+.icon-opml-colored:before { content: "o"; color: #2490A1; }
+
+.icon-activity:before { content: "W"; }
+.icon-activity-colored:before { content: "W"; color: #4FB2D9; }
+
+.icon-microformats:before { content: "M"; }
+.icon-microformats-colored:before { content: "M"; color: #96C70D; }
+
+.icon-geo:before { content: "G"; }
+.icon-geo-colored:before { content: "G"; color: #CB0000; }
+
+.icon-opensearch:before { content: "f"; }
+.icon-opensearch-colored:before { content: "f"; color: #5050f3; }
+
+.icon-oauth:before { content: "A"; }
+.icon-openid:before { content: "O"; }
+.icon-rdf:before, .icon-rdfa:before, .icon-owl:before { content: "R"; }
