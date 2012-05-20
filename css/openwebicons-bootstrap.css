@@ -1,13 +1,29 @@
 @font-face {
-    font-family: 'OpenWeb Icons';
-    src: url('../font/openwebicons.eot');
-    src: url('../font/openwebicons.eot?#iefix') format('embedded-opentype'),
-         url('../font/openwebicons.woff') format('woff'),
-         url('../font/openwebicons.ttf') format('truetype'),
-         url('../font/openwebicons.svg#OpenWebIconsRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'OpenWeb Icons';
+  src: url('../font/openwebicons.eot');
+  src: url('../font/openwebicons.eot?#iefix') format('embedded-opentype'),
+       url('../font/openwebicons.woff') format('woff'),
+       url('../font/openwebicons.ttf') format('truetype'),
+       url('../font/openwebicons.svg#OpenWebIconsRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+[class^="icon-apml"]:before, [class*=" icon-apml"]:before,
+[class^="icon-open-share"]:before, [class*=" icon-open-share"]:before,
+[class^="icon-share"]:before, [class*=" icon-share"]:before,
+[class^="icon-feed"]:before, [class*=" icon-feed"]:before,
+[class^="icon-ostatus"]:before, [class*=" icon-ostatus"]:before,
+[class^="icon-opml"]:before, [class*=" icon-opml"]:before,
+[class^="icon-activity"]:before, [class*=" icon-activity"]:before,
+[class^="icon-microformats"]:before, [class*=" icon-microformats"]:before,
+[class^="icon-geo"]:before, [class*=" icon-geo"]:before,
+[class^="icon-opensearch"]:before, [class*=" icon-opensearch"]:before,
+[class^="icon-oauth"]:before, [class*=" icon-oauth"]:before,
+[class^="icon-openid"]:before, [class*=" icon-openid"]:before,
+[class^="icon-rdf"]:before, [class*=" icon-rdf"]:before {
+  font-family: 'OpenWeb Icons';
+}
+
 .icon-apml:before { content: "a"; }
 .icon-apml-colored:before { content: "a"; color: #AFDD63; }
 
@@ -21,9 +37,9 @@
 .icon-feed-simple:before { content: "E"; }
 .icon-feed-colored:before { content: "F"; color: #EA680B; }
 
-.icon-ostatus:before { content: "S"; }
-.icon-ostatus-simple:before { content: "s"; }
-.icon-ostatus-colored:before { content: "S"; color: #FF6600; }
+.icon-ostatus:before { content: "s"; }
+.icon-ostatus-simple:before { content: "S"; }
+.icon-ostatus-colored:before { content: "s"; color: #FF6600; }
 
 .icon-opml:before { content: "o"; }
 .icon-opml-colored:before { content: "o"; color: #2490A1; }
