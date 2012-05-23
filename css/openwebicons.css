@@ -1,25 +1,24 @@
 @font-face {
-    font-family: 'OpenWeb Icons';
-    src: url('../font/openwebicons.eot');
-    src: url('../font/openwebicons.eot?#iefix') format('embedded-opentype'),
-         url('../font/openwebicons.woff') format('woff'),
-         url('../font/openwebicons.ttf') format('truetype'),
-         url('../font/openwebicons.svg#OpenWebIconsRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'OpenWeb Icons';
+  src: url('../font/openwebicons.eot');
+  src: url('../font/openwebicons.eot?#iefix') format('embedded-opentype'),
+       url('../font/openwebicons.woff') format('woff'),
+       url('../font/openwebicons.ttf') format('truetype'),
+       url('../font/openwebicons.svg#OpenWebIconsRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 [class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: 'OpenWeb Icons';
-    font-weight: normal;
-    font-style: normal;
-    display: inline-block;
-    text-decoration: inherit;
-    vertical-align: center;
-    font-size: 0.9em;
+  font-family: 'OpenWeb Icons';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  vertical-align: center;
 }
 a [class^="icon-"], a [class*=" icon-"] {
-    display: inline-block;
-    text-decoration: inherit;
+  display: inline-block;
+  text-decoration: inherit;
 }
 
 .icon-apml:before { content: "a"; }
@@ -35,9 +34,9 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-feed-simple:before { content: "E"; }
 .icon-feed-colored:before { content: "F"; color: #EA680B; }
 
-.icon-ostatus:before { content: "S"; }
-.icon-ostatus-simple:before { content: "s"; }
-.icon-ostatus-colored:before { content: "S"; color: #FF6600; }
+.icon-ostatus:before { content: "s"; }
+.icon-ostatus-simple:before { content: "S"; }
+.icon-ostatus-colored:before { content: "s"; color: #FF6600; }
 
 .icon-opml:before { content: "o"; }
 .icon-opml-colored:before { content: "o"; color: #2490A1; }
@@ -57,3 +56,11 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-oauth:before { content: "A"; }
 .icon-openid:before { content: "O"; }
 .icon-rdf:before, .icon-rdfa:before, .icon-owl:before { content: "R"; }
+
+.icon-dataportability:before { content: "D"; }
+
+.icon-federated:before { content: "d"; }
+
+.icon-web-intents:before { content: "I"; }
+
+.icon-open-web:before { content: "w"; }
