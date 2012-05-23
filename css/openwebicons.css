@@ -56,3 +56,11 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-oauth:before { content: "A"; }
 .icon-openid:before { content: "O"; }
 .icon-rdf:before, .icon-rdfa:before, .icon-owl:before { content: "R"; }
+
+.icon-dataportability:before { content: "D"; }
+
+.icon-federated:before { content: "d"; }
+
+.icon-web-intents:before { content: "I"; }
+
+.icon-open-web:before { content: "w"; }
