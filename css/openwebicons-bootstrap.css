@@ -9,8 +9,10 @@
   font-style: normal;
 }
 [class^="icon-apml"]:before, [class*=" icon-apml"]:before,
-[class^="icon-open-share"]:before, [class*=" icon-open-share"]:before,
+[class^="icon-open-share"]:before, [class^="icon-open-share-simple"]:before,
+[class*=" icon-open-share"]:before, [class*=" icon-open-share-simple"]:before,
 [class^="icon-share"]:before, [class*=" icon-share"]:before,
+[class^="icon-share-simple"]:before, [class*=" icon-share-simple"]:before,
 [class^="icon-feed"]:before, [class*=" icon-feed"]:before,
 [class^="icon-ostatus"]:before, [class*=" icon-ostatus"]:before,
 [class^="icon-opml"]:before, [class*=" icon-opml"]:before,
@@ -26,46 +28,48 @@
   font-family: 'OpenWeb Icons';
 }
 
-.icon-apml:before { content: "a"; }
-.icon-apml-colored:before { content: "a"; color: #AFDD63; }
+.icon-apml:before { content: "\f001"; }
+.icon-apml-colored:before { content: "\f001"; color: #AFDD63; }
 
-.icon-open-share:before { content: "T"; }
-.icon-open-share-colored:before { content: "T"; color: #538439; }
+.icon-open-share:before { content: "\f00E"; }
+.icon-open-share-simple:before { content: "\f00F"; }
+.icon-open-share-colored:before { content: "\f00E"; color: #538439; }
 
-.icon-share:before { content: "t"; }
-.icon-share-colored:before { content: "t"; color: #538439; }
+.icon-share:before { content: "\f006"; }
+.icon-share-simple:before { content: "\f007"; }
+.icon-share-colored:before { content: "\f006"; color: #538439; }
 
-.icon-feed:before { content: "F"; }
-.icon-feed-simple:before { content: "E"; }
-.icon-feed-colored:before { content: "F"; color: #EA680B; }
+.icon-feed:before { content: "\f009"; }
+.icon-feed-simple:before { content: "\f00A"; }
+.icon-feed-colored:before { content: "\f009"; color: #EA680B; }
 
-.icon-ostatus:before { content: "s"; }
-.icon-ostatus-simple:before { content: "S"; }
-.icon-ostatus-colored:before { content: "s"; color: #FF6600; }
+.icon-ostatus:before { content: "\f004"; }
+.icon-ostatus-simple:before { content: "\f005"; }
+.icon-ostatus-colored:before { content: "\f004"; color: #FF6600; }
 
-.icon-opml:before { content: "o"; }
-.icon-opml-colored:before { content: "o"; color: #2490A1; }
+.icon-opml:before { content: "\f003"; }
+.icon-opml-colored:before { content: "\f003"; color: #2490A1; }
 
-.icon-activity:before { content: "W"; }
-.icon-activity-colored:before { content: "W"; color: #4FB2D9; }
+.icon-activity:before { content: "\f010"; }
+.icon-activity-colored:before { content: "\f010"; color: #4FB2D9; }
 
-.icon-microformats:before { content: "M"; }
-.icon-microformats-colored:before { content: "M"; color: #96C70D; }
+.icon-microformats:before { content: "\f00C"; }
+.icon-microformats-colored:before { content: "\f00C"; color: #96C70D; }
 
-.icon-geo:before { content: "G"; }
-.icon-geo-colored:before { content: "G"; color: #CB0000; }
+.icon-geo:before { content: "\f00B"; }
+.icon-geo-colored:before { content: "\f00B"; color: #CB0000; }
 
-.icon-opensearch:before { content: "f"; }
-.icon-opensearch-colored:before { content: "f"; color: #5050f3; }
+.icon-opensearch:before { content: "\f002"; }
+.icon-opensearch-colored:before { content: "\f002"; color: #5050f3; }
 
-.icon-oauth:before { content: "A"; }
-.icon-openid:before { content: "O"; }
-.icon-rdf:before, .icon-rdfa:before, .icon-owl:before { content: "R"; }
+.icon-oauth:before { content: "\f008"; }
+.icon-openid:before { content: "\f00D"; }
+.icon-rdf:before, .icon-rdfa:before, .icon-owl:before { content: "\f000"; }
 
-.icon-dataportability:before { content: "D"; }
+.icon-dataportability:before { content: "\f013"; }
 
-.icon-federated:before { content: "d"; }
+.icon-federated:before { content: "\f011"; }
 
-.icon-web-intents:before { content: "I"; }
+.icon-web-intents:before { content: "\f014"; }
 
-.icon-open-web:before { content: "w"; }
+.icon-open-web:before { content: "\f012"; }
