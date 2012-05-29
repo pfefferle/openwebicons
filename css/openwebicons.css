@@ -15,6 +15,8 @@
   display: inline-block;
   text-decoration: inherit;
   vertical-align: center;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 a [class^="icon-"], a [class*=" icon-"] {
   display: inline-block;

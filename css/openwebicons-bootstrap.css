@@ -26,6 +26,8 @@
 [class^="icon-dataportability"]:before, [class^="icon-federated"]:before,
 [class^="icon-web-intents"]:before, [class^="icon-open-web"]:before {
   font-family: 'OpenWeb Icons';
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 
 .icon-apml:before { content: "\f001"; }
