@@ -15,6 +15,8 @@
   display: inline-block;
   text-decoration: inherit;
   vertical-align: center;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 a [class^="icon-"], a [class*=" icon-"] {
   display: inline-block;
@@ -47,10 +49,10 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-activity-colored:before { content: "\f010"; color: #4FB2D9; }
 
 .icon-microformats:before { content: "\f00C"; }
-.icon-microformats-colored:before { content: "\f00C"; color: #96C70D; }
+.icon-microformats-colored:before { content: "\f00C"; color: #85BC07; }
 
 .icon-geo:before { content: "\f00B"; }
-.icon-geo-colored:before { content: "\f00B"; color: #CB0000; }
+.icon-geo-colored:before { content: "\f00B"; color: #990000; }
 
 .icon-opensearch:before { content: "\f002"; }
 .icon-opensearch-colored:before { content: "\f002"; color: #5050f3; }
@@ -66,3 +68,10 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-web-intents:before { content: "\f014"; }
 
 .icon-open-web:before { content: "\f012"; }
+
+.icon-xmpp:before { content: "\f015"; }
+
+.icon-html5:before { content: "\f016"; }
+.icon-html5-colored:before { content: "\f016"; color: #E34C26; }
+
+.icon-css3:before { content: "\f017"; }
