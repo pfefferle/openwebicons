@@ -75,3 +75,7 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-html5-colored:before { content: "\f016"; color: #E34C26; }
 
 .icon-css3:before { content: "\f017"; }
+
+.icon-connectivity:before { content: "\f018"; }
+
+.icon-semantics:before { content: "\f019"; }

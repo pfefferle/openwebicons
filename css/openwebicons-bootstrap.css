@@ -30,6 +30,8 @@
 [class^="icon-html5"]:before, [class^=" icon-html5"]:before,
 [class^="icon-html5-colored"]:before, [class^=" icon-html5-colored"]:before,
 [class^="icon-css3"]:before, [class^=" icon-css3"]:before,
+[class^="icon-connectivity"]:before, [class^=" icon-connectivity"]:before,
+[class^="icon-semantics"]:before, [class^=" icon-semantics"]:before,
 [class^="icon-open-web"]:before, [class^=" icon-open-web"]:before {
   font-family: 'OpenWeb Icons';
   font-smoothing: antialiased;
@@ -88,3 +90,7 @@
 .icon-html5-colored:before { content: "\f016"; color: #E34C26; }
 
 .icon-css3:before { content: "\f017"; }
+
+.icon-connectivity:before { content: "\f018"; }
+
+.icon-semantics:before { content: "\f019"; }
