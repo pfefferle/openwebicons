@@ -79,3 +79,12 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-connectivity:before { content: "\f018"; }
 
 .icon-semantics:before { content: "\f019"; }
+
+.icon-opengraph:before { content: "\f020"; }
+
+.icon-epub:before { content: "\f021"; }
+.icon-epub-colored:before { content: "\f021"; color: #85b916; }
+
+.icon-qr:before { content: "\f022"; }
+
+.icon-foaf:before { content: "\f023"; }

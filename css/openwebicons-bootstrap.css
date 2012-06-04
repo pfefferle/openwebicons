@@ -32,6 +32,12 @@
 [class^="icon-css3"]:before, [class^=" icon-css3"]:before,
 [class^="icon-connectivity"]:before, [class^=" icon-connectivity"]:before,
 [class^="icon-semantics"]:before, [class^=" icon-semantics"]:before,
+[class^="icon-epub"]:before, [class^=" icon-epub"]:before,
+[class^="icon-epub-colored"]:before, [class^=" icon-epub-colored"]:before,
+[class^="icon-qr"]:before, [class^=" icon-qr"]:before,
+[class^="icon-opengraph"]:before, [class^=" icon-opengraph"]:before,
+[class^="icon-opengraph"]:before, [class^=" icon-opengraph"]:before,
+[class^="icon-foaf"]:before, [class^=" icon-foaf"]:before,
 [class^="icon-open-web"]:before, [class^=" icon-open-web"]:before {
   font-family: 'OpenWeb Icons';
   font-smoothing: antialiased;
@@ -94,3 +100,12 @@
 .icon-connectivity:before { content: "\f018"; }
 
 .icon-semantics:before { content: "\f019"; }
+
+.icon-opengraph:before { content: "\f020"; }
+
+.icon-epub:before { content: "\f021"; }
+.icon-epub-colored:before { content: "\f021"; color: #85b916; }
+
+.icon-qr:before { content: "\f022"; }
+
+.icon-foaf:before { content: "\f023"; }
