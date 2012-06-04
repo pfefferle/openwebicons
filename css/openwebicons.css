@@ -83,6 +83,7 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-foaf:before { content: "\f020"; }
 
 .icon-epub:before { content: "\f021"; }
+.icon-epub-colored:before { content: "\f021"; color: #85b916; }
 
 .icon-qr:before { content: "\f022"; }
 
