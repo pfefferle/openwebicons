@@ -88,3 +88,7 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-qr:before { content: "\f022"; }
 
 .icon-foaf:before { content: "\f023"; }
+
+.icon-info-card:before { content: "\f024"; }
+
+.icon-browserid:before { content: "\f025"; }
