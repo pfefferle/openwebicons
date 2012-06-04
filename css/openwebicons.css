@@ -80,11 +80,11 @@ a [class^="icon-"], a [class*=" icon-"] {
 
 .icon-semantics:before { content: "\f019"; }
 
-.icon-foaf:before { content: "\f020"; }
+.icon-opengraph:before { content: "\f020"; }
 
 .icon-epub:before { content: "\f021"; }
 .icon-epub-colored:before { content: "\f021"; color: #85b916; }
 
 .icon-qr:before { content: "\f022"; }
 
-.icon-opengraph:before { content: "\f023"; }
+.icon-foaf:before { content: "\f023"; }
