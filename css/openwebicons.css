@@ -90,5 +90,6 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-foaf:before { content: "\f023"; }
 
 .icon-info-card:before { content: "\f024"; }
+.icon-info-card-colored:before { content: "\f024"; color: #BF84E5; }
 
 .icon-browserid:before { content: "\f025"; }
