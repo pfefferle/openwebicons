@@ -129,14 +129,14 @@
 
 .icon-browserid:before { content: "\f025"; }
 
-.icon-cc:before { content: "\f030"; }
-.icon-cc-by:before { content: "\f031"; }
-.icon-cc-nc:before { content: "\f032"; }
-.icon-cc-nc-eu:before { content: "\f033"; }
-.icon-cc-nc-jp:before { content: "\f034"; }
-.icon-cc-sa:before { content: "\f035"; }
-.icon-cc-nd:before { content: "\f036"; }
-.icon-cc-public:before { content: "\f037"; }
-.icon-cc-zero:before { content: "\f038"; }
-.icon-cc-share:before { content: "\f039"; }
-.icon-cc-remix:before { content: "\f03a"; }
+.icon-cc:before { content: "\f080"; }
+.icon-cc-by:before { content: "\f081"; }
+.icon-cc-nc:before { content: "\f082"; }
+.icon-cc-nc-eu:before { content: "\f083"; }
+.icon-cc-nc-jp:before { content: "\f084"; }
+.icon-cc-sa:before { content: "\f085"; }
+.icon-cc-nd:before { content: "\f086"; }
+.icon-cc-public:before { content: "\f087"; }
+.icon-cc-zero:before { content: "\f088"; }
+.icon-cc-share:before { content: "\f089"; }
+.icon-cc-remix:before { content: "\f08a"; }
