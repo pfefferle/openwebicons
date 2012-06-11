@@ -4,6 +4,10 @@
   line-height: 1 !important;
 }
 
+.table th {
+  white-space: nowrap;
+}
+
 .the-icons {
   font-size: 15px;
 }
