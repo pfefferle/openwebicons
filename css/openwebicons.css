@@ -94,6 +94,9 @@ a [class^="icon-"], a [class*=" icon-"] {
 
 .icon-browserid:before { content: "\f025"; }
 
+.icon-remote-storage:before { content: "\f026"; }
+.icon-remote-storage-colored:before { content: "\f026"; color: #ff4e09 }
+
 .icon-cc:before { content: "\f080"; }
 .icon-cc-by:before { content: "\f081"; }
 .icon-cc-nc:before { content: "\f082"; }
