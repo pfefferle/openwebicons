@@ -14,8 +14,6 @@
   font-style: normal;
   display: inline-block;
   text-decoration: inherit;
-  font-size: 1.1em;
-  line-height: normal;
   vertical-align: center;
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
@@ -95,6 +93,9 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-info-card-colored:before { content: "\f024"; color: #BF84E5; }
 
 .icon-browserid:before { content: "\f025"; }
+
+.icon-remote-storage:before { content: "\f026"; }
+.icon-remote-storage-colored:before { content: "\f026"; color: #ff4e09 }
 
 .icon-cc:before { content: "\f080"; }
 .icon-cc-by:before { content: "\f081"; }
