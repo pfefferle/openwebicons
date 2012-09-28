@@ -97,6 +97,8 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-remote-storage:before { content: "\f026"; }
 .icon-remote-storage-colored:before { content: "\f026"; color: #ff4e09 }
 
+.icon-persona:before { content: "\f027"; }
+
 .icon-cc:before { content: "\f080"; }
 .icon-cc-by:before { content: "\f081"; }
 .icon-cc-nc:before { content: "\f082"; }
