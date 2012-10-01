@@ -102,6 +102,8 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-odata:before { content: "\f028"; }
 .icon-odata-colored:before { content: "\f028"; color: #EA680B; }
 
+.icon-markdown:before { content: "\f029"; }
+
 .icon-cc:before { content: "\f080"; }
 .icon-cc-by:before { content: "\f081"; }
 .icon-cc-nc:before { content: "\f082"; }
