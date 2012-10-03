@@ -57,7 +57,9 @@
 [class^="icon-open-web"]:before, [class^=" icon-open-web"]:before,
 [class^="icon-persona"]:before, [class^=" icon-persona"]:before,
 [class^="icon-odata"]:before, [class^=" icon-odata"]:before,
-[class^="icon-odata-colored"]:before, [class^=" icon-odata-colored"]:before {
+[class^="icon-odata-colored"]:before, [class^=" icon-odata-colored"]:before,
+[class^="icon-markdown"]:before, [class^=" icon-markdown"]:before,
+[class^="icon-tosdr"]:before, [class^=" icon-tosdr"]:before {
   font-family: 'OpenWeb Icons';
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
@@ -141,6 +143,10 @@
 
 .icon-odata:before { content: "\f028"; }
 .icon-odata-colored:before { content: "\f028"; color: #EA680B; }
+
+.icon-markdown:before { content: "\f029"; }
+
+.icon-tosdr:before { content: "\f030"; }
 
 .icon-cc:before { content: "\f080"; }
 .icon-cc-by:before { content: "\f081"; }
