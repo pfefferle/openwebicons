@@ -1,0 +1,5 @@
+{
+  "name": "openwebicons",
+  "version": "1.0.0",
+  "main": ["./css/openwebicons.css", "./css/openwebicons-bootstrap.css"],
+}
