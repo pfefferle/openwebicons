@@ -49,6 +49,10 @@
 		    s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
 
 		    t.parentNode.insertBefore(s, t);
+				
+		    var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;
+		    po.src = "http://t3n.de/aggregator/ebutton_async";
+		    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s);
 		  })();
 			!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 		</script>
@@ -113,6 +117,8 @@
 			<div class="fb-like" data-href="http://pfefferle.github.com/openwebicons/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
 			
 			<div class="g-plusone" data-size="medium" data-annotation="inline" data-width="200" data-href="http://pfefferle.github.com/openwebicons/"></div>
+			
+			<div class="t3nAggregator" data-url="http://pfefferle.github.com/openwebicons/"></div>
 			
       <section id="icons">
         <div class="row">

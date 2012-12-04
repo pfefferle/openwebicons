@@ -11,3 +11,7 @@
 .the-icons {
   font-size: 15px;
 }
+
+iframe {
+  border: none;
+}
