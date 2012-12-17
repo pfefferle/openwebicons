@@ -1,0 +1,203 @@
+.openwebicons-apml:before {
+  content: "\f001"; }
+
+.openwebicons-apml-colored:before {
+  content: "\f001";
+  color: #AFDD63; }
+
+.openwebicons-open-share:before {
+  content: "\f00E"; }
+
+.openwebicons-open-share-simple:before {
+  content: "\f00F"; }
+
+.openwebicons-open-share-colored:before {
+  content: "\f00E";
+  color: #538439; }
+
+.openwebicons-share:before {
+  content: "\f006"; }
+
+.openwebicons-share-simple:before {
+  content: "\f007"; }
+
+.openwebicons-share-colored:before {
+  content: "\f006";
+  color: #538439; }
+
+.openwebicons-feed:before {
+  content: "\f009"; }
+
+.openwebicons-feed-simple:before {
+  content: "\f00A"; }
+
+.openwebicons-feed-colored:before {
+  content: "\f009";
+  color: #EA680B; }
+
+.openwebicons-ostatus:before {
+  content: "\f004"; }
+
+.openwebicons-ostatus-simple:before {
+  content: "\f005"; }
+
+.openwebicons-ostatus-colored:before {
+  content: "\f004";
+  color: #FF6600; }
+
+.openwebicons-opml:before {
+  content: "\f003"; }
+
+.openwebicons-opml-colored:before {
+  content: "\f003";
+  color: #2490A1; }
+
+.openwebicons-activity:before {
+  content: "\f010"; }
+
+.openwebicons-activity-colored:before {
+  content: "\f010";
+  color: #4FB2D9; }
+
+.openwebicons-microformats:before {
+  content: "\f00C"; }
+
+.openwebicons-microformats-colored:before {
+  content: "\f00C";
+  color: #85BC07; }
+
+.openwebicons-geo:before {
+  content: "\f00B"; }
+
+.openwebicons-geo-colored:before {
+  content: "\f00B";
+  color: #990000; }
+
+.openwebicons-opensearch:before {
+  content: "\f002"; }
+
+.openwebicons-opensearch-colored:before {
+  content: "\f002";
+  color: #5050f3; }
+
+.openwebicons-oauth:before {
+  content: "\f008"; }
+
+.openwebicons-openid:before {
+  content: "\f00D"; }
+
+.openwebicons-rdf:before, .openwebicons-rdfa:before, .openwebicons-owl:before {
+  content: "\f000"; }
+
+.openwebicons-dataportability:before {
+  content: "\f013"; }
+
+.openwebicons-federated:before {
+  content: "\f011"; }
+
+.openwebicons-web-intents:before {
+  content: "\f014"; }
+
+.openwebicons-open-web:before {
+  content: "\f012"; }
+
+.openwebicons-xmpp:before {
+  content: "\f015"; }
+
+.openwebicons-html5:before {
+  content: "\f016"; }
+
+.openwebicons-html5-colored:before {
+  content: "\f016";
+  color: #E34C26; }
+
+.openwebicons-css3:before {
+  content: "\f017"; }
+
+.openwebicons-connectivity:before {
+  content: "\f018"; }
+
+.openwebicons-semantics:before {
+  content: "\f019"; }
+
+.openwebicons-opengraph:before {
+  content: "\f020"; }
+
+.openwebicons-epub:before {
+  content: "\f021"; }
+
+.openwebicons-epub-colored:before {
+  content: "\f021";
+  color: #85b916; }
+
+.openwebicons-qr:before {
+  content: "\f022"; }
+
+.openwebicons-foaf:before {
+  content: "\f023"; }
+
+.openwebicons-info-card:before {
+  content: "\f024"; }
+
+.openwebicons-info-card-colored:before {
+  content: "\f024";
+  color: #BF84E5; }
+
+.openwebicons-browserid:before {
+  content: "\f025"; }
+
+.openwebicons-remote-storage:before {
+  content: "\f026"; }
+
+.openwebicons-remote-storage-colored:before {
+  content: "\f026";
+  color: #ff4e09; }
+
+.openwebicons-persona:before {
+  content: "\f027"; }
+
+.openwebicons-odata:before {
+  content: "\f028"; }
+
+.openwebicons-odata-colored:before {
+  content: "\f028";
+  color: #EA680B; }
+
+.openwebicons-markdown:before {
+  content: "\f029"; }
+
+.openwebicons-tosdr:before {
+  content: "\f030"; }
+
+.openwebicons-cc:before {
+  content: "\f080"; }
+
+.openwebicons-cc-by:before {
+  content: "\f081"; }
+
+.openwebicons-cc-nc:before {
+  content: "\f082"; }
+
+.openwebicons-cc-nc-eu:before {
+  content: "\f083"; }
+
+.openwebicons-cc-nc-jp:before {
+  content: "\f084"; }
+
+.openwebicons-cc-sa:before {
+  content: "\f085"; }
+
+.openwebicons-cc-nd:before {
+  content: "\f086"; }
+
+.openwebicons-cc-public:before {
+  content: "\f087"; }
+
+.openwebicons-cc-zero:before {
+  content: "\f088"; }
+
+.openwebicons-cc-share:before {
+  content: "\f089"; }
+
+.openwebicons-cc-remix:before {
+  content: "\f08a"; }
