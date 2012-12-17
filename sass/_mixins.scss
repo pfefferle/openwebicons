@@ -33,9 +33,6 @@ $prefix: icon !default;
 
 @mixin icon_list {
   @each $icon in $icons {
-    @if nth($icon, 1) == "color" {
-    
-    }
     .#{$prefix}-#{nth($icon, 1)}:before {
       content: "#{nth($icon, 2)}";
       @if nth($icon, 3) == "colored" {
