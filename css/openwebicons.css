@@ -83,7 +83,7 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-microformats:before {
   content: "\f00C"; }
 
-.icon-microformats-colored:before {
+.icon-microformats:before {
   content: "\f00C";
   color: #85BC07; }
 
@@ -107,7 +107,13 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-openid:before {
   content: "\f00D"; }
 
-.icon-rdf:before, .icon-rdfa:before, .icon-owl:before {
+.icon-rdf:before {
+  content: "\f000"; }
+
+.icon-rdfa:before {
+  content: "\f000"; }
+
+.icon-owl:before {
   content: "\f000"; }
 
 .icon-dataportability:before {

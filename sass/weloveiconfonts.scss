@@ -1,6 +1,8 @@
 @import "vars";
 @import "mixins";
 
+$prefix: openwebicons;
+
 @include font_face;
 @include simple_mapper;
 @include icon_list;

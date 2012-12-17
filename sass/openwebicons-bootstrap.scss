@@ -1,62 +1,20 @@
-$prefix: icon;
+@import "vars";
+@import "mixins";
 
-@import "font_face";
+@include font_face;
 
-[class^="icon-apml"]:before, [class*=" icon-apml"]:before,
-[class^="icon-open-share"]:before, [class^="icon-open-share-simple"]:before,
-[class*=" icon-open-share"]:before, [class*=" icon-open-share-simple"]:before,
-[class^="icon-share"]:before, [class*=" icon-share"]:before,
-[class^="icon-share-simple"]:before, [class*=" icon-share-simple"]:before,
-[class^="icon-feed"]:before, [class*=" icon-feed"]:before,
-[class^="icon-ostatus"]:before, [class*=" icon-ostatus"]:before,
-[class^="icon-opml"]:before, [class*=" icon-opml"]:before,
-[class^="icon-activity"]:before, [class*=" icon-activity"]:before,
-[class^="icon-microformats"]:before, [class*=" icon-microformats"]:before,
-[class^="icon-geo"]:before, [class*=" icon-geo"]:before,
-[class^="icon-opensearch"]:before, [class*=" icon-opensearch"]:before,
-[class^="icon-oauth"]:before, [class*=" icon-oauth"]:before,
-[class^="icon-openid"]:before, [class*=" icon-openid"]:before,
-[class^="icon-rdf"]:before, [class*=" icon-rdf"]:before,
-[class^="icon-dataportability"]:before, [class^=" icon-dataportability"]:before, 
-[class^="icon-federated"]:before, [class^=" icon-federated"]:before,
-[class^="icon-web-intents"]:before, [class^=" icon-web-intents"]:before,
-[class^="icon-xmpp"]:before, [class^=" icon-xmpp"]:before,
-[class^="icon-html5"]:before, [class^=" icon-html5"]:before,
-[class^="icon-html5-colored"]:before, [class^=" icon-html5-colored"]:before,
-[class^="icon-css3"]:before, [class^=" icon-css3"]:before,
-[class^="icon-connectivity"]:before, [class^=" icon-connectivity"]:before,
-[class^="icon-semantics"]:before, [class^=" icon-semantics"]:before,
-[class^="icon-epub"]:before, [class^=" icon-epub"]:before,
-[class^="icon-epub-colored"]:before, [class^=" icon-epub-colored"]:before,
-[class^="icon-qr"]:before, [class^=" icon-qr"]:before,
-[class^="icon-opengraph"]:before, [class^=" icon-opengraph"]:before,
-[class^="icon-opengraph"]:before, [class^=" icon-opengraph"]:before,
-[class^="icon-foaf"]:before, [class^=" icon-foaf"]:before,
-[class^="icon-info-card"]:before, [class^=" icon-info-card"]:before,
-[class^="icon-info-card-colored"]:before, [class^=" icon-info-card-colored"]:before,
-[class^="icon-browserid"]:before, [class^=" icon-browserid"]:before,
-[class^="icon-remote-storage"]:before, [class^=" icon-remote-storage"]:before,
-[class^="icon-remote-storage-colored"]:before, [class^=" icon-remote-storage-colored"]:before,
-[class^="icon-cc"]:before, [class^=" icon-cc"]:before,
-[class^="icon-cc-by"]:before, [class^=" icon-cc-by"]:before,
-[class^="icon-cc-nc"]:before, [class^=" icon-cc-nc"]:before,
-[class^="icon-cc-nc-eu"]:before, [class^=" icon-cc-nc-eu"]:before,
-[class^="icon-cc-nc-jp"]:before, [class^=" icon-cc-nc-jp"]:before,
-[class^="icon-cc-sa"]:before, [class^=" icon-cc-sa"]:before,
-[class^="icon-cc-nd"]:before, [class^=" icon-cc-nd"]:before,
-[class^="icon-cc-public"]:before, [class^=" icon-cc-public"]:before,
-[class^="icon-cc-zero"]:before, [class^=" icon-cc-zero"]:before,
-[class^="icon-cc-share"]:before, [class^=" icon-cc-share"]:before,
-[class^="icon-cc-remix"]:before, [class^=" icon-cc-remix"]:before,
-[class^="icon-open-web"]:before, [class^=" icon-open-web"]:before,
-[class^="icon-persona"]:before, [class^=" icon-persona"]:before,
-[class^="icon-odata"]:before, [class^=" icon-odata"]:before,
-[class^="icon-odata-colored"]:before, [class^=" icon-odata-colored"]:before,
-[class^="icon-markdown"]:before, [class^=" icon-markdown"]:before,
-[class^="icon-tosdr"]:before, [class^=" icon-tosdr"]:before {
+%mapper {
   font-family: 'OpenWeb Icons';
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
 }
 
-@import "icons";
+@each $icon in $icons {
+  [class^="#{$prefix}-#{nth($icon, 1)}"], [class*=" #{$prefix}-#{nth($icon, 1)}"] {
+    &:before {
+      @extend %mapper;
+    }
+  }
+}
+
+@include icon_list;
