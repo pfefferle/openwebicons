@@ -36,11 +36,11 @@ $display_colored: true !default;
   // iterate icons
   @each $icon in $icons {
     // check if colored icons should be displayed or not
-    @if nth($icon, 3) == "monochrome" or (nth($icon, 3) == "colored" and $display_colored == true) {
+    @if $display_colored == true or (nth($icon, 3) == "monochrome" and $display_colored == false) {
       .#{$prefix}-#{nth($icon, 1)}:before {
         content: "#{nth($icon, 2)}";
-        @if nth($icon, 3) == "colored" {
-          color: #{nth($icon, 4)};
+        @if nth($icon, 3) != "monochrome" {
+          color: #{nth($icon, 3)};
         }
       }
     }
