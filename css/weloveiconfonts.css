@@ -103,3 +103,11 @@ a [class^="openwebicons-"], a [class*=" openwebicons-"] { display: inline-block;
 .openwebicons-cc-share:before { content: "\f089"; }
 
 .openwebicons-cc-remix:before { content: "\f08a"; }
+
+.openwebicons-hatom:before { content: "\f040"; }
+
+.openwebicons-hresume:before { content: "\f042"; }
+
+.openwebicons-hcard-add:before { content: "\f043"; }
+
+.openwebicons-hcard-download:before { content: "\f044"; }

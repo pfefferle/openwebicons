@@ -297,8 +297,18 @@ a [class^="icon-"], a [class*=" icon-"] {
   content: "\f08a";
 }
 
-.icon-hatom:before { content: "\f040"; }
-.icon-rel-tag:before { content: "\f041"; } 
-.icon-hresume:before { content: "\f042"; } 
-.icon-hcard-add:before { content: "\f043"; } 
-.icon-hcard-download:before { content: "\f044"; } 
+.icon-hatom:before {
+  content: "\f040";
+}
+
+.icon-hresume:before {
+  content: "\f042";
+}
+
+.icon-hcard-add:before {
+  content: "\f043";
+}
+
+.icon-hcard-download:before {
+  content: "\f044";
+}
