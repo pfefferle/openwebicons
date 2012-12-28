@@ -105,7 +105,7 @@ a [class^="icon-"], a [class*=" icon-"] {
   content: "\f00C";
 }
 
-.icon-microformats:before {
+.icon-microformats-colored:before {
   content: "\f00C";
   color: #85BC07;
 }
