@@ -1,0 +1,27 @@
+{
+  "name": "openwebicons",
+  "version": "1.0.2",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-sass": "~0.2.2"
+  },
+  "description": "OpenWeb Icons ============",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-sass": "~0.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pfefferle/openwebicons.git"
+  },
+  "keywords": [
+    "openweb",
+    "icons"
+  ],
+  "author": "Matthias Pfefferle",
+  "license": "SIL OPEN FONT LICENSE Version 1.1"
+}
