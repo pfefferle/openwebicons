@@ -60,6 +60,20 @@ a [class^="openwebicons-"], a [class*=" openwebicons-"] { display: inline-block;
 
 .openwebicons-semantics:before { content: "\f019"; }
 
+.openwebicons-3deffects:before { content: "\f037"; }
+
+.openwebicons-device-access:before { content: "\f031"; }
+
+.openwebicons-multimedia:before { content: "\f032"; }
+
+.openwebicons-offline-storage:before { content: "\f033"; }
+
+.openwebicons-perfintegration:before { content: "\f034"; }
+
+.openwebicons-git:before { content: "\f035"; }
+
+.openwebicons-webhooks:before { content: "\f036"; }
+
 .openwebicons-opengraph:before { content: "\f020"; }
 
 .openwebicons-epub:before { content: "\f021"; }
