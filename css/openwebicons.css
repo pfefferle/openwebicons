@@ -189,6 +189,39 @@ a [class^="icon-"], a [class*=" icon-"] {
   content: "\f019";
 }
 
+.icon-3deffects:before {
+  content: "\f037";
+}
+
+.icon-device-access:before {
+  content: "\f031";
+}
+
+.icon-multimedia:before {
+  content: "\f032";
+}
+
+.icon-offline-storage:before {
+  content: "\f033";
+}
+
+.icon-perfintegration:before {
+  content: "\f034";
+}
+
+.icon-git:before {
+  content: "\f035";
+}
+
+.icon-git-colored:before {
+  content: "\f035";
+  color: #F05133;
+}
+
+.icon-webhooks:before {
+  content: "\f036";
+}
+
 .icon-opengraph:before {
   content: "\f020";
 }
