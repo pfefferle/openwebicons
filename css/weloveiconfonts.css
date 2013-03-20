@@ -26,6 +26,8 @@ a [class^="openwebicons-"], a [class*=" openwebicons-"] { display: inline-block;
 
 .openwebicons-activity:before { content: "\f010"; }
 
+.openwebicons-activity-simple:before { content: "\f041"; }
+
 .openwebicons-microformats:before { content: "\f00C"; }
 
 .openwebicons-geo:before { content: "\f00B"; }
@@ -36,11 +38,13 @@ a [class^="openwebicons-"], a [class*=" openwebicons-"] { display: inline-block;
 
 .openwebicons-openid:before { content: "\f00D"; }
 
-.openwebicons-rdf:before { content: "\f000"; }
+.openwebicons-semantic-web:before { content: "\f000"; }
 
-.openwebicons-rdfa:before { content: "\f000"; }
+.openwebicons-rdf:before { content: "\f039"; }
 
-.openwebicons-owl:before { content: "\f000"; }
+.openwebicons-rdfa:before { content: "\f039"; }
+
+.openwebicons-owl:before { content: "\f039"; }
 
 .openwebicons-dataportability:before { content: "\f013"; }
 
@@ -73,6 +77,10 @@ a [class^="openwebicons-"], a [class*=" openwebicons-"] { display: inline-block;
 .openwebicons-git:before { content: "\f035"; }
 
 .openwebicons-webhooks:before { content: "\f036"; }
+
+.openwebicons-osi:before { content: "\f038"; }
+
+.openwebicons-opensource:before { content: "\f038"; }
 
 .openwebicons-opengraph:before { content: "\f020"; }
 
