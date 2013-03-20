@@ -96,6 +96,10 @@ a [class^="icon-"], a [class*=" icon-"] {
   content: "\f010";
 }
 
+.icon-activity-simple:before {
+  content: "\f041";
+}
+
 .icon-activity-colored:before {
   content: "\f010";
   color: #4FB2D9;
@@ -136,16 +140,20 @@ a [class^="icon-"], a [class*=" icon-"] {
   content: "\f00D";
 }
 
-.icon-rdf:before {
+.icon-semantic-web:before {
   content: "\f000";
+}
+
+.icon-rdf:before {
+  content: "\f039";
 }
 
 .icon-rdfa:before {
-  content: "\f000";
+  content: "\f039";
 }
 
 .icon-owl:before {
-  content: "\f000";
+  content: "\f039";
 }
 
 .icon-dataportability:before {
@@ -220,6 +228,24 @@ a [class^="icon-"], a [class*=" icon-"] {
 
 .icon-webhooks:before {
   content: "\f036";
+}
+
+.icon-osi:before {
+  content: "\f038";
+}
+
+.icon-opensource:before {
+  content: "\f038";
+}
+
+.icon-osi-colored:before {
+  content: "\f038";
+  color: #3DA639;
+}
+
+.icon-opensource-colored:before {
+  content: "\f038";
+  color: #3DA639;
 }
 
 .icon-opengraph:before {
