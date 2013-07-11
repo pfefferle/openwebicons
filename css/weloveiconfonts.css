@@ -139,3 +139,7 @@ a [class^="openwebicons-"], a [class*=" openwebicons-"] { display: inline-block;
 .openwebicons-indiewebcamp:before { content: "\f08b \f08c \f08d"; }
 
 .openwebicons-webfinger:before { content: "\f08e"; }
+
+.openwebicons-bitcoin:before { content: "\f08f"; }
+
+.openwebicons-bitcoin-simple:before { content: "\f090"; }

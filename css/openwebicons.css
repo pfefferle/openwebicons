@@ -383,3 +383,11 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-webfinger:before {
   content: "\f08e";
 }
+
+.icon-bitcoin:before {
+  content: "\f08f";
+}
+
+.icon-bitcoin-simple:before {
+  content: "\f090";
+}
