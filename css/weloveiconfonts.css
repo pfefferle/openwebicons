@@ -4,6 +4,8 @@
 
 a [class^="openwebicons-"], a [class*=" openwebicons-"] { display: inline-block; text-decoration: inherit; }
 
+li[class^="openwebicons-"], li[class*=" openwebicons-"] { display: block; }
+
 .openwebicons-apml:before { content: "\f001"; }
 
 .openwebicons-open-share:before { content: "\f00E"; }

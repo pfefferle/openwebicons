@@ -30,6 +30,9 @@ $display_colored: true !default;
     display: inline-block;
     text-decoration: inherit;
   }
+  li[class^="#{$prefix}-"], li[class*=" #{$prefix}-"] {
+    display: block;
+  }
 }
 
 @mixin icon_list {

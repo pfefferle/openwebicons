@@ -9,6 +9,23 @@
   -webkit-font-smoothing: antialiased;
 }
 
+[class^="#{$prefix}-"], [class*=" #{$prefix}-"] {
+  font-weight: normal;
+  font-style: normal;
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+}
+
+li[class^="#{$prefix}-"], li[class*=" #{$prefix}-"] {
+  display: block;
+}
+
 @each $icon in $icons {
   [class^="#{$prefix}-#{nth($icon, 1)}"], [class*=" #{$prefix}-#{nth($icon, 1)}"] {
     &:before {

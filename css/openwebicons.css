@@ -22,6 +22,10 @@ a [class^="icon-"], a [class*=" icon-"] {
   text-decoration: inherit;
 }
 
+li[class^="icon-"], li[class*=" icon-"] {
+  display: block;
+}
+
 .icon-apml:before {
   content: "\f001";
 }

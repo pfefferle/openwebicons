@@ -12,6 +12,23 @@
   -webkit-font-smoothing: antialiased;
 }
 
+[class^="icon-"], [class*=" icon-"] {
+  font-weight: normal;
+  font-style: normal;
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+}
+
+li[class^="icon-"], li[class*=" icon-"] {
+  display: block;
+}
+
 .icon-apml:before {
   content: "\f001";
 }
