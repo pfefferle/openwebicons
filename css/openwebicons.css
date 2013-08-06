@@ -312,6 +312,37 @@ a [class^="icon-"], a [class*=" icon-"] {
   content: "\f030";
 }
 
+.icon-pub:before {
+  content: "\f045";
+}
+
+.icon-sub:before {
+  content: "\f046";
+}
+
+.icon-hubbub:before {
+  content: "\f045";
+}
+
+.icon-pub-colored:before {
+  content: "\f045";
+  color: #99cc00;
+}
+
+.icon-sub-colored:before {
+  content: "\f046";
+  color: #ffff00;
+}
+
+.icon-hubbub-colored:before {
+  content: "\f045";
+  color: #ff6fcf;
+}
+
+.icon-pubsubhubbub:before {
+  content: "\f047";
+}
+
 .icon-cc:before {
   content: "\f080";
 }

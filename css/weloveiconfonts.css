@@ -104,6 +104,14 @@ a [class^="openwebicons-"], a [class*=" openwebicons-"] { display: inline-block;
 
 .openwebicons-tosdr:before { content: "\f030"; }
 
+.openwebicons-pub:before { content: "\f045"; }
+
+.openwebicons-sub:before { content: "\f046"; }
+
+.openwebicons-hubbub:before { content: "\f045"; }
+
+.openwebicons-pubsubhubbub:before { content: "\f047"; }
+
 .openwebicons-cc:before { content: "\f080"; }
 
 .openwebicons-cc-by:before { content: "\f081"; }
