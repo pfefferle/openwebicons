@@ -4,6 +4,8 @@
 
 a [class^="openwebicons-"], a [class*=" openwebicons-"] { display: inline-block; text-decoration: inherit; }
 
+li[class^="openwebicons-"], li[class*=" openwebicons-"] { display: block; }
+
 .openwebicons-apml:before { content: "\f001"; }
 
 .openwebicons-open-share:before { content: "\f00E"; }
@@ -103,6 +105,14 @@ a [class^="openwebicons-"], a [class*=" openwebicons-"] { display: inline-block;
 .openwebicons-markdown:before { content: "\f029"; }
 
 .openwebicons-tosdr:before { content: "\f030"; }
+
+.openwebicons-pub:before { content: "\f045"; }
+
+.openwebicons-sub:before { content: "\f046"; }
+
+.openwebicons-hubbub:before { content: "\f045"; }
+
+.openwebicons-pubsubhubbub:before { content: "\f047"; }
 
 .openwebicons-cc:before { content: "\f080"; }
 
