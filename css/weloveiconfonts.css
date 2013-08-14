@@ -153,3 +153,7 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] { display: block; }
 .openwebicons-bitcoin:before { content: "\f08f"; }
 
 .openwebicons-bitcoin-simple:before { content: "\f090"; }
+
+.openwebicons-svg:before { content: "\f049"; }
+
+.openwebicons-json-ld:before { content: "\f048"; }

@@ -426,3 +426,11 @@ li[class^="icon-"], li[class*=" icon-"] {
 .icon-bitcoin-simple:before {
   content: "\f090";
 }
+
+.icon-svg:before {
+  content: "\f049";
+}
+
+.icon-json-ld:before {
+  content: "\f048";
+}
