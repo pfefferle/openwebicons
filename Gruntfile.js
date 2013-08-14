@@ -10,7 +10,8 @@ module.exports = function(grunt) {
         },
         files: {
           'css/openwebicons.css': 'sass/openwebicons.scss',
-          'css/openwebicons-bootstrap.css': 'sass/openwebicons-bootstrap.scss'
+          'css/openwebicons-bootstrap.css': 'sass/openwebicons-bootstrap.scss',
+          'css/openwebicons-cdn.css': 'sass/openwebicons-cdn.scss'
         }
       },
       compressed: {
@@ -19,7 +20,8 @@ module.exports = function(grunt) {
         },
         files: {
           'css/openwebicons.min.css': 'sass/openwebicons.scss',
-          'css/openwebicons-bootstrap.min.css': 'sass/openwebicons-bootstrap.scss'
+          'css/openwebicons-bootstrap.min.css': 'sass/openwebicons-bootstrap.scss',
+          'css/openwebicons-cdn.min.css': 'sass/openwebicons-cdn.scss'
         }
       },
       compact: {

@@ -1,0 +1,10 @@
+// set "icon" as default prefix
+$prefix: openwebicons !default;
+$font_path: "http://pfefferle.github.io/openwebicons/font" !default;
+
+@import "vars";
+@import "mixins";
+
+@include font_face;
+@include simple_mapper;
+@include icon_list;
