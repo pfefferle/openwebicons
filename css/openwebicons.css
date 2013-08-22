@@ -434,3 +434,7 @@ li[class^="icon-"], li[class*=" icon-"] {
 .icon-json-ld:before {
   content: "\f048";
 }
+
+.icon-tent:before {
+  content: "\f050";
+}
