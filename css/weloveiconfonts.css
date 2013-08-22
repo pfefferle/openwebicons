@@ -157,3 +157,5 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] { display: block; }
 .openwebicons-svg:before { content: "\f049"; }
 
 .openwebicons-json-ld:before { content: "\f048"; }
+
+.openwebicons-tent:before { content: "\f050"; }
