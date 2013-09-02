@@ -3,7 +3,7 @@
 # top-most EditorConfig file
 root = true
 
-# Unix-style newlines with a newline ending every file
+# Unix-style newlines with trim trailing whitespaces
 [*]
 end_of_line = lf
 trim_trailing_whitespace = true
