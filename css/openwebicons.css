@@ -438,3 +438,23 @@ li[class^="icon-"], li[class*=" icon-"] {
 .icon-tent:before {
   content: "\f050";
 }
+
+.icon-ofl-attribution:before {
+  content: "\f081";
+}
+
+.icon-ofl-share:before {
+  content: "\f085";
+}
+
+.icon-ofl-renaming:before {
+  content: "\f04a";
+}
+
+.icon-ofl-selling:before {
+  content: "\f04b";
+}
+
+.icon-ofl-embedding:before {
+  content: "\f04c";
+}
