@@ -438,3 +438,23 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] {
 .openwebicons-tent:before {
   content: "\f050";
 }
+
+.openwebicons-ofl-attribution:before {
+  content: "\f081";
+}
+
+.openwebicons-ofl-share:before {
+  content: "\f085";
+}
+
+.openwebicons-ofl-renaming:before {
+  content: "\f04a";
+}
+
+.openwebicons-ofl-selling:before {
+  content: "\f04b";
+}
+
+.openwebicons-ofl-embedding:before {
+  content: "\f04c";
+}
