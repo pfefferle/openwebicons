@@ -8,17 +8,10 @@
     <meta name="description" content="Why OpenWeb Icons? Because Font Awesome had no RSS-icon and a font with only one icon would be a bit boring...!" />
     <meta name="author" content="Matthias Pfefferle" />
 
-    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/openwebicons-bootstrap.css" rel="stylesheet" />
     <link href="css/web.css" rel="stylesheet" />
 		<link href="https://plus.google.com/118205389455269229204?rel=author" rel="author" />
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -61,55 +54,51 @@
   </head>
 
   <body>
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-						<span class="icon-bar"></span>
-					  <span class="icon-bar"></span>
-					  <span class="icon-bar"></span>
-					</a>
-          <a class="brand" href="#">OpenWeb Icons</a>
-					<div class="nav-collapse collapse">
-          	<ul class="nav">
-            	<li><a href="#">Home</a></li>
-            	<li><a href="#icons">Main Icons</a></li>
-							<li><a href="#html5-icons"><abbr title="HyperText Markup Language">HTML</abbr>5 Icons</a></li>
-            	<li><a href="#cc-icons"><abbr title="Creative Commons">CC</abbr> Icons</a></li>
-							<li><a href="#microformats-icons"><abbr title="Microformats">&#956;f</abbr> Icons</a></li>
-							<li><a href="#openfontlicense-icons">SIL <abbr title="Open Font License">OFL</abbr> Icons</a></li>
-            	<li><a href="#colored-icons">Colored Icons</a></li>
-            	<li><a href="#examples">Examples</a></li>
-            	<li><a href="#integration">Integration</a></li>
-            	<li><a href="#code">Code</a></li>
-            	<li><a href="#changelog">Changelog</a></li>
-          	</ul>
-					</div>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">OpenWeb Icons</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav">
+          	<li class="active"><a href="#">Home</a></li>
+          	<li><a href="#icons">Main Icons</a></li>
+						<li><a href="#html5-icons"><abbr title="HyperText Markup Language">HTML</abbr>5</a></li>
+          	<li><a href="#cc-icons"><abbr title="Creative Commons">CC</abbr></a></li>
+						<li><a href="#microformats-icons"><abbr title="Microformats">&#956;f</abbr></a></li>
+						<li><a href="#openfontlicense-icons">SIL <abbr title="Open Font License">OFL</abbr></a></li>
+          	<li><a href="#colored-icons">Colored Icons</a></li>
+          	<li><a href="#examples">Examples</a></li>
+          	<li><a href="#integration">Integration</a></li>
+          	<li><a href="#code">Code</a></li>
+          	<li><a href="#changelog">Changelog</a></li>
+          </ul>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="hero-unit">
+    <div class="jumbotron">
+      <div class="container">
         <h1>OpenWeb Icons <small>(a font!)</small></h1>
         <p>Why <em>OpenWeb Icons</em>? Because <a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a> had no RSS-icon and a
           font with only one icon would be a bit boring...
           Besides, I'm an advocate of the <strong>Open Web</strong>! Be proud of using <strong>Open Web Standards</strong> and show it to the world!</p>
         <p>
-          <a class="btn btn-large" href="https://github.com/pfefferle/openwebicons/zipball/master">Download <strong>ZIP File</strong></a>
-          <a class="btn btn-large" href="https://github.com/pfefferle/openwebicons/tarball/master">Download <strong>TAR Ball</strong></a>
-          <a class="btn btn-large btn-inverse" href="https://github.com/pfefferle/openwebicons"><i class="icon-git"></i> View On <strong>GitHub</strong></a>
+          <a class="btn btn-primary btn-lg" href="https://github.com/pfefferle/openwebicons/zipball/master">Download <strong>ZIP File</strong></a>
+          <a class="btn btn-primary btn-lg" href="https://github.com/pfefferle/openwebicons/tarball/master">Download <strong>TAR Ball</strong></a>
+          <a class="btn btn-default btn-lg btn-inverse" href="https://github.com/pfefferle/openwebicons"><i class="icon-git"></i> View On <strong>GitHub</strong></a>
         </p>
       </div>
+    </div>
 
+    <div class="container">
       <section id="sharing">
       	<p>Sharing is caring!</p>
 
@@ -136,10 +125,9 @@
       </section>
       <section id="icons">
         <div class="row">
-          <div class="span12">
-            <div class="page-header">
-              <h1>Main Icons</h1>
-            </div>
+          <div class="col-md-12">
+            <h2>Main Icons</h2>
+
             <table class="table table-bordered table-striped">
               <thead>
                 <tr>
@@ -490,10 +478,9 @@
 
       <section id="html5-icons">
         <div class="row">
-          <div class="span12">
-            <div class="page-header">
-              <h1><i class="icon-html5"></i> <em>HTML5</em> Icons</h1>
-            </div>
+          <div class="col-md-12">
+            <h2><i class="icon-html5"></i> <em>HTML5</em> Icons</h2>
+
             <p>The Web-Font is based on the original SVGs from the <em><a href="http://www.w3.org/html/logo/" target="_blank">HTML5 Logo Site</a></em> by the W3C.
 
             <table class="table table-bordered table-striped">
@@ -568,10 +555,9 @@
 
       <section id="cc-icons">
         <div class="row">
-          <div class="span12">
-            <div class="page-header">
-              <h1><i class="icon-cc"></i> <em>Creative Commons</em> Icons</h1>
-            </div>
+          <div class="col-md-12">
+            <h2><i class="icon-cc"></i> <em>Creative Commons</em> Icons</h2>
+
             <p>The Web-Font is made using the original SVGs from the <em><a href="http://creativecommons.org/about/downloads" target="_blank">Creative Commons</a></em> Project. If you need a Font for one of your
               Text/Word-Dokuments, there is also an official TrueType-Font: <a href="http://creativecommons.org/about/downloads">http://creativecommons.org/about/downloads</a></p>
             <table class="table table-bordered table-striped">
@@ -655,10 +641,9 @@
 
 			<section id="microformats-icons">
 				<div class="row">
-          <div class="span12">
-            <div class="page-header">
-              <h1><i class="icon-microformats"></i> Microformats Icons</h1>
-            </div>
+          <div class="col-md-12">
+            <h2><i class="icon-microformats"></i> Microformats Icons</h2>
+
             <p>The microformats-icons are based on the work of <a href="http://bartelme.at/journal/archive/microformats_icons" target="_blank">Wolfgang Bartelme</a> and Chris Messina.
 							You can find the .png files on the <a href="http://microformats.org/wiki/icons" target="_blank">microformats-wiki</a>.</p>
 
@@ -705,10 +690,9 @@
 
 			<section id="openfontlicense-icons">
 				<div class="row">
-          <div class="span12">
-            <div class="page-header">
-              <h1>SIL Open Font License - Icons</h1>
-            </div>
+          <div class="col-md-12">
+            <h2>SIL Open Font License - Icons</h2>
+
 						<p>The <a href="http://scripts.sil.org/OFL" target="_blank">SIL Open Font License (OFL)</a> is a free, libre and open source license specifically designed for fonts and related software based on our experience in font design and linguistic software engineering.</p>
             <p>The Web-Font is made using the SVGs from the <a href="http://oflb.open-fonts.org" target="_blank">Open Font Community</a>.</p>
 
@@ -759,16 +743,15 @@
 
       <section id="colored-icons">
         <div class="row">
-          <div class="span12">
-            <div class="page-header">
-              <h1>Colored Icons</h1>
-            </div>
+          <div class="col-md-12">
+            <h2>Colored Icons</h2>
+
             <p>A lot of icons also have colored versions. You can use them by adding a <code>-colored</code> at the end of the class names.</p>
           </div>
         </div>
 
         <div class="row">
-          <div class="span3">
+          <div class="col-md-3">
             <ul class="the-icons">
               <li class="icon-apml-colored"> icon-apml-colored</li>
               <li class="icon-open-share-colored"> icon-open-share-colored</li>
@@ -777,7 +760,8 @@
               <li class="icon-microformats-colored"> icon-microformats-colored</li>
             </ul>
           </div>
-          <div class="span3">
+
+          <div class="col-md-3">
             <ul class="the-icons">
               <li class="icon-feed-colored"> icon-feed-colored</li>
               <li class="icon-ostatus-colored"> icon-ostatus-colored</li>
@@ -786,7 +770,8 @@
 							<li class="icon-git-colored"> icon-git-colored</li>
             </ul>
           </div>
-          <div class="span3">
+
+          <div class="col-md-3">
             <ul class="the-icons">
               <li class="icon-activity-colored"> icon-activity-colored</li>
               <li class="icon-opml-colored"> icon-opml-colored</li>
@@ -794,31 +779,36 @@
 							<li class="icon-osi-colored"> icon-osi-colored</li>
             </ul>
           </div>
-          <div class="span3">
+
+          <div class="col-md-3">
             <ul class="the-icons">
               <li class="icon-geo-colored"> icon-geo-colored</li>
               <li class="icon-info-card-colored"> icon-info-card-colored</li>
               <li class="icon-html5-colored"> icon-html5-colored</li>
             </ul>
           </div>
-          <div class="span12">
-						<h3>PubSubHubbub Icon</h3>
-            Use the following HTML Code: <code>&lt;i class="icon-pub-colored"&gt;&lt;/i&gt;&lt;i class="icon-sub-colored">&lt;/i&gt;&lt;i class="icon-hubbub-colored"&gt;&lt;/i&gt;</code> to display the colored PubSubHubbub-Icon: <i class="icon-pub-colored"></i><i class="icon-sub-colored"></i><i class="icon-hubbub-colored"></i> <small>(Let me know if you have some ideas to make this simpler)</small>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+        	  <h3>PubSubHubbub Icon</h3>
+
+            <p>Use the following HTML Code: <code>&lt;i class="icon-pub-colored"&gt;&lt;/i&gt;&lt;i class="icon-sub-colored">&lt;/i&gt;&lt;i class="icon-hubbub-colored"&gt;&lt;/i&gt;</code> to display the colored PubSubHubbub-Icon: <i class="icon-pub-colored"></i><i class="icon-sub-colored"></i><i class="icon-hubbub-colored"></i> <small>(Let me know if you have some ideas to make this simpler)</small></p>
           </div>
         </div>
       </section>
 
       <section id="examples">
         <div class="row">
-          <div class="span12">
-            <div class="page-header">
-              <h1>Examples</h1>
-            </div>
+          <div class="col-md-12">
+            <h2>Examples</h2>
+
             <p>Many examples re-used from the Twitter Bootstrap documentation.</p>
           </div>
         </div>
+
         <div class="row">
-          <div class="span4">
+          <div class="col-md-4">
             <div class="well">
               <p>Please subscribe us:</p>
               <ul>
@@ -828,22 +818,37 @@
                 <li class="icon-activity">ActivityStream</li>
               </ul>
             </div>
+
+            <div class="dropdown clearfix">
+                    <button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                      Dropdown
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                      <li role="presentation" class="divider"></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+                    </ul>
+                  </div>
           </div>
-          <div class="span4">
+
+          <div class="col-md-4">
             <p>
-              <a class="btn" href="#"><i class="icon-openid"></i> Login</a>
+              <a class="btn btn-primary" href="#"><i class="icon-openid"></i> Login</a>
               <a class="btn btn-warning" href="#"><i class="icon-feed"></i> Subscribe</a>
               <a class="btn btn-danger" href="#"><i class="icon-ostatus-simple"></i> Follow</a>
             </p>
             <p>
-              <a class="btn btn-success btn-large" href="#"><i class="icon-share-simple"></i> Share</a>
-              <a class="btn btn-large" href="#"><i class="icon-open-share-colored"></i> Share</a>
-              <a class="btn btn-large" href="#"><i class="icon-web-intents"></i> Edit</a>
+              <a class="btn btn-success btn-lg" href="#"><i class="icon-share-simple"></i> Share</a>
+              <a class="btn btn-default btn-lg" href="#"><i class="icon-open-share-colored"></i> Share</a>
+              <a class="btn btn-default btn-lg" href="#"><i class="icon-web-intents"></i> Edit</a>
             </p>
             <p>
-              <a class="btn btn-large" href="#"><i class="icon-epub-colored"></i> Read</a>
-              <a class="btn btn-large" href="#"><i class="icon-qr"></i> Save to Phone</a>
-							<a class="btn btn-large" href="#"><i class="icon-git-colored"></i> Fork me!</a>
+              <a class="btn btn-default btn-sm" href="#"><i class="icon-epub-colored"></i> Read</a>
+              <a class="btn btn-default btn-sm" href="#"><i class="icon-qr"></i> Save to Phone</a>
+							<a class="btn btn-default btn-xs" href="#"><i class="icon-git-colored"></i> Fork me!</a>
             </p>
             <p>
               <div class="alert alert-notice">HTML <i class="icon-html5"></i> Powered with CSS <i class="icon-css3"></i> / Styling</div>
@@ -852,29 +857,27 @@
               <div class="alert alert-success">This file is licensed under the <i class="icon-cc"></i> <i class="icon-cc-by"></i> 3.0</div>
             </p>
           </div>
-          <div class="span4">
+
+          <div class="col-md-4">
             <form>
-              <div class="control-group">
-                <div class="controls">
-                  <div class="input-prepend">
-                    <span class="add-on"><i class="icon-openid"></i></span><input class="span2" id="prependedInput" size="16" type="text" placeholder="login with OpenID" />
-                  </div>
+              <p class="control-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="icon-openid"></i></span>
+                  <input class="form-control" id="prependedInput" size="16" type="text" placeholder="login with OpenID" />
                 </div>
-              </div>
-              <div class="control-group">
-                <div class="controls">
-                  <div class="input-prepend">
-                    <span class="add-on"><i class="icon-opensearch"></i></span><input class="span2" id="inputIcon2" type="text" placeholder="Search">
-                  </div>
+              </p>
+              <p class="control-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="icon-opensearch"></i></span>
+                  <input class="form-control" id="inputIcon2" type="text" placeholder="Search">
                 </div>
-              </div>
-              <div class="control-group">
-                <div class="controls">
-                  <div class="input-prepend">
-                    <span class="add-on"><i class="icon-remote-storage"></i></span><input class="span2" id="prependedInput" size="16" type="text" placeholder="your remoteStorage address" />
-                  </div>
+              </p>
+              <p class="control-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="icon-remote-storage"></i></span>
+                  <input class="form-control" id="prependedInput" size="16" type="text" placeholder="your remoteStorage address" />
                 </div>
-              </div>
+              </p>
             </form>
             <ul>
               <li class="icon-info-card">Login with your Info-Card</li>
@@ -890,19 +893,21 @@
 
       <section id="integration">
         <div class="row">
-          <div class="span12">
-            <div class="page-header">
-              <h1>Integration</h1>
-            </div>
+          <div class="col-md-12">
+            <h2>Integration</h2>
+
             <p>It's easy to combine the <em>OpenWeb Icons</em> Font with Twitters Bootstrap, or even use it as "standalone".</p>
           </div>
         </div>
+
+				<hr />
+
         <div class="row">
-          <div class="span3">
-            <h3>Custom CSS</h3>
+          <div class="col-md-3">
+            <strong>Custom CSS</strong>
             <p>Add <em>OpenWeb Icons</em> support to one of your CSS files</p>
           </div>
-          <div class="span9">
+          <div class="col-md-9">
             <ol>
               <li>Copy the <em>OpenWeb Icons</em> font directory into your project.</li>
               <li>Open your project's css file and add the following code to the top.
@@ -921,14 +926,16 @@
             </ol>
           </div>
         </div>
+
 				<hr />
+
         <div class="row">
-          <div class="span3">
-            <h3 id="weloveiconfonts">We Love Icon Fonts</h3>
+          <div class="col-md-3">
+            <strong id="weloveiconfonts">We Love Icon Fonts</strong>
             <p><a href="http://weloveiconfonts.com" target="_blank">weloveiconfonts.com</a> "<q cite="http://weloveiconfonts.com">is a free &amp; open source icon-fonts
 							hosting service (like Google Web Fonts, but icon fonts only)</q>" by <a href="http://timpietrusky.com" target="_blank">Tim Pietrusky</a></p>
           </div>
-          <div class="span9">
+          <div class="col-md-9">
 						The "We Love Icon Fonts"-Webservice is a simple and easy way to use the <em>OpenWeb-Icons</em> in your Web-Project. You don't have to provide a copy of all the css and font files,
 						simply add the following code to the top of your main CSS-file and that's it!
 <pre><code>@import url(http://weloveiconfonts.com/api/?family=openwebicons);
@@ -940,13 +947,15 @@
 						Be sure to use <code>openwebicons-</code> instead of <code>icons-</code>. To display the RSS-icon, use <code>&lt;i class="openwebicons-feed"&gt;&lt;/i&gt;</code> for example.
           </div>
         </div>
+
         <hr />
+
         <div class="row">
-          <div class="span3">
-            <h3>Together with Bootstrap or/and <em>Font Awesome</em></h3>
+          <div class="col-md-3">
+            <strong>Together with Bootstrap or/and <em>Font Awesome</em></strong>
             <p>Use this method if you want to use the OpenWeb-Icons with Twitters Bootstrap or Font Awesome.</p>
           </div>
-          <div class="span9">
+          <div class="col-md-9">
             <ol>
               <li>Copy the <em>OpenWeb Icons</em> font directory into your project.</li>
               <li>Copy <code>openwebicons-bootstrap.css</code> into your project.</li>
@@ -958,13 +967,15 @@
             </ol>
           </div>
         </div>
+
         <hr />
+
         <div class="row">
-          <div class="span3">
-            <h3>Not using Bootstrap or <em>Font Awesome</em></h3>
+          <div class="col-md-3">
+            <strong>Not using Bootstrap or <em>Font Awesome</em></strong>
             <p><em>OpenWeb Icons</em> works with any CSS.</p>
           </div>
-          <div class="span9">
+          <div class="col-md-9">
             <ol>
               <li>Copy the <em>OpenWeb Icons</em> font directory into your project.</li>
               <li>Copy <code>openwebicons.css</code> into your project.</li>
@@ -973,20 +984,20 @@
           </div>
         </div>
       </section>
+
       <section id="code">
         <div class="row">
-          <div class="span12">
-            <div class="page-header">
-              <h1>Code</h1>
-            </div>
+          <div class="col-md-12">
+            <h2>Code</h2>
             <p></p>
           </div>
         </div>
+
         <div class="row">
-          <div class="span4">
+          <div class="col-md-4">
 
           </div>
-          <div class="span8">
+          <div class="col-md-8">
             soon...
           </div>
         </div>
@@ -994,13 +1005,10 @@
 
       <section id="changelog">
         <div class="row">
-          <div class="span12">
-            <div class="page-header">
-              <h1>Changelog</h1>
-            </div>
+          <div class="col-md-12">
+            <h2>Changelog</h2>
           </div>
-        </div>
-        <div class="row">
+
           <ul>
 						<li><strong>2013-10-29</strong>: Added SIL OFL icons</li>
 						<li><strong>2013-08-22</strong>: And added Tent icon</li>
@@ -1032,18 +1040,20 @@
 
       <footer>
         <div class="row">
-          <div class="span4">
+          <div class="col-md-4">
             <h2>Inspiration</h2>
             <p>This Site is inspired by the awesome Work of Dave Gandy. Please check out his <a href="http://fortawesome.github.com/Font-Awesome" target="_blank">Font Awesome - Project!</a></p>
           </div>
-          <div class="span8">
+          <div class="col-md-8">
             <h2>License</h2>
             <p>The DataPortabilty icon is a trademark of the DataPortability-project.</p>
             <p>The <em>OpenWeb Icons</em> font files are licensed under the <a href="http://scripts.sil.org/OFL" target="_blank">SIL Open Font License (OFL)</a>. Feel free to use them wherever you want!</p>
             <p><strong>If you are a creator of one of these icons and you don't want me to use it in this font, please let me know!</strong></p>
           </div>
+        </div>
 
-          <div class="span12" id="contact">
+        <div class="row">
+          <div class="col-md-12" id="contact">
             <h2>Contact/Impressum</h2>
             Matthias Pfefferle, Weinheimerstraße 20, 68526 Ladenburg... or you can contact me via <a href="http://notizblog.org/kontakt/">email</a>
             oder <a href="http://twitter.com/pfefferle">twitter</a>...
@@ -1052,6 +1062,14 @@
       </footer>
     </div> <!-- /container -->
 
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
   </body>
