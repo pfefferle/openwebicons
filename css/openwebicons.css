@@ -439,6 +439,14 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f050";
 }
 
+.icon-copyleft:before {
+  content: "\f051";
+}
+
+.icon-gnu:before {
+  content: "\f052";
+}
+
 .icon-ofl-attribution:before {
   content: "\f081";
 }
