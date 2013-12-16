@@ -160,6 +160,10 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] { display: block; }
 
 .openwebicons-tent:before { content: "\f050"; }
 
+.openwebicons-copyleft:before { content: "\f051"; }
+
+.openwebicons-gnu:before { content: "\f052"; }
+
 .openwebicons-ofl-attribution:before { content: "\f081"; }
 
 .openwebicons-ofl-share:before { content: "\f085"; }

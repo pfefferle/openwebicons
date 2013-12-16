@@ -69,16 +69,25 @@
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="nav navbar-nav">
           	<li class="active"><a href="#">Home</a></li>
-          	<li><a href="#icons">Main Icons</a></li>
-						<li><a href="#html5-icons"><abbr title="HyperText Markup Language">HTML</abbr>5</a></li>
-          	<li><a href="#cc-icons"><abbr title="Creative Commons">CC</abbr></a></li>
-						<li><a href="#microformats-icons"><abbr title="Microformats">&#956;f</abbr></a></li>
-						<li><a href="#openfontlicense-icons">SIL <abbr title="Open Font License">OFL</abbr></a></li>
-          	<li><a href="#colored-icons">Colored Icons</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Icons <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#icons">Main Icons</a></li>
+                <li class="divider"></li>
+    						<li><a href="#html5-icons"><abbr title="HyperText Markup Language">HTML</abbr>5  Icons</a></li>
+              	<li><a href="#cc-icons"><abbr title="Creative Commons">CC</abbr> Icons</a></li>
+    						<li><a href="#microformats-icons">Microformats Icons</a></li>
+    						<li><a href="#openfontlicense-icons">SIL <abbr title="Open Font License">OFL</abbr> Icons</a></li>
+                <li class="divider"></li>
+              	<li><a href="#colored-icons">Colored Icons</a></li>
+              </ul>
+            </li>
           	<li><a href="#examples">Examples</a></li>
           	<li><a href="#integration">Integration</a></li>
           	<li><a href="#code">Code</a></li>
           	<li><a href="#changelog">Changelog</a></li>
+            <li><a href="#license">License</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -467,6 +476,18 @@
                   <td>icon-tent</td>
                   <td><a href="https://tent.io/" target="_blank">Tent</a> is a communications protocol. It lets users store any kind of data and send that data to other users in real time. Just like other protocol-based services like email or the web, anyone can host their own server or write apps. Also like email, users can host their own Tent server or use a Tent hosting provider.</td>
                   <td>by <a href="https://tent.io/trademark-guidelines" target="_blank">Tent.io</a></td>
+                </tr>
+                <tr>
+                  <td><i class="icon-copyleft"></i> </td>
+                  <td>icon-copyleft</td>
+                  <td><a href="https://www.gnu.org/copyleft/" target="_blank">Copyleft</a> is a general method for making a program (or other work) free, and requiring all modified and extended versions of the program to be free as well.</td>
+                  <td>by <a href="http://en.wikipedia.org/wiki/File:Copyleft.svg" target="_blank">Wikipedia</a></td>
+                </tr>
+                <tr>
+                  <td><i class="icon-gnu"></i> </td>
+                  <td>icon-gnu</td>
+                  <td><a href="https://www.gnu.org" target="_blank">GNU</a> is a Unix-like operating system that is free software—it respects your freedom. You can install versions of GNU (more precisely, GNU/Linux systems) which are entirely free software.</td>
+                  <td>by <a href="http://www.gnu.org/graphics/gnusvgart.html" target="_blank">GNU</a></td>
                 </tr>
               </tbody>
             </table>
@@ -1010,6 +1031,7 @@
           </div>
 
           <ul>
+            <li><strong>2013-12-16</strong>: Added Copyleft und GNU icons</li>
 						<li><strong>2013-10-29</strong>: Added SIL OFL icons</li>
 						<li><strong>2013-08-22</strong>: And added Tent icon</li>
 						<li><strong>2013-08-14</strong>: Optimized Webfinger icon and added JSON-LD and SVG icon</li>
@@ -1045,7 +1067,7 @@
             <p>This Site is inspired by the awesome Work of Dave Gandy. Please check out his <a href="http://fortawesome.github.com/Font-Awesome" target="_blank">Font Awesome - Project!</a></p>
           </div>
           <div class="col-md-8">
-            <h2>License</h2>
+            <h2 id="license">License</h2>
             <p>The DataPortabilty icon is a trademark of the DataPortability-project.</p>
             <p>The <em>OpenWeb Icons</em> font files are licensed under the <a href="http://scripts.sil.org/OFL" target="_blank">SIL Open Font License (OFL)</a>. Feel free to use them wherever you want!</p>
             <p><strong>If you are a creator of one of these icons and you don't want me to use it in this font, please let me know!</strong></p>
