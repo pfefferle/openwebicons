@@ -466,3 +466,20 @@ li[class^="icon-"], li[class*=" icon-"] {
 .icon-ofl-embedding:before {
   content: "\f04c";
 }
+
+.icon-webmention:before {
+  content: "\f04d";
+}
+
+.icon-javascript:before {
+  content: "\f04e";
+}
+
+.icon-javascript-colored:before {
+  content: "\f04e";
+  color: #f0db4f;
+}
+
+.icon-wtfpl:before {
+  content: "\f04f";
+}

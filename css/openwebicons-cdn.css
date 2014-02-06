@@ -466,3 +466,20 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] {
 .openwebicons-ofl-embedding:before {
   content: "\f04c";
 }
+
+.openwebicons-webmention:before {
+  content: "\f04d";
+}
+
+.openwebicons-javascript:before {
+  content: "\f04e";
+}
+
+.openwebicons-javascript-colored:before {
+  content: "\f04e";
+  color: #f0db4f;
+}
+
+.openwebicons-wtfpl:before {
+  content: "\f04f";
+}

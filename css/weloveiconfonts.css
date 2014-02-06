@@ -173,3 +173,9 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] { display: block; }
 .openwebicons-ofl-selling:before { content: "\f04b"; }
 
 .openwebicons-ofl-embedding:before { content: "\f04c"; }
+
+.openwebicons-webmention:before { content: "\f04d"; }
+
+.openwebicons-javascript:before { content: "\f04e"; }
+
+.openwebicons-wtfpl:before { content: "\f04f"; }
