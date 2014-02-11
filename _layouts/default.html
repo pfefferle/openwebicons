@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#
+                        profile: http://ogp.me/ns/profile#">
+  <head>
+    <meta charset="utf-8">
+    <title>OpenWeb Icons... a font! {{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Why OpenWeb Icons? Because Font Awesome had no RSS-icon and a font with only one icon would be a bit boring...!" />
+    <meta name="author" content="Matthias Pfefferle" />
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/openwebicons-bootstrap.css" rel="stylesheet" />
+    <link href="/css/web.css" rel="stylesheet" />
+		<link href="https://plus.google.com/118205389455269229204?rel=author" rel="author" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <meta property="og:site_name" content="OpenWeb Icons" />
+    <meta property="og:title" content="OpenWeb Icons (a font!)" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://pfefferle.github.io/openwebicons/" />
+    <meta property="og:image" content="http://pfefferle.github.io/openwebicons/img/OpenWeb-Icons.jpg" />
+    <meta property="og:locale" content="en_US" />
+		<meta property="og:description" content="Why OpenWeb Icons? Because Font Awesome had no RSS-icon and a font with only one icon would be a bit boring...!" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:creator" content="@pfefferle" />
+
+		<script type="text/javascript">
+		  (function() {
+		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0];
+
+				s.parentNode.insertBefore(po, s);
+
+		    var s = document.createElement('script');
+		    var t = document.getElementsByTagName('script')[0];
+
+		    s.type = 'text/javascript';
+		    s.async = true;
+		    s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+
+		    t.parentNode.insertBefore(s, t);
+
+		    var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;
+		    po.src = "http://t3n.de/aggregator/ebutton_async";
+		    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s);
+		  })();
+			!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+		</script>
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">OpenWeb Icons</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav">
+          	<li class="active"><a href="/">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Icons <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/#icons">Main Icons</a></li>
+                <li class="divider"></li>
+    						<li><a href="/#html5-icons"><abbr title="HyperText Markup Language">HTML</abbr>5  Icons</a></li>
+              	<li><a href="/#cc-icons"><abbr title="Creative Commons">CC</abbr> Icons</a></li>
+    						<li><a href="/#microformats-icons">Microformats Icons</a></li>
+    						<li><a href="/#openfontlicense-icons">SIL <abbr title="Open Font License">OFL</abbr> Icons</a></li>
+              </ul>
+            </li>
+          	<li><a href="/examples/">Examples</a></li>
+          	<li><a href="/get-started/">Get started</a></li>
+          	<li><a href="/code/">Code</a></li>
+          	<li><a href="/changelog/">Changelog</a></li>
+            <li><a href="#license">License</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    {% if page.id == 'home' %}
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>OpenWeb Icons <small>(a font!)</small></h1>
+        <p>Why <em>OpenWeb Icons</em>? Because <a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a> had no RSS-icon and a
+          font with only one icon would be a bit boring...
+          Besides, I'm an advocate of the <strong>Open Web</strong>! Be proud of using <strong>Open Web Standards</strong> and show it to the world!</p>
+        <p>
+          <a class="btn btn-primary btn-lg" href="https://github.com/pfefferle/openwebicons/zipball/master">Download <strong>ZIP File</strong></a>
+          <a class="btn btn-primary btn-lg" href="https://github.com/pfefferle/openwebicons/tarball/master">Download <strong>TAR Ball</strong></a>
+          <a class="btn btn-default btn-lg btn-inverse" href="https://github.com/pfefferle/openwebicons"><i class="icon-git"></i> View On <strong>GitHub</strong></a>
+        </p>
+      </div>
+    </div>
+
+    {% endif %}
+
+    <div class="container">
+      {{ content }}
+    </div> <!-- /container -->
+
+    <footer class="global">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Inspiration</h2>
+            <p>This Site is inspired by the awesome Work of Dave Gandy. Please check out his <a href="http://fortawesome.github.com/Font-Awesome" target="_blank">Font Awesome - Project!</a></p>
+          </div>
+          <div class="col-md-8">
+            <h2 id="license">License</h2>
+            <p>The DataPortabilty icon is a trademark of the DataPortability-project.</p>
+            <p>The <em>OpenWeb Icons</em> font files are licensed under the <a href="http://scripts.sil.org/OFL" target="_blank">SIL Open Font License (OFL)</a>. Feel free to use them wherever you want!</p>
+            <p><strong>If you are a creator of one of these icons and you don't want me to use it in this font, please let me know!</strong></p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12" id="contact">
+            <h2>Contact/Impressum</h2>
+          Matthias Pfefferle, Weinheimerstraße 20, 68526 Ladenburg... or you can contact me via <a href="http://notizblog.org/kontakt/">email</a>
+          oder <a href="http://twitter.com/pfefferle">twitter</a>...
+          </div>
+        </div>
+      </div>
+    </footer>
+
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

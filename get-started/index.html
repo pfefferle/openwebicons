@@ -1,0 +1,93 @@
+---
+id: get-started
+layout: default
+title: " - Get started"
+---
+
+<section id="integration">
+  <div class="page-header">
+    <h1>Get started <small>Learn how to use the font</small></h1>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+      <strong>Custom CSS</strong>
+      <p>Add <em>OpenWeb Icons</em> support to one of your CSS files</p>
+    </div>
+    <div class="col-md-9">
+      <ol>
+        <li>Copy the <em>OpenWeb Icons</em> font directory into your project.</li>
+        <li>Open your project's css file and add the following code to the top.
+<pre><code>@font-face {
+  font-family: 'OpenWeb Icons';
+    src: url('../font/openwebicons.eot');
+    src: url('../font/openwebicons.eot?#iefix') format('embedded-opentype'),
+         url('../font/openwebicons.woff') format('woff'),
+         url('../font/openwebicons.ttf') format('truetype'),
+         url('../font/openwebicons.svg#OpenWebIconsRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}</code></pre>
+        </li>
+        <li>Now you can mark up your code like that <code>&lt;i style="font-family: 'OpenWeb Icons'"&gt;&amp;#xf008;&lt;/i&gt;</code> &#027;(OAuth Icon)</li>
+      </ol>
+    </div>
+  </div>
+
+	<hr />
+
+  <div class="row">
+    <div class="col-md-3">
+      <strong id="weloveiconfonts">We Love Icon Fonts</strong>
+      <p><a href="http://weloveiconfonts.com" target="_blank">weloveiconfonts.com</a> "<q cite="http://weloveiconfonts.com">is a free &amp; open source icon-fonts
+							hosting service (like Google Web Fonts, but icon fonts only)</q>" by <a href="http://timpietrusky.com" target="_blank">Tim Pietrusky</a></p>
+    </div>
+    <div class="col-md-9">
+			The "We Love Icon Fonts"-Webservice is a simple and easy way to use the <em>OpenWeb-Icons</em> in your Web-Project. You don't have to provide a copy of all the css and font files,
+			simply add the following code to the top of your main CSS-file and that's it!
+<pre><code>@import url(http://weloveiconfonts.com/api/?family=openwebicons);
+
+/* openwebicons */
+[class*="openwebicons-"]:before {
+  font-family: 'OpenWeb Icons', sans-serif;
+}</code></pre>
+						Be sure to use <code>openwebicons-</code> instead of <code>icons-</code>. To display the RSS-icon, use <code>&lt;i class="openwebicons-feed"&gt;&lt;/i&gt;</code> for example.
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="row">
+    <div class="col-md-3">
+      <strong>Together with Bootstrap or/and <em>Font Awesome</em></strong>
+      <p>Use this method if you want to use the OpenWeb-Icons with Twitters Bootstrap or Font Awesome.</p>
+    </div>
+    <div class="col-md-9">
+      <ol>
+        <li>Copy the <em>OpenWeb Icons</em> font directory into your project.</li>
+        <li>Copy <code>openwebicons-bootstrap.css</code> into your project.</li>
+        <li>Open your project's <code>openwebicons-bootstrap.css</code> and edit the font url to ensure it points to the right place (see above example).</li>
+        <li>In the <code>&lt;head&gt;</code> of your html, reference the location to your <code>openwebicons-bootstrap.css</code>.
+<pre><code>&lt;link rel="stylesheet" href="../css/bootstrap.css" /&gt;
+&lt;link rel="stylesheet" href="../css/openwebicons-bootstrap.css" /&gt;</code></pre>
+        </li>
+      </ol>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="row">
+    <div class="col-md-3">
+      <strong>Not using Bootstrap or <em>Font Awesome</em></strong>
+      <p><em>OpenWeb Icons</em> works with any CSS.</p>
+    </div>
+    <div class="col-md-9">
+      <ol>
+        <li>Copy the <em>OpenWeb Icons</em> font directory into your project.</li>
+        <li>Copy <code>openwebicons.css</code> into your project.</li>
+        <li>Open your project's <code>openwebicons.css</code> and edit the font url to ensure it points to the right place (see above example).</li>
+      </ol>
+    </div>
+  </div>
+</section>
