@@ -11,8 +11,9 @@
     "compile.sh",
     "Gruntfile.js",
     "package.json",
-    "config/*",
-    "sass/*",
-    "test/*"
+    "config",
+    "sass",
+    "source",
+    "test"
   ]
 }
