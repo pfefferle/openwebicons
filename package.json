@@ -20,8 +20,12 @@
   },
   "keywords": [
     "openweb",
-    "icons"
+    "icons",
+    "font",
+    "css",
+    "sass",
+    "scss"
   ],
   "author": "Matthias Pfefferle",
-  "license": "SIL OPEN FONT LICENSE Version 1.1"
+  "license": "OFL-1.1"
 }
