@@ -1,0 +1,27 @@
+{
+	"name": "openwebicons",
+	"repo": "pfefferle/openwebicons",
+	"version": "1.2.0",
+	"keywords": [
+		"openweb",
+		"icons",
+		"font",
+		"css",
+		"sass",
+		"scss"
+	],
+	"main": "Gruntfile.js",
+	"dependencies": {
+		"sass": "*"
+	},
+	"license": "OFL-1.1",
+	"styles": [
+		"css/openwebicons.css"
+	],
+	"fonts": [
+		"font/openwebicons.eot",
+		"font/openwebicons.svg",
+		"font/openwebicons.ttf",
+		"font/openwebicons.woff"
+	]
+}

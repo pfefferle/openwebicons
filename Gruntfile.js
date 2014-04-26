@@ -62,7 +62,6 @@ module.exports = function (grunt) {
 					// -----------   -------------------
 					'name': null, // null means 'leave as is'
 					'description': 'description', // but feel free to type the field name twice
-					'repository': 'repo', // rename 'repository' to 'repo'
 					'version': null,
 					'keywords': null,
 					'main': null,
@@ -81,8 +80,7 @@ module.exports = function (grunt) {
 				fields: {
 					'name': null,
 					'description': null,
-					'keywords': null,
-					'repository': 'repositories'
+					'keywords': null
 				}
 			}
 		}
