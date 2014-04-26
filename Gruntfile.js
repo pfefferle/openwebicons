@@ -65,7 +65,6 @@ module.exports = function (grunt) {
 					'version': null,
 					'keywords': null,
 					'main': null,
-					'dependencies': null,
 					'development': 'devDependencies',
 					'license': null
 				}
