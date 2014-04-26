@@ -1,31 +1,44 @@
 {
-  "name": "openwebicons",
-  "version": "1.2.0",
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-sass": "~0.2.2"
-  },
-  "description": "OpenWeb Icons",
-  "main": "Gruntfile.js",
-  "directories": {
-    "test": "test"
-  },
-  "dependencies": {
-    "grunt": "~0.4.0",
-    "grunt-contrib-sass": "~0.2.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pfefferle/openwebicons.git"
-  },
-  "keywords": [
-    "openweb",
-    "icons",
-    "font",
-    "css",
-    "sass",
-    "scss"
-  ],
-  "author": "Matthias Pfefferle",
-  "license": "OFL-1.1"
+	"name": "openwebicons",
+	"version": "1.2.0",
+	"description": "OpenWeb Icons",
+	"main": "Gruntfile.js",
+	"author": {
+		"name": "Matthias Pfefferle",
+		"email": "pfefferle@gmail.com",
+		"web": "http://notizblog.org"
+	},
+	"homepage": "http://pfefferle.github.io/openwebicons/",
+	"license": "OFL-1.1",
+	"directories": {
+		"test": "test"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.1",
+		"grunt-contrib-sass": "~0.2.2",
+		"grunt-update-json": "*"
+	},
+	"dependencies": {
+		"grunt": "~0.4.0",
+		"grunt-contrib-sass": "~0.2.2",
+		"grunt-update-json": "*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pfefferle/openwebicons.git"
+	},
+	"bugs": {
+		"url": "https://github.com/pfefferle/openwebicons/issues"
+	},
+	"keywords": [
+		"openweb",
+		"icons",
+		"font",
+		"css",
+		"sass",
+		"scss"
+	],
+	"dependencies": {
+		"sass": "*"
+	}
 }
