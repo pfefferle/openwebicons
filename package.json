@@ -37,8 +37,5 @@
 		"css",
 		"sass",
 		"scss"
-	],
-	"dependencies": {
-		"sass": "*"
-	}
+	]
 }
