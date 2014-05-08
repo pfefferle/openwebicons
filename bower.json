@@ -14,7 +14,7 @@
 		".gitignore",
 		"bower.json",
 		"compile.sh",
-		"compontent.json",
+		"component.json",
 		"composer.json",
 		"Gruntfile.js",
 		"package.json",
