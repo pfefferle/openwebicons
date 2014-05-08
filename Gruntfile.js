@@ -77,7 +77,6 @@ module.exports = function (grunt) {
         dest: 'composer.json',
         // the fields in an Array Grouping with some embedded Object Groupings
         fields: {
-          'name': null,
           'description': null,
           'keywords': null,
           'license': null
