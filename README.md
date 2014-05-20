@@ -53,4 +53,6 @@ You can find more informations and a list of all icons here: http://pfefferle.gi
 
 ---
 
+[![NPM](https://nodei.co/npm/openwebicons.png?downloads=true&stars=true)](https://nodei.co/npm/openwebicons/)
+
 [![endorse](http://api.coderwall.com/pfefferle/endorsecount.png)](http://coderwall.com/pfefferle)
