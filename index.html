@@ -1,1066 +1,146 @@
-<!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#
-                        profile: http://ogp.me/ns/profile#">
-  <head>
-    <meta charset="utf-8">
-    <title>OpenWeb Icons... a font!</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Why OpenWeb Icons? Because Font Awesome had no RSS-icon and a font with only one icon would be a bit boring...!" />
-    <meta name="author" content="Matthias Pfefferle" />
+---
+layout: default
+title: OpenWeb Icons... a font!
+jumbotron: true
+---
 
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/openwebicons-bootstrap.css" rel="stylesheet" />
-    <link href="css/web.css" rel="stylesheet" />
-		<link href="https://plus.google.com/118205389455269229204?rel=author" rel="author" />
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <meta property="og:site_name" content="OpenWeb Icons" />
-    <meta property="og:title" content="OpenWeb Icons (a font!)" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://pfefferle.github.io/openwebicons/" />
-    <meta property="og:image" content="http://pfefferle.github.io/openwebicons/img/OpenWeb-Icons.jpg" />
-    <meta property="og:locale" content="en_US" />
-		<meta property="og:description" content="Why OpenWeb Icons? Because Font Awesome had no RSS-icon and a font with only one icon would be a bit boring...!" />
-		<meta name="twitter:card" content="summary" />
-		<meta name="twitter:creator" content="@pfefferle" />
-
-		<script type="text/javascript">
-		  (function() {
-		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-		    po.src = 'https://apis.google.com/js/plusone.js';
-		    var s = document.getElementsByTagName('script')[0];
-
-				s.parentNode.insertBefore(po, s);
-
-		    var s = document.createElement('script');
-		    var t = document.getElementsByTagName('script')[0];
-
-		    s.type = 'text/javascript';
-		    s.async = true;
-		    s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
-
-		    t.parentNode.insertBefore(s, t);
-
-		    var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;
-		    po.src = "http://t3n.de/aggregator/ebutton_async";
-		    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s);
-		  })();
-			!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-		</script>
-  </head>
-
-  <body>
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">OpenWeb Icons</a>
-        </div>
-
-        <div class="collapse navbar-collapse" id="navbar">
-          <ul class="nav navbar-nav">
-          	<li class="active"><a href="#">Home</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Icons <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#icons">Main Icons</a></li>
-                <li class="divider"></li>
-    						<li><a href="#html5-icons"><abbr title="HyperText Markup Language">HTML</abbr>5  Icons</a></li>
-              	<li><a href="#cc-icons"><abbr title="Creative Commons">CC</abbr> Icons</a></li>
-    						<li><a href="#microformats-icons">Microformats Icons</a></li>
-    						<li><a href="#openfontlicense-icons">SIL <abbr title="Open Font License">OFL</abbr> Icons</a></li>
-                <li class="divider"></li>
-              	<li><a href="#colored-icons">Colored Icons</a></li>
-              </ul>
-            </li>
-          	<li><a href="#examples">Examples</a></li>
-          	<li><a href="#integration">Integration</a></li>
-          	<li><a href="#code">Code</a></li>
-          	<li><a href="#changelog">Changelog</a></li>
-            <li><a href="#license">License</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="jumbotron">
-      <div class="container">
-        <h1>OpenWeb Icons <small>(a font!)</small></h1>
-        <p>Why <em>OpenWeb Icons</em>? Because <a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a> had no RSS-icon and a
-          font with only one icon would be a bit boring...
-          Besides, I'm an advocate of the <strong>Open Web</strong>! Be proud of using <strong>Open Web Standards</strong> and show it to the world!</p>
-        <p>
-          <a class="btn btn-primary btn-lg" href="https://github.com/pfefferle/openwebicons/zipball/master">Download <strong>ZIP File</strong></a>
-          <a class="btn btn-primary btn-lg" href="https://github.com/pfefferle/openwebicons/tarball/master">Download <strong>TAR Ball</strong></a>
-          <a class="btn btn-default btn-lg btn-inverse" href="https://github.com/pfefferle/openwebicons"><i class="icon-git"></i> View On <strong>GitHub</strong></a>
-        </p>
-      </div>
-    </div>
-
-    <div class="container">
-      <section id="sharing">
-      	<p>Sharing is caring!</p>
-
-			<a class="FlattrButton" data-flattr-uid="pfefferle" data-flattr-button="compact" data-flattr-tags="font, icons, opensource" data-flattr-category="software" style="display:none;" title="OpenWeb Icons... a font!" href="http://pfefferle.github.io/openwebicons/">Why OpenWeb Icons? Because Font Awesome had no RSS-icon and a font with only one icon would be a bit boring...</a>
-			<noscript><a href="https://flattr.com/submit/auto?user_id=pfefferle&url=http%3A%2F%2Fpfefferle.github.io%2Fopenwebicons%2F" target="_blank">
-				<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
-			</noscript>
-
-			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://pfefferle.github.io/openwebicons/" data-via="pfefferle">Tweet</a>
-
-			<div class="fb-like" data-href="http://pfefferle.github.io/openwebicons/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
-
-			<div class="g-plusone" data-size="medium" data-annotation="inline" data-width="200" data-href="http://pfefferle.github.io/openwebicons/"></div>
-
-			<div class="t3nAggregator" data-url="http://pfefferle.github.io/openwebicons/"></div>
-
-			<iframe src="http://ghbtns.com/github-btn.html?user=pfefferle&repo=openwebicons&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
-
-			<iframe src="http://ghbtns.com/github-btn.html?user=pfefferle&repo=openwebicons&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
-
-			<iframe src="http://ghbtns.com/github-btn.html?user=pfefferle&repo=openwebicons&type=follow&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="150" height="20"></iframe>
-
-			<a href="http://coderwall.com/pfefferle"><img src="http://api.coderwall.com/pfefferle/endorsecount.png" /></a>
-      </section>
-      <section id="icons">
+      <section id="description">
         <div class="row">
-          <div class="col-md-12">
-            <h2>Main Icons</h2>
+          <div class="col-md-11">
+            <p class="lead">The OpenWeb Icons is a web-font that gives you scalable vector icons/logos of some open communities, standards or projects. It includes the Creative Commons-, HTML5- and Microformats-icons for example.</p>
+          </div>
 
-            <table class="table table-bordered table-striped">
-              <thead>
-                <tr>
-                  <th>Icon</th>
-                  <th>class-name</th>
-                  <th>About</th>
-                  <th>Icon Sources</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><i class="icon-apml"></i> </td>
-                  <td>icon-apml</td>
-                  <td><a href="http://apml.areyoupayingattention.com/" target="_blank">APML</a> (Attention Profile Markup Language) allows users to
-                    share their own personal Attention Profile in much the same way that OPML allows the exchange of reading lists between News Readers.</td>
-                  <td>by <a href="http://suda.co.uk/projects/apml/" target="_blank">Brian Suda</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-open-share"></i> </td>
-                  <td>icon-open-share</td>
-                  <td>The <a href="http://www.shareaholic.com/openshareicon" target="_blank">Open Share icon</a> conveys the act of sharing by
-                    visually representing one hand passing an object to another hand, as in "pass it on" or "sharing". The icon also represents
-                    an "eye", as in "look at this".</td>
-                  <td>by <a href="http://www.shareaholic.com/openshareicon" target="_blank">Shareaholic</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-open-share-simple"></i> </td>
-                  <td>icon-open-share-simple</td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-share"></i> </td>
-                  <td>icon-share</td>
-                  <td>An <a href="http://shareicons.com/">icon</a> to represent the generic action of sharing a web page. This could mean
-                    adding the page to a social bookmarking site or memetracker, e-mailing the page to someone, etc.</td>
-                  <td>by <a href="http://shareicons.com/" target="_blank">Shareicons.com</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-share-simple"></i> </td>
-                  <td>icon-share-simple</td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-feed"></i> </td>
-                  <td>icon-feed</td>
-                  <td>A <a href="http://en.wikipedia.org/wiki/Web_feed" target="_blank">web feed</a> (or news feed) is a data format
-                    used for providing users with frequently updated content. Content distributors syndicate a web feed, thereby
-                    allowing users to subscribe to it.</td>
-                  <td>by <a href="http://feedicons.com/" target="_blank">Feedicons.com</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-feed-simple"></i> </td>
-                  <td>icon-feed-simple</td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-ostatus"></i> </td>
-                  <td>icon-ostatus</td>
-                  <td><a href="http://ostatus.org/" target="_blank">OStatus</a> is an open standard for distributed status updates. Our goal is
-                    a specification that allows different messaging hubs to route status updates between users in near-real-time.</td>
-                  <td>by OStatus.org</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-ostatus-simple"></i> </td>
-                  <td>icon-ostatus-simple</td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-opml"></i> </td>
-                  <td>icon-opml</td>
-                  <td><a href="http://dev.opml.org/" target="_blank">OPML</a> an XML-based format that allows exchange of outline-structured
-                    information between applications running on different operating systems and environments.</td>
-                  <td>by <a href="http://opmlicons.com/" target="_blank">Opmlicons.com</a></td>
-                </tr>
-                <tr>
-                  <th>Icon</th>
-                  <th>class-name</th>
-                  <th>About</th>
-                  <th>Icon Sources</th>
-                </tr>
-                <tr>
-                  <td><i class="icon-activity"></i> </td>
-                  <td>icon-activity</td>
-                  <td>The <a href="http://activitystrea.ms/" target="_blank">Activity Streams</a> specification defines a format for
-                    describing socially interesting events, or "Activities", about the people and things an individual may care about.</td>
-                  <td>by <a href="http://wiki.activitystrea.ms/w/page/23953797/Icon" target="_blank"><abbr title="Activity Streams">AS</abbr>-Wiki</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-activity-simple"></i> </td>
-                  <td>icon-activity-simple</td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-geo"></i> </td>
-                  <td>icon-geo</td>
-                  <td>The <a href="http://geotagicons.com/" target="_blank">Geotag Icon</a> is intended as a web “standard” icon for
-                    identifying geotagged content to humans.</td>
-                  <td>by <a href="http://geotagicons.com/" target="_blank">GeotagIcons.com</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-opensearch"></i> </td>
-                  <td>icon-opensearch</td>
-                  <td><a href="http://www.opensearch.org/" target="_blank">OpenSearch</a> is a collection of simple formats for the
-                    sharing of search results.</td>
-                  <td>by <a href="http://www.opensearch.org/Community/OpenSearch_icons" target="_blank">OpenSearch.org</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-oauth"></i> </td>
-                  <td>icon-oauth</td>
-                  <td>An <a href="http://oauth.net/" target="_blank">open protocol</a> to allow secure API authorization in a simple
-                    and standard method from desktop and web applications.</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-openid"></i> </td>
-                  <td>icon-openid</td>
-                  <td><a href="http://openid.net/">OpenID</a> is a safe, faster, and easier way to log in to web sites.</td>
-                  <td>by <a href="http://openid.net/foundation/news/logos/" target="_blank">OpenID</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-rdf"></i> </td>
-                  <td>icon-rdf</td>
-                  <td><a href="http://www.w3.org/RDF/" target="_blank">RDF</a> is a standard model for data interchange on the Web.
-                    RDF has features that facilitate data merging even if the underlying schemas differ, and it specifically supports
-                    the evolution of schemas over time without requiring all the data consumers to be changed.</td>
-                  <td>by <a href="http://www.w3.org/RDF/icons/" target="_blank">W3C</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-json-ld"></i> </td>
-                  <td>icon-json-ld</td>
-                  <td><a href="http://json-ld.org" target="_blank">JSON-LD</a> is a lightweight Linked Data format. It is based on the already successful JSON format and provides a way to help JSON data interoperate at Web-scale.</td>
-                  <td>by <a href="http://json-ld.org/images/" target="_blank">JSON-LD</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-semantic-web"></i> </td>
-                  <td>icon-semantic-web</td>
-                  <td>In addition to the classic “Web of documents” W3C is helping to build a technology stack to support a “Web of data,” the sort of data you find in databases. The ultimate goal of the Web of data is to enable computers to do more useful work and to develop systems that can support trusted interactions over the network. The term "<a href="http://www.w3.org/standards/semanticweb/" target="_blank">Semantic Web</a>" refers to W3C’s vision of the Web of linked data.</td>
-                  <td>by <a href="http://www.w3.org/2007/10/sw-logos.html" target="_blank">W3C</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-dataportability"></i> </td>
-                  <td>icon-dataportability</td>
-                  <td><a href="http://www.dataportability.org/" target="_blank">Data portability</a> is the ability for people to reuse their
-                    data across interoperable applications. The DataPortability Project works to advance this vision by identifying,
-                    contextualizing and promoting efforts in the space.</td>
-                  <td>a <abbr title="Trademark">TM</abbr> of the <a href="http://www.dataportability.org/" target="_blank">DataPortability Organisation</a></td>
-                </tr>
-                <tr>
-                  <th>Icon</th>
-                  <th>class-name</th>
-                  <th>About</th>
-                  <th>Icon Sources</th>
-                </tr>
-                <tr>
-                  <td><i class="icon-federated"></i> </td>
-                  <td>icon-federated</td>
-                  <td>To collaborate and build the future of the Internet together via the
-                    <a href="http://www.w3.org/2005/Incubator/federatedsocialweb/" target="_blank">federated social web</a> with OStatus and other open
-                    web technologies.</td>
-                  <td>by <a href="http://status.net/2010/06/28/federated-social-web-summit-2010-announced" target="_blank">Status.net</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-open-web"></i> </td>
-                  <td>icon-open-web</td>
-                  <td>The <a href="http://www.openwebfoundation.org/" target="_blank">Open Web Foundation</a> is an independent non-profit dedicated to
-                    the development and protection of open, non-proprietary specifications for web technologies.</td>
-                  <td>by the <a href="http://www.openwebfoundation.org/" target="_blank">Open Web Foundation</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-web-intents"></i> </td>
-                  <td>icon-web-intents</td>
-                  <td><a href="http://webintents.org/" target="_blank">Web Intents</a> is a framework for client-side service discovery and inter-application communication. Web Intents puts the user in
-                    control of service integrations and makes the developer's life simple.</td>
-                  <td>by <a href="http://aerotwist.com/" target="_blank">Paul Lewis</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-xmpp"></i> </td>
-                  <td>icon-xmpp</td>
-                  <td>The Extensible Messaging and Presence Protocol (<a href="http://xmpp.org/" target="_blank">XMPP</a>) is an open technology for real-time communication,
-                    which powers a wide range of applications including instant messaging, presence, multi-party chat, voice and video calls, collaboration, lightweight middleware, content syndication,
-                    and generalized routing of XML data.</td>
-                  <td>by XMPP</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-qr"></i> </td>
-                  <td>icon-qr</td>
-                  <td>The <a href="http://www.denso-wave.com/qrcode/index-e.html" target="_blank">QR code</a> was a kind of two dimensional symbology [...] The QR code is that carry meaningful
-                    information in the vertical direction as well as the horizontal, hence the two-dimensional term.</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-epub"></i> </td>
-                  <td>icon-epub</td>
-                  <td>The <a href="http://idpf.org/epub/30/spec/epub30-overview.html" target="_blank">EPUB® specification</a> is a distribution and interchange format standard for digital
-                    publications and documents. EPUB defines a means of representing, packaging and encoding structured and semantically enhanced Web content — including HTML5, CSS, SVG,
-                    images, and other resources — for distribution in a single-file format.</td>
-                  <td>by <a href="http://idpf.org/epub" target="_blank">ePub</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-opengraph"></i> </td>
-                  <td>icon-opengraph</td>
-                  <td>The <a href="http://ogp.me/" target="_blank">Open Graph protocol</a> enables any web page to become a rich object in a social graph. For instance, this is used on
-                    Facebook to allow any web page to have the same functionality as any other object on Facebook.</td>
-                  <td>by <a href="http://ogp.me/" target="_blank">Open Graph protocol</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-foaf"></i> </td>
-                  <td>icon-foaf</td>
-                  <td>The <a href="http://www.foaf-project.org/" target="_blank">Friend of a Friend (FOAF)</a> project is creating a Web of machine-readable pages describing people,
-                    the links between them and the things they create and do; it is a contribution to the linked information system known as the Web.</td>
-                  <td>by <a href="http://www.foaf-project.org/" target="_blank">FOAF</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-info-card"></i> </td>
-                  <td>icon-info-card</td>
-                  <td><a href="http://informationcard.net/" target="_blank">Information Cards</a> are the digital version of the cards you carry in your purse or wallet today.
-                    You use them with a new kind of digital wallet called a selector.</td>
-                  <td>by <a href="http://self-issued.info/?p=17" target="_blank">Mike Jones</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-browserid"></i> </td>
-                  <td>icon-browserid</td>
-                  <td><a href="https://browserid.org/" target="_blank">BrowserID</a> is an easy way to sign into websites. Instead of making up a hard-to-remember username
-                    and password for each site, BrowserID lets you use your email address and a single password to sign in to any site that supports it.</td>
-                  <td>by <a href="https://github.com/mozilla/browserid/tree/dev/resources/assets" target="_blank">Mozilla</a></td>
-                </tr>
-                <tr>
-                  <th>Icon</th>
-                  <th>class-name</th>
-                  <th>About</th>
-                  <th>Icon Sources</th>
-                </tr>
-                <tr>
-                  <td><i class="icon-persona"></i> </td>
-                  <td>icon-persona</td>
-                  <td><a href="http://www.mozilla.org/en-US/persona/" target="_blank">Persona</a> allows you to sign in to sites using an email address you choose. So, instead of having to manage multiple usernames and passwords across your favorite sites and devices, you’ll have more time to do the important stuff. We’ll manage the details!</td>
-                  <td>by <a href="http://people.mozilla.org/~smartell/persona/" target="_blank">Mozilla</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-remote-storage"></i> </td>
-                  <td>icon-remote-storage</td>
-                  <td>Adding WebFinger, OAuth and Cross-Origin Resource Sharing (CORS) to an online storage makes it usable as per-user storage for web apps.
-                    The <a href="http://www.w3.org/community/unhosted/wiki/RemoteStorage" target="_blank">remoteStorage specification</a> describes a common interface for such a per-user online data storage.</td>
-                  <td>by <a href="http://unhosted.org" target="_blank">Unhosted</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-odata"></i> </td>
-                  <td>icon-odata</td>
-                  <td>The <a href="http://www.odata.org/" target="_blank">Open Data Protocol (OData)</a> is a Web protocol for querying and updating data that provides a way to unlock your data and free it from silos that exist in applications today.</td>
-                  <td>by <a href="http://www.odata.org/libraries" target="_blank">OData</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-markdown"></i> </td>
-                  <td>icon-markdown</td>
-                  <td>Use this mark to identify <a href="http://daringfireball.net/projects/markdown/" target="_blank">Markdown</a>. It should be used to identify user input areas which support Markdown-compiled HTML output or to identify general Markdown support.</td>
-                  <td>by <a href="https://github.com/dcurtis/markdown-mark" target="_blank">Dustin Curtis</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-tosdr"></i> </td>
-                  <td>icon-tosdr</td>
-                  <td><a href="http://tos-dr.info" target="_blank">Terms of Service; Didn't read!</a> "I have read and agree to the Terms" is the biggest lie on the web. We aim to fix that. We are a user rights initiative to rate and label website terms &amp; privacy policies, from very good "Class A" to very bad "Class E"</td>
-                  <td>by <a href="https://github.com/didnotread/didnotread.org/tree/gh-pages/img" target="_blank">Terms of Service; Didn't Read</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-indieweb"></i> </td>
-                  <td>icon-indieweb</td>
-                  <td>Rather than posting content on third-party silos of content, we should all own the content we're creating. Publish on your own domain, and syndicate out to silos. This is the basis of the "Indie Web" movement.</td>
-                  <td>by <a href="http://indiewebcamp.com/press-kit" target="_blank">IndieWebCamp</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-indiewebcamp"></i> </td>
-                  <td>icon-indiewebcamp</td>
-                  <td><a href="http://indiewebcamp.com/" target="_blank">IndieWebCamp</a> is a regular gathering of web creators building and sharing open web technologies to advance the state of the indie web, and empower users to own their own identities &amp; content on the web.</td>
-                  <td>by <a href="http://indiewebcamp.com/press-kit" target="_blank">IndieWebCamp</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-git"></i> </td>
-                  <td>icon-git</td>
-                  <td><a href="http://git-scm.com" target="_blank">Git</a> is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</td>
-                  <td>by <a href="http://git-scm.com/downloads/logos" target="_blank">Git SCM</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-webhooks"></i> </td>
-                  <td>icon-webhooks</td>
-                  <td>A <a href="http://webhooks.org/" target="_blank">WebHook</a> is an HTTP callback: an HTTP POST that occurs when something happens; a simple event-notification via HTTP POST.</td>
-                  <td>by <a href="http://webhooks.org/" target="_blank">webhooks.org</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-osi"></i> </td>
-                  <td>icon-osi</td>
-                  <td>The <a href="http://opensource.org" target="_blank">Open Source Initiative (OSI)</a> is a non-profit corporation with global scope formed to educate about, and advocate, for the benefits of open source, and to build bridges among different constituencies in the open source community.</td>
-                  <td>by <a href="http://opensource.org/node/442" target="_blank"><abbr title="Open Source Initiative">OSI</abbr></a></td>
-                </tr>
-                <tr>
-                  <th>Icon</th>
-                  <th>class-name</th>
-                  <th>About</th>
-                  <th>Icon Sources</th>
-                </tr>
-                <tr>
-                  <td><i class="icon-webfinger"></i> </td>
-                  <td>icon-webfinger</td>
-                  <td><a href="http://webfinger.net" target="_blank">WebFinger</a> is used to discover information about people or other entities on the Internet that are identified by a URI or IRI using standard Hypertext Transfer Protocol (HTTP) methods over a secure transport.</td>
-                  <td>by <a href="http://hueniverse.com" target="_blank">Eran Hammer</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-bitcoin"></i> </td>
-                  <td>icon-bitcoin</td>
-                  <td><a href="http://bitcoin.org/" target="_blank">Bitcoin</a> is a digital currency, a protocol, and a software that enables Instant peer-to-peer transactions, worldwide payments, almost no processing fees, and much more.</td>
-                  <td>by <a href="http://bitcoin.org/" target="_blank">bitcoin</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-bitcoin-simple"></i> </td>
-                  <td>icon-bitcoin-simple</td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-pubsubhubbub"></i> </td>
-                  <td>icon-pubsubhubbub</td>
-                  <td><a href="https://code.google.com/p/pubsubhubbub/" target="_blank">PubSubHubbub</a> is a simple, open, server-to-server webhook-based pubsub (publish/subscribe) protocol for any web accessible resources.</td>
-                  <td>by <a href="https://code.google.com/p/pubsubhubbub/" target="_blank">PubSubHubbub</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-svg"></i> </td>
-                  <td>icon-svg</td>
-                  <td><a href="http://www.w3.org/TR/SVG/" target="_blank">SVG</a> is a language for describing two-dimensional graphics in XML. SVG allows for three types of graphic objects: vector graphic shapes (e.g., paths consisting of straight lines and curves), images and text.</td>
-                  <td>by <a href="http://www.w3.org/2009/08/svg-logos.html" target="_blank">W3C</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-tent"></i> </td>
-                  <td>icon-tent</td>
-                  <td><a href="https://tent.io/" target="_blank">Tent</a> is a communications protocol. It lets users store any kind of data and send that data to other users in real time. Just like other protocol-based services like email or the web, anyone can host their own server or write apps. Also like email, users can host their own Tent server or use a Tent hosting provider.</td>
-                  <td>by <a href="https://tent.io/trademark-guidelines" target="_blank">Tent.io</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-copyleft"></i> </td>
-                  <td>icon-copyleft</td>
-                  <td><a href="https://www.gnu.org/copyleft/" target="_blank">Copyleft</a> is a general method for making a program (or other work) free, and requiring all modified and extended versions of the program to be free as well.</td>
-                  <td>by <a href="http://en.wikipedia.org/wiki/File:Copyleft.svg" target="_blank">Wikipedia</a></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-gnu"></i> </td>
-                  <td>icon-gnu</td>
-                  <td><a href="https://www.gnu.org" target="_blank">GNU</a> is a Unix-like operating system that is free software—it respects your freedom. You can install versions of GNU (more precisely, GNU/Linux systems) which are entirely free software.</td>
-                  <td>by <a href="http://www.gnu.org/graphics/gnusvgart.html" target="_blank">GNU</a></td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="col-md-1">
+            <script id='fbvmkaj'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=pfefferle&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=62;f.width=55;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbvmkaj');</script>
+          </div>
+        </div>
 
-            <p class="alert alert-info"><i class="icon-question-sign"></i> Did I forgot an icon? Please <a href="https://github.com/pfefferle/openwebicons/issues">let me know</a>!</p>
+        <div class="row">
+          <div class="col-md-4">
+            <h3>219 Icons</h3>
+
+            <p>The <em>OpenWeb Icons</em> Font includes Icons of 219 open projects and standards... and a monkey!</p>
+          </div>
+
+          <div class="col-md-4">
+            <h3>Scalable</h3>
+
+            <p>Use the font is infinitely scaleable and looks beautiful in any size.</p>
+
+            <p>
+              <i class="icon-share" style="font-size: 10px;"></i>
+              <i class="icon-share" style="font-size: 20px;"></i>
+              <i class="icon-share" style="font-size: 30px;"></i>
+              <i class="icon-share" style="font-size: 40px;"></i>
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <h3>Colorable</h3>
+
+            <p>Change the color of an icon with CSS.</p>
+
+            <p>
+              <i class="icon-html5-colored" style="font-size: 40px;"></i>
+              <i class="icon-feed-colored" style="font-size: 40px;"></i>
+              <i class="icon-javascript-colored" style="font-size: 40px;"></i>
+              <i class="icon-microformats-colored" style="font-size: 40px;"></i>
+              <i class="icon-opml-colored" style="font-size: 40px;"></i>
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Customizable</h3>
+
+            <p>The styles are generated with <a href="http://sass-lang.com" target="_blank">SASS</a> and can
+            easily be <a href="{{ site.url }}/customize/">customized</a>.</p>
+          </div>
+
+          <div class="col-md-4">
+            <h3>No JavaScript</h3>
+
+            <p>The Icon-Font is compatible with all modern Browsers (<abbr title="Internet Explorer">IE</abbr> &gt; 7) without the use of JavaScript.</p>
           </div>
         </div>
       </section>
 
-      <section id="html5-icons">
-        <div class="row">
-          <div class="col-md-12">
-            <h2><i class="icon-html5"></i> <em>HTML5</em> Icons</h2>
-
-            <p>The Web-Font is based on the original SVGs from the <em><a href="http://www.w3.org/html/logo/" target="_blank">HTML5 Logo Site</a></em> by the W3C.
-
-            <table class="table table-bordered table-striped">
-              <thead>
-                <tr>
-                  <th>Icon</th>
-                  <th>class-name</th>
-                  <th>About</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><i class="icon-html5"></i> </td>
-                  <td>icon-html5</td>
-                  <td><a href="http://www.whatwg.org/html/" target="_blank">HTML5</a> contains powerful capabilities for Web-based applications with more powerful interaction,
-                    video support, graphics, more styling effects, and a full set of APIs.
-                    HTML5 adapts to any device, whether desktop, mobile, tablet, or television. HTML5 is an open platform developed under royalty free licensing terms. </td>
-                </tr>
-                <tr>
-                  <td><i class="icon-css3"></i> </td>
-                  <td>icon-css3</td>
-                  <td><a href="http://www.w3.org/Style/CSS/current-work" target="_blank">CSS Level 3</a> builds on CSS Level 2 module by module, using the CSS2.1 specification
-                    as its core. Each module adds functionality and/or replaces part of the CSS2.1 specification. The CSS Working Group intends that the new CSS modules will not
-                    contradict the CSS2.1 specification: only that they will add functionality and refine definitions.</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-connectivity"></i> </td>
-                  <td>icon-connectivity</td>
-                  <td>More efficient connectivity means more real-time chats, faster games, and better communication. Web Sockets and Server-Sent Events are pushing
-                    (pun intended) data between client and server more efficiently than ever before. This icon can also be used for <a href="http://webintents.org/" target="_blank"><em>Web Intents</em></a>
-                    or <a href="http://xauth.org/" target="_blank">XAuth</a>.</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-semantics"></i> </td>
-                  <td>icon-semantics</td>
-                  <td>Giving meaning to structure, semantics are front and center with HTML5. A richer set of tags, along with <a href="http://www.w3.org/TR/rdfa-core/" target="_blank">RDFa</a>,
-                    <a href="http://www.w3.org/TR/html5/microdata.html" target="_blank">microdata</a>, and <a href="http://microformats.org/" target="_blank">microformats</a>, are enabling a more
-                    useful, data driven web for both programs and your users.</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-device-access"></i> </td>
-                  <td>icon-device-access</td>
-                  <td>Beginning with the Geolocation API, Web Applications can present rich, device-aware features and experiences. Incredible device access innovations are being developed and implemented, from audio/video input access to microphones and cameras, to local data such as contacts & events, and even tilt orientation.</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-offline-storage"></i> </td>
-                  <td>icon-offline-storage</td>
-                  <td>Web Apps can start faster and work even if there is no internet connection, thanks to the HTML5 App Cache, as well as the Local Storage, Indexed DB, and the File API specifications.</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-multimedia"></i> </td>
-                  <td>icon-multimedia</td>
-                  <td>Audio and video are first class citizens in the HTML5 web, living in harmony with your apps and sites. Lights, camera, action!</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-3deffects"></i> </td>
-                  <td>icon-3deffects</td>
-                  <td>Between SVG, Canvas, WebGL, and CSS3 3D features, you're sure to amaze your users with stunning visuals natively rendered in the browser.</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-perfintegration"></i> </td>
-                  <td>icon-perfintegration</td>
-                  <td>Make your Web Apps and dynamic web content faster with a variety of techniques and technologies such as Web Workers and XMLHttpRequest 2. No user should ever wait on your watch.</td>
-                </tr>
-              </tbody>
-            </table>
-
-            <p>This work is attributed to the W3C. Suggested markup: <code>&lt;span&gt;HTML5 Logo by &lt;a href="http://www.w3.org/"&gt;&lt;abbr title="World Wide Web Consortium"&gt;W3C&lt;/abbr&gt;&lt;/a&gt;&lt;/span&gt;</code>.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="cc-icons">
-        <div class="row">
-          <div class="col-md-12">
-            <h2><i class="icon-cc"></i> <em>Creative Commons</em> Icons</h2>
-
-            <p>The Web-Font is made using the original SVGs from the <em><a href="http://creativecommons.org/about/downloads" target="_blank">Creative Commons</a></em> Project. If you need a Font for one of your
-              Text/Word-Dokuments, there is also an official TrueType-Font: <a href="http://creativecommons.org/about/downloads">http://creativecommons.org/about/downloads</a></p>
-            <table class="table table-bordered table-striped">
-              <thead>
-                <tr>
-                  <th>Icon</th>
-                  <th>class-name</th>
-                  <th>About</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><i class="icon-cc"></i></td>
-                  <td>icon-cc</td>
-                  <td><a href="http://creativecommons.org/" target="_blank">Creative Commons</a> is a nonprofit organization that enables the sharing and use of creativity and knowledge through free legal tools.</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-cc-by"></i></td>
-                  <td>icon-cc-by</td>
-                  <td><strong>Attribution</strong> — You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-cc-nc"></i></td>
-                  <td>icon-cc-nc</td>
-                  <td><strong>Noncommercial</strong> — You may not use this work for commercial purposes.</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-cc-nc-eu"></i></td>
-                  <td>icon-cc-nc-eu</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-cc-nc-jp"></i></td>
-                  <td>icon-cc-nc-jp</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td><i class="icon-cc-sa"></i></td>
-                  <td>icon-cc-sa</td>
-                  <td><strong>Share Alike</strong> — If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-cc-nd"></i></td>
-                  <td>icon-cc-nd</td>
-                  <td><strong>No Derivative Works</strong> — You may not alter, transform, or build upon this work.</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-cc-public"></i></td>
-                  <td>icon-cc-public</td>
-                  <td><strong>Public Domain</strong> — Where the work or any of its elements is in the <a href="http://wiki.creativecommons.org/Public_domain" target="_blank">public domain</a>
-                    under applicable law, that status is in no way affected by the license.</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-cc-zero"></i></td>
-                  <td>icon-cc-zero</td>
-                  <td><a href="http://creativecommons.org/about/cc0" target="_blank">CC0</a> enables scientists, educators, artists and other creators and owners of copyright- or
-                    database-protected content to waive those interests in their works and thereby place them as completely as possible in the public domain, so that others may freely
-                    build upon, enhance and reuse the works for any purposes without restriction under copyright or database law.</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-cc-share"></i></td>
-                  <td>icon-cc-share</td>
-                  <td><strong>to Share</strong> — to copy, distribute and transmit the work</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-cc-remix"></i></td>
-                  <td>icon-cc-remix</td>
-                  <td><strong>to Remix</strong> — to adapt the work</td>
-                </tr>
-              </tbody>
-            </table>
-
-            <p>From the <a href="http://creativecommons.org/policies" target="_blank"><em>Creative Commons</em> Policy</a>:</p>
-
-            <blockquote><strong>Creative Commons License Buttons:</strong> The Creative Commons buttons that describe a key term of our license, such as BY, NC, ND, SA, Sampling, Sampling Plus and
-              Noncommercial Sampling Plus may only be used in the context of pointing to a Creative Commons license on the Creative Commons server that includes that license term
-              or to otherwise describe the Creative Commons license, that includes that license term and that applies to a particular work.</blockquote>
-          </div>
-        </div>
-      </section>
-
-			<section id="microformats-icons">
-				<div class="row">
-          <div class="col-md-12">
-            <h2><i class="icon-microformats"></i> Microformats Icons</h2>
-
-            <p>The microformats-icons are based on the work of <a href="http://bartelme.at/journal/archive/microformats_icons" target="_blank">Wolfgang Bartelme</a> and Chris Messina.
-							You can find the .png files on the <a href="http://microformats.org/wiki/icons" target="_blank">microformats-wiki</a>.</p>
-
-		          <table class="table table-bordered table-striped">
-		            <thead>
-		              <tr>
-		                <th>Icon</th>
-		                <th>class-name</th>
-		                <th>About</th>
-		              </tr>
-		            </thead>
-		            <tbody>
-	                <tr>
-	                  <td><i class="icon-microformats"></i> </td>
-	                  <td>icon-microformats</td>
-	                  <td><a href="http://microformats.org/" target="_blank">microformats</a> are extensions to HTML for marking up people,
-	                    events, blog posts, reviews, recipes etc.</td>
-	                </tr>
-		              <tr>
-		                <td><i class="icon-hcard-download"></i></td>
-		                <td>icon-hcard-download</td>
-		                <td><a href="http://microformats.org/wiki/hcard" target="_blank">hCard</a> is a simple, open format for publishing people, companies, organizations on the web, using a 1:1 representation of vCard (<a href="http://microformats.org/wiki/rfc-2426" title="rfc-2426" target="_blank">RFC2426</a>) properties and values in HTML. hCard is one of several open <a href="/wiki/microformats" title="microformats">microformat</a> standards suitable for embedding data in HTML/HTML5, and Atom/RSS/XHTML or other XML.</td>
-		              </tr>
-									<tr>
-	                	<td><i class="icon-hcard-add"></i></td>
-	                	<td>icon-hcard-add</td>
-	                	<td></td>
-	              	</tr>
-									<tr>
-	                	<td><i class="icon-hresume"></i></td>
-	                	<td>icon-hresume</td>
-	                	<td>The <a href="http://microformats.org/wiki/hresume" target="_blank">hResume</a> format is based on a set of fields common to numerous resumes published today on the web. Where possible field names have been chosen and reused from preexisting microformats.</td>
-	              	</tr>
-									<tr>
-	                	<td><i class="icon-hatom"></i></td>
-	                	<td>icon-hatom</td>
-	                	<td><a href="http://microformats.org/wiki/hatom" target="_blank">hAtom</a> is a microformat for identifying semantic information in weblog posts and practically any other place Atom may be used, such as news articles.</td>
-	              	</tr>
-								</tbody>
-							</table>
-          </div>
-				</div>
-			</section>
-
-			<section id="openfontlicense-icons">
-				<div class="row">
-          <div class="col-md-12">
-            <h2>SIL Open Font License - Icons</h2>
-
-						<p>The <a href="http://scripts.sil.org/OFL" target="_blank">SIL Open Font License (OFL)</a> is a free, libre and open source license specifically designed for fonts and related software based on our experience in font design and linguistic software engineering.</p>
-            <p>The Web-Font is made using the SVGs from the <a href="http://oflb.open-fonts.org" target="_blank">Open Font Community</a>.</p>
-
-		          <table class="table table-bordered table-striped">
-		            <thead>
-		              <tr>
-		                <th>Icon</th>
-		                <th>class-name</th>
-		                <th>About</th>
-		              </tr>
-		            </thead>
-		            <tbody>
-	                <tr>
-	                  <td><i class="icon-ofl-attribution"></i> </td>
-	                  <td>icon-ofl-attribution</td>
-	                  <td>The requirement is for proper attribution of the author(s): name(s) and notice(s) must be preserved and abuse of the name(s) and reputation of the author(s) is forbidden.</td>
-	                </tr>
-		              <tr>
-		                <td><i class="icon-ofl-share"></i></td>
-		                <td>icon-ofl-share</td>
-		                <td>The requirement is for derivative works to remain under the same license to encourage fair collaboration and prevent anyone from locking away contributions.</td>
-		              </tr>
-									<tr>
-	                	<td><i class="icon-ofl-embedding"></i></td>
-	                	<td>icon-ofl-embedding</td>
-	                	<td>The permission is for fonts to be embedded in any kind of document. This does not affect the licensing status of the document but makes it easier for documents to be used in different environments.</td>
-	              	</tr>
-									<tr>
-	                	<td><i class="icon-ofl-renaming"></i></td>
-	                	<td>icon-ofl-renaming</td>
-	                	<td>The requirement is for derivative fonts to be renamed to allow branching while retaining artistic integrity.</td>
-	              	</tr>
-									<tr>
-	                	<td><i class="icon-ofl-selling"></i></td>
-	                	<td>icon-ofl-selling</td>
-	                	<td>The requirement is for fonts to be bundled with software when they are sold. Fonts cannot be sold on their own. Redistribution without selling is not restricted.</td>
-	              	</tr>
-								</tbody>
-							</table>
-
-							<p>The spirit and working model of the OFL can be expressed in human-readable Creative Commons-like terminology using the following permits / requires elements and visual representations:</p>
-
-							<p>Please note that this terminology and visual representation is simply an expression of the working model of the license and has no legal value in itself. It is designed to help you understand and use the Open Font License in a similar way to the OFL FAQ. It is always intended to link back to the full license text of the OFL. Please note that although the terminology and visual representation of the OFL is based on work by Creative Commons, the OFL is not officially affiliated with Creative Commons.</p>
-							<p>Source: <a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL#9ccf5052" target="_blank">SIL Open Font License (OFL)</a>.</p>
-          </div>
-				</div>
-			</section>
-
-      <section id="colored-icons">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>Colored Icons</h2>
-
-            <p>A lot of icons also have colored versions. You can use them by adding a <code>-colored</code> at the end of the class names.</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3">
-            <ul class="the-icons">
-              <li class="icon-apml-colored"> icon-apml-colored</li>
-              <li class="icon-open-share-colored"> icon-open-share-colored</li>
-              <li class="icon-share-colored"> icon-share-colored</li>
-              <li class="icon-epub-colored"> icon-epub-colored</li>
-              <li class="icon-microformats-colored"> icon-microformats-colored</li>
-            </ul>
-          </div>
-
-          <div class="col-md-3">
-            <ul class="the-icons">
-              <li class="icon-feed-colored"> icon-feed-colored</li>
-              <li class="icon-ostatus-colored"> icon-ostatus-colored</li>
-              <li class="icon-remote-storage-colored"> icon-remote-storage-colored</li>
-              <li class="icon-odata-colored"> icon-odata-colored</li>
-							<li class="icon-git-colored"> icon-git-colored</li>
-            </ul>
-          </div>
-
-          <div class="col-md-3">
-            <ul class="the-icons">
-              <li class="icon-activity-colored"> icon-activity-colored</li>
-              <li class="icon-opml-colored"> icon-opml-colored</li>
-              <li class="icon-opensearch-colored"> icon-opensearch-colored</li>
-							<li class="icon-osi-colored"> icon-osi-colored</li>
-            </ul>
-          </div>
-
-          <div class="col-md-3">
-            <ul class="the-icons">
-              <li class="icon-geo-colored"> icon-geo-colored</li>
-              <li class="icon-info-card-colored"> icon-info-card-colored</li>
-              <li class="icon-html5-colored"> icon-html5-colored</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12">
-        	  <h3>PubSubHubbub Icon</h3>
-
-            <p>Use the following HTML Code: <code>&lt;i class="icon-pub-colored"&gt;&lt;/i&gt;&lt;i class="icon-sub-colored">&lt;/i&gt;&lt;i class="icon-hubbub-colored"&gt;&lt;/i&gt;</code> to display the colored PubSubHubbub-Icon: <i class="icon-pub-colored"></i><i class="icon-sub-colored"></i><i class="icon-hubbub-colored"></i> <small>(Let me know if you have some ideas to make this simpler)</small></p>
-          </div>
-        </div>
-      </section>
+      <hr />
 
       <section id="examples">
         <div class="row">
           <div class="col-md-12">
-            <h2>Examples</h2>
-
-            <p>Many examples re-used from the Twitter Bootstrap documentation.</p>
+            <h2>Some Examples <small>find more examples <a href="{{ site.url }}/examples/">here</a></small></h2>
           </div>
         </div>
 
         <div class="row">
           <div class="col-md-4">
-            <div class="well">
-              <p>Please subscribe us:</p>
-              <ul>
-                <li class="icon-opml">OPML List</li>
-                <li class="icon-feed">RSS-Feed</li>
-                <li class="icon-feed">ATOM-Feed</li>
-                <li class="icon-activity">ActivityStream</li>
-              </ul>
-            </div>
+            <h3><i class="icon-cc"></i> License</h3>
 
-            <div class="dropdown clearfix">
-                    <button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">
-                      Dropdown
-                      <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-                      <li role="presentation" class="divider"></li>
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
-                    </ul>
-                  </div>
+            <p>Use the font to link to your license:</p>
+            <div class="alert alert-info">This file is licensed under the <i class="icon-cc" title="Creative Commons"></i> <i class="icon-cc-by" title="Attribution"></i> 3.0</div>
           </div>
 
           <div class="col-md-4">
-            <p>
-              <a class="btn btn-primary" href="#"><i class="icon-openid"></i> Login</a>
-              <a class="btn btn-warning" href="#"><i class="icon-feed"></i> Subscribe</a>
-              <a class="btn btn-danger" href="#"><i class="icon-ostatus-simple"></i> Follow</a>
-            </p>
-            <p>
-              <a class="btn btn-success btn-lg" href="#"><i class="icon-share-simple"></i> Share</a>
-              <a class="btn btn-default btn-lg" href="#"><i class="icon-open-share-colored"></i> Share</a>
-              <a class="btn btn-default btn-lg" href="#"><i class="icon-web-intents"></i> Edit</a>
-            </p>
-            <p>
-              <a class="btn btn-default btn-sm" href="#"><i class="icon-epub-colored"></i> Read</a>
-              <a class="btn btn-default btn-sm" href="#"><i class="icon-qr"></i> Save to Phone</a>
-							<a class="btn btn-default btn-xs" href="#"><i class="icon-git-colored"></i> Fork me!</a>
-            </p>
-            <p>
-              <div class="alert alert-notice">HTML <i class="icon-html5"></i> Powered with CSS <i class="icon-css3"></i> / Styling</div>
-            </p>
-            <p>
-              <div class="alert alert-success">This file is licensed under the <i class="icon-cc"></i> <i class="icon-cc-by"></i> 3.0</div>
-            </p>
+            <h3><i class="icon-html5"></i> Markup</h3>
+
+            <p>Show the features/quality of your template:</p>
+            <p class="text-info">This template is made with love, HTML <i class="icon-html5"></i>, CSS <i class="icon-css3"></i> and some <i class="icon-microformats"></i> Microformats</p>
           </div>
 
           <div class="col-md-4">
-            <form>
-              <p class="control-group">
-                <div class="input-group">
-                  <span class="input-group-addon"><i class="icon-openid"></i></span>
-                  <input class="form-control" id="prependedInput" size="16" type="text" placeholder="login with OpenID" />
-                </div>
-              </p>
-              <p class="control-group">
-                <div class="input-group">
-                  <span class="input-group-addon"><i class="icon-opensearch"></i></span>
-                  <input class="form-control" id="inputIcon2" type="text" placeholder="Search">
-                </div>
-              </p>
-              <p class="control-group">
-                <div class="input-group">
-                  <span class="input-group-addon"><i class="icon-remote-storage"></i></span>
-                  <input class="form-control" id="prependedInput" size="16" type="text" placeholder="your remoteStorage address" />
-                </div>
-              </p>
-            </form>
-            <ul>
-              <li class="icon-info-card">Login with your Info-Card</li>
-              <li class="icon-browserid">Login with BrowserID</li>
-            </ul>
-            <div class="alert alert-info">
-              <a class="close" data-dismiss="alert" href="#">×</a>
-              <i class="icon-geo"></i> Is Twitter allowed to access your location?
+            <h3><i class="icon-openid"></i> Login</h3>
+
+            <p>Simplify your <em>OpenID</em> or <em>Information-Card</em> login forms:</p>
+
+            <div class="input-group">
+              <span class="input-group-addon"><i class="icon-openid"></i></span>
+              <input class="form-control" id="prependedInput" size="16" type="text" placeholder="login with OpenID" />
             </div>
           </div>
         </div>
-      </section>
-
-      <section id="integration">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>Integration</h2>
-
-            <p>It's easy to combine the <em>OpenWeb Icons</em> Font with Twitters Bootstrap, or even use it as "standalone".</p>
-          </div>
-        </div>
-
-				<hr />
-
-        <div class="row">
-          <div class="col-md-3">
-            <strong>Custom CSS</strong>
-            <p>Add <em>OpenWeb Icons</em> support to one of your CSS files</p>
-          </div>
-          <div class="col-md-9">
-            <ol>
-              <li>Copy the <em>OpenWeb Icons</em> font directory into your project.</li>
-              <li>Open your project's css file and add the following code to the top.
-<pre><code>@font-face {
-  font-family: 'OpenWeb Icons';
-    src: url('../font/openwebicons.eot');
-    src: url('../font/openwebicons.eot?#iefix') format('embedded-opentype'),
-         url('../font/openwebicons.woff') format('woff'),
-         url('../font/openwebicons.ttf') format('truetype'),
-         url('../font/openwebicons.svg#OpenWebIconsRegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}</code></pre>
-              </li>
-              <li>Now you can mark up your code like that <code>&lt;i style="font-family: 'OpenWeb Icons'"&gt;&amp;#xf008;&lt;/i&gt;</code> &#027;(OAuth Icon)</li>
-            </ol>
-          </div>
-        </div>
-
-				<hr />
-
-        <div class="row">
-          <div class="col-md-3">
-            <strong id="weloveiconfonts">We Love Icon Fonts</strong>
-            <p><a href="http://weloveiconfonts.com" target="_blank">weloveiconfonts.com</a> "<q cite="http://weloveiconfonts.com">is a free &amp; open source icon-fonts
-							hosting service (like Google Web Fonts, but icon fonts only)</q>" by <a href="http://timpietrusky.com" target="_blank">Tim Pietrusky</a></p>
-          </div>
-          <div class="col-md-9">
-						The "We Love Icon Fonts"-Webservice is a simple and easy way to use the <em>OpenWeb-Icons</em> in your Web-Project. You don't have to provide a copy of all the css and font files,
-						simply add the following code to the top of your main CSS-file and that's it!
-<pre><code>@import url(http://weloveiconfonts.com/api/?family=openwebicons);
-
-/* openwebicons */
-[class*="openwebicons-"]:before {
-  font-family: 'OpenWeb Icons', sans-serif;
-}</code></pre>
-						Be sure to use <code>openwebicons-</code> instead of <code>icons-</code>. To display the RSS-icon, use <code>&lt;i class="openwebicons-feed"&gt;&lt;/i&gt;</code> for example.
-          </div>
-        </div>
-
-        <hr />
-
-        <div class="row">
-          <div class="col-md-3">
-            <strong>Together with Bootstrap or/and <em>Font Awesome</em></strong>
-            <p>Use this method if you want to use the OpenWeb-Icons with Twitters Bootstrap or Font Awesome.</p>
-          </div>
-          <div class="col-md-9">
-            <ol>
-              <li>Copy the <em>OpenWeb Icons</em> font directory into your project.</li>
-              <li>Copy <code>openwebicons-bootstrap.css</code> into your project.</li>
-              <li>Open your project's <code>openwebicons-bootstrap.css</code> and edit the font url to ensure it points to the right place (see above example).</li>
-              <li>In the <code>&lt;head&gt;</code> of your html, reference the location to your <code>openwebicons-bootstrap.css</code>.
-<pre><code>&lt;link rel="stylesheet" href="../css/bootstrap.css" /&gt;
-&lt;link rel="stylesheet" href="../css/openwebicons-bootstrap.css" /&gt;</code></pre>
-              </li>
-            </ol>
-          </div>
-        </div>
-
-        <hr />
-
-        <div class="row">
-          <div class="col-md-3">
-            <strong>Not using Bootstrap or <em>Font Awesome</em></strong>
-            <p><em>OpenWeb Icons</em> works with any CSS.</p>
-          </div>
-          <div class="col-md-9">
-            <ol>
-              <li>Copy the <em>OpenWeb Icons</em> font directory into your project.</li>
-              <li>Copy <code>openwebicons.css</code> into your project.</li>
-              <li>Open your project's <code>openwebicons.css</code> and edit the font url to ensure it points to the right place (see above example).</li>
-            </ol>
-          </div>
-        </div>
-      </section>
-
-      <section id="code">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>Code</h2>
-            <p></p>
-          </div>
-        </div>
 
         <div class="row">
           <div class="col-md-4">
+            <h3><i class="icon-json-ld"></i> API</h3>
 
+            <p>Use it for your API documentation:</p>
+
+<pre class="custom-code pre-scrollable">{
+  "@context":
+  {
+    "name": "http://schema.org/name"
+  },
+  "name": "Mr. T"
+}<div class="btn-code"><i class="icon-json-ld"></i> JSON-LD</div></pre>
           </div>
-          <div class="col-md-8">
-            soon...
+
+          <div class="col-md-4">
+            <h3><i class="icon-open-share"></i> Share</h3>
+
+            <p>Build some universal share/subscribe buttons:</p>
+
+            <p><a class="btn btn-success btn-lg" href="#"><i class="icon-share-simple"></i> Share</a> or <a class="btn btn-warning btn-lg" href="#"><i class="icon-feed"></i> Subscribe</a></p>
+          </div>
+
+          <div class="col-md-4">
+            <h3><i class="icon-dataportability"></i> Support</h3>
+
+            <p>Show your support for the <em>IndieWeb</em> or <em>DataPortability</em>:</p>
+
+            <button type="button" class="btn btn-default btn-lg btn-block">
+              <strong class="motu"><i class="icon-indiewebcamp"></i></strong><br />
+              <small>I am attending</small>
+            </button>
           </div>
         </div>
       </section>
 
-      <section id="changelog">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>Changelog</h2>
-          </div>
+      <hr />
 
-          <ul>
-            <li><strong>2013-12-16</strong>: Added Copyleft und GNU icons</li>
-						<li><strong>2013-10-29</strong>: Added SIL OFL icons</li>
-						<li><strong>2013-08-22</strong>: And added Tent icon</li>
-						<li><strong>2013-08-14</strong>: Optimized Webfinger icon and added JSON-LD and SVG icon</li>
-						<li><strong>2013-08-06</strong>: Added PubSubHubbub icon</li>
-						<li><strong>2013-07-16</strong>: Added Bitcoin icon</li>
-						<li><strong>2013-06-29</strong>: Added Webfinger icon</li>
-						<li><strong>2013-03-20</strong>: Added <em>Open Source Initiative</em> and RDF icons</li>
-						<li><strong>2013-03-19</strong>: More HTML5 icons, the git icon and the webhooks icon</li>
-						<li><strong>2013-02-17</strong>: IndieWebIcons icons</li>
-						<li><strong>2013-01-30</strong>: Microformats icons</li>
-            <li><strong>2012-10-03</strong>: Added markdown and ToS;DR icon</li>
-            <li><strong>2012-09-29</strong>: Added OData icon and made a nicer DataPortability icon</li>
-            <li><strong>2012-09-28</strong>: Added Persona icon, resized "simple" icons and fixed some page issues</li>
-            <li><strong>2012-06-09</strong>: Changed the FOAF and QR-Code icon</li>
-            <li><strong>2012-06-09</strong>: Added Information-Card and BrowserID icon</li>
-            <li><strong>2012-06-04</strong>: Added ePub, QR-Code, FOAF and OpenGraph icon</li>
-            <li><strong>2012-05-30</strong>: Added semantics and connectivity icon</li>
-            <li><strong>2012-05-29</strong>: Added XMPP, HTML5 and CSS3 icon</li>
-            <li><strong>2012-05-29</strong>: Changed from letters to the private unicode range</li>
-            <li><strong>2012-05-23</strong>: Added <em>Web Intents</em> Icon</li>
-            <li><strong>2012-05-05</strong>: Added <em>federated social web</em>, <em>DataPortability</em> and <em>Open Web Foundation</em> Icon</li>
-            <li><strong>2012-05-03</strong>: Initial Release</li>
-          </ul>
-        </div>
-      </section>
-
-      <hr>
-
-      <footer>
+      <section id="">
         <div class="row">
           <div class="col-md-4">
             <h2>Inspiration</h2>
@@ -1068,31 +148,16 @@
           </div>
           <div class="col-md-8">
             <h2 id="license">License</h2>
-            <p>The DataPortabilty icon is a trademark of the DataPortability-project.</p>
-            <p>The <em>OpenWeb Icons</em> font files are licensed under the <a href="http://scripts.sil.org/OFL" target="_blank">SIL Open Font License (OFL)</a>. Feel free to use them wherever you want!</p>
-            <p><strong>If you are a creator of one of these icons and you don't want me to use it in this font, please let me know!</strong></p>
+
+            <div class="alert alert-info" role="alert">
+              <ul>
+                <li>All icons are trademarks of their respective owners.</li>
+                <li>The use of any trademark does not indicate endorsement of the maker of this font, nor vice versa.</li>
+              </ul>
+            </div>
+
+            <p>The <em>OpenWeb Icons</em> font files are licensed under the <a href="http://scripts.sil.org/OFL" target="_blank">SIL Open Font License (OFL)</a>. The Site is licensed under <a href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution" target="_blank">Creative Commons</a> (<i class="icon-cc"></i><i class="icon-cc-by"></i>). Feel free to use them wherever you want!</p>
+            <p><strong>If you are a creator of one of these icons and you don't want me to use it in this font, <a href="{{ site.url }}/contact/">please let me know</a>!</strong></p>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col-md-12" id="contact">
-            <h2>Contact/Impressum</h2>
-            Matthias Pfefferle, Weinheimerstraße 20, 68526 Ladenburg... or you can contact me via <a href="http://notizblog.org/kontakt/">email</a>
-            oder <a href="http://twitter.com/pfefferle">twitter</a>...
-          </div>
-        </div>
-      </footer>
-    </div> <!-- /container -->
-
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+      </section>

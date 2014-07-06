@@ -1,0 +1,65 @@
+---
+layout: default
+title: OpenWeb Icons - Contact
+---
+
+  <h1 id="contact" class="page-header">Contact</h1>
+
+  <section id="impressum">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>GitHub</h2>
+
+        <p>The easiest way to contact me, is through GitHub.</p>
+
+        <p>Fork the projekt:</p>
+        <ul>
+          <li>Font branch: <a href="https://github.com/pfefferle/openwebicons">master</a></li>
+          <li>Site branch: <a href="https://github.com/pfefferle/openwebicons/tree/gh-pages">gh-pages</a></li>
+        </ul>
+
+        <p>...or <a href="https://github.com/pfefferle/openwebicons/issues/new">file an issue</a>. Please use the <code>gh-pages</code> label for issues on the page.</p>
+      </div>
+
+      <div class="col-md-6">
+        <h2>Elsewhere</h2>
+
+        <p>Otherwise, you can send me an <a href="http://notizblog.org/kontakt/">eMail</a> or contact me via:</p>
+
+        <ul>
+          <li>twitter: <a href="https://twitter.com/pfefferle">@pfefferle</a></li>
+          <li>google+: <a href="https://plus.google.com/+MatthiasPfefferle/">+MatthiasPfefferle</a></li>
+        </ul>
+
+        <p>...or chat with me at the <a href="http://microformats.org/discuss" target="_blank">#microformats</a> or <a href="http://indiewebcamp.com/IRC" target="_blank">#indieweb</a> irc channels.</p>
+      </div>
+  </section>
+
+  <hr />
+
+  <section id="webmentions">
+    <div class="row">
+      <div class="col-md-12">
+        <h2><i class="icon-webmention"></i> WebMentions</h2>
+        <p>This site supports <a href="http://webmention.org/" target="_blank">WebMentions</a>.
+        That means, that you can can write a comment on your own site and simply
+        ping <code>http://pfefferle.github.io/openwebicons/</code>.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <script id="webmention-hosted">
+        (function () {
+          var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+          url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+          url = url && url[0] ? url[0].href : false;
+          sn.type = "text/javascript"; sn.async = true;
+          sn.src = "//webmention.herokuapp.com/api/embed?url=http%3A%2F%2Fpfefferle.github.io%2Fopenwebicons%2F";
+          s.parentNode.insertBefore(sn, s);
+        }());
+        </script>
+      </div>
+    </div>
+  </section>

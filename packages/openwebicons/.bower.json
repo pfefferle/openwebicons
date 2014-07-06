@@ -1,0 +1,34 @@
+{
+  "name": "openwebicons",
+  "version": "1.2.1",
+  "main": [
+    "./css/openwebicons.css",
+    "./css/openwebicons-bootstrap.css"
+  ],
+  "ignore": [
+    "config",
+    "sass",
+    "source",
+    "test",
+    ".editorconfig",
+    ".gitignore",
+    "bower.json",
+    "compile.sh",
+    "compontent.json",
+    "composer.json",
+    "Gruntfile.js",
+    "package.json",
+    "README.md"
+  ],
+  "description": "OpenWeb Icons",
+  "homepage": "https://github.com/pfefferle/openwebicons",
+  "_release": "1.2.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.2.1",
+    "commit": "5ed59591d3be9277f0ac11c4579e19f9a693e0ee"
+  },
+  "_source": "git://github.com/pfefferle/openwebicons.git",
+  "_target": "*",
+  "_originalSource": "openwebicons"
+}

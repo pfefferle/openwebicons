@@ -1,0 +1,9 @@
+{
+  "name": "OpenWeb Icons",
+  "description": "The project-page",
+  "version": "1.0.0",
+  "dependencies": {
+    "openwebicons": "*",
+    "bootstrap": "3.1.1"
+  }
+}
