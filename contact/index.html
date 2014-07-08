@@ -45,6 +45,7 @@ title: OpenWeb Icons - Contact
         That means, that you can can write a comment on your own site and simply
         ping <code>http://pfefferle.github.io/openwebicons/</code>.
         </p>
+        <p><small>The WebMentions are powered by <a href="http://voxpelli.com">Voxpellis</a> awesome <a href="https://webmention.herokuapp.com/">WebMention Service</a>!</small></p>
       </div>
     </div>
 
@@ -56,7 +57,7 @@ title: OpenWeb Icons - Contact
           url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
           url = url && url[0] ? url[0].href : false;
           sn.type = "text/javascript"; sn.async = true;
-          sn.src = "//webmention.herokuapp.com/api/embed?url=http%3A%2F%2Fpfefferle.github.io%2Fopenwebicons%2F";
+          sn.src = "//webmention.herokuapp.com/api/embed?path=http%3A%2F%2Fpfefferle.github.io%2Fopenwebicons%2F";
           s.parentNode.insertBefore(sn, s);
         }());
         </script>

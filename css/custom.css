@@ -131,6 +131,10 @@ footer .container {
   -webkit-text-fill-color: transparent;
 }
 
+.webmention-container {
+  margin-top: 50px;
+}
+
 .webmention-mention {
   padding-left: 9%;
   position: relative;
