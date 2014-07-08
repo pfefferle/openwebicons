@@ -13,5 +13,6 @@
 	"repositories": {
 		"type": "git",
 		"url": "https://github.com/pfefferle/openwebicons.git"
-	}
+	},
+	"version": "1.2.2"
 }
