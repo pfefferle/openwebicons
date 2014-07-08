@@ -130,3 +130,29 @@ footer .container {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.webmention-mention {
+  padding-left: 9%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.webmention-author img {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 7%;
+  border-radius: 240px;
+}
+
+.webmention-name, .webmention-summary {
+  margin: 10px 0;
+}
+
+.webmention-name {
+  display: none;
+}
+
+.webmention-published {
+  font-size: 10px;
+}
