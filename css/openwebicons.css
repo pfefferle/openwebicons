@@ -482,3 +482,7 @@ li[class^="icon-"], li[class*=" icon-"] {
 .icon-wtfpl:before {
   content: "\f04f";
 }
+
+.icon-ofl:before {
+  content: "\f053";
+}
