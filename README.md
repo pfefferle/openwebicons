@@ -1,3 +1,6 @@
+[![Latest Stable Version](https://poser.pugx.org/pfefferle/openwebicons/v/stable.svg)](https://packagist.org/packages/pfefferle/openwebicons) [![Total Downloads](https://poser.pugx.org/pfefferle/openwebicons/downloads.svg)](https://packagist.org/packages/pfefferle/openwebicons) [![Latest Unstable Version](https://poser.pugx.org/pfefferle/openwebicons/v/unstable.svg)](https://packagist.org/packages/pfefferle/openwebicons) [![License](https://poser.pugx.org/pfefferle/openwebicons/license.svg)](https://packagist.org/packages/pfefferle/openwebicons)
+[![endorse](http://api.coderwall.com/pfefferle/endorsecount.png)](http://coderwall.com/pfefferle)
+
 # OpenWeb Icons
 
 The *OpenWeb Icons* is a web-font that gives you scalable vector icons/logos of some open community, standards or projects.

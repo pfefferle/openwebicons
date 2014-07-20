@@ -1,6 +1,5 @@
 // set "icon" as default prefix
 $prefix: icon !default;
-$display_colored: true !default;
 $font_path: "../font" !default;
 
 @mixin font_face {
@@ -39,13 +38,20 @@ $font_path: "../font" !default;
 @mixin icon_list {
   // iterate icons
   @each $icon in $icons {
-    // check if colored icons should be displayed or not
-    @if $display_colored == true or (nth($icon, 3) == "monochrome" and $display_colored == false) {
-      .#{$prefix}-#{nth($icon, 1)}:before {
+    .#{$prefix}-#{nth($icon, 1)}:before {
+      content: "#{nth($icon, 2)}";
+    }
+  }
+}
+
+@mixin colored_icon_list {
+  // iterate icons
+  @each $icon in $icons {
+    // check if icon has a color
+    @if nth($icon, 3) != "monochrome" {
+      .#{$prefix}-#{nth($icon, 1)}-colored:before {
         content: "#{nth($icon, 2)}";
-        @if nth($icon, 3) != "monochrome" {
-          color: #{nth($icon, 3)};
-        }
+        color: #{nth($icon, 3)};
       }
     }
   }

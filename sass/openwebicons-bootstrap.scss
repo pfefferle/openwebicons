@@ -35,3 +35,4 @@ li[class^="#{$prefix}-"], li[class*=" #{$prefix}-"] {
 }
 
 @include icon_list;
+@include colored_icon_list;

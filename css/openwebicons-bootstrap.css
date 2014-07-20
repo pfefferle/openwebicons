@@ -5,7 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-[class^="icon-apml"]:before, [class*=" icon-apml"]:before, [class^="icon-apml-colored"]:before, [class*=" icon-apml-colored"]:before, [class^="icon-open-share"]:before, [class*=" icon-open-share"]:before, [class^="icon-open-share-simple"]:before, [class*=" icon-open-share-simple"]:before, [class^="icon-open-share-colored"]:before, [class*=" icon-open-share-colored"]:before, [class^="icon-share"]:before, [class*=" icon-share"]:before, [class^="icon-share-simple"]:before, [class*=" icon-share-simple"]:before, [class^="icon-share-colored"]:before, [class*=" icon-share-colored"]:before, [class^="icon-feed"]:before, [class*=" icon-feed"]:before, [class^="icon-feed-simple"]:before, [class*=" icon-feed-simple"]:before, [class^="icon-feed-colored"]:before, [class*=" icon-feed-colored"]:before, [class^="icon-ostatus"]:before, [class*=" icon-ostatus"]:before, [class^="icon-ostatus-simple"]:before, [class*=" icon-ostatus-simple"]:before, [class^="icon-ostatus-colored"]:before, [class*=" icon-ostatus-colored"]:before, [class^="icon-opml"]:before, [class*=" icon-opml"]:before, [class^="icon-opml-colored"]:before, [class*=" icon-opml-colored"]:before, [class^="icon-activity"]:before, [class*=" icon-activity"]:before, [class^="icon-activity-simple"]:before, [class*=" icon-activity-simple"]:before, [class^="icon-activity-colored"]:before, [class*=" icon-activity-colored"]:before, [class^="icon-microformats"]:before, [class*=" icon-microformats"]:before, [class^="icon-microformats-colored"]:before, [class*=" icon-microformats-colored"]:before, [class^="icon-geo"]:before, [class*=" icon-geo"]:before, [class^="icon-geo-colored"]:before, [class*=" icon-geo-colored"]:before, [class^="icon-opensearch"]:before, [class*=" icon-opensearch"]:before, [class^="icon-opensearch-colored"]:before, [class*=" icon-opensearch-colored"]:before, [class^="icon-oauth"]:before, [class*=" icon-oauth"]:before, [class^="icon-openid"]:before, [class*=" icon-openid"]:before, [class^="icon-semantic-web"]:before, [class*=" icon-semantic-web"]:before, [class^="icon-rdf"]:before, [class*=" icon-rdf"]:before, [class^="icon-rdfa"]:before, [class*=" icon-rdfa"]:before, [class^="icon-owl"]:before, [class*=" icon-owl"]:before, [class^="icon-dataportability"]:before, [class*=" icon-dataportability"]:before, [class^="icon-federated"]:before, [class*=" icon-federated"]:before, [class^="icon-web-intents"]:before, [class*=" icon-web-intents"]:before, [class^="icon-open-web"]:before, [class*=" icon-open-web"]:before, [class^="icon-xmpp"]:before, [class*=" icon-xmpp"]:before, [class^="icon-html5"]:before, [class*=" icon-html5"]:before, [class^="icon-html5-colored"]:before, [class*=" icon-html5-colored"]:before, [class^="icon-css3"]:before, [class*=" icon-css3"]:before, [class^="icon-connectivity"]:before, [class*=" icon-connectivity"]:before, [class^="icon-semantics"]:before, [class*=" icon-semantics"]:before, [class^="icon-3deffects"]:before, [class*=" icon-3deffects"]:before, [class^="icon-device-access"]:before, [class*=" icon-device-access"]:before, [class^="icon-multimedia"]:before, [class*=" icon-multimedia"]:before, [class^="icon-offline-storage"]:before, [class*=" icon-offline-storage"]:before, [class^="icon-perfintegration"]:before, [class*=" icon-perfintegration"]:before, [class^="icon-git"]:before, [class*=" icon-git"]:before, [class^="icon-git-colored"]:before, [class*=" icon-git-colored"]:before, [class^="icon-webhooks"]:before, [class*=" icon-webhooks"]:before, [class^="icon-osi"]:before, [class*=" icon-osi"]:before, [class^="icon-opensource"]:before, [class*=" icon-opensource"]:before, [class^="icon-osi-colored"]:before, [class*=" icon-osi-colored"]:before, [class^="icon-opensource-colored"]:before, [class*=" icon-opensource-colored"]:before, [class^="icon-opengraph"]:before, [class*=" icon-opengraph"]:before, [class^="icon-epub"]:before, [class*=" icon-epub"]:before, [class^="icon-epub-colored"]:before, [class*=" icon-epub-colored"]:before, [class^="icon-qr"]:before, [class*=" icon-qr"]:before, [class^="icon-foaf"]:before, [class*=" icon-foaf"]:before, [class^="icon-info-card"]:before, [class*=" icon-info-card"]:before, [class^="icon-info-card-colored"]:before, [class*=" icon-info-card-colored"]:before, [class^="icon-browserid"]:before, [class*=" icon-browserid"]:before, [class^="icon-remote-storage"]:before, [class*=" icon-remote-storage"]:before, [class^="icon-remote-storage-colored"]:before, [class*=" icon-remote-storage-colored"]:before, [class^="icon-persona"]:before, [class*=" icon-persona"]:before, [class^="icon-odata"]:before, [class*=" icon-odata"]:before, [class^="icon-odata-colored"]:before, [class*=" icon-odata-colored"]:before, [class^="icon-markdown"]:before, [class*=" icon-markdown"]:before, [class^="icon-tosdr"]:before, [class*=" icon-tosdr"]:before, [class^="icon-pub"]:before, [class*=" icon-pub"]:before, [class^="icon-sub"]:before, [class*=" icon-sub"]:before, [class^="icon-hubbub"]:before, [class*=" icon-hubbub"]:before, [class^="icon-pub-colored"]:before, [class*=" icon-pub-colored"]:before, [class^="icon-sub-colored"]:before, [class*=" icon-sub-colored"]:before, [class^="icon-hubbub-colored"]:before, [class*=" icon-hubbub-colored"]:before, [class^="icon-pubsubhubbub"]:before, [class*=" icon-pubsubhubbub"]:before, [class^="icon-cc"]:before, [class*=" icon-cc"]:before, [class^="icon-cc-by"]:before, [class*=" icon-cc-by"]:before, [class^="icon-cc-nc"]:before, [class*=" icon-cc-nc"]:before, [class^="icon-cc-nc-eu"]:before, [class*=" icon-cc-nc-eu"]:before, [class^="icon-cc-nc-jp"]:before, [class*=" icon-cc-nc-jp"]:before, [class^="icon-cc-sa"]:before, [class*=" icon-cc-sa"]:before, [class^="icon-cc-nd"]:before, [class*=" icon-cc-nd"]:before, [class^="icon-cc-public"]:before, [class*=" icon-cc-public"]:before, [class^="icon-cc-zero"]:before, [class*=" icon-cc-zero"]:before, [class^="icon-cc-share"]:before, [class*=" icon-cc-share"]:before, [class^="icon-cc-remix"]:before, [class*=" icon-cc-remix"]:before, [class^="icon-hatom"]:before, [class*=" icon-hatom"]:before, [class^="icon-hresume"]:before, [class*=" icon-hresume"]:before, [class^="icon-hcard-add"]:before, [class*=" icon-hcard-add"]:before, [class^="icon-hcard-download"]:before, [class*=" icon-hcard-download"]:before, [class^="icon-indieweb"]:before, [class*=" icon-indieweb"]:before, [class^="icon-indiewebcamp"]:before, [class*=" icon-indiewebcamp"]:before, [class^="icon-webfinger"]:before, [class*=" icon-webfinger"]:before, [class^="icon-bitcoin"]:before, [class*=" icon-bitcoin"]:before, [class^="icon-bitcoin-simple"]:before, [class*=" icon-bitcoin-simple"]:before, [class^="icon-svg"]:before, [class*=" icon-svg"]:before, [class^="icon-json-ld"]:before, [class*=" icon-json-ld"]:before, [class^="icon-tent"]:before, [class*=" icon-tent"]:before, [class^="icon-copyleft"]:before, [class*=" icon-copyleft"]:before, [class^="icon-gnu"]:before, [class*=" icon-gnu"]:before, [class^="icon-ofl-attribution"]:before, [class*=" icon-ofl-attribution"]:before, [class^="icon-ofl-share"]:before, [class*=" icon-ofl-share"]:before, [class^="icon-ofl-renaming"]:before, [class*=" icon-ofl-renaming"]:before, [class^="icon-ofl-selling"]:before, [class*=" icon-ofl-selling"]:before, [class^="icon-ofl-embedding"]:before, [class*=" icon-ofl-embedding"]:before, [class^="icon-webmention"]:before, [class*=" icon-webmention"]:before, [class^="icon-javascript"]:before, [class*=" icon-javascript"]:before, [class^="icon-javascript-colored"]:before, [class*=" icon-javascript-colored"]:before, [class^="icon-wtfpl"]:before, [class*=" icon-wtfpl"]:before, [class^="icon-ofl"]:before, [class*=" icon-ofl"]:before {
+[class^="icon-apml"]:before, [class*=" icon-apml"]:before, [class^="icon-open-share"]:before, [class*=" icon-open-share"]:before, [class^="icon-open-share-simple"]:before, [class*=" icon-open-share-simple"]:before, [class^="icon-share"]:before, [class*=" icon-share"]:before, [class^="icon-share-simple"]:before, [class*=" icon-share-simple"]:before, [class^="icon-feed"]:before, [class*=" icon-feed"]:before, [class^="icon-feed-simple"]:before, [class*=" icon-feed-simple"]:before, [class^="icon-ostatus"]:before, [class*=" icon-ostatus"]:before, [class^="icon-ostatus-simple"]:before, [class*=" icon-ostatus-simple"]:before, [class^="icon-opml"]:before, [class*=" icon-opml"]:before, [class^="icon-activity"]:before, [class*=" icon-activity"]:before, [class^="icon-activity-simple"]:before, [class*=" icon-activity-simple"]:before, [class^="icon-microformats"]:before, [class*=" icon-microformats"]:before, [class^="icon-geo"]:before, [class*=" icon-geo"]:before, [class^="icon-opensearch"]:before, [class*=" icon-opensearch"]:before, [class^="icon-oauth"]:before, [class*=" icon-oauth"]:before, [class^="icon-openid"]:before, [class*=" icon-openid"]:before, [class^="icon-semantic-web"]:before, [class*=" icon-semantic-web"]:before, [class^="icon-rdf"]:before, [class*=" icon-rdf"]:before, [class^="icon-rdfa"]:before, [class*=" icon-rdfa"]:before, [class^="icon-owl"]:before, [class*=" icon-owl"]:before, [class^="icon-dataportability"]:before, [class*=" icon-dataportability"]:before, [class^="icon-federated"]:before, [class*=" icon-federated"]:before, [class^="icon-web-intents"]:before, [class*=" icon-web-intents"]:before, [class^="icon-open-web"]:before, [class*=" icon-open-web"]:before, [class^="icon-xmpp"]:before, [class*=" icon-xmpp"]:before, [class^="icon-html5"]:before, [class*=" icon-html5"]:before, [class^="icon-css3"]:before, [class*=" icon-css3"]:before, [class^="icon-connectivity"]:before, [class*=" icon-connectivity"]:before, [class^="icon-semantics"]:before, [class*=" icon-semantics"]:before, [class^="icon-3deffects"]:before, [class*=" icon-3deffects"]:before, [class^="icon-device-access"]:before, [class*=" icon-device-access"]:before, [class^="icon-multimedia"]:before, [class*=" icon-multimedia"]:before, [class^="icon-offline-storage"]:before, [class*=" icon-offline-storage"]:before, [class^="icon-perfintegration"]:before, [class*=" icon-perfintegration"]:before, [class^="icon-git"]:before, [class*=" icon-git"]:before, [class^="icon-webhooks"]:before, [class*=" icon-webhooks"]:before, [class^="icon-osi"]:before, [class*=" icon-osi"]:before, [class^="icon-opensource"]:before, [class*=" icon-opensource"]:before, [class^="icon-opengraph"]:before, [class*=" icon-opengraph"]:before, [class^="icon-epub"]:before, [class*=" icon-epub"]:before, [class^="icon-qr"]:before, [class*=" icon-qr"]:before, [class^="icon-foaf"]:before, [class*=" icon-foaf"]:before, [class^="icon-info-card"]:before, [class*=" icon-info-card"]:before, [class^="icon-browserid"]:before, [class*=" icon-browserid"]:before, [class^="icon-remote-storage"]:before, [class*=" icon-remote-storage"]:before, [class^="icon-persona"]:before, [class*=" icon-persona"]:before, [class^="icon-odata"]:before, [class*=" icon-odata"]:before, [class^="icon-markdown"]:before, [class*=" icon-markdown"]:before, [class^="icon-tosdr"]:before, [class*=" icon-tosdr"]:before, [class^="icon-pub"]:before, [class*=" icon-pub"]:before, [class^="icon-sub"]:before, [class*=" icon-sub"]:before, [class^="icon-hubbub"]:before, [class*=" icon-hubbub"]:before, [class^="icon-pubsubhubbub"]:before, [class*=" icon-pubsubhubbub"]:before, [class^="icon-cc"]:before, [class*=" icon-cc"]:before, [class^="icon-cc-by"]:before, [class*=" icon-cc-by"]:before, [class^="icon-cc-nc"]:before, [class*=" icon-cc-nc"]:before, [class^="icon-cc-nc-eu"]:before, [class*=" icon-cc-nc-eu"]:before, [class^="icon-cc-nc-jp"]:before, [class*=" icon-cc-nc-jp"]:before, [class^="icon-cc-sa"]:before, [class*=" icon-cc-sa"]:before, [class^="icon-cc-nd"]:before, [class*=" icon-cc-nd"]:before, [class^="icon-cc-public"]:before, [class*=" icon-cc-public"]:before, [class^="icon-cc-zero"]:before, [class*=" icon-cc-zero"]:before, [class^="icon-cc-share"]:before, [class*=" icon-cc-share"]:before, [class^="icon-cc-remix"]:before, [class*=" icon-cc-remix"]:before, [class^="icon-hatom"]:before, [class*=" icon-hatom"]:before, [class^="icon-hresume"]:before, [class*=" icon-hresume"]:before, [class^="icon-hcard-add"]:before, [class*=" icon-hcard-add"]:before, [class^="icon-hcard-download"]:before, [class*=" icon-hcard-download"]:before, [class^="icon-indieweb"]:before, [class*=" icon-indieweb"]:before, [class^="icon-indiewebcamp"]:before, [class*=" icon-indiewebcamp"]:before, [class^="icon-webfinger"]:before, [class*=" icon-webfinger"]:before, [class^="icon-bitcoin"]:before, [class*=" icon-bitcoin"]:before, [class^="icon-bitcoin-simple"]:before, [class*=" icon-bitcoin-simple"]:before, [class^="icon-svg"]:before, [class*=" icon-svg"]:before, [class^="icon-json-ld"]:before, [class*=" icon-json-ld"]:before, [class^="icon-tent"]:before, [class*=" icon-tent"]:before, [class^="icon-copyleft"]:before, [class*=" icon-copyleft"]:before, [class^="icon-gnu"]:before, [class*=" icon-gnu"]:before, [class^="icon-ofl-attribution"]:before, [class*=" icon-ofl-attribution"]:before, [class^="icon-ofl-share"]:before, [class*=" icon-ofl-share"]:before, [class^="icon-ofl-renaming"]:before, [class*=" icon-ofl-renaming"]:before, [class^="icon-ofl-selling"]:before, [class*=" icon-ofl-selling"]:before, [class^="icon-ofl-embedding"]:before, [class*=" icon-ofl-embedding"]:before, [class^="icon-webmention"]:before, [class*=" icon-webmention"]:before, [class^="icon-javascript"]:before, [class*=" icon-javascript"]:before, [class^="icon-wtfpl"]:before, [class*=" icon-wtfpl"]:before, [class^="icon-ofl"]:before, [class*=" icon-ofl"]:before {
   font-family: 'OpenWeb Icons';
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
@@ -32,22 +32,12 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f001";
 }
 
-.icon-apml-colored:before {
-  content: "\f001";
-  color: #AFDD63;
-}
-
 .icon-open-share:before {
   content: "\f00E";
 }
 
 .icon-open-share-simple:before {
   content: "\f00F";
-}
-
-.icon-open-share-colored:before {
-  content: "\f00E";
-  color: #538439;
 }
 
 .icon-share:before {
@@ -58,22 +48,12 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f007";
 }
 
-.icon-share-colored:before {
-  content: "\f006";
-  color: #538439;
-}
-
 .icon-feed:before {
   content: "\f009";
 }
 
 .icon-feed-simple:before {
   content: "\f00A";
-}
-
-.icon-feed-colored:before {
-  content: "\f009";
-  color: #EA680B;
 }
 
 .icon-ostatus:before {
@@ -84,18 +64,8 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f005";
 }
 
-.icon-ostatus-colored:before {
-  content: "\f004";
-  color: #FF6600;
-}
-
 .icon-opml:before {
   content: "\f003";
-}
-
-.icon-opml-colored:before {
-  content: "\f003";
-  color: #2490A1;
 }
 
 .icon-activity:before {
@@ -106,36 +76,16 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f041";
 }
 
-.icon-activity-colored:before {
-  content: "\f010";
-  color: #4FB2D9;
-}
-
 .icon-microformats:before {
   content: "\f00C";
-}
-
-.icon-microformats-colored:before {
-  content: "\f00C";
-  color: #85BC07;
 }
 
 .icon-geo:before {
   content: "\f00B";
 }
 
-.icon-geo-colored:before {
-  content: "\f00B";
-  color: #990000;
-}
-
 .icon-opensearch:before {
   content: "\f002";
-}
-
-.icon-opensearch-colored:before {
-  content: "\f002";
-  color: #5050f3;
 }
 
 .icon-oauth:before {
@@ -186,11 +136,6 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f016";
 }
 
-.icon-html5-colored:before {
-  content: "\f016";
-  color: #E34C26;
-}
-
 .icon-css3:before {
   content: "\f017";
 }
@@ -227,11 +172,6 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f035";
 }
 
-.icon-git-colored:before {
-  content: "\f035";
-  color: #F05133;
-}
-
 .icon-webhooks:before {
   content: "\f036";
 }
@@ -244,27 +184,12 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f038";
 }
 
-.icon-osi-colored:before {
-  content: "\f038";
-  color: #3DA639;
-}
-
-.icon-opensource-colored:before {
-  content: "\f038";
-  color: #3DA639;
-}
-
 .icon-opengraph:before {
   content: "\f020";
 }
 
 .icon-epub:before {
   content: "\f021";
-}
-
-.icon-epub-colored:before {
-  content: "\f021";
-  color: #85b916;
 }
 
 .icon-qr:before {
@@ -279,11 +204,6 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f024";
 }
 
-.icon-info-card-colored:before {
-  content: "\f024";
-  color: #BF84E5;
-}
-
 .icon-browserid:before {
   content: "\f025";
 }
@@ -292,22 +212,12 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f026";
 }
 
-.icon-remote-storage-colored:before {
-  content: "\f026";
-  color: #ff4e09;
-}
-
 .icon-persona:before {
   content: "\f027";
 }
 
 .icon-odata:before {
   content: "\f028";
-}
-
-.icon-odata-colored:before {
-  content: "\f028";
-  color: #EA680B;
 }
 
 .icon-markdown:before {
@@ -328,21 +238,6 @@ li[class^="icon-"], li[class*=" icon-"] {
 
 .icon-hubbub:before {
   content: "\f045";
-}
-
-.icon-pub-colored:before {
-  content: "\f045";
-  color: #99cc00;
-}
-
-.icon-sub-colored:before {
-  content: "\f046";
-  color: #ffff00;
-}
-
-.icon-hubbub-colored:before {
-  content: "\f045";
-  color: #ff6fcf;
 }
 
 .icon-pubsubhubbub:before {
@@ -477,15 +372,120 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f04e";
 }
 
-.icon-javascript-colored:before {
-  content: "\f04e";
-  color: #f0db4f;
-}
-
 .icon-wtfpl:before {
   content: "\f04f";
 }
 
 .icon-ofl:before {
   content: "\f053";
+}
+
+.icon-apml-colored:before {
+  content: "\f001";
+  color: #AFDD63;
+}
+
+.icon-open-share-colored:before {
+  content: "\f00E";
+  color: #538439;
+}
+
+.icon-share-colored:before {
+  content: "\f006";
+  color: #538439;
+}
+
+.icon-feed-colored:before {
+  content: "\f009";
+  color: #EA680B;
+}
+
+.icon-ostatus-colored:before {
+  content: "\f004";
+  color: #FF6600;
+}
+
+.icon-opml-colored:before {
+  content: "\f003";
+  color: #2490A1;
+}
+
+.icon-activity-colored:before {
+  content: "\f010";
+  color: #4FB2D9;
+}
+
+.icon-microformats-colored:before {
+  content: "\f00C";
+  color: #85BC07;
+}
+
+.icon-geo-colored:before {
+  content: "\f00B";
+  color: #990000;
+}
+
+.icon-opensearch-colored:before {
+  content: "\f002";
+  color: #5050f3;
+}
+
+.icon-html5-colored:before {
+  content: "\f016";
+  color: #E34C26;
+}
+
+.icon-git-colored:before {
+  content: "\f035";
+  color: #F05133;
+}
+
+.icon-osi-colored:before {
+  content: "\f038";
+  color: #3DA639;
+}
+
+.icon-opensource-colored:before {
+  content: "\f038";
+  color: #3DA639;
+}
+
+.icon-epub-colored:before {
+  content: "\f021";
+  color: #85b916;
+}
+
+.icon-info-card-colored:before {
+  content: "\f024";
+  color: #BF84E5;
+}
+
+.icon-remote-storage-colored:before {
+  content: "\f026";
+  color: #ff4e09;
+}
+
+.icon-odata-colored:before {
+  content: "\f028";
+  color: #EA680B;
+}
+
+.icon-pub-colored:before {
+  content: "\f045";
+  color: #99cc00;
+}
+
+.icon-sub-colored:before {
+  content: "\f046";
+  color: #ffff00;
+}
+
+.icon-hubbub-colored:before {
+  content: "\f045";
+  color: #ff6fcf;
+}
+
+.icon-javascript-colored:before {
+  content: "\f04e";
+  color: #f0db4f;
 }
