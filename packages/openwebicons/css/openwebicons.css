@@ -29,22 +29,12 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f001";
 }
 
-.icon-apml-colored:before {
-  content: "\f001";
-  color: #AFDD63;
-}
-
 .icon-open-share:before {
   content: "\f00E";
 }
 
 .icon-open-share-simple:before {
   content: "\f00F";
-}
-
-.icon-open-share-colored:before {
-  content: "\f00E";
-  color: #538439;
 }
 
 .icon-share:before {
@@ -55,22 +45,12 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f007";
 }
 
-.icon-share-colored:before {
-  content: "\f006";
-  color: #538439;
-}
-
 .icon-feed:before {
   content: "\f009";
 }
 
 .icon-feed-simple:before {
   content: "\f00A";
-}
-
-.icon-feed-colored:before {
-  content: "\f009";
-  color: #EA680B;
 }
 
 .icon-ostatus:before {
@@ -81,18 +61,8 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f005";
 }
 
-.icon-ostatus-colored:before {
-  content: "\f004";
-  color: #FF6600;
-}
-
 .icon-opml:before {
   content: "\f003";
-}
-
-.icon-opml-colored:before {
-  content: "\f003";
-  color: #2490A1;
 }
 
 .icon-activity:before {
@@ -103,36 +73,16 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f041";
 }
 
-.icon-activity-colored:before {
-  content: "\f010";
-  color: #4FB2D9;
-}
-
 .icon-microformats:before {
   content: "\f00C";
-}
-
-.icon-microformats-colored:before {
-  content: "\f00C";
-  color: #85BC07;
 }
 
 .icon-geo:before {
   content: "\f00B";
 }
 
-.icon-geo-colored:before {
-  content: "\f00B";
-  color: #990000;
-}
-
 .icon-opensearch:before {
   content: "\f002";
-}
-
-.icon-opensearch-colored:before {
-  content: "\f002";
-  color: #5050f3;
 }
 
 .icon-oauth:before {
@@ -183,11 +133,6 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f016";
 }
 
-.icon-html5-colored:before {
-  content: "\f016";
-  color: #E34C26;
-}
-
 .icon-css3:before {
   content: "\f017";
 }
@@ -224,11 +169,6 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f035";
 }
 
-.icon-git-colored:before {
-  content: "\f035";
-  color: #F05133;
-}
-
 .icon-webhooks:before {
   content: "\f036";
 }
@@ -241,27 +181,12 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f038";
 }
 
-.icon-osi-colored:before {
-  content: "\f038";
-  color: #3DA639;
-}
-
-.icon-opensource-colored:before {
-  content: "\f038";
-  color: #3DA639;
-}
-
 .icon-opengraph:before {
   content: "\f020";
 }
 
 .icon-epub:before {
   content: "\f021";
-}
-
-.icon-epub-colored:before {
-  content: "\f021";
-  color: #85b916;
 }
 
 .icon-qr:before {
@@ -276,11 +201,6 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f024";
 }
 
-.icon-info-card-colored:before {
-  content: "\f024";
-  color: #BF84E5;
-}
-
 .icon-browserid:before {
   content: "\f025";
 }
@@ -289,22 +209,12 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f026";
 }
 
-.icon-remote-storage-colored:before {
-  content: "\f026";
-  color: #ff4e09;
-}
-
 .icon-persona:before {
   content: "\f027";
 }
 
 .icon-odata:before {
   content: "\f028";
-}
-
-.icon-odata-colored:before {
-  content: "\f028";
-  color: #EA680B;
 }
 
 .icon-markdown:before {
@@ -325,21 +235,6 @@ li[class^="icon-"], li[class*=" icon-"] {
 
 .icon-hubbub:before {
   content: "\f045";
-}
-
-.icon-pub-colored:before {
-  content: "\f045";
-  color: #99cc00;
-}
-
-.icon-sub-colored:before {
-  content: "\f046";
-  color: #ffff00;
-}
-
-.icon-hubbub-colored:before {
-  content: "\f045";
-  color: #ff6fcf;
 }
 
 .icon-pubsubhubbub:before {
@@ -474,11 +369,120 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f04e";
 }
 
+.icon-wtfpl:before {
+  content: "\f04f";
+}
+
+.icon-ofl:before {
+  content: "\f053";
+}
+
+.icon-apml-colored:before {
+  content: "\f001";
+  color: #AFDD63;
+}
+
+.icon-open-share-colored:before {
+  content: "\f00E";
+  color: #538439;
+}
+
+.icon-share-colored:before {
+  content: "\f006";
+  color: #538439;
+}
+
+.icon-feed-colored:before {
+  content: "\f009";
+  color: #EA680B;
+}
+
+.icon-ostatus-colored:before {
+  content: "\f004";
+  color: #FF6600;
+}
+
+.icon-opml-colored:before {
+  content: "\f003";
+  color: #2490A1;
+}
+
+.icon-activity-colored:before {
+  content: "\f010";
+  color: #4FB2D9;
+}
+
+.icon-microformats-colored:before {
+  content: "\f00C";
+  color: #85BC07;
+}
+
+.icon-geo-colored:before {
+  content: "\f00B";
+  color: #990000;
+}
+
+.icon-opensearch-colored:before {
+  content: "\f002";
+  color: #5050f3;
+}
+
+.icon-html5-colored:before {
+  content: "\f016";
+  color: #E34C26;
+}
+
+.icon-git-colored:before {
+  content: "\f035";
+  color: #F05133;
+}
+
+.icon-osi-colored:before {
+  content: "\f038";
+  color: #3DA639;
+}
+
+.icon-opensource-colored:before {
+  content: "\f038";
+  color: #3DA639;
+}
+
+.icon-epub-colored:before {
+  content: "\f021";
+  color: #85b916;
+}
+
+.icon-info-card-colored:before {
+  content: "\f024";
+  color: #BF84E5;
+}
+
+.icon-remote-storage-colored:before {
+  content: "\f026";
+  color: #ff4e09;
+}
+
+.icon-odata-colored:before {
+  content: "\f028";
+  color: #EA680B;
+}
+
+.icon-pub-colored:before {
+  content: "\f045";
+  color: #99cc00;
+}
+
+.icon-sub-colored:before {
+  content: "\f046";
+  color: #ffff00;
+}
+
+.icon-hubbub-colored:before {
+  content: "\f045";
+  color: #ff6fcf;
+}
+
 .icon-javascript-colored:before {
   content: "\f04e";
   color: #f0db4f;
-}
-
-.icon-wtfpl:before {
-  content: "\f04f";
 }

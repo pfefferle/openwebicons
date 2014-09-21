@@ -1,0 +1,24 @@
+{
+	"name": "openwebicons",
+	"version": "1.2.2",
+	"main": [
+		"./css/openwebicons.css",
+		"./css/openwebicons-bootstrap.css"
+	],
+	"ignore": [
+		"config",
+		"sass",
+		"source",
+		"test",
+		".editorconfig",
+		".gitignore",
+		"bower.json",
+		"compile.sh",
+		"component.json",
+		"composer.json",
+		"Gruntfile.js",
+		"package.json",
+		"README.md"
+	],
+	"description": "OpenWeb Icons"
+}
