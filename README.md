@@ -29,6 +29,7 @@ You can find more informations and a list of all icons here: http://pfefferle.gi
 
 ## Changelog
 
+* **2014-09-21**: Added SIL OFL icon
 * **2014-06-02**: Added WebMention, JavaScript (Community) and WTFPL icon
 * **2013-12-16**: Added Copyleft und GNU icons
 * **2013-10-29**: Added SIL OFL icons

@@ -1,6 +1,6 @@
 {
 	"name": "openwebicons",
-	"version": "1.2.2",
+	"version": "1.2.3",
 	"main": [
 		"./css/openwebicons.css",
 		"./css/openwebicons-bootstrap.css"
