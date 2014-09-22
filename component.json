@@ -20,5 +20,6 @@
 		"font/openwebicons.svg",
 		"font/openwebicons.ttf",
 		"font/openwebicons.woff"
-	]
+	],
+	"description": "OpenWeb Icons"
 }
