@@ -89,7 +89,8 @@ module.exports = function (grunt) {
         fields: {
           'description': null,
           'keywords': null,
-          'license': null
+          'license': null,
+          'version': null
         }
       }
     }
