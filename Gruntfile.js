@@ -36,7 +36,7 @@ module.exports = function (grunt) {
         }
       }
     },
-
+    // generate a TTF file from the SVG file
     svg2ttf: {
       svg2ttf: {
         src: 'source/*.svg',
@@ -63,15 +63,9 @@ module.exports = function (grunt) {
         src: 'package.json',
         // reuse the task-level `src`
         dest: 'component.json', // where to write to
-        fields: { // the fields to update
-          // notice how this time we're passing a hash instead
-          // of an array; this allows us to map the field names.
-          // We still specify all the names we want, and additionally
-          // we also specify the target name in the detination file.
-          // to            from
-          // -----------   -------------------
-          'name': null, // null means 'leave as is'
-          'description': null, // but feel free to type the field name twice
+        fields: {
+          'name': null,
+          'description': null,
           'version': null,
           'keywords': null,
           'main': null,
@@ -89,8 +83,7 @@ module.exports = function (grunt) {
         fields: {
           'description': null,
           'keywords': null,
-          'license': null,
-          'version': null
+          'license': null
         }
       }
     }

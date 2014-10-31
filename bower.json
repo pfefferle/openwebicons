@@ -12,6 +12,7 @@
 		"test",
 		".editorconfig",
 		".gitignore",
+		".jshintrc",
 		"bower.json",
 		"compile.sh",
 		"component.json",
