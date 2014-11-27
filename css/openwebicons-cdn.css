@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'OpenWeb Icons';
   src: url("http://pfefferle.github.io/openwebicons/font/openwebicons.eot");
-  src: url("http://pfefferle.github.io/openwebicons/font/openwebicons.eot?#iefix") format("embedded-opentype"), url("http://pfefferle.github.io/openwebicons/font/openwebicons.woff") format("woff"), url("http://pfefferle.github.io/openwebicons/font/openwebicons.ttf") format("truetype"), url("http://pfefferle.github.io/openwebicons/font/openwebicons.svg#openweb_iconsregular") format("svg");
+  src: url("http://pfefferle.github.io/openwebicons/font/openwebicons.eot?#iefix") format("embedded-opentype"), url("http://pfefferle.github.io/openwebicons/font/openwebicons.woff2") format("woff2"), url("http://pfefferle.github.io/openwebicons/font/openwebicons.woff") format("woff"), url("http://pfefferle.github.io/openwebicons/font/openwebicons.ttf") format("truetype"), url("http://pfefferle.github.io/openwebicons/font/openwebicons.svg#openweb_iconsregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -375,6 +375,34 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] {
 
 .openwebicons-ofl:before {
   content: "\f053";
+}
+
+.openwebicons-wordpress:before {
+  content: "\f054";
+}
+
+.openwebicons-owncloud:before {
+  content: "\f055";
+}
+
+.openwebicons-cccs:before {
+  content: "\f056";
+}
+
+.openwebicons-barcamp:before {
+  content: "\f057";
+}
+
+.openwebicons-indiehosters:before {
+  content: "\f058";
+}
+
+.openwebicons-known:before {
+  content: "\f059";
+}
+
+.openwebicons-mozilla:before {
+  content: "\f05a";
 }
 
 .openwebicons-apml-colored:before {

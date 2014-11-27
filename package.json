@@ -1,6 +1,6 @@
 {
   "name": "openwebicons",
-  "version": "1.2.3",
+  "version": "1.3.0",
   "description": "OpenWeb Icons",
   "main": "Gruntfile.js",
   "author": {
@@ -16,8 +16,9 @@
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-sass": "~0.2.2",
-    "grunt-update-json": "*",
-    "grunt-svg2ttf": "*"
+    "grunt-kss": "^0.4.0",
+    "grunt-svg2ttf": "*",
+    "grunt-update-json": "*"
   },
   "repository": {
     "type": "git",

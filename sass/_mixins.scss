@@ -7,6 +7,7 @@ $font_path: "../font" !default;
     font-family: 'OpenWeb Icons';
     src: url("#{$font_path}/openwebicons.eot");
     src: url("#{$font_path}/openwebicons.eot?#iefix") format("embedded-opentype"),
+         url("#{$font_path}/openwebicons.woff2") format("woff2"),
          url("#{$font_path}/openwebicons.woff") format("woff"),
          url("#{$font_path}/openwebicons.ttf") format("truetype"),
          url("#{$font_path}/openwebicons.svg#openweb_iconsregular") format("svg");

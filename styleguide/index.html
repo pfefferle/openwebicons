@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>KSS: Living Styleguide</title>
+  <meta name="description" content="">
+  <meta name="generator" content="kss-node" />
+
+  <meta name="viewport" content="width=device-width">
+
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="public/kss.css">
+  <link rel="stylesheet" href="public/style.css">
+
+</head>
+<body><div id="kss-wrapper">
+  <div id="kss-nav">
+    <header id="kss-header">
+      <hgroup><h1>kss-node Styleguide</h1></hgroup>
+    </header>
+    <aside>
+      <nav><ul>
+        <li><a href="index.html">0.0: Overview</a></li>
+        
+          <li><a href="section-1.html">1.0: Icons</a></li>
+        
+          <li><a href="section-2.html">2.0: Colored Icons</a></li>
+        
+      </ul></nav>
+    </aside>
+  </div>
+  <div role="main" id="kss-main">
+    <article id="kss-content">
+      
+        <h1>OpenWeb Icons (a font!)</h1>
+<p>Why OpenWeb Icons? Because Font Awesome had no RSS-icon and a font with only one icon would be a bit boring... Besides, I&apos;m an advocate of the Open Web! Be proud of using Open Web Standards and show it to the world!
+
+</p>
+<p>The OpenWeb Icons is a web-font that gives you scalable vector icons/logos of some open communities, standards or projects. It includes the Creative Commons-, HTML5- and Microformats-icons for example.
+
+</p>
+<ul>
+<li>219 Icons - The OpenWeb Icons Font includes Icons of 219 open projects and standards... and a monkey!</li>
+<li>Scalable - Use the font is infinitely scaleable and looks beautiful in any size.</li>
+<li>Colorable - Change the color of an icon with CSS.</li>
+<li>Customizable - The styles are generated with SASS and can easily be customized.</li>
+<li>No JavaScript - The Icon-Font is compatible with all modern Browsers (IE &gt; 7) without the use of JavaScript.</li>
+</ul>
+<p>For more infos please visit <a href="http://pfefferle.github.io/openwebicons">http://pfefferle.github.io/openwebicons</a>
+</p>
+
+      
+    </article>
+  </div>
+  <footer>
+    
+  </footer>
+  <!-- SCRIPTS -->
+  <script src="public/kss.js"></script>
+  <script src="public/prettify.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      var sidebarAdjust = function() {
+        // Match footer/body height
+        var height = Math.max($(window).height(), $('#kss-main').height());
+
+        if ($(window).width() <= 768) {
+          $('#kss-main, #kss-nav').height('auto');
+        } else {
+          $('#kss-main, #kss-nav').height(height);
+        }
+      };
+
+      $(window).resize(sidebarAdjust);
+      $(window).scroll(sidebarAdjust);
+      sidebarAdjust();
+
+      // Ensure code blocks are highlighted properly...
+      $('pre>code').addClass('prettyprint');
+      prettyPrint();
+
+    });
+  </script>
+
+  
+  
+</div></body>
+</html>

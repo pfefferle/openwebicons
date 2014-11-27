@@ -1,0 +1,1700 @@
+@font-face {
+  font-family: 'OpenWeb Icons';
+  src: url("../font/openwebicons.eot");
+  src: url("../font/openwebicons.eot?#iefix") format("embedded-opentype"), url("../font/openwebicons.woff2") format("woff2"), url("../font/openwebicons.woff") format("woff"), url("../font/openwebicons.ttf") format("truetype"), url("../font/openwebicons.svg#openweb_iconsregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: 'OpenWeb Icons';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  vertical-align: center;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+a [class^="icon-"], a [class*=" icon-"] {
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+li[class^="icon-"], li[class*=" icon-"] {
+  display: block;
+}
+
+/*
+Icons
+
+The OpenWeb-Icons
+
+Styleguide 1.0
+*/
+/*
+The apml icon
+
+.icon-apml - the apml icon
+
+Markup: <i class="icon-apml"></i>
+
+Styleguide 1.1
+*/
+.icon-apml:before {
+  content: "\f001";
+  font-size: 50px;
+}
+
+/*
+The open-share icon
+
+.icon-open-share - the open-share icon
+
+Markup: <i class="icon-open-share"></i>
+
+Styleguide 1.2
+*/
+.icon-open-share:before {
+  content: "\f00E";
+  font-size: 50px;
+}
+
+/*
+The open-share-simple icon
+
+.icon-open-share-simple - the open-share-simple icon
+
+Markup: <i class="icon-open-share-simple"></i>
+
+Styleguide 1.3
+*/
+.icon-open-share-simple:before {
+  content: "\f00F";
+  font-size: 50px;
+}
+
+/*
+The share icon
+
+.icon-share - the share icon
+
+Markup: <i class="icon-share"></i>
+
+Styleguide 1.4
+*/
+.icon-share:before {
+  content: "\f006";
+  font-size: 50px;
+}
+
+/*
+The share-simple icon
+
+.icon-share-simple - the share-simple icon
+
+Markup: <i class="icon-share-simple"></i>
+
+Styleguide 1.5
+*/
+.icon-share-simple:before {
+  content: "\f007";
+  font-size: 50px;
+}
+
+/*
+The feed icon
+
+.icon-feed - the feed icon
+
+Markup: <i class="icon-feed"></i>
+
+Styleguide 1.6
+*/
+.icon-feed:before {
+  content: "\f009";
+  font-size: 50px;
+}
+
+/*
+The feed-simple icon
+
+.icon-feed-simple - the feed-simple icon
+
+Markup: <i class="icon-feed-simple"></i>
+
+Styleguide 1.7
+*/
+.icon-feed-simple:before {
+  content: "\f00A";
+  font-size: 50px;
+}
+
+/*
+The ostatus icon
+
+.icon-ostatus - the ostatus icon
+
+Markup: <i class="icon-ostatus"></i>
+
+Styleguide 1.8
+*/
+.icon-ostatus:before {
+  content: "\f004";
+  font-size: 50px;
+}
+
+/*
+The ostatus-simple icon
+
+.icon-ostatus-simple - the ostatus-simple icon
+
+Markup: <i class="icon-ostatus-simple"></i>
+
+Styleguide 1.9
+*/
+.icon-ostatus-simple:before {
+  content: "\f005";
+  font-size: 50px;
+}
+
+/*
+The opml icon
+
+.icon-opml - the opml icon
+
+Markup: <i class="icon-opml"></i>
+
+Styleguide 1.10
+*/
+.icon-opml:before {
+  content: "\f003";
+  font-size: 50px;
+}
+
+/*
+The activity icon
+
+.icon-activity - the activity icon
+
+Markup: <i class="icon-activity"></i>
+
+Styleguide 1.11
+*/
+.icon-activity:before {
+  content: "\f010";
+  font-size: 50px;
+}
+
+/*
+The activity-simple icon
+
+.icon-activity-simple - the activity-simple icon
+
+Markup: <i class="icon-activity-simple"></i>
+
+Styleguide 1.12
+*/
+.icon-activity-simple:before {
+  content: "\f041";
+  font-size: 50px;
+}
+
+/*
+The microformats icon
+
+.icon-microformats - the microformats icon
+
+Markup: <i class="icon-microformats"></i>
+
+Styleguide 1.13
+*/
+.icon-microformats:before {
+  content: "\f00C";
+  font-size: 50px;
+}
+
+/*
+The geo icon
+
+.icon-geo - the geo icon
+
+Markup: <i class="icon-geo"></i>
+
+Styleguide 1.14
+*/
+.icon-geo:before {
+  content: "\f00B";
+  font-size: 50px;
+}
+
+/*
+The opensearch icon
+
+.icon-opensearch - the opensearch icon
+
+Markup: <i class="icon-opensearch"></i>
+
+Styleguide 1.15
+*/
+.icon-opensearch:before {
+  content: "\f002";
+  font-size: 50px;
+}
+
+/*
+The oauth icon
+
+.icon-oauth - the oauth icon
+
+Markup: <i class="icon-oauth"></i>
+
+Styleguide 1.16
+*/
+.icon-oauth:before {
+  content: "\f008";
+  font-size: 50px;
+}
+
+/*
+The openid icon
+
+.icon-openid - the openid icon
+
+Markup: <i class="icon-openid"></i>
+
+Styleguide 1.17
+*/
+.icon-openid:before {
+  content: "\f00D";
+  font-size: 50px;
+}
+
+/*
+The semantic-web icon
+
+.icon-semantic-web - the semantic-web icon
+
+Markup: <i class="icon-semantic-web"></i>
+
+Styleguide 1.18
+*/
+.icon-semantic-web:before {
+  content: "\f000";
+  font-size: 50px;
+}
+
+/*
+The rdf icon
+
+.icon-rdf - the rdf icon
+
+Markup: <i class="icon-rdf"></i>
+
+Styleguide 1.19
+*/
+.icon-rdf:before {
+  content: "\f039";
+  font-size: 50px;
+}
+
+/*
+The rdfa icon
+
+.icon-rdfa - the rdfa icon
+
+Markup: <i class="icon-rdfa"></i>
+
+Styleguide 1.20
+*/
+.icon-rdfa:before {
+  content: "\f039";
+  font-size: 50px;
+}
+
+/*
+The owl icon
+
+.icon-owl - the owl icon
+
+Markup: <i class="icon-owl"></i>
+
+Styleguide 1.21
+*/
+.icon-owl:before {
+  content: "\f039";
+  font-size: 50px;
+}
+
+/*
+The dataportability icon
+
+.icon-dataportability - the dataportability icon
+
+Markup: <i class="icon-dataportability"></i>
+
+Styleguide 1.22
+*/
+.icon-dataportability:before {
+  content: "\f013";
+  font-size: 50px;
+}
+
+/*
+The federated icon
+
+.icon-federated - the federated icon
+
+Markup: <i class="icon-federated"></i>
+
+Styleguide 1.23
+*/
+.icon-federated:before {
+  content: "\f011";
+  font-size: 50px;
+}
+
+/*
+The web-intents icon
+
+.icon-web-intents - the web-intents icon
+
+Markup: <i class="icon-web-intents"></i>
+
+Styleguide 1.24
+*/
+.icon-web-intents:before {
+  content: "\f014";
+  font-size: 50px;
+}
+
+/*
+The open-web icon
+
+.icon-open-web - the open-web icon
+
+Markup: <i class="icon-open-web"></i>
+
+Styleguide 1.25
+*/
+.icon-open-web:before {
+  content: "\f012";
+  font-size: 50px;
+}
+
+/*
+The xmpp icon
+
+.icon-xmpp - the xmpp icon
+
+Markup: <i class="icon-xmpp"></i>
+
+Styleguide 1.26
+*/
+.icon-xmpp:before {
+  content: "\f015";
+  font-size: 50px;
+}
+
+/*
+The html5 icon
+
+.icon-html5 - the html5 icon
+
+Markup: <i class="icon-html5"></i>
+
+Styleguide 1.27
+*/
+.icon-html5:before {
+  content: "\f016";
+  font-size: 50px;
+}
+
+/*
+The css3 icon
+
+.icon-css3 - the css3 icon
+
+Markup: <i class="icon-css3"></i>
+
+Styleguide 1.28
+*/
+.icon-css3:before {
+  content: "\f017";
+  font-size: 50px;
+}
+
+/*
+The connectivity icon
+
+.icon-connectivity - the connectivity icon
+
+Markup: <i class="icon-connectivity"></i>
+
+Styleguide 1.29
+*/
+.icon-connectivity:before {
+  content: "\f018";
+  font-size: 50px;
+}
+
+/*
+The semantics icon
+
+.icon-semantics - the semantics icon
+
+Markup: <i class="icon-semantics"></i>
+
+Styleguide 1.30
+*/
+.icon-semantics:before {
+  content: "\f019";
+  font-size: 50px;
+}
+
+/*
+The 3deffects icon
+
+.icon-3deffects - the 3deffects icon
+
+Markup: <i class="icon-3deffects"></i>
+
+Styleguide 1.31
+*/
+.icon-3deffects:before {
+  content: "\f037";
+  font-size: 50px;
+}
+
+/*
+The device-access icon
+
+.icon-device-access - the device-access icon
+
+Markup: <i class="icon-device-access"></i>
+
+Styleguide 1.32
+*/
+.icon-device-access:before {
+  content: "\f031";
+  font-size: 50px;
+}
+
+/*
+The multimedia icon
+
+.icon-multimedia - the multimedia icon
+
+Markup: <i class="icon-multimedia"></i>
+
+Styleguide 1.33
+*/
+.icon-multimedia:before {
+  content: "\f032";
+  font-size: 50px;
+}
+
+/*
+The offline-storage icon
+
+.icon-offline-storage - the offline-storage icon
+
+Markup: <i class="icon-offline-storage"></i>
+
+Styleguide 1.34
+*/
+.icon-offline-storage:before {
+  content: "\f033";
+  font-size: 50px;
+}
+
+/*
+The perfintegration icon
+
+.icon-perfintegration - the perfintegration icon
+
+Markup: <i class="icon-perfintegration"></i>
+
+Styleguide 1.35
+*/
+.icon-perfintegration:before {
+  content: "\f034";
+  font-size: 50px;
+}
+
+/*
+The git icon
+
+.icon-git - the git icon
+
+Markup: <i class="icon-git"></i>
+
+Styleguide 1.36
+*/
+.icon-git:before {
+  content: "\f035";
+  font-size: 50px;
+}
+
+/*
+The webhooks icon
+
+.icon-webhooks - the webhooks icon
+
+Markup: <i class="icon-webhooks"></i>
+
+Styleguide 1.37
+*/
+.icon-webhooks:before {
+  content: "\f036";
+  font-size: 50px;
+}
+
+/*
+The osi icon
+
+.icon-osi - the osi icon
+
+Markup: <i class="icon-osi"></i>
+
+Styleguide 1.38
+*/
+.icon-osi:before {
+  content: "\f038";
+  font-size: 50px;
+}
+
+/*
+The opensource icon
+
+.icon-opensource - the opensource icon
+
+Markup: <i class="icon-opensource"></i>
+
+Styleguide 1.39
+*/
+.icon-opensource:before {
+  content: "\f038";
+  font-size: 50px;
+}
+
+/*
+The opengraph icon
+
+.icon-opengraph - the opengraph icon
+
+Markup: <i class="icon-opengraph"></i>
+
+Styleguide 1.40
+*/
+.icon-opengraph:before {
+  content: "\f020";
+  font-size: 50px;
+}
+
+/*
+The epub icon
+
+.icon-epub - the epub icon
+
+Markup: <i class="icon-epub"></i>
+
+Styleguide 1.41
+*/
+.icon-epub:before {
+  content: "\f021";
+  font-size: 50px;
+}
+
+/*
+The qr icon
+
+.icon-qr - the qr icon
+
+Markup: <i class="icon-qr"></i>
+
+Styleguide 1.42
+*/
+.icon-qr:before {
+  content: "\f022";
+  font-size: 50px;
+}
+
+/*
+The foaf icon
+
+.icon-foaf - the foaf icon
+
+Markup: <i class="icon-foaf"></i>
+
+Styleguide 1.43
+*/
+.icon-foaf:before {
+  content: "\f023";
+  font-size: 50px;
+}
+
+/*
+The info-card icon
+
+.icon-info-card - the info-card icon
+
+Markup: <i class="icon-info-card"></i>
+
+Styleguide 1.44
+*/
+.icon-info-card:before {
+  content: "\f024";
+  font-size: 50px;
+}
+
+/*
+The browserid icon
+
+.icon-browserid - the browserid icon
+
+Markup: <i class="icon-browserid"></i>
+
+Styleguide 1.45
+*/
+.icon-browserid:before {
+  content: "\f025";
+  font-size: 50px;
+}
+
+/*
+The remote-storage icon
+
+.icon-remote-storage - the remote-storage icon
+
+Markup: <i class="icon-remote-storage"></i>
+
+Styleguide 1.46
+*/
+.icon-remote-storage:before {
+  content: "\f026";
+  font-size: 50px;
+}
+
+/*
+The persona icon
+
+.icon-persona - the persona icon
+
+Markup: <i class="icon-persona"></i>
+
+Styleguide 1.47
+*/
+.icon-persona:before {
+  content: "\f027";
+  font-size: 50px;
+}
+
+/*
+The odata icon
+
+.icon-odata - the odata icon
+
+Markup: <i class="icon-odata"></i>
+
+Styleguide 1.48
+*/
+.icon-odata:before {
+  content: "\f028";
+  font-size: 50px;
+}
+
+/*
+The markdown icon
+
+.icon-markdown - the markdown icon
+
+Markup: <i class="icon-markdown"></i>
+
+Styleguide 1.49
+*/
+.icon-markdown:before {
+  content: "\f029";
+  font-size: 50px;
+}
+
+/*
+The tosdr icon
+
+.icon-tosdr - the tosdr icon
+
+Markup: <i class="icon-tosdr"></i>
+
+Styleguide 1.50
+*/
+.icon-tosdr:before {
+  content: "\f030";
+  font-size: 50px;
+}
+
+/*
+The pub icon
+
+.icon-pub - the pub icon
+
+Markup: <i class="icon-pub"></i>
+
+Styleguide 1.51
+*/
+.icon-pub:before {
+  content: "\f045";
+  font-size: 50px;
+}
+
+/*
+The sub icon
+
+.icon-sub - the sub icon
+
+Markup: <i class="icon-sub"></i>
+
+Styleguide 1.52
+*/
+.icon-sub:before {
+  content: "\f046";
+  font-size: 50px;
+}
+
+/*
+The hubbub icon
+
+.icon-hubbub - the hubbub icon
+
+Markup: <i class="icon-hubbub"></i>
+
+Styleguide 1.53
+*/
+.icon-hubbub:before {
+  content: "\f045";
+  font-size: 50px;
+}
+
+/*
+The pubsubhubbub icon
+
+.icon-pubsubhubbub - the pubsubhubbub icon
+
+Markup: <i class="icon-pubsubhubbub"></i>
+
+Styleguide 1.54
+*/
+.icon-pubsubhubbub:before {
+  content: "\f047";
+  font-size: 50px;
+}
+
+/*
+The cc icon
+
+.icon-cc - the cc icon
+
+Markup: <i class="icon-cc"></i>
+
+Styleguide 1.55
+*/
+.icon-cc:before {
+  content: "\f080";
+  font-size: 50px;
+}
+
+/*
+The cc-by icon
+
+.icon-cc-by - the cc-by icon
+
+Markup: <i class="icon-cc-by"></i>
+
+Styleguide 1.56
+*/
+.icon-cc-by:before {
+  content: "\f081";
+  font-size: 50px;
+}
+
+/*
+The cc-nc icon
+
+.icon-cc-nc - the cc-nc icon
+
+Markup: <i class="icon-cc-nc"></i>
+
+Styleguide 1.57
+*/
+.icon-cc-nc:before {
+  content: "\f082";
+  font-size: 50px;
+}
+
+/*
+The cc-nc-eu icon
+
+.icon-cc-nc-eu - the cc-nc-eu icon
+
+Markup: <i class="icon-cc-nc-eu"></i>
+
+Styleguide 1.58
+*/
+.icon-cc-nc-eu:before {
+  content: "\f083";
+  font-size: 50px;
+}
+
+/*
+The cc-nc-jp icon
+
+.icon-cc-nc-jp - the cc-nc-jp icon
+
+Markup: <i class="icon-cc-nc-jp"></i>
+
+Styleguide 1.59
+*/
+.icon-cc-nc-jp:before {
+  content: "\f084";
+  font-size: 50px;
+}
+
+/*
+The cc-sa icon
+
+.icon-cc-sa - the cc-sa icon
+
+Markup: <i class="icon-cc-sa"></i>
+
+Styleguide 1.60
+*/
+.icon-cc-sa:before {
+  content: "\f085";
+  font-size: 50px;
+}
+
+/*
+The cc-nd icon
+
+.icon-cc-nd - the cc-nd icon
+
+Markup: <i class="icon-cc-nd"></i>
+
+Styleguide 1.61
+*/
+.icon-cc-nd:before {
+  content: "\f086";
+  font-size: 50px;
+}
+
+/*
+The cc-public icon
+
+.icon-cc-public - the cc-public icon
+
+Markup: <i class="icon-cc-public"></i>
+
+Styleguide 1.62
+*/
+.icon-cc-public:before {
+  content: "\f087";
+  font-size: 50px;
+}
+
+/*
+The cc-zero icon
+
+.icon-cc-zero - the cc-zero icon
+
+Markup: <i class="icon-cc-zero"></i>
+
+Styleguide 1.63
+*/
+.icon-cc-zero:before {
+  content: "\f088";
+  font-size: 50px;
+}
+
+/*
+The cc-share icon
+
+.icon-cc-share - the cc-share icon
+
+Markup: <i class="icon-cc-share"></i>
+
+Styleguide 1.64
+*/
+.icon-cc-share:before {
+  content: "\f089";
+  font-size: 50px;
+}
+
+/*
+The cc-remix icon
+
+.icon-cc-remix - the cc-remix icon
+
+Markup: <i class="icon-cc-remix"></i>
+
+Styleguide 1.65
+*/
+.icon-cc-remix:before {
+  content: "\f08a";
+  font-size: 50px;
+}
+
+/*
+The hatom icon
+
+.icon-hatom - the hatom icon
+
+Markup: <i class="icon-hatom"></i>
+
+Styleguide 1.66
+*/
+.icon-hatom:before {
+  content: "\f040";
+  font-size: 50px;
+}
+
+/*
+The hresume icon
+
+.icon-hresume - the hresume icon
+
+Markup: <i class="icon-hresume"></i>
+
+Styleguide 1.67
+*/
+.icon-hresume:before {
+  content: "\f042";
+  font-size: 50px;
+}
+
+/*
+The hcard-add icon
+
+.icon-hcard-add - the hcard-add icon
+
+Markup: <i class="icon-hcard-add"></i>
+
+Styleguide 1.68
+*/
+.icon-hcard-add:before {
+  content: "\f043";
+  font-size: 50px;
+}
+
+/*
+The hcard-download icon
+
+.icon-hcard-download - the hcard-download icon
+
+Markup: <i class="icon-hcard-download"></i>
+
+Styleguide 1.69
+*/
+.icon-hcard-download:before {
+  content: "\f044";
+  font-size: 50px;
+}
+
+/*
+The indieweb icon
+
+.icon-indieweb - the indieweb icon
+
+Markup: <i class="icon-indieweb"></i>
+
+Styleguide 1.70
+*/
+.icon-indieweb:before {
+  content: "\f08b \f08c";
+  font-size: 50px;
+}
+
+/*
+The indiewebcamp icon
+
+.icon-indiewebcamp - the indiewebcamp icon
+
+Markup: <i class="icon-indiewebcamp"></i>
+
+Styleguide 1.71
+*/
+.icon-indiewebcamp:before {
+  content: "\f08b \f08c \f08d";
+  font-size: 50px;
+}
+
+/*
+The webfinger icon
+
+.icon-webfinger - the webfinger icon
+
+Markup: <i class="icon-webfinger"></i>
+
+Styleguide 1.72
+*/
+.icon-webfinger:before {
+  content: "\f08e";
+  font-size: 50px;
+}
+
+/*
+The bitcoin icon
+
+.icon-bitcoin - the bitcoin icon
+
+Markup: <i class="icon-bitcoin"></i>
+
+Styleguide 1.73
+*/
+.icon-bitcoin:before {
+  content: "\f08f";
+  font-size: 50px;
+}
+
+/*
+The bitcoin-simple icon
+
+.icon-bitcoin-simple - the bitcoin-simple icon
+
+Markup: <i class="icon-bitcoin-simple"></i>
+
+Styleguide 1.74
+*/
+.icon-bitcoin-simple:before {
+  content: "\f090";
+  font-size: 50px;
+}
+
+/*
+The svg icon
+
+.icon-svg - the svg icon
+
+Markup: <i class="icon-svg"></i>
+
+Styleguide 1.75
+*/
+.icon-svg:before {
+  content: "\f049";
+  font-size: 50px;
+}
+
+/*
+The json-ld icon
+
+.icon-json-ld - the json-ld icon
+
+Markup: <i class="icon-json-ld"></i>
+
+Styleguide 1.76
+*/
+.icon-json-ld:before {
+  content: "\f048";
+  font-size: 50px;
+}
+
+/*
+The tent icon
+
+.icon-tent - the tent icon
+
+Markup: <i class="icon-tent"></i>
+
+Styleguide 1.77
+*/
+.icon-tent:before {
+  content: "\f050";
+  font-size: 50px;
+}
+
+/*
+The copyleft icon
+
+.icon-copyleft - the copyleft icon
+
+Markup: <i class="icon-copyleft"></i>
+
+Styleguide 1.78
+*/
+.icon-copyleft:before {
+  content: "\f051";
+  font-size: 50px;
+}
+
+/*
+The gnu icon
+
+.icon-gnu - the gnu icon
+
+Markup: <i class="icon-gnu"></i>
+
+Styleguide 1.79
+*/
+.icon-gnu:before {
+  content: "\f052";
+  font-size: 50px;
+}
+
+/*
+The ofl-attribution icon
+
+.icon-ofl-attribution - the ofl-attribution icon
+
+Markup: <i class="icon-ofl-attribution"></i>
+
+Styleguide 1.80
+*/
+.icon-ofl-attribution:before {
+  content: "\f081";
+  font-size: 50px;
+}
+
+/*
+The ofl-share icon
+
+.icon-ofl-share - the ofl-share icon
+
+Markup: <i class="icon-ofl-share"></i>
+
+Styleguide 1.81
+*/
+.icon-ofl-share:before {
+  content: "\f085";
+  font-size: 50px;
+}
+
+/*
+The ofl-renaming icon
+
+.icon-ofl-renaming - the ofl-renaming icon
+
+Markup: <i class="icon-ofl-renaming"></i>
+
+Styleguide 1.82
+*/
+.icon-ofl-renaming:before {
+  content: "\f04a";
+  font-size: 50px;
+}
+
+/*
+The ofl-selling icon
+
+.icon-ofl-selling - the ofl-selling icon
+
+Markup: <i class="icon-ofl-selling"></i>
+
+Styleguide 1.83
+*/
+.icon-ofl-selling:before {
+  content: "\f04b";
+  font-size: 50px;
+}
+
+/*
+The ofl-embedding icon
+
+.icon-ofl-embedding - the ofl-embedding icon
+
+Markup: <i class="icon-ofl-embedding"></i>
+
+Styleguide 1.84
+*/
+.icon-ofl-embedding:before {
+  content: "\f04c";
+  font-size: 50px;
+}
+
+/*
+The webmention icon
+
+.icon-webmention - the webmention icon
+
+Markup: <i class="icon-webmention"></i>
+
+Styleguide 1.85
+*/
+.icon-webmention:before {
+  content: "\f04d";
+  font-size: 50px;
+}
+
+/*
+The javascript icon
+
+.icon-javascript - the javascript icon
+
+Markup: <i class="icon-javascript"></i>
+
+Styleguide 1.86
+*/
+.icon-javascript:before {
+  content: "\f04e";
+  font-size: 50px;
+}
+
+/*
+The wtfpl icon
+
+.icon-wtfpl - the wtfpl icon
+
+Markup: <i class="icon-wtfpl"></i>
+
+Styleguide 1.87
+*/
+.icon-wtfpl:before {
+  content: "\f04f";
+  font-size: 50px;
+}
+
+/*
+The ofl icon
+
+.icon-ofl - the ofl icon
+
+Markup: <i class="icon-ofl"></i>
+
+Styleguide 1.88
+*/
+.icon-ofl:before {
+  content: "\f053";
+  font-size: 50px;
+}
+
+/*
+The wordpress icon
+
+.icon-wordpress - the wordpress icon
+
+Markup: <i class="icon-wordpress"></i>
+
+Styleguide 1.89
+*/
+.icon-wordpress:before {
+  content: "\f054";
+  font-size: 50px;
+}
+
+/*
+The owncloud icon
+
+.icon-owncloud - the owncloud icon
+
+Markup: <i class="icon-owncloud"></i>
+
+Styleguide 1.90
+*/
+.icon-owncloud:before {
+  content: "\f055";
+  font-size: 50px;
+}
+
+/*
+The cccs icon
+
+.icon-cccs - the cccs icon
+
+Markup: <i class="icon-cccs"></i>
+
+Styleguide 1.91
+*/
+.icon-cccs:before {
+  content: "\f056";
+  font-size: 50px;
+}
+
+/*
+The barcamp icon
+
+.icon-barcamp - the barcamp icon
+
+Markup: <i class="icon-barcamp"></i>
+
+Styleguide 1.92
+*/
+.icon-barcamp:before {
+  content: "\f057";
+  font-size: 50px;
+}
+
+/*
+The indiehosters icon
+
+.icon-indiehosters - the indiehosters icon
+
+Markup: <i class="icon-indiehosters"></i>
+
+Styleguide 1.93
+*/
+.icon-indiehosters:before {
+  content: "\f058";
+  font-size: 50px;
+}
+
+/*
+The known icon
+
+.icon-known - the known icon
+
+Markup: <i class="icon-known"></i>
+
+Styleguide 1.94
+*/
+.icon-known:before {
+  content: "\f059";
+  font-size: 50px;
+}
+
+/*
+The mozilla icon
+
+.icon-mozilla - the mozilla icon
+
+Markup: <i class="icon-mozilla"></i>
+
+Styleguide 1.95
+*/
+.icon-mozilla:before {
+  content: "\f05a";
+  font-size: 50px;
+}
+
+/*
+Colored Icons
+
+Change the color of an icon with CSS
+
+Styleguide 2.0
+*/
+/*
+The apml colored-icon
+
+.icon-apml-colored - the icon-apml-colored icon
+
+Markup: <i class="icon-apml-colored"></i>
+
+Styleguide 2.1
+*/
+.icon-apml-colored:before {
+  content: "\f001";
+  color: #AFDD63;
+  font-size: 50px;
+}
+
+/*
+The open-share colored-icon
+
+.icon-open-share-colored - the icon-open-share-colored icon
+
+Markup: <i class="icon-open-share-colored"></i>
+
+Styleguide 2.2
+*/
+.icon-open-share-colored:before {
+  content: "\f00E";
+  color: #538439;
+  font-size: 50px;
+}
+
+/*
+The share colored-icon
+
+.icon-share-colored - the icon-share-colored icon
+
+Markup: <i class="icon-share-colored"></i>
+
+Styleguide 2.3
+*/
+.icon-share-colored:before {
+  content: "\f006";
+  color: #538439;
+  font-size: 50px;
+}
+
+/*
+The feed colored-icon
+
+.icon-feed-colored - the icon-feed-colored icon
+
+Markup: <i class="icon-feed-colored"></i>
+
+Styleguide 2.4
+*/
+.icon-feed-colored:before {
+  content: "\f009";
+  color: #EA680B;
+  font-size: 50px;
+}
+
+/*
+The ostatus colored-icon
+
+.icon-ostatus-colored - the icon-ostatus-colored icon
+
+Markup: <i class="icon-ostatus-colored"></i>
+
+Styleguide 2.5
+*/
+.icon-ostatus-colored:before {
+  content: "\f004";
+  color: #FF6600;
+  font-size: 50px;
+}
+
+/*
+The opml colored-icon
+
+.icon-opml-colored - the icon-opml-colored icon
+
+Markup: <i class="icon-opml-colored"></i>
+
+Styleguide 2.6
+*/
+.icon-opml-colored:before {
+  content: "\f003";
+  color: #2490A1;
+  font-size: 50px;
+}
+
+/*
+The activity colored-icon
+
+.icon-activity-colored - the icon-activity-colored icon
+
+Markup: <i class="icon-activity-colored"></i>
+
+Styleguide 2.7
+*/
+.icon-activity-colored:before {
+  content: "\f010";
+  color: #4FB2D9;
+  font-size: 50px;
+}
+
+/*
+The microformats colored-icon
+
+.icon-microformats-colored - the icon-microformats-colored icon
+
+Markup: <i class="icon-microformats-colored"></i>
+
+Styleguide 2.8
+*/
+.icon-microformats-colored:before {
+  content: "\f00C";
+  color: #85BC07;
+  font-size: 50px;
+}
+
+/*
+The geo colored-icon
+
+.icon-geo-colored - the icon-geo-colored icon
+
+Markup: <i class="icon-geo-colored"></i>
+
+Styleguide 2.9
+*/
+.icon-geo-colored:before {
+  content: "\f00B";
+  color: #990000;
+  font-size: 50px;
+}
+
+/*
+The opensearch colored-icon
+
+.icon-opensearch-colored - the icon-opensearch-colored icon
+
+Markup: <i class="icon-opensearch-colored"></i>
+
+Styleguide 2.10
+*/
+.icon-opensearch-colored:before {
+  content: "\f002";
+  color: #5050f3;
+  font-size: 50px;
+}
+
+/*
+The html5 colored-icon
+
+.icon-html5-colored - the icon-html5-colored icon
+
+Markup: <i class="icon-html5-colored"></i>
+
+Styleguide 2.11
+*/
+.icon-html5-colored:before {
+  content: "\f016";
+  color: #E34C26;
+  font-size: 50px;
+}
+
+/*
+The git colored-icon
+
+.icon-git-colored - the icon-git-colored icon
+
+Markup: <i class="icon-git-colored"></i>
+
+Styleguide 2.12
+*/
+.icon-git-colored:before {
+  content: "\f035";
+  color: #F05133;
+  font-size: 50px;
+}
+
+/*
+The osi colored-icon
+
+.icon-osi-colored - the icon-osi-colored icon
+
+Markup: <i class="icon-osi-colored"></i>
+
+Styleguide 2.13
+*/
+.icon-osi-colored:before {
+  content: "\f038";
+  color: #3DA639;
+  font-size: 50px;
+}
+
+/*
+The opensource colored-icon
+
+.icon-opensource-colored - the icon-opensource-colored icon
+
+Markup: <i class="icon-opensource-colored"></i>
+
+Styleguide 2.14
+*/
+.icon-opensource-colored:before {
+  content: "\f038";
+  color: #3DA639;
+  font-size: 50px;
+}
+
+/*
+The epub colored-icon
+
+.icon-epub-colored - the icon-epub-colored icon
+
+Markup: <i class="icon-epub-colored"></i>
+
+Styleguide 2.15
+*/
+.icon-epub-colored:before {
+  content: "\f021";
+  color: #85b916;
+  font-size: 50px;
+}
+
+/*
+The info-card colored-icon
+
+.icon-info-card-colored - the icon-info-card-colored icon
+
+Markup: <i class="icon-info-card-colored"></i>
+
+Styleguide 2.16
+*/
+.icon-info-card-colored:before {
+  content: "\f024";
+  color: #BF84E5;
+  font-size: 50px;
+}
+
+/*
+The remote-storage colored-icon
+
+.icon-remote-storage-colored - the icon-remote-storage-colored icon
+
+Markup: <i class="icon-remote-storage-colored"></i>
+
+Styleguide 2.17
+*/
+.icon-remote-storage-colored:before {
+  content: "\f026";
+  color: #ff4e09;
+  font-size: 50px;
+}
+
+/*
+The odata colored-icon
+
+.icon-odata-colored - the icon-odata-colored icon
+
+Markup: <i class="icon-odata-colored"></i>
+
+Styleguide 2.18
+*/
+.icon-odata-colored:before {
+  content: "\f028";
+  color: #EA680B;
+  font-size: 50px;
+}
+
+/*
+The pub colored-icon
+
+.icon-pub-colored - the icon-pub-colored icon
+
+Markup: <i class="icon-pub-colored"></i>
+
+Styleguide 2.19
+*/
+.icon-pub-colored:before {
+  content: "\f045";
+  color: #99cc00;
+  font-size: 50px;
+}
+
+/*
+The sub colored-icon
+
+.icon-sub-colored - the icon-sub-colored icon
+
+Markup: <i class="icon-sub-colored"></i>
+
+Styleguide 2.20
+*/
+.icon-sub-colored:before {
+  content: "\f046";
+  color: #ffff00;
+  font-size: 50px;
+}
+
+/*
+The hubbub colored-icon
+
+.icon-hubbub-colored - the icon-hubbub-colored icon
+
+Markup: <i class="icon-hubbub-colored"></i>
+
+Styleguide 2.21
+*/
+.icon-hubbub-colored:before {
+  content: "\f045";
+  color: #ff6fcf;
+  font-size: 50px;
+}
+
+/*
+The javascript colored-icon
+
+.icon-javascript-colored - the icon-javascript-colored icon
+
+Markup: <i class="icon-javascript-colored"></i>
+
+Styleguide 2.22
+*/
+.icon-javascript-colored:before {
+  content: "\f04e";
+  color: #f0db4f;
+  font-size: 50px;
+}
