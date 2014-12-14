@@ -160,3 +160,7 @@ footer .container {
 .webmention-published {
   font-size: 10px;
 }
+
+#icons h3 {
+  cursor: pointer;
+}

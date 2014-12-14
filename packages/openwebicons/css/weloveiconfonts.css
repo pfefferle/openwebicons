@@ -194,3 +194,5 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] { display: block; }
 .openwebicons-known:before { content: "\f059"; }
 
 .openwebicons-mozilla:before { content: "\f05a"; }
+
+.openwebicons-unhosted:before { content: "\f05b"; }

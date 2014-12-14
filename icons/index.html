@@ -460,6 +460,13 @@ title: OpenWebIcons
             <p><a href="https://www.mozilla.org/" target="_blank">The Mozilla Corporation</a> was established in August 2005 as a wholly owned taxable subsidiary that serves the non-profit, public benefit goals of its parent, the Mozilla Foundation, and the vast Mozilla community.</p>
           </div>
 
+          <div class="col-md-4">
+            <h3 id="icon-unhosted">
+              <i class="icon-unhosted"></i>&nbsp;icon-unhosted
+              <small>by&nbsp;<a href="https://github.com/unhosted/design" target="_blank">unhosted</a></small>
+            </h3>
+            <p>Also known as "serverless", "client-side", or "static" web apps, <a href="https://unhosted.org" target="_blank">unhosted</a> web apps do not send your user data to their server. Either you connect your own server at runtime, or your data stays within the browser.</p>
+          </div>
         </div>
 
         <div class="row">
@@ -733,3 +740,53 @@ title: OpenWebIcons
           </div>
         </div>
       </section>
+
+      <div class="modal fade" id="icon-modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body">
+              <div class="modal-icons">
+                <i style="font-size: 200px;"></i>
+                <i style="font-size: 150px;"></i>
+                <i style="font-size: 100px;"></i>
+                <i style="font-size: 50px;"></i>
+              </div>
+
+              <pre><code></code></pre>
+
+              <div class="modal-description"></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
+      <script>
+        $("#icons h3").attr("data-toggle", "modal");
+        $("#icons h3").attr("data-target", "#icon-modal");
+
+        $('#icon-modal').on('show.bs.modal', function (event) {
+          var button = $(event.relatedTarget); // Button that triggered the modal
+          var container = button.parent();
+
+          var icon = container.find("h3 i").attr("class");
+          var description = container.find("p").html();
+
+          // Get the content value of .element:before
+          var content = window.getComputedStyle(
+              document.querySelector('h3 i'), ':before'
+          ).getPropertyValue('content');
+
+          var modal = $(this);
+          modal.find('.modal-title').text(icon);
+          modal.find('.modal-body .modal-description').html(description);
+          modal.find('.modal-body .modal-icons i').attr("class", icon);
+          modal.find('.modal-body pre code').html('&lt;i class="'+icon+'"&gt;&lt;/i&gt;');
+        });
+      </script>
