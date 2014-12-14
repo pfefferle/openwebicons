@@ -2,6 +2,7 @@ config
 sass
 source
 styleguide
+.DS_Store
 .editorconfig
 .gitignore
 .jshintrc

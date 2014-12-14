@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'OpenWeb Icons';
-  src: url("../font/openwebicons.eot");
-  src: url("../font/openwebicons.eot?#iefix") format("embedded-opentype"), url("../font/openwebicons.woff2") format("woff2"), url("../font/openwebicons.woff") format("woff"), url("../font/openwebicons.ttf") format("truetype"), url("../font/openwebicons.svg#openweb_iconsregular") format("svg");
+  src: url("../../font/openwebicons.eot");
+  src: url("../../font/openwebicons.eot?#iefix") format("embedded-opentype"), url("../../font/openwebicons.woff2") format("woff2"), url("../../font/openwebicons.woff") format("woff"), url("../../font/openwebicons.ttf") format("truetype"), url("../../font/openwebicons.svg#openweb_iconsregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1359,6 +1359,20 @@ Styleguide 1.95
 */
 .icon-mozilla:before {
   content: "\f05a";
+  font-size: 50px;
+}
+
+/*
+The unhosted icon
+
+.icon-unhosted - the unhosted icon
+
+Markup: <i class="icon-unhosted"></i>
+
+Styleguide 1.96
+*/
+.icon-unhosted:before {
+  content: "\f05b";
   font-size: 50px;
 }
 

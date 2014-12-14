@@ -405,6 +405,10 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] {
   content: "\f05a";
 }
 
+.openwebicons-unhosted:before {
+  content: "\f05b";
+}
+
 .openwebicons-apml-colored:before {
   content: "\f001";
   color: #AFDD63;

@@ -1,6 +1,8 @@
 @import "vars";
 @import "mixins";
 
+$font_path: "../../font";
+
 @include font_face;
 @include simple_mapper;
 

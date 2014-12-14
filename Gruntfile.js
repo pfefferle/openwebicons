@@ -78,6 +78,7 @@ module.exports = function (grunt) {
 				dest: 'component.json', // where to write to
 				fields: {
 					'name': null,
+					'author': null,
 					'description': null,
 					'version': null,
 					'keywords': null,
@@ -108,7 +109,7 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-svg2ttf');
 	grunt.loadNpmTasks('grunt-kss');
 
-	// Default task(s).
+	// generate ttf file using the svg file.
 	grunt.registerTask('font', ['svg2ttf']);
 
 	// generate styleguide

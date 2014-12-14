@@ -29,6 +29,22 @@ You can find more informations and a list of all icons here: http://pfefferle.gi
 
 ## Changelog
 
+### Version 1.3.1
+
+* **2014-11-28**: Added Unhosted icon
+
+### Version 1.3.0
+
+* **2014-11-28**: Added WordPress, ownCloud, Known, BarCamp, IndieHosters, C3S and Mozilla icons
+
+### Version 1.2.3
+
+* **2014-09-21**: Added SIL OFL icon
+* **2014-06-02**: Added WebMention, JavaScript (Community) and WTFPL icon
+
+### Chronological
+
+* **2013-12-16**: Added Copyleft und GNU icons
 * **2014-09-21**: Added SIL OFL icon
 * **2014-06-02**: Added WebMention, JavaScript (Community) and WTFPL icon
 * **2013-12-16**: Added Copyleft und GNU icons
@@ -58,5 +74,3 @@ You can find more informations and a list of all icons here: http://pfefferle.gi
 ---
 
 [![NPM](https://nodei.co/npm/openwebicons.png?downloads=true&stars=true)](https://nodei.co/npm/openwebicons/)
-
-[![endorse](http://api.coderwall.com/pfefferle/endorsecount.png)](http://coderwall.com/pfefferle)

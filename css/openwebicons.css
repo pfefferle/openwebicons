@@ -405,6 +405,10 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "\f05a";
 }
 
+.icon-unhosted:before {
+  content: "\f05b";
+}
+
 .icon-apml-colored:before {
   content: "\f001";
   color: #AFDD63;
