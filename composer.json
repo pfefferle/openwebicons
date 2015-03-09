@@ -1,6 +1,7 @@
 {
 	"name": "pfefferle/openwebicons",
 	"description": "OpenWeb Icons",
+	"type": "component",
 	"keywords": [
 		"openweb",
 		"icons",
