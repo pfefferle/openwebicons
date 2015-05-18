@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face { font-family: 'OpenWeb Icons'; src: url("../font/openwebicons.eot"); src: url("../font/openwebicons.eot?#iefix") format("embedded-opentype"), url("../font/openwebicons.woff2") format("woff2"), url("../font/openwebicons.woff") format("woff"), url("../font/openwebicons.ttf") format("truetype"), url("../font/openwebicons.svg#openweb_iconsregular") format("svg"); font-weight: normal; font-style: normal; }
 [class^="openwebicons-"]:before, [class*=" openwebicons-"]:before { font-family: 'OpenWeb Icons'; font-weight: normal; font-style: normal; display: inline-block; text-decoration: inherit; vertical-align: center; font-smoothing: antialiased; -webkit-font-smoothing: antialiased; }
 
@@ -5,194 +6,200 @@ a [class^="openwebicons-"], a [class*=" openwebicons-"] { display: inline-block;
 
 li[class^="openwebicons-"], li[class*=" openwebicons-"] { display: block; }
 
-.openwebicons-apml:before { content: "\f001"; }
+.openwebicons-apml:before { content: ""; }
 
-.openwebicons-open-share:before { content: "\f00E"; }
+.openwebicons-open-share:before { content: ""; }
 
-.openwebicons-open-share-simple:before { content: "\f00F"; }
+.openwebicons-open-share-simple:before { content: ""; }
 
-.openwebicons-share:before { content: "\f006"; }
+.openwebicons-share:before { content: ""; }
 
-.openwebicons-share-simple:before { content: "\f007"; }
+.openwebicons-share-simple:before { content: ""; }
 
-.openwebicons-feed:before { content: "\f009"; }
+.openwebicons-feed:before { content: ""; }
 
-.openwebicons-feed-simple:before { content: "\f00A"; }
+.openwebicons-feed-simple:before { content: ""; }
 
-.openwebicons-ostatus:before { content: "\f004"; }
+.openwebicons-ostatus:before { content: ""; }
 
-.openwebicons-ostatus-simple:before { content: "\f005"; }
+.openwebicons-ostatus-simple:before { content: ""; }
 
-.openwebicons-opml:before { content: "\f003"; }
+.openwebicons-opml:before { content: ""; }
 
-.openwebicons-activity:before { content: "\f010"; }
+.openwebicons-activity:before { content: ""; }
 
-.openwebicons-activity-simple:before { content: "\f041"; }
+.openwebicons-activity-simple:before { content: ""; }
 
-.openwebicons-microformats:before { content: "\f00C"; }
+.openwebicons-microformats:before { content: ""; }
 
-.openwebicons-geo:before { content: "\f00B"; }
+.openwebicons-geo:before { content: ""; }
 
-.openwebicons-opensearch:before { content: "\f002"; }
+.openwebicons-opensearch:before { content: ""; }
 
-.openwebicons-oauth:before { content: "\f008"; }
+.openwebicons-oauth:before { content: ""; }
 
-.openwebicons-openid:before { content: "\f00D"; }
+.openwebicons-openid:before { content: ""; }
 
-.openwebicons-semantic-web:before { content: "\f000"; }
+.openwebicons-semantic-web:before { content: ""; }
 
-.openwebicons-rdf:before { content: "\f039"; }
+.openwebicons-rdf:before { content: ""; }
 
-.openwebicons-rdfa:before { content: "\f039"; }
+.openwebicons-rdfa:before { content: ""; }
 
-.openwebicons-owl:before { content: "\f039"; }
+.openwebicons-owl:before { content: ""; }
 
-.openwebicons-dataportability:before { content: "\f013"; }
+.openwebicons-dataportability:before { content: ""; }
 
-.openwebicons-federated:before { content: "\f011"; }
+.openwebicons-federated:before { content: ""; }
 
-.openwebicons-web-intents:before { content: "\f014"; }
+.openwebicons-web-intents:before { content: ""; }
 
-.openwebicons-open-web:before { content: "\f012"; }
+.openwebicons-open-web:before { content: ""; }
 
-.openwebicons-xmpp:before { content: "\f015"; }
+.openwebicons-xmpp:before { content: ""; }
 
-.openwebicons-html5:before { content: "\f016"; }
+.openwebicons-html5:before { content: ""; }
 
-.openwebicons-css3:before { content: "\f017"; }
+.openwebicons-css3:before { content: ""; }
 
-.openwebicons-connectivity:before { content: "\f018"; }
+.openwebicons-connectivity:before { content: ""; }
 
-.openwebicons-semantics:before { content: "\f019"; }
+.openwebicons-semantics:before { content: ""; }
 
-.openwebicons-3deffects:before { content: "\f037"; }
+.openwebicons-3deffects:before { content: ""; }
 
-.openwebicons-device-access:before { content: "\f031"; }
+.openwebicons-device-access:before { content: ""; }
 
-.openwebicons-multimedia:before { content: "\f032"; }
+.openwebicons-multimedia:before { content: ""; }
 
-.openwebicons-offline-storage:before { content: "\f033"; }
+.openwebicons-offline-storage:before { content: ""; }
 
-.openwebicons-perfintegration:before { content: "\f034"; }
+.openwebicons-perfintegration:before { content: ""; }
 
-.openwebicons-git:before { content: "\f035"; }
+.openwebicons-git:before { content: ""; }
 
-.openwebicons-webhooks:before { content: "\f036"; }
+.openwebicons-webhooks:before { content: ""; }
 
-.openwebicons-osi:before { content: "\f038"; }
+.openwebicons-osi:before { content: ""; }
 
-.openwebicons-opensource:before { content: "\f038"; }
+.openwebicons-opensource:before { content: ""; }
 
-.openwebicons-opengraph:before { content: "\f020"; }
+.openwebicons-opengraph:before { content: ""; }
 
-.openwebicons-epub:before { content: "\f021"; }
+.openwebicons-epub:before { content: ""; }
 
-.openwebicons-qr:before { content: "\f022"; }
+.openwebicons-qr:before { content: ""; }
 
-.openwebicons-foaf:before { content: "\f023"; }
+.openwebicons-foaf:before { content: ""; }
 
-.openwebicons-info-card:before { content: "\f024"; }
+.openwebicons-info-card:before { content: ""; }
 
-.openwebicons-browserid:before { content: "\f025"; }
+.openwebicons-browserid:before { content: ""; }
 
-.openwebicons-remote-storage:before { content: "\f026"; }
+.openwebicons-remote-storage:before { content: ""; }
 
-.openwebicons-persona:before { content: "\f027"; }
+.openwebicons-persona:before { content: ""; }
 
-.openwebicons-odata:before { content: "\f028"; }
+.openwebicons-odata:before { content: ""; }
 
-.openwebicons-markdown:before { content: "\f029"; }
+.openwebicons-markdown:before { content: ""; }
 
-.openwebicons-tosdr:before { content: "\f030"; }
+.openwebicons-tosdr:before { content: ""; }
 
-.openwebicons-pub:before { content: "\f045"; }
+.openwebicons-pub:before { content: ""; }
 
-.openwebicons-sub:before { content: "\f046"; }
+.openwebicons-sub:before { content: ""; }
 
-.openwebicons-hubbub:before { content: "\f045"; }
+.openwebicons-hubbub:before { content: ""; }
 
-.openwebicons-pubsubhubbub:before { content: "\f047"; }
+.openwebicons-pubsubhubbub:before { content: ""; }
 
-.openwebicons-cc:before { content: "\f080"; }
+.openwebicons-cc:before { content: ""; }
 
-.openwebicons-cc-by:before { content: "\f081"; }
+.openwebicons-cc-by:before { content: ""; }
 
-.openwebicons-cc-nc:before { content: "\f082"; }
+.openwebicons-cc-nc:before { content: ""; }
 
-.openwebicons-cc-nc-eu:before { content: "\f083"; }
+.openwebicons-cc-nc-eu:before { content: ""; }
 
-.openwebicons-cc-nc-jp:before { content: "\f084"; }
+.openwebicons-cc-nc-jp:before { content: ""; }
 
-.openwebicons-cc-sa:before { content: "\f085"; }
+.openwebicons-cc-sa:before { content: ""; }
 
-.openwebicons-cc-nd:before { content: "\f086"; }
+.openwebicons-cc-nd:before { content: ""; }
 
-.openwebicons-cc-public:before { content: "\f087"; }
+.openwebicons-cc-public:before { content: ""; }
 
-.openwebicons-cc-zero:before { content: "\f088"; }
+.openwebicons-cc-zero:before { content: ""; }
 
-.openwebicons-cc-share:before { content: "\f089"; }
+.openwebicons-cc-share:before { content: ""; }
 
-.openwebicons-cc-remix:before { content: "\f08a"; }
+.openwebicons-cc-remix:before { content: ""; }
 
-.openwebicons-hatom:before { content: "\f040"; }
+.openwebicons-hatom:before { content: ""; }
 
-.openwebicons-hresume:before { content: "\f042"; }
+.openwebicons-hresume:before { content: ""; }
 
-.openwebicons-hcard-add:before { content: "\f043"; }
+.openwebicons-hcard-add:before { content: ""; }
 
-.openwebicons-hcard-download:before { content: "\f044"; }
+.openwebicons-hcard-download:before { content: ""; }
 
-.openwebicons-indieweb:before { content: "\f08b \f08c"; }
+.openwebicons-indieweb:before { content: ""; }
 
-.openwebicons-indiewebcamp:before { content: "\f08b \f08c \f08d"; }
+.openwebicons-indiewebcamp:before { content: ""; }
 
-.openwebicons-webfinger:before { content: "\f08e"; }
+.openwebicons-webfinger:before { content: ""; }
 
-.openwebicons-bitcoin:before { content: "\f08f"; }
+.openwebicons-bitcoin:before { content: ""; }
 
-.openwebicons-bitcoin-simple:before { content: "\f090"; }
+.openwebicons-bitcoin-simple:before { content: ""; }
 
-.openwebicons-svg:before { content: "\f049"; }
+.openwebicons-svg:before { content: ""; }
 
-.openwebicons-json-ld:before { content: "\f048"; }
+.openwebicons-json-ld:before { content: ""; }
 
-.openwebicons-tent:before { content: "\f050"; }
+.openwebicons-tent:before { content: ""; }
 
-.openwebicons-copyleft:before { content: "\f051"; }
+.openwebicons-copyleft:before { content: ""; }
 
-.openwebicons-gnu:before { content: "\f052"; }
+.openwebicons-gnu:before { content: ""; }
 
-.openwebicons-ofl-attribution:before { content: "\f081"; }
+.openwebicons-ofl-attribution:before { content: ""; }
 
-.openwebicons-ofl-share:before { content: "\f085"; }
+.openwebicons-ofl-share:before { content: ""; }
 
-.openwebicons-ofl-renaming:before { content: "\f04a"; }
+.openwebicons-ofl-renaming:before { content: ""; }
 
-.openwebicons-ofl-selling:before { content: "\f04b"; }
+.openwebicons-ofl-selling:before { content: ""; }
 
-.openwebicons-ofl-embedding:before { content: "\f04c"; }
+.openwebicons-ofl-embedding:before { content: ""; }
 
-.openwebicons-webmention:before { content: "\f04d"; }
+.openwebicons-webmention:before { content: ""; }
 
-.openwebicons-javascript:before { content: "\f04e"; }
+.openwebicons-javascript:before { content: ""; }
 
-.openwebicons-wtfpl:before { content: "\f04f"; }
+.openwebicons-wtfpl:before { content: ""; }
 
-.openwebicons-ofl:before { content: "\f053"; }
+.openwebicons-ofl:before { content: ""; }
 
-.openwebicons-wordpress:before { content: "\f054"; }
+.openwebicons-wordpress:before { content: ""; }
 
-.openwebicons-owncloud:before { content: "\f055"; }
+.openwebicons-owncloud:before { content: ""; }
 
-.openwebicons-cccs:before { content: "\f056"; }
+.openwebicons-cccs:before { content: ""; }
 
-.openwebicons-barcamp:before { content: "\f057"; }
+.openwebicons-barcamp:before { content: ""; }
 
-.openwebicons-indiehosters:before { content: "\f058"; }
+.openwebicons-indiehosters:before { content: ""; }
 
-.openwebicons-known:before { content: "\f059"; }
+.openwebicons-known:before { content: ""; }
 
-.openwebicons-mozilla:before { content: "\f05a"; }
+.openwebicons-mozilla:before { content: ""; }
 
-.openwebicons-unhosted:before { content: "\f05b"; }
+.openwebicons-unhosted:before { content: ""; }
+
+.openwebicons-diaspora:before { content: ""; }
+
+.openwebicons-indie:before { content: ""; }
+
+.openwebicons-ghost:before { content: ""; }
