@@ -1,18 +1,11 @@
 {
-	"name": "pfefferle/openwebicons",
-	"description": "OpenWeb Icons",
-	"type": "component",
-	"keywords": [
-		"openweb",
-		"icons",
-		"font",
-		"css",
-		"sass",
-		"scss"
-	],
-	"license": "OFL-1.1",
-	"repositories": {
-		"type": "git",
-		"url": "https://github.com/pfefferle/openwebicons.git"
-	}
+  "name": "pfefferle/openwebicons",
+  "description": "OpenWeb Icons",
+  "type": "component",
+  "keywords": ["openweb", "icons", "font", "css", "sass", "scss"],
+  "license": "OFL-1.1",
+  "repositories": {
+    "type": "git",
+    "url": "https://github.com/pfefferle/openwebicons.git"
+  }
 }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'OpenWeb Icons';
   src: url("../../font/openwebicons.eot");
@@ -42,7 +43,7 @@ Markup: <i class="icon-apml"></i>
 Styleguide 1.1
 */
 .icon-apml:before {
-  content: "\f001";
+  content: "";
   font-size: 50px;
 }
 
@@ -56,7 +57,7 @@ Markup: <i class="icon-open-share"></i>
 Styleguide 1.2
 */
 .icon-open-share:before {
-  content: "\f00E";
+  content: "";
   font-size: 50px;
 }
 
@@ -70,7 +71,7 @@ Markup: <i class="icon-open-share-simple"></i>
 Styleguide 1.3
 */
 .icon-open-share-simple:before {
-  content: "\f00F";
+  content: "";
   font-size: 50px;
 }
 
@@ -84,7 +85,7 @@ Markup: <i class="icon-share"></i>
 Styleguide 1.4
 */
 .icon-share:before {
-  content: "\f006";
+  content: "";
   font-size: 50px;
 }
 
@@ -98,7 +99,7 @@ Markup: <i class="icon-share-simple"></i>
 Styleguide 1.5
 */
 .icon-share-simple:before {
-  content: "\f007";
+  content: "";
   font-size: 50px;
 }
 
@@ -112,7 +113,7 @@ Markup: <i class="icon-feed"></i>
 Styleguide 1.6
 */
 .icon-feed:before {
-  content: "\f009";
+  content: "";
   font-size: 50px;
 }
 
@@ -126,7 +127,7 @@ Markup: <i class="icon-feed-simple"></i>
 Styleguide 1.7
 */
 .icon-feed-simple:before {
-  content: "\f00A";
+  content: "";
   font-size: 50px;
 }
 
@@ -140,7 +141,7 @@ Markup: <i class="icon-ostatus"></i>
 Styleguide 1.8
 */
 .icon-ostatus:before {
-  content: "\f004";
+  content: "";
   font-size: 50px;
 }
 
@@ -154,7 +155,7 @@ Markup: <i class="icon-ostatus-simple"></i>
 Styleguide 1.9
 */
 .icon-ostatus-simple:before {
-  content: "\f005";
+  content: "";
   font-size: 50px;
 }
 
@@ -168,7 +169,7 @@ Markup: <i class="icon-opml"></i>
 Styleguide 1.10
 */
 .icon-opml:before {
-  content: "\f003";
+  content: "";
   font-size: 50px;
 }
 
@@ -182,7 +183,7 @@ Markup: <i class="icon-activity"></i>
 Styleguide 1.11
 */
 .icon-activity:before {
-  content: "\f010";
+  content: "";
   font-size: 50px;
 }
 
@@ -196,7 +197,7 @@ Markup: <i class="icon-activity-simple"></i>
 Styleguide 1.12
 */
 .icon-activity-simple:before {
-  content: "\f041";
+  content: "";
   font-size: 50px;
 }
 
@@ -210,7 +211,7 @@ Markup: <i class="icon-microformats"></i>
 Styleguide 1.13
 */
 .icon-microformats:before {
-  content: "\f00C";
+  content: "";
   font-size: 50px;
 }
 
@@ -224,7 +225,7 @@ Markup: <i class="icon-geo"></i>
 Styleguide 1.14
 */
 .icon-geo:before {
-  content: "\f00B";
+  content: "";
   font-size: 50px;
 }
 
@@ -238,7 +239,7 @@ Markup: <i class="icon-opensearch"></i>
 Styleguide 1.15
 */
 .icon-opensearch:before {
-  content: "\f002";
+  content: "";
   font-size: 50px;
 }
 
@@ -252,7 +253,7 @@ Markup: <i class="icon-oauth"></i>
 Styleguide 1.16
 */
 .icon-oauth:before {
-  content: "\f008";
+  content: "";
   font-size: 50px;
 }
 
@@ -266,7 +267,7 @@ Markup: <i class="icon-openid"></i>
 Styleguide 1.17
 */
 .icon-openid:before {
-  content: "\f00D";
+  content: "";
   font-size: 50px;
 }
 
@@ -280,7 +281,7 @@ Markup: <i class="icon-semantic-web"></i>
 Styleguide 1.18
 */
 .icon-semantic-web:before {
-  content: "\f000";
+  content: "";
   font-size: 50px;
 }
 
@@ -294,7 +295,7 @@ Markup: <i class="icon-rdf"></i>
 Styleguide 1.19
 */
 .icon-rdf:before {
-  content: "\f039";
+  content: "";
   font-size: 50px;
 }
 
@@ -308,7 +309,7 @@ Markup: <i class="icon-rdfa"></i>
 Styleguide 1.20
 */
 .icon-rdfa:before {
-  content: "\f039";
+  content: "";
   font-size: 50px;
 }
 
@@ -322,7 +323,7 @@ Markup: <i class="icon-owl"></i>
 Styleguide 1.21
 */
 .icon-owl:before {
-  content: "\f039";
+  content: "";
   font-size: 50px;
 }
 
@@ -336,7 +337,7 @@ Markup: <i class="icon-dataportability"></i>
 Styleguide 1.22
 */
 .icon-dataportability:before {
-  content: "\f013";
+  content: "";
   font-size: 50px;
 }
 
@@ -350,7 +351,7 @@ Markup: <i class="icon-federated"></i>
 Styleguide 1.23
 */
 .icon-federated:before {
-  content: "\f011";
+  content: "";
   font-size: 50px;
 }
 
@@ -364,7 +365,7 @@ Markup: <i class="icon-web-intents"></i>
 Styleguide 1.24
 */
 .icon-web-intents:before {
-  content: "\f014";
+  content: "";
   font-size: 50px;
 }
 
@@ -378,7 +379,7 @@ Markup: <i class="icon-open-web"></i>
 Styleguide 1.25
 */
 .icon-open-web:before {
-  content: "\f012";
+  content: "";
   font-size: 50px;
 }
 
@@ -392,7 +393,7 @@ Markup: <i class="icon-xmpp"></i>
 Styleguide 1.26
 */
 .icon-xmpp:before {
-  content: "\f015";
+  content: "";
   font-size: 50px;
 }
 
@@ -406,7 +407,7 @@ Markup: <i class="icon-html5"></i>
 Styleguide 1.27
 */
 .icon-html5:before {
-  content: "\f016";
+  content: "";
   font-size: 50px;
 }
 
@@ -420,7 +421,7 @@ Markup: <i class="icon-css3"></i>
 Styleguide 1.28
 */
 .icon-css3:before {
-  content: "\f017";
+  content: "";
   font-size: 50px;
 }
 
@@ -434,7 +435,7 @@ Markup: <i class="icon-connectivity"></i>
 Styleguide 1.29
 */
 .icon-connectivity:before {
-  content: "\f018";
+  content: "";
   font-size: 50px;
 }
 
@@ -448,7 +449,7 @@ Markup: <i class="icon-semantics"></i>
 Styleguide 1.30
 */
 .icon-semantics:before {
-  content: "\f019";
+  content: "";
   font-size: 50px;
 }
 
@@ -462,7 +463,7 @@ Markup: <i class="icon-3deffects"></i>
 Styleguide 1.31
 */
 .icon-3deffects:before {
-  content: "\f037";
+  content: "";
   font-size: 50px;
 }
 
@@ -476,7 +477,7 @@ Markup: <i class="icon-device-access"></i>
 Styleguide 1.32
 */
 .icon-device-access:before {
-  content: "\f031";
+  content: "";
   font-size: 50px;
 }
 
@@ -490,7 +491,7 @@ Markup: <i class="icon-multimedia"></i>
 Styleguide 1.33
 */
 .icon-multimedia:before {
-  content: "\f032";
+  content: "";
   font-size: 50px;
 }
 
@@ -504,7 +505,7 @@ Markup: <i class="icon-offline-storage"></i>
 Styleguide 1.34
 */
 .icon-offline-storage:before {
-  content: "\f033";
+  content: "";
   font-size: 50px;
 }
 
@@ -518,7 +519,7 @@ Markup: <i class="icon-perfintegration"></i>
 Styleguide 1.35
 */
 .icon-perfintegration:before {
-  content: "\f034";
+  content: "";
   font-size: 50px;
 }
 
@@ -532,7 +533,7 @@ Markup: <i class="icon-git"></i>
 Styleguide 1.36
 */
 .icon-git:before {
-  content: "\f035";
+  content: "";
   font-size: 50px;
 }
 
@@ -546,7 +547,7 @@ Markup: <i class="icon-webhooks"></i>
 Styleguide 1.37
 */
 .icon-webhooks:before {
-  content: "\f036";
+  content: "";
   font-size: 50px;
 }
 
@@ -560,7 +561,7 @@ Markup: <i class="icon-osi"></i>
 Styleguide 1.38
 */
 .icon-osi:before {
-  content: "\f038";
+  content: "";
   font-size: 50px;
 }
 
@@ -574,7 +575,7 @@ Markup: <i class="icon-opensource"></i>
 Styleguide 1.39
 */
 .icon-opensource:before {
-  content: "\f038";
+  content: "";
   font-size: 50px;
 }
 
@@ -588,7 +589,7 @@ Markup: <i class="icon-opengraph"></i>
 Styleguide 1.40
 */
 .icon-opengraph:before {
-  content: "\f020";
+  content: "";
   font-size: 50px;
 }
 
@@ -602,7 +603,7 @@ Markup: <i class="icon-epub"></i>
 Styleguide 1.41
 */
 .icon-epub:before {
-  content: "\f021";
+  content: "";
   font-size: 50px;
 }
 
@@ -616,7 +617,7 @@ Markup: <i class="icon-qr"></i>
 Styleguide 1.42
 */
 .icon-qr:before {
-  content: "\f022";
+  content: "";
   font-size: 50px;
 }
 
@@ -630,7 +631,7 @@ Markup: <i class="icon-foaf"></i>
 Styleguide 1.43
 */
 .icon-foaf:before {
-  content: "\f023";
+  content: "";
   font-size: 50px;
 }
 
@@ -644,7 +645,7 @@ Markup: <i class="icon-info-card"></i>
 Styleguide 1.44
 */
 .icon-info-card:before {
-  content: "\f024";
+  content: "";
   font-size: 50px;
 }
 
@@ -658,7 +659,7 @@ Markup: <i class="icon-browserid"></i>
 Styleguide 1.45
 */
 .icon-browserid:before {
-  content: "\f025";
+  content: "";
   font-size: 50px;
 }
 
@@ -672,7 +673,7 @@ Markup: <i class="icon-remote-storage"></i>
 Styleguide 1.46
 */
 .icon-remote-storage:before {
-  content: "\f026";
+  content: "";
   font-size: 50px;
 }
 
@@ -686,7 +687,7 @@ Markup: <i class="icon-persona"></i>
 Styleguide 1.47
 */
 .icon-persona:before {
-  content: "\f027";
+  content: "";
   font-size: 50px;
 }
 
@@ -700,7 +701,7 @@ Markup: <i class="icon-odata"></i>
 Styleguide 1.48
 */
 .icon-odata:before {
-  content: "\f028";
+  content: "";
   font-size: 50px;
 }
 
@@ -714,7 +715,7 @@ Markup: <i class="icon-markdown"></i>
 Styleguide 1.49
 */
 .icon-markdown:before {
-  content: "\f029";
+  content: "";
   font-size: 50px;
 }
 
@@ -728,7 +729,7 @@ Markup: <i class="icon-tosdr"></i>
 Styleguide 1.50
 */
 .icon-tosdr:before {
-  content: "\f030";
+  content: "";
   font-size: 50px;
 }
 
@@ -742,7 +743,7 @@ Markup: <i class="icon-pub"></i>
 Styleguide 1.51
 */
 .icon-pub:before {
-  content: "\f045";
+  content: "";
   font-size: 50px;
 }
 
@@ -756,7 +757,7 @@ Markup: <i class="icon-sub"></i>
 Styleguide 1.52
 */
 .icon-sub:before {
-  content: "\f046";
+  content: "";
   font-size: 50px;
 }
 
@@ -770,7 +771,7 @@ Markup: <i class="icon-hubbub"></i>
 Styleguide 1.53
 */
 .icon-hubbub:before {
-  content: "\f045";
+  content: "";
   font-size: 50px;
 }
 
@@ -784,7 +785,7 @@ Markup: <i class="icon-pubsubhubbub"></i>
 Styleguide 1.54
 */
 .icon-pubsubhubbub:before {
-  content: "\f047";
+  content: "";
   font-size: 50px;
 }
 
@@ -798,7 +799,7 @@ Markup: <i class="icon-cc"></i>
 Styleguide 1.55
 */
 .icon-cc:before {
-  content: "\f080";
+  content: "";
   font-size: 50px;
 }
 
@@ -812,7 +813,7 @@ Markup: <i class="icon-cc-by"></i>
 Styleguide 1.56
 */
 .icon-cc-by:before {
-  content: "\f081";
+  content: "";
   font-size: 50px;
 }
 
@@ -826,7 +827,7 @@ Markup: <i class="icon-cc-nc"></i>
 Styleguide 1.57
 */
 .icon-cc-nc:before {
-  content: "\f082";
+  content: "";
   font-size: 50px;
 }
 
@@ -840,7 +841,7 @@ Markup: <i class="icon-cc-nc-eu"></i>
 Styleguide 1.58
 */
 .icon-cc-nc-eu:before {
-  content: "\f083";
+  content: "";
   font-size: 50px;
 }
 
@@ -854,7 +855,7 @@ Markup: <i class="icon-cc-nc-jp"></i>
 Styleguide 1.59
 */
 .icon-cc-nc-jp:before {
-  content: "\f084";
+  content: "";
   font-size: 50px;
 }
 
@@ -868,7 +869,7 @@ Markup: <i class="icon-cc-sa"></i>
 Styleguide 1.60
 */
 .icon-cc-sa:before {
-  content: "\f085";
+  content: "";
   font-size: 50px;
 }
 
@@ -882,7 +883,7 @@ Markup: <i class="icon-cc-nd"></i>
 Styleguide 1.61
 */
 .icon-cc-nd:before {
-  content: "\f086";
+  content: "";
   font-size: 50px;
 }
 
@@ -896,7 +897,7 @@ Markup: <i class="icon-cc-public"></i>
 Styleguide 1.62
 */
 .icon-cc-public:before {
-  content: "\f087";
+  content: "";
   font-size: 50px;
 }
 
@@ -910,7 +911,7 @@ Markup: <i class="icon-cc-zero"></i>
 Styleguide 1.63
 */
 .icon-cc-zero:before {
-  content: "\f088";
+  content: "";
   font-size: 50px;
 }
 
@@ -924,7 +925,7 @@ Markup: <i class="icon-cc-share"></i>
 Styleguide 1.64
 */
 .icon-cc-share:before {
-  content: "\f089";
+  content: "";
   font-size: 50px;
 }
 
@@ -938,7 +939,7 @@ Markup: <i class="icon-cc-remix"></i>
 Styleguide 1.65
 */
 .icon-cc-remix:before {
-  content: "\f08a";
+  content: "";
   font-size: 50px;
 }
 
@@ -952,7 +953,7 @@ Markup: <i class="icon-hatom"></i>
 Styleguide 1.66
 */
 .icon-hatom:before {
-  content: "\f040";
+  content: "";
   font-size: 50px;
 }
 
@@ -966,7 +967,7 @@ Markup: <i class="icon-hresume"></i>
 Styleguide 1.67
 */
 .icon-hresume:before {
-  content: "\f042";
+  content: "";
   font-size: 50px;
 }
 
@@ -980,7 +981,7 @@ Markup: <i class="icon-hcard-add"></i>
 Styleguide 1.68
 */
 .icon-hcard-add:before {
-  content: "\f043";
+  content: "";
   font-size: 50px;
 }
 
@@ -994,7 +995,7 @@ Markup: <i class="icon-hcard-download"></i>
 Styleguide 1.69
 */
 .icon-hcard-download:before {
-  content: "\f044";
+  content: "";
   font-size: 50px;
 }
 
@@ -1008,7 +1009,7 @@ Markup: <i class="icon-indieweb"></i>
 Styleguide 1.70
 */
 .icon-indieweb:before {
-  content: "\f08b \f08c";
+  content: "";
   font-size: 50px;
 }
 
@@ -1022,7 +1023,7 @@ Markup: <i class="icon-indiewebcamp"></i>
 Styleguide 1.71
 */
 .icon-indiewebcamp:before {
-  content: "\f08b \f08c \f08d";
+  content: "";
   font-size: 50px;
 }
 
@@ -1036,7 +1037,7 @@ Markup: <i class="icon-webfinger"></i>
 Styleguide 1.72
 */
 .icon-webfinger:before {
-  content: "\f08e";
+  content: "";
   font-size: 50px;
 }
 
@@ -1050,7 +1051,7 @@ Markup: <i class="icon-bitcoin"></i>
 Styleguide 1.73
 */
 .icon-bitcoin:before {
-  content: "\f08f";
+  content: "";
   font-size: 50px;
 }
 
@@ -1064,7 +1065,7 @@ Markup: <i class="icon-bitcoin-simple"></i>
 Styleguide 1.74
 */
 .icon-bitcoin-simple:before {
-  content: "\f090";
+  content: "";
   font-size: 50px;
 }
 
@@ -1078,7 +1079,7 @@ Markup: <i class="icon-svg"></i>
 Styleguide 1.75
 */
 .icon-svg:before {
-  content: "\f049";
+  content: "";
   font-size: 50px;
 }
 
@@ -1092,7 +1093,7 @@ Markup: <i class="icon-json-ld"></i>
 Styleguide 1.76
 */
 .icon-json-ld:before {
-  content: "\f048";
+  content: "";
   font-size: 50px;
 }
 
@@ -1106,7 +1107,7 @@ Markup: <i class="icon-tent"></i>
 Styleguide 1.77
 */
 .icon-tent:before {
-  content: "\f050";
+  content: "";
   font-size: 50px;
 }
 
@@ -1120,7 +1121,7 @@ Markup: <i class="icon-copyleft"></i>
 Styleguide 1.78
 */
 .icon-copyleft:before {
-  content: "\f051";
+  content: "";
   font-size: 50px;
 }
 
@@ -1134,7 +1135,7 @@ Markup: <i class="icon-gnu"></i>
 Styleguide 1.79
 */
 .icon-gnu:before {
-  content: "\f052";
+  content: "";
   font-size: 50px;
 }
 
@@ -1148,7 +1149,7 @@ Markup: <i class="icon-ofl-attribution"></i>
 Styleguide 1.80
 */
 .icon-ofl-attribution:before {
-  content: "\f081";
+  content: "";
   font-size: 50px;
 }
 
@@ -1162,7 +1163,7 @@ Markup: <i class="icon-ofl-share"></i>
 Styleguide 1.81
 */
 .icon-ofl-share:before {
-  content: "\f085";
+  content: "";
   font-size: 50px;
 }
 
@@ -1176,7 +1177,7 @@ Markup: <i class="icon-ofl-renaming"></i>
 Styleguide 1.82
 */
 .icon-ofl-renaming:before {
-  content: "\f04a";
+  content: "";
   font-size: 50px;
 }
 
@@ -1190,7 +1191,7 @@ Markup: <i class="icon-ofl-selling"></i>
 Styleguide 1.83
 */
 .icon-ofl-selling:before {
-  content: "\f04b";
+  content: "";
   font-size: 50px;
 }
 
@@ -1204,7 +1205,7 @@ Markup: <i class="icon-ofl-embedding"></i>
 Styleguide 1.84
 */
 .icon-ofl-embedding:before {
-  content: "\f04c";
+  content: "";
   font-size: 50px;
 }
 
@@ -1218,7 +1219,7 @@ Markup: <i class="icon-webmention"></i>
 Styleguide 1.85
 */
 .icon-webmention:before {
-  content: "\f04d";
+  content: "";
   font-size: 50px;
 }
 
@@ -1232,7 +1233,7 @@ Markup: <i class="icon-javascript"></i>
 Styleguide 1.86
 */
 .icon-javascript:before {
-  content: "\f04e";
+  content: "";
   font-size: 50px;
 }
 
@@ -1246,7 +1247,7 @@ Markup: <i class="icon-wtfpl"></i>
 Styleguide 1.87
 */
 .icon-wtfpl:before {
-  content: "\f04f";
+  content: "";
   font-size: 50px;
 }
 
@@ -1260,7 +1261,7 @@ Markup: <i class="icon-ofl"></i>
 Styleguide 1.88
 */
 .icon-ofl:before {
-  content: "\f053";
+  content: "";
   font-size: 50px;
 }
 
@@ -1274,7 +1275,7 @@ Markup: <i class="icon-wordpress"></i>
 Styleguide 1.89
 */
 .icon-wordpress:before {
-  content: "\f054";
+  content: "";
   font-size: 50px;
 }
 
@@ -1288,7 +1289,7 @@ Markup: <i class="icon-owncloud"></i>
 Styleguide 1.90
 */
 .icon-owncloud:before {
-  content: "\f055";
+  content: "";
   font-size: 50px;
 }
 
@@ -1302,7 +1303,7 @@ Markup: <i class="icon-cccs"></i>
 Styleguide 1.91
 */
 .icon-cccs:before {
-  content: "\f056";
+  content: "";
   font-size: 50px;
 }
 
@@ -1316,7 +1317,7 @@ Markup: <i class="icon-barcamp"></i>
 Styleguide 1.92
 */
 .icon-barcamp:before {
-  content: "\f057";
+  content: "";
   font-size: 50px;
 }
 
@@ -1330,7 +1331,7 @@ Markup: <i class="icon-indiehosters"></i>
 Styleguide 1.93
 */
 .icon-indiehosters:before {
-  content: "\f058";
+  content: "";
   font-size: 50px;
 }
 
@@ -1344,7 +1345,7 @@ Markup: <i class="icon-known"></i>
 Styleguide 1.94
 */
 .icon-known:before {
-  content: "\f059";
+  content: "";
   font-size: 50px;
 }
 
@@ -1358,7 +1359,7 @@ Markup: <i class="icon-mozilla"></i>
 Styleguide 1.95
 */
 .icon-mozilla:before {
-  content: "\f05a";
+  content: "";
   font-size: 50px;
 }
 
@@ -1372,7 +1373,49 @@ Markup: <i class="icon-unhosted"></i>
 Styleguide 1.96
 */
 .icon-unhosted:before {
-  content: "\f05b";
+  content: "";
+  font-size: 50px;
+}
+
+/*
+The diaspora icon
+
+.icon-diaspora - the diaspora icon
+
+Markup: <i class="icon-diaspora"></i>
+
+Styleguide 1.97
+*/
+.icon-diaspora:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
+The indie icon
+
+.icon-indie - the indie icon
+
+Markup: <i class="icon-indie"></i>
+
+Styleguide 1.98
+*/
+.icon-indie:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
+The ghost icon
+
+.icon-ghost - the ghost icon
+
+Markup: <i class="icon-ghost"></i>
+
+Styleguide 1.99
+*/
+.icon-ghost:before {
+  content: "";
   font-size: 50px;
 }
 
@@ -1393,7 +1436,7 @@ Markup: <i class="icon-apml-colored"></i>
 Styleguide 2.1
 */
 .icon-apml-colored:before {
-  content: "\f001";
+  content: "";
   color: #AFDD63;
   font-size: 50px;
 }
@@ -1408,7 +1451,7 @@ Markup: <i class="icon-open-share-colored"></i>
 Styleguide 2.2
 */
 .icon-open-share-colored:before {
-  content: "\f00E";
+  content: "";
   color: #538439;
   font-size: 50px;
 }
@@ -1423,7 +1466,7 @@ Markup: <i class="icon-share-colored"></i>
 Styleguide 2.3
 */
 .icon-share-colored:before {
-  content: "\f006";
+  content: "";
   color: #538439;
   font-size: 50px;
 }
@@ -1438,7 +1481,7 @@ Markup: <i class="icon-feed-colored"></i>
 Styleguide 2.4
 */
 .icon-feed-colored:before {
-  content: "\f009";
+  content: "";
   color: #EA680B;
   font-size: 50px;
 }
@@ -1453,7 +1496,7 @@ Markup: <i class="icon-ostatus-colored"></i>
 Styleguide 2.5
 */
 .icon-ostatus-colored:before {
-  content: "\f004";
+  content: "";
   color: #FF6600;
   font-size: 50px;
 }
@@ -1468,7 +1511,7 @@ Markup: <i class="icon-opml-colored"></i>
 Styleguide 2.6
 */
 .icon-opml-colored:before {
-  content: "\f003";
+  content: "";
   color: #2490A1;
   font-size: 50px;
 }
@@ -1483,7 +1526,7 @@ Markup: <i class="icon-activity-colored"></i>
 Styleguide 2.7
 */
 .icon-activity-colored:before {
-  content: "\f010";
+  content: "";
   color: #4FB2D9;
   font-size: 50px;
 }
@@ -1498,7 +1541,7 @@ Markup: <i class="icon-microformats-colored"></i>
 Styleguide 2.8
 */
 .icon-microformats-colored:before {
-  content: "\f00C";
+  content: "";
   color: #85BC07;
   font-size: 50px;
 }
@@ -1513,7 +1556,7 @@ Markup: <i class="icon-geo-colored"></i>
 Styleguide 2.9
 */
 .icon-geo-colored:before {
-  content: "\f00B";
+  content: "";
   color: #990000;
   font-size: 50px;
 }
@@ -1528,7 +1571,7 @@ Markup: <i class="icon-opensearch-colored"></i>
 Styleguide 2.10
 */
 .icon-opensearch-colored:before {
-  content: "\f002";
+  content: "";
   color: #5050f3;
   font-size: 50px;
 }
@@ -1543,7 +1586,7 @@ Markup: <i class="icon-html5-colored"></i>
 Styleguide 2.11
 */
 .icon-html5-colored:before {
-  content: "\f016";
+  content: "";
   color: #E34C26;
   font-size: 50px;
 }
@@ -1558,7 +1601,7 @@ Markup: <i class="icon-git-colored"></i>
 Styleguide 2.12
 */
 .icon-git-colored:before {
-  content: "\f035";
+  content: "";
   color: #F05133;
   font-size: 50px;
 }
@@ -1573,7 +1616,7 @@ Markup: <i class="icon-osi-colored"></i>
 Styleguide 2.13
 */
 .icon-osi-colored:before {
-  content: "\f038";
+  content: "";
   color: #3DA639;
   font-size: 50px;
 }
@@ -1588,7 +1631,7 @@ Markup: <i class="icon-opensource-colored"></i>
 Styleguide 2.14
 */
 .icon-opensource-colored:before {
-  content: "\f038";
+  content: "";
   color: #3DA639;
   font-size: 50px;
 }
@@ -1603,7 +1646,7 @@ Markup: <i class="icon-epub-colored"></i>
 Styleguide 2.15
 */
 .icon-epub-colored:before {
-  content: "\f021";
+  content: "";
   color: #85b916;
   font-size: 50px;
 }
@@ -1618,7 +1661,7 @@ Markup: <i class="icon-info-card-colored"></i>
 Styleguide 2.16
 */
 .icon-info-card-colored:before {
-  content: "\f024";
+  content: "";
   color: #BF84E5;
   font-size: 50px;
 }
@@ -1633,7 +1676,7 @@ Markup: <i class="icon-remote-storage-colored"></i>
 Styleguide 2.17
 */
 .icon-remote-storage-colored:before {
-  content: "\f026";
+  content: "";
   color: #ff4e09;
   font-size: 50px;
 }
@@ -1648,7 +1691,7 @@ Markup: <i class="icon-odata-colored"></i>
 Styleguide 2.18
 */
 .icon-odata-colored:before {
-  content: "\f028";
+  content: "";
   color: #EA680B;
   font-size: 50px;
 }
@@ -1663,7 +1706,7 @@ Markup: <i class="icon-pub-colored"></i>
 Styleguide 2.19
 */
 .icon-pub-colored:before {
-  content: "\f045";
+  content: "";
   color: #99cc00;
   font-size: 50px;
 }
@@ -1678,7 +1721,7 @@ Markup: <i class="icon-sub-colored"></i>
 Styleguide 2.20
 */
 .icon-sub-colored:before {
-  content: "\f046";
+  content: "";
   color: #ffff00;
   font-size: 50px;
 }
@@ -1693,7 +1736,7 @@ Markup: <i class="icon-hubbub-colored"></i>
 Styleguide 2.21
 */
 .icon-hubbub-colored:before {
-  content: "\f045";
+  content: "";
   color: #ff6fcf;
   font-size: 50px;
 }
@@ -1708,7 +1751,7 @@ Markup: <i class="icon-javascript-colored"></i>
 Styleguide 2.22
 */
 .icon-javascript-colored:before {
-  content: "\f04e";
+  content: "";
   color: #f0db4f;
   font-size: 50px;
 }

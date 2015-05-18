@@ -28,6 +28,10 @@ You can find more informations and a list of all icons here: http://pfefferle.gi
 
 ## Changelog
 
+### Version 1.3.2
+
+* **2015-05-18**: Added Ghost, Diaspora and Ind.ie icon
+
 ### Version 1.3.1
 
 * **2014-11-28**: Added Unhosted icon
