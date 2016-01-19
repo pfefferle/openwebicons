@@ -203,3 +203,13 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] { display: block; }
 .openwebicons-indie:before { content: ""; }
 
 .openwebicons-ghost:before { content: ""; }
+
+.openwebicons-webplattform:before { content: ""; }
+
+.openwebicons-opensourcedesign:before { content: ""; }
+
+.openwebicons-opendesign:before { content: ""; }
+
+.openwebicons-gnusocial:before { content: ""; }
+
+.openwebicons-gnusocial-simple:before { content: ""; }

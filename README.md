@@ -28,6 +28,13 @@ You can find more informations and a list of all icons here: http://pfefferle.gi
 
 ## Changelog
 
+### Version 1.3.3 - 2016-01-19
+
+* WebPlattform Icon
+* DesignOpen Icon
+* OpenSourceDesign Icon
+* GNU Social Icon
+
 ### Version 1.3.2
 
 * **2015-05-18**: Added Ghost, Diaspora and Ind.ie icon

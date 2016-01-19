@@ -1420,6 +1420,76 @@ Styleguide 1.99
 }
 
 /*
+The webplattform icon
+
+.icon-webplattform - the webplattform icon
+
+Markup: <i class="icon-webplattform"></i>
+
+Styleguide 1.100
+*/
+.icon-webplattform:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
+The opensourcedesign icon
+
+.icon-opensourcedesign - the opensourcedesign icon
+
+Markup: <i class="icon-opensourcedesign"></i>
+
+Styleguide 1.101
+*/
+.icon-opensourcedesign:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
+The opendesign icon
+
+.icon-opendesign - the opendesign icon
+
+Markup: <i class="icon-opendesign"></i>
+
+Styleguide 1.102
+*/
+.icon-opendesign:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
+The gnusocial icon
+
+.icon-gnusocial - the gnusocial icon
+
+Markup: <i class="icon-gnusocial"></i>
+
+Styleguide 1.103
+*/
+.icon-gnusocial:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
+The gnusocial-simple icon
+
+.icon-gnusocial-simple - the gnusocial-simple icon
+
+Markup: <i class="icon-gnusocial-simple"></i>
+
+Styleguide 1.104
+*/
+.icon-gnusocial-simple:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
 Colored Icons
 
 Change the color of an icon with CSS
@@ -1753,5 +1823,20 @@ Styleguide 2.22
 .icon-javascript-colored:before {
   content: "";
   color: #f0db4f;
+  font-size: 50px;
+}
+
+/*
+The gnusocial colored-icon
+
+.icon-gnusocial-colored - the icon-gnusocial-colored icon
+
+Markup: <i class="icon-gnusocial-colored"></i>
+
+Styleguide 2.23
+*/
+.icon-gnusocial-colored:before {
+  content: "";
+  color: #a22430;
   font-size: 50px;
 }

@@ -110,7 +110,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-update-json');
   grunt.loadNpmTasks('grunt-svg2ttf');
-  grunt.loadNpmTasks('grunt - kss');
+  grunt.loadNpmTasks('grunt-kss');
 
   // generate ttf file using the svg file.
   grunt.registerTask('font', ['svg2ttf']);

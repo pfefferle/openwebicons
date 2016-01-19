@@ -4,7 +4,7 @@ Why OpenWeb Icons? Because Font Awesome had no RSS-icon and a font with only one
 
 The OpenWeb Icons is a web-font that gives you scalable vector icons/logos of some open communities, standards or projects. It includes the Creative Commons-, HTML5- and Microformats-icons for example.
 
-* 219 Icons - The OpenWeb Icons Font includes Icons of 219 open projects and standards... and a monkey!
+* &gt; 220 Icons - The OpenWeb Icons Font includes Icons of 219 open projects and standards... and a monkey!
 * Scalable - Use the font is infinitely scaleable and looks beautiful in any size.
 * Colorable - Change the color of an icon with CSS.
 * Customizable - The styles are generated with SASS and can easily be customized.
