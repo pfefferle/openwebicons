@@ -2,7 +2,7 @@
   "name": "openwebicons",
   "version": "1.3.3",
   "description": "OpenWeb Icons",
-  "main": "Gruntfile.js",
+  "main": "css/openwebicons.min.css",
   "author": {
     "name": "Matthias Pfefferle",
     "email": "pfefferle@gmail.com",
@@ -10,9 +10,6 @@
   },
   "homepage": "http://pfefferle.github.io/openwebicons/",
   "license": "OFL-1.1",
-  "directories": {
-    "test": "test"
-  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-sass": "~0.8.0",
