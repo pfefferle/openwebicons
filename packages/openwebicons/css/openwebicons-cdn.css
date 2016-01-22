@@ -422,6 +422,26 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] {
   content: "";
 }
 
+.openwebicons-webplattform:before {
+  content: "";
+}
+
+.openwebicons-opensourcedesign:before {
+  content: "";
+}
+
+.openwebicons-opendesign:before {
+  content: "";
+}
+
+.openwebicons-gnusocial:before {
+  content: "";
+}
+
+.openwebicons-gnusocial-simple:before {
+  content: "";
+}
+
 .openwebicons-apml-colored:before {
   content: "";
   color: #AFDD63;
@@ -530,4 +550,9 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] {
 .openwebicons-javascript-colored:before {
   content: "";
   color: #f0db4f;
+}
+
+.openwebicons-gnusocial-colored:before {
+  content: "";
+  color: #a22430;
 }

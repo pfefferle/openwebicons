@@ -422,6 +422,26 @@ li[class^="icon-"], li[class*=" icon-"] {
   content: "";
 }
 
+.icon-webplattform:before {
+  content: "";
+}
+
+.icon-opensourcedesign:before {
+  content: "";
+}
+
+.icon-opendesign:before {
+  content: "";
+}
+
+.icon-gnusocial:before {
+  content: "";
+}
+
+.icon-gnusocial-simple:before {
+  content: "";
+}
+
 .icon-apml-colored:before {
   content: "";
   color: #AFDD63;
@@ -530,4 +550,9 @@ li[class^="icon-"], li[class*=" icon-"] {
 .icon-javascript-colored:before {
   content: "";
   color: #f0db4f;
+}
+
+.icon-gnusocial-colored:before {
+  content: "";
+  color: #a22430;
 }
