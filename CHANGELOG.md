@@ -69,6 +69,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 * **2012-05-05**: Added *federated social web*, *DataPortability* and *Open Web Foundation* Icon
 * **2012-05-03**: Initial Release
 
+[1.4.0]: https://github.com/pfefferle/openwebicons/compare/1.3.3...1.4.0
 [1.3.3]: https://github.com/pfefferle/openwebicons/compare/1.3.2...1.3.3
 [1.3.2]: https://github.com/pfefferle/openwebicons/compare/1.3.1...1.3.2
 [1.3.1]: https://github.com/pfefferle/openwebicons/compare/1.3.0...1.3.1
