@@ -6,7 +6,7 @@
   font-weight: normal;
   font-style: normal;
 }
-[class^="icon-"]:before, [class*=" icon-"]:before {
+[class^="openwebicons-"]:before, [class*=" openwebicons-"]:before {
   font-family: 'OpenWeb Icons';
   font-weight: normal;
   font-style: normal;
@@ -17,12 +17,12 @@
   -webkit-font-smoothing: antialiased;
 }
 
-a [class^="icon-"], a [class*=" icon-"] {
+a [class^="openwebicons-"], a [class*=" openwebicons-"] {
   display: inline-block;
   text-decoration: inherit;
 }
 
-li[class^="icon-"], li[class*=" icon-"] {
+li[class^="openwebicons-"], li[class*=" openwebicons-"] {
   display: block;
 }
 
@@ -36,13 +36,13 @@ Styleguide 1.0
 /*
 The apml icon
 
-.icon-apml - the apml icon
+.openwebicons-apml - the apml icon
 
-Markup: <i class="icon-apml"></i>
+Markup: <i class="openwebicons-apml"></i>
 
 Styleguide 1.1
 */
-.icon-apml:before {
+.openwebicons-apml:before {
   content: "";
   font-size: 50px;
 }
@@ -50,13 +50,13 @@ Styleguide 1.1
 /*
 The open-share icon
 
-.icon-open-share - the open-share icon
+.openwebicons-open-share - the open-share icon
 
-Markup: <i class="icon-open-share"></i>
+Markup: <i class="openwebicons-open-share"></i>
 
 Styleguide 1.2
 */
-.icon-open-share:before {
+.openwebicons-open-share:before {
   content: "";
   font-size: 50px;
 }
@@ -64,13 +64,13 @@ Styleguide 1.2
 /*
 The open-share-simple icon
 
-.icon-open-share-simple - the open-share-simple icon
+.openwebicons-open-share-simple - the open-share-simple icon
 
-Markup: <i class="icon-open-share-simple"></i>
+Markup: <i class="openwebicons-open-share-simple"></i>
 
 Styleguide 1.3
 */
-.icon-open-share-simple:before {
+.openwebicons-open-share-simple:before {
   content: "";
   font-size: 50px;
 }
@@ -78,13 +78,13 @@ Styleguide 1.3
 /*
 The share icon
 
-.icon-share - the share icon
+.openwebicons-share - the share icon
 
-Markup: <i class="icon-share"></i>
+Markup: <i class="openwebicons-share"></i>
 
 Styleguide 1.4
 */
-.icon-share:before {
+.openwebicons-share:before {
   content: "";
   font-size: 50px;
 }
@@ -92,13 +92,13 @@ Styleguide 1.4
 /*
 The share-simple icon
 
-.icon-share-simple - the share-simple icon
+.openwebicons-share-simple - the share-simple icon
 
-Markup: <i class="icon-share-simple"></i>
+Markup: <i class="openwebicons-share-simple"></i>
 
 Styleguide 1.5
 */
-.icon-share-simple:before {
+.openwebicons-share-simple:before {
   content: "";
   font-size: 50px;
 }
@@ -106,13 +106,13 @@ Styleguide 1.5
 /*
 The feed icon
 
-.icon-feed - the feed icon
+.openwebicons-feed - the feed icon
 
-Markup: <i class="icon-feed"></i>
+Markup: <i class="openwebicons-feed"></i>
 
 Styleguide 1.6
 */
-.icon-feed:before {
+.openwebicons-feed:before {
   content: "";
   font-size: 50px;
 }
@@ -120,13 +120,13 @@ Styleguide 1.6
 /*
 The feed-simple icon
 
-.icon-feed-simple - the feed-simple icon
+.openwebicons-feed-simple - the feed-simple icon
 
-Markup: <i class="icon-feed-simple"></i>
+Markup: <i class="openwebicons-feed-simple"></i>
 
 Styleguide 1.7
 */
-.icon-feed-simple:before {
+.openwebicons-feed-simple:before {
   content: "";
   font-size: 50px;
 }
@@ -134,13 +134,13 @@ Styleguide 1.7
 /*
 The ostatus icon
 
-.icon-ostatus - the ostatus icon
+.openwebicons-ostatus - the ostatus icon
 
-Markup: <i class="icon-ostatus"></i>
+Markup: <i class="openwebicons-ostatus"></i>
 
 Styleguide 1.8
 */
-.icon-ostatus:before {
+.openwebicons-ostatus:before {
   content: "";
   font-size: 50px;
 }
@@ -148,13 +148,13 @@ Styleguide 1.8
 /*
 The ostatus-simple icon
 
-.icon-ostatus-simple - the ostatus-simple icon
+.openwebicons-ostatus-simple - the ostatus-simple icon
 
-Markup: <i class="icon-ostatus-simple"></i>
+Markup: <i class="openwebicons-ostatus-simple"></i>
 
 Styleguide 1.9
 */
-.icon-ostatus-simple:before {
+.openwebicons-ostatus-simple:before {
   content: "";
   font-size: 50px;
 }
@@ -162,13 +162,13 @@ Styleguide 1.9
 /*
 The opml icon
 
-.icon-opml - the opml icon
+.openwebicons-opml - the opml icon
 
-Markup: <i class="icon-opml"></i>
+Markup: <i class="openwebicons-opml"></i>
 
 Styleguide 1.10
 */
-.icon-opml:before {
+.openwebicons-opml:before {
   content: "";
   font-size: 50px;
 }
@@ -176,13 +176,13 @@ Styleguide 1.10
 /*
 The activity icon
 
-.icon-activity - the activity icon
+.openwebicons-activity - the activity icon
 
-Markup: <i class="icon-activity"></i>
+Markup: <i class="openwebicons-activity"></i>
 
 Styleguide 1.11
 */
-.icon-activity:before {
+.openwebicons-activity:before {
   content: "";
   font-size: 50px;
 }
@@ -190,13 +190,13 @@ Styleguide 1.11
 /*
 The activity-simple icon
 
-.icon-activity-simple - the activity-simple icon
+.openwebicons-activity-simple - the activity-simple icon
 
-Markup: <i class="icon-activity-simple"></i>
+Markup: <i class="openwebicons-activity-simple"></i>
 
 Styleguide 1.12
 */
-.icon-activity-simple:before {
+.openwebicons-activity-simple:before {
   content: "";
   font-size: 50px;
 }
@@ -204,13 +204,13 @@ Styleguide 1.12
 /*
 The microformats icon
 
-.icon-microformats - the microformats icon
+.openwebicons-microformats - the microformats icon
 
-Markup: <i class="icon-microformats"></i>
+Markup: <i class="openwebicons-microformats"></i>
 
 Styleguide 1.13
 */
-.icon-microformats:before {
+.openwebicons-microformats:before {
   content: "";
   font-size: 50px;
 }
@@ -218,13 +218,13 @@ Styleguide 1.13
 /*
 The geo icon
 
-.icon-geo - the geo icon
+.openwebicons-geo - the geo icon
 
-Markup: <i class="icon-geo"></i>
+Markup: <i class="openwebicons-geo"></i>
 
 Styleguide 1.14
 */
-.icon-geo:before {
+.openwebicons-geo:before {
   content: "";
   font-size: 50px;
 }
@@ -232,13 +232,13 @@ Styleguide 1.14
 /*
 The opensearch icon
 
-.icon-opensearch - the opensearch icon
+.openwebicons-opensearch - the opensearch icon
 
-Markup: <i class="icon-opensearch"></i>
+Markup: <i class="openwebicons-opensearch"></i>
 
 Styleguide 1.15
 */
-.icon-opensearch:before {
+.openwebicons-opensearch:before {
   content: "";
   font-size: 50px;
 }
@@ -246,13 +246,13 @@ Styleguide 1.15
 /*
 The oauth icon
 
-.icon-oauth - the oauth icon
+.openwebicons-oauth - the oauth icon
 
-Markup: <i class="icon-oauth"></i>
+Markup: <i class="openwebicons-oauth"></i>
 
 Styleguide 1.16
 */
-.icon-oauth:before {
+.openwebicons-oauth:before {
   content: "";
   font-size: 50px;
 }
@@ -260,13 +260,13 @@ Styleguide 1.16
 /*
 The openid icon
 
-.icon-openid - the openid icon
+.openwebicons-openid - the openid icon
 
-Markup: <i class="icon-openid"></i>
+Markup: <i class="openwebicons-openid"></i>
 
 Styleguide 1.17
 */
-.icon-openid:before {
+.openwebicons-openid:before {
   content: "";
   font-size: 50px;
 }
@@ -274,13 +274,13 @@ Styleguide 1.17
 /*
 The semantic-web icon
 
-.icon-semantic-web - the semantic-web icon
+.openwebicons-semantic-web - the semantic-web icon
 
-Markup: <i class="icon-semantic-web"></i>
+Markup: <i class="openwebicons-semantic-web"></i>
 
 Styleguide 1.18
 */
-.icon-semantic-web:before {
+.openwebicons-semantic-web:before {
   content: "";
   font-size: 50px;
 }
@@ -288,13 +288,13 @@ Styleguide 1.18
 /*
 The rdf icon
 
-.icon-rdf - the rdf icon
+.openwebicons-rdf - the rdf icon
 
-Markup: <i class="icon-rdf"></i>
+Markup: <i class="openwebicons-rdf"></i>
 
 Styleguide 1.19
 */
-.icon-rdf:before {
+.openwebicons-rdf:before {
   content: "";
   font-size: 50px;
 }
@@ -302,13 +302,13 @@ Styleguide 1.19
 /*
 The rdfa icon
 
-.icon-rdfa - the rdfa icon
+.openwebicons-rdfa - the rdfa icon
 
-Markup: <i class="icon-rdfa"></i>
+Markup: <i class="openwebicons-rdfa"></i>
 
 Styleguide 1.20
 */
-.icon-rdfa:before {
+.openwebicons-rdfa:before {
   content: "";
   font-size: 50px;
 }
@@ -316,13 +316,13 @@ Styleguide 1.20
 /*
 The owl icon
 
-.icon-owl - the owl icon
+.openwebicons-owl - the owl icon
 
-Markup: <i class="icon-owl"></i>
+Markup: <i class="openwebicons-owl"></i>
 
 Styleguide 1.21
 */
-.icon-owl:before {
+.openwebicons-owl:before {
   content: "";
   font-size: 50px;
 }
@@ -330,13 +330,13 @@ Styleguide 1.21
 /*
 The dataportability icon
 
-.icon-dataportability - the dataportability icon
+.openwebicons-dataportability - the dataportability icon
 
-Markup: <i class="icon-dataportability"></i>
+Markup: <i class="openwebicons-dataportability"></i>
 
 Styleguide 1.22
 */
-.icon-dataportability:before {
+.openwebicons-dataportability:before {
   content: "";
   font-size: 50px;
 }
@@ -344,13 +344,13 @@ Styleguide 1.22
 /*
 The federated icon
 
-.icon-federated - the federated icon
+.openwebicons-federated - the federated icon
 
-Markup: <i class="icon-federated"></i>
+Markup: <i class="openwebicons-federated"></i>
 
 Styleguide 1.23
 */
-.icon-federated:before {
+.openwebicons-federated:before {
   content: "";
   font-size: 50px;
 }
@@ -358,13 +358,13 @@ Styleguide 1.23
 /*
 The web-intents icon
 
-.icon-web-intents - the web-intents icon
+.openwebicons-web-intents - the web-intents icon
 
-Markup: <i class="icon-web-intents"></i>
+Markup: <i class="openwebicons-web-intents"></i>
 
 Styleguide 1.24
 */
-.icon-web-intents:before {
+.openwebicons-web-intents:before {
   content: "";
   font-size: 50px;
 }
@@ -372,13 +372,13 @@ Styleguide 1.24
 /*
 The open-web icon
 
-.icon-open-web - the open-web icon
+.openwebicons-open-web - the open-web icon
 
-Markup: <i class="icon-open-web"></i>
+Markup: <i class="openwebicons-open-web"></i>
 
 Styleguide 1.25
 */
-.icon-open-web:before {
+.openwebicons-open-web:before {
   content: "";
   font-size: 50px;
 }
@@ -386,13 +386,13 @@ Styleguide 1.25
 /*
 The xmpp icon
 
-.icon-xmpp - the xmpp icon
+.openwebicons-xmpp - the xmpp icon
 
-Markup: <i class="icon-xmpp"></i>
+Markup: <i class="openwebicons-xmpp"></i>
 
 Styleguide 1.26
 */
-.icon-xmpp:before {
+.openwebicons-xmpp:before {
   content: "";
   font-size: 50px;
 }
@@ -400,13 +400,13 @@ Styleguide 1.26
 /*
 The html5 icon
 
-.icon-html5 - the html5 icon
+.openwebicons-html5 - the html5 icon
 
-Markup: <i class="icon-html5"></i>
+Markup: <i class="openwebicons-html5"></i>
 
 Styleguide 1.27
 */
-.icon-html5:before {
+.openwebicons-html5:before {
   content: "";
   font-size: 50px;
 }
@@ -414,13 +414,13 @@ Styleguide 1.27
 /*
 The css3 icon
 
-.icon-css3 - the css3 icon
+.openwebicons-css3 - the css3 icon
 
-Markup: <i class="icon-css3"></i>
+Markup: <i class="openwebicons-css3"></i>
 
 Styleguide 1.28
 */
-.icon-css3:before {
+.openwebicons-css3:before {
   content: "";
   font-size: 50px;
 }
@@ -428,13 +428,13 @@ Styleguide 1.28
 /*
 The connectivity icon
 
-.icon-connectivity - the connectivity icon
+.openwebicons-connectivity - the connectivity icon
 
-Markup: <i class="icon-connectivity"></i>
+Markup: <i class="openwebicons-connectivity"></i>
 
 Styleguide 1.29
 */
-.icon-connectivity:before {
+.openwebicons-connectivity:before {
   content: "";
   font-size: 50px;
 }
@@ -442,13 +442,13 @@ Styleguide 1.29
 /*
 The semantics icon
 
-.icon-semantics - the semantics icon
+.openwebicons-semantics - the semantics icon
 
-Markup: <i class="icon-semantics"></i>
+Markup: <i class="openwebicons-semantics"></i>
 
 Styleguide 1.30
 */
-.icon-semantics:before {
+.openwebicons-semantics:before {
   content: "";
   font-size: 50px;
 }
@@ -456,13 +456,13 @@ Styleguide 1.30
 /*
 The 3deffects icon
 
-.icon-3deffects - the 3deffects icon
+.openwebicons-3deffects - the 3deffects icon
 
-Markup: <i class="icon-3deffects"></i>
+Markup: <i class="openwebicons-3deffects"></i>
 
 Styleguide 1.31
 */
-.icon-3deffects:before {
+.openwebicons-3deffects:before {
   content: "";
   font-size: 50px;
 }
@@ -470,13 +470,13 @@ Styleguide 1.31
 /*
 The device-access icon
 
-.icon-device-access - the device-access icon
+.openwebicons-device-access - the device-access icon
 
-Markup: <i class="icon-device-access"></i>
+Markup: <i class="openwebicons-device-access"></i>
 
 Styleguide 1.32
 */
-.icon-device-access:before {
+.openwebicons-device-access:before {
   content: "";
   font-size: 50px;
 }
@@ -484,13 +484,13 @@ Styleguide 1.32
 /*
 The multimedia icon
 
-.icon-multimedia - the multimedia icon
+.openwebicons-multimedia - the multimedia icon
 
-Markup: <i class="icon-multimedia"></i>
+Markup: <i class="openwebicons-multimedia"></i>
 
 Styleguide 1.33
 */
-.icon-multimedia:before {
+.openwebicons-multimedia:before {
   content: "";
   font-size: 50px;
 }
@@ -498,13 +498,13 @@ Styleguide 1.33
 /*
 The offline-storage icon
 
-.icon-offline-storage - the offline-storage icon
+.openwebicons-offline-storage - the offline-storage icon
 
-Markup: <i class="icon-offline-storage"></i>
+Markup: <i class="openwebicons-offline-storage"></i>
 
 Styleguide 1.34
 */
-.icon-offline-storage:before {
+.openwebicons-offline-storage:before {
   content: "";
   font-size: 50px;
 }
@@ -512,13 +512,13 @@ Styleguide 1.34
 /*
 The perfintegration icon
 
-.icon-perfintegration - the perfintegration icon
+.openwebicons-perfintegration - the perfintegration icon
 
-Markup: <i class="icon-perfintegration"></i>
+Markup: <i class="openwebicons-perfintegration"></i>
 
 Styleguide 1.35
 */
-.icon-perfintegration:before {
+.openwebicons-perfintegration:before {
   content: "";
   font-size: 50px;
 }
@@ -526,13 +526,13 @@ Styleguide 1.35
 /*
 The git icon
 
-.icon-git - the git icon
+.openwebicons-git - the git icon
 
-Markup: <i class="icon-git"></i>
+Markup: <i class="openwebicons-git"></i>
 
 Styleguide 1.36
 */
-.icon-git:before {
+.openwebicons-git:before {
   content: "";
   font-size: 50px;
 }
@@ -540,13 +540,13 @@ Styleguide 1.36
 /*
 The webhooks icon
 
-.icon-webhooks - the webhooks icon
+.openwebicons-webhooks - the webhooks icon
 
-Markup: <i class="icon-webhooks"></i>
+Markup: <i class="openwebicons-webhooks"></i>
 
 Styleguide 1.37
 */
-.icon-webhooks:before {
+.openwebicons-webhooks:before {
   content: "";
   font-size: 50px;
 }
@@ -554,13 +554,13 @@ Styleguide 1.37
 /*
 The osi icon
 
-.icon-osi - the osi icon
+.openwebicons-osi - the osi icon
 
-Markup: <i class="icon-osi"></i>
+Markup: <i class="openwebicons-osi"></i>
 
 Styleguide 1.38
 */
-.icon-osi:before {
+.openwebicons-osi:before {
   content: "";
   font-size: 50px;
 }
@@ -568,13 +568,13 @@ Styleguide 1.38
 /*
 The opensource icon
 
-.icon-opensource - the opensource icon
+.openwebicons-opensource - the opensource icon
 
-Markup: <i class="icon-opensource"></i>
+Markup: <i class="openwebicons-opensource"></i>
 
 Styleguide 1.39
 */
-.icon-opensource:before {
+.openwebicons-opensource:before {
   content: "";
   font-size: 50px;
 }
@@ -582,13 +582,13 @@ Styleguide 1.39
 /*
 The opengraph icon
 
-.icon-opengraph - the opengraph icon
+.openwebicons-opengraph - the opengraph icon
 
-Markup: <i class="icon-opengraph"></i>
+Markup: <i class="openwebicons-opengraph"></i>
 
 Styleguide 1.40
 */
-.icon-opengraph:before {
+.openwebicons-opengraph:before {
   content: "";
   font-size: 50px;
 }
@@ -596,13 +596,13 @@ Styleguide 1.40
 /*
 The epub icon
 
-.icon-epub - the epub icon
+.openwebicons-epub - the epub icon
 
-Markup: <i class="icon-epub"></i>
+Markup: <i class="openwebicons-epub"></i>
 
 Styleguide 1.41
 */
-.icon-epub:before {
+.openwebicons-epub:before {
   content: "";
   font-size: 50px;
 }
@@ -610,13 +610,13 @@ Styleguide 1.41
 /*
 The qr icon
 
-.icon-qr - the qr icon
+.openwebicons-qr - the qr icon
 
-Markup: <i class="icon-qr"></i>
+Markup: <i class="openwebicons-qr"></i>
 
 Styleguide 1.42
 */
-.icon-qr:before {
+.openwebicons-qr:before {
   content: "";
   font-size: 50px;
 }
@@ -624,13 +624,13 @@ Styleguide 1.42
 /*
 The foaf icon
 
-.icon-foaf - the foaf icon
+.openwebicons-foaf - the foaf icon
 
-Markup: <i class="icon-foaf"></i>
+Markup: <i class="openwebicons-foaf"></i>
 
 Styleguide 1.43
 */
-.icon-foaf:before {
+.openwebicons-foaf:before {
   content: "";
   font-size: 50px;
 }
@@ -638,13 +638,13 @@ Styleguide 1.43
 /*
 The info-card icon
 
-.icon-info-card - the info-card icon
+.openwebicons-info-card - the info-card icon
 
-Markup: <i class="icon-info-card"></i>
+Markup: <i class="openwebicons-info-card"></i>
 
 Styleguide 1.44
 */
-.icon-info-card:before {
+.openwebicons-info-card:before {
   content: "";
   font-size: 50px;
 }
@@ -652,13 +652,13 @@ Styleguide 1.44
 /*
 The browserid icon
 
-.icon-browserid - the browserid icon
+.openwebicons-browserid - the browserid icon
 
-Markup: <i class="icon-browserid"></i>
+Markup: <i class="openwebicons-browserid"></i>
 
 Styleguide 1.45
 */
-.icon-browserid:before {
+.openwebicons-browserid:before {
   content: "";
   font-size: 50px;
 }
@@ -666,13 +666,13 @@ Styleguide 1.45
 /*
 The remote-storage icon
 
-.icon-remote-storage - the remote-storage icon
+.openwebicons-remote-storage - the remote-storage icon
 
-Markup: <i class="icon-remote-storage"></i>
+Markup: <i class="openwebicons-remote-storage"></i>
 
 Styleguide 1.46
 */
-.icon-remote-storage:before {
+.openwebicons-remote-storage:before {
   content: "";
   font-size: 50px;
 }
@@ -680,13 +680,13 @@ Styleguide 1.46
 /*
 The persona icon
 
-.icon-persona - the persona icon
+.openwebicons-persona - the persona icon
 
-Markup: <i class="icon-persona"></i>
+Markup: <i class="openwebicons-persona"></i>
 
 Styleguide 1.47
 */
-.icon-persona:before {
+.openwebicons-persona:before {
   content: "";
   font-size: 50px;
 }
@@ -694,13 +694,13 @@ Styleguide 1.47
 /*
 The odata icon
 
-.icon-odata - the odata icon
+.openwebicons-odata - the odata icon
 
-Markup: <i class="icon-odata"></i>
+Markup: <i class="openwebicons-odata"></i>
 
 Styleguide 1.48
 */
-.icon-odata:before {
+.openwebicons-odata:before {
   content: "";
   font-size: 50px;
 }
@@ -708,13 +708,13 @@ Styleguide 1.48
 /*
 The markdown icon
 
-.icon-markdown - the markdown icon
+.openwebicons-markdown - the markdown icon
 
-Markup: <i class="icon-markdown"></i>
+Markup: <i class="openwebicons-markdown"></i>
 
 Styleguide 1.49
 */
-.icon-markdown:before {
+.openwebicons-markdown:before {
   content: "";
   font-size: 50px;
 }
@@ -722,13 +722,13 @@ Styleguide 1.49
 /*
 The tosdr icon
 
-.icon-tosdr - the tosdr icon
+.openwebicons-tosdr - the tosdr icon
 
-Markup: <i class="icon-tosdr"></i>
+Markup: <i class="openwebicons-tosdr"></i>
 
 Styleguide 1.50
 */
-.icon-tosdr:before {
+.openwebicons-tosdr:before {
   content: "";
   font-size: 50px;
 }
@@ -736,13 +736,13 @@ Styleguide 1.50
 /*
 The pub icon
 
-.icon-pub - the pub icon
+.openwebicons-pub - the pub icon
 
-Markup: <i class="icon-pub"></i>
+Markup: <i class="openwebicons-pub"></i>
 
 Styleguide 1.51
 */
-.icon-pub:before {
+.openwebicons-pub:before {
   content: "";
   font-size: 50px;
 }
@@ -750,13 +750,13 @@ Styleguide 1.51
 /*
 The sub icon
 
-.icon-sub - the sub icon
+.openwebicons-sub - the sub icon
 
-Markup: <i class="icon-sub"></i>
+Markup: <i class="openwebicons-sub"></i>
 
 Styleguide 1.52
 */
-.icon-sub:before {
+.openwebicons-sub:before {
   content: "";
   font-size: 50px;
 }
@@ -764,13 +764,13 @@ Styleguide 1.52
 /*
 The hubbub icon
 
-.icon-hubbub - the hubbub icon
+.openwebicons-hubbub - the hubbub icon
 
-Markup: <i class="icon-hubbub"></i>
+Markup: <i class="openwebicons-hubbub"></i>
 
 Styleguide 1.53
 */
-.icon-hubbub:before {
+.openwebicons-hubbub:before {
   content: "";
   font-size: 50px;
 }
@@ -778,13 +778,13 @@ Styleguide 1.53
 /*
 The pubsubhubbub icon
 
-.icon-pubsubhubbub - the pubsubhubbub icon
+.openwebicons-pubsubhubbub - the pubsubhubbub icon
 
-Markup: <i class="icon-pubsubhubbub"></i>
+Markup: <i class="openwebicons-pubsubhubbub"></i>
 
 Styleguide 1.54
 */
-.icon-pubsubhubbub:before {
+.openwebicons-pubsubhubbub:before {
   content: "";
   font-size: 50px;
 }
@@ -792,13 +792,13 @@ Styleguide 1.54
 /*
 The cc icon
 
-.icon-cc - the cc icon
+.openwebicons-cc - the cc icon
 
-Markup: <i class="icon-cc"></i>
+Markup: <i class="openwebicons-cc"></i>
 
 Styleguide 1.55
 */
-.icon-cc:before {
+.openwebicons-cc:before {
   content: "";
   font-size: 50px;
 }
@@ -806,13 +806,13 @@ Styleguide 1.55
 /*
 The cc-by icon
 
-.icon-cc-by - the cc-by icon
+.openwebicons-cc-by - the cc-by icon
 
-Markup: <i class="icon-cc-by"></i>
+Markup: <i class="openwebicons-cc-by"></i>
 
 Styleguide 1.56
 */
-.icon-cc-by:before {
+.openwebicons-cc-by:before {
   content: "";
   font-size: 50px;
 }
@@ -820,13 +820,13 @@ Styleguide 1.56
 /*
 The cc-nc icon
 
-.icon-cc-nc - the cc-nc icon
+.openwebicons-cc-nc - the cc-nc icon
 
-Markup: <i class="icon-cc-nc"></i>
+Markup: <i class="openwebicons-cc-nc"></i>
 
 Styleguide 1.57
 */
-.icon-cc-nc:before {
+.openwebicons-cc-nc:before {
   content: "";
   font-size: 50px;
 }
@@ -834,13 +834,13 @@ Styleguide 1.57
 /*
 The cc-nc-eu icon
 
-.icon-cc-nc-eu - the cc-nc-eu icon
+.openwebicons-cc-nc-eu - the cc-nc-eu icon
 
-Markup: <i class="icon-cc-nc-eu"></i>
+Markup: <i class="openwebicons-cc-nc-eu"></i>
 
 Styleguide 1.58
 */
-.icon-cc-nc-eu:before {
+.openwebicons-cc-nc-eu:before {
   content: "";
   font-size: 50px;
 }
@@ -848,13 +848,13 @@ Styleguide 1.58
 /*
 The cc-nc-jp icon
 
-.icon-cc-nc-jp - the cc-nc-jp icon
+.openwebicons-cc-nc-jp - the cc-nc-jp icon
 
-Markup: <i class="icon-cc-nc-jp"></i>
+Markup: <i class="openwebicons-cc-nc-jp"></i>
 
 Styleguide 1.59
 */
-.icon-cc-nc-jp:before {
+.openwebicons-cc-nc-jp:before {
   content: "";
   font-size: 50px;
 }
@@ -862,13 +862,13 @@ Styleguide 1.59
 /*
 The cc-sa icon
 
-.icon-cc-sa - the cc-sa icon
+.openwebicons-cc-sa - the cc-sa icon
 
-Markup: <i class="icon-cc-sa"></i>
+Markup: <i class="openwebicons-cc-sa"></i>
 
 Styleguide 1.60
 */
-.icon-cc-sa:before {
+.openwebicons-cc-sa:before {
   content: "";
   font-size: 50px;
 }
@@ -876,13 +876,13 @@ Styleguide 1.60
 /*
 The cc-nd icon
 
-.icon-cc-nd - the cc-nd icon
+.openwebicons-cc-nd - the cc-nd icon
 
-Markup: <i class="icon-cc-nd"></i>
+Markup: <i class="openwebicons-cc-nd"></i>
 
 Styleguide 1.61
 */
-.icon-cc-nd:before {
+.openwebicons-cc-nd:before {
   content: "";
   font-size: 50px;
 }
@@ -890,13 +890,13 @@ Styleguide 1.61
 /*
 The cc-public icon
 
-.icon-cc-public - the cc-public icon
+.openwebicons-cc-public - the cc-public icon
 
-Markup: <i class="icon-cc-public"></i>
+Markup: <i class="openwebicons-cc-public"></i>
 
 Styleguide 1.62
 */
-.icon-cc-public:before {
+.openwebicons-cc-public:before {
   content: "";
   font-size: 50px;
 }
@@ -904,13 +904,13 @@ Styleguide 1.62
 /*
 The cc-zero icon
 
-.icon-cc-zero - the cc-zero icon
+.openwebicons-cc-zero - the cc-zero icon
 
-Markup: <i class="icon-cc-zero"></i>
+Markup: <i class="openwebicons-cc-zero"></i>
 
 Styleguide 1.63
 */
-.icon-cc-zero:before {
+.openwebicons-cc-zero:before {
   content: "";
   font-size: 50px;
 }
@@ -918,13 +918,13 @@ Styleguide 1.63
 /*
 The cc-share icon
 
-.icon-cc-share - the cc-share icon
+.openwebicons-cc-share - the cc-share icon
 
-Markup: <i class="icon-cc-share"></i>
+Markup: <i class="openwebicons-cc-share"></i>
 
 Styleguide 1.64
 */
-.icon-cc-share:before {
+.openwebicons-cc-share:before {
   content: "";
   font-size: 50px;
 }
@@ -932,13 +932,13 @@ Styleguide 1.64
 /*
 The cc-remix icon
 
-.icon-cc-remix - the cc-remix icon
+.openwebicons-cc-remix - the cc-remix icon
 
-Markup: <i class="icon-cc-remix"></i>
+Markup: <i class="openwebicons-cc-remix"></i>
 
 Styleguide 1.65
 */
-.icon-cc-remix:before {
+.openwebicons-cc-remix:before {
   content: "";
   font-size: 50px;
 }
@@ -946,13 +946,13 @@ Styleguide 1.65
 /*
 The hatom icon
 
-.icon-hatom - the hatom icon
+.openwebicons-hatom - the hatom icon
 
-Markup: <i class="icon-hatom"></i>
+Markup: <i class="openwebicons-hatom"></i>
 
 Styleguide 1.66
 */
-.icon-hatom:before {
+.openwebicons-hatom:before {
   content: "";
   font-size: 50px;
 }
@@ -960,13 +960,13 @@ Styleguide 1.66
 /*
 The hresume icon
 
-.icon-hresume - the hresume icon
+.openwebicons-hresume - the hresume icon
 
-Markup: <i class="icon-hresume"></i>
+Markup: <i class="openwebicons-hresume"></i>
 
 Styleguide 1.67
 */
-.icon-hresume:before {
+.openwebicons-hresume:before {
   content: "";
   font-size: 50px;
 }
@@ -974,13 +974,13 @@ Styleguide 1.67
 /*
 The hcard-add icon
 
-.icon-hcard-add - the hcard-add icon
+.openwebicons-hcard-add - the hcard-add icon
 
-Markup: <i class="icon-hcard-add"></i>
+Markup: <i class="openwebicons-hcard-add"></i>
 
 Styleguide 1.68
 */
-.icon-hcard-add:before {
+.openwebicons-hcard-add:before {
   content: "";
   font-size: 50px;
 }
@@ -988,13 +988,13 @@ Styleguide 1.68
 /*
 The hcard-download icon
 
-.icon-hcard-download - the hcard-download icon
+.openwebicons-hcard-download - the hcard-download icon
 
-Markup: <i class="icon-hcard-download"></i>
+Markup: <i class="openwebicons-hcard-download"></i>
 
 Styleguide 1.69
 */
-.icon-hcard-download:before {
+.openwebicons-hcard-download:before {
   content: "";
   font-size: 50px;
 }
@@ -1002,13 +1002,13 @@ Styleguide 1.69
 /*
 The indieweb icon
 
-.icon-indieweb - the indieweb icon
+.openwebicons-indieweb - the indieweb icon
 
-Markup: <i class="icon-indieweb"></i>
+Markup: <i class="openwebicons-indieweb"></i>
 
 Styleguide 1.70
 */
-.icon-indieweb:before {
+.openwebicons-indieweb:before {
   content: "";
   font-size: 50px;
 }
@@ -1016,13 +1016,13 @@ Styleguide 1.70
 /*
 The indiewebcamp icon
 
-.icon-indiewebcamp - the indiewebcamp icon
+.openwebicons-indiewebcamp - the indiewebcamp icon
 
-Markup: <i class="icon-indiewebcamp"></i>
+Markup: <i class="openwebicons-indiewebcamp"></i>
 
 Styleguide 1.71
 */
-.icon-indiewebcamp:before {
+.openwebicons-indiewebcamp:before {
   content: "";
   font-size: 50px;
 }
@@ -1030,13 +1030,13 @@ Styleguide 1.71
 /*
 The webfinger icon
 
-.icon-webfinger - the webfinger icon
+.openwebicons-webfinger - the webfinger icon
 
-Markup: <i class="icon-webfinger"></i>
+Markup: <i class="openwebicons-webfinger"></i>
 
 Styleguide 1.72
 */
-.icon-webfinger:before {
+.openwebicons-webfinger:before {
   content: "";
   font-size: 50px;
 }
@@ -1044,13 +1044,13 @@ Styleguide 1.72
 /*
 The bitcoin icon
 
-.icon-bitcoin - the bitcoin icon
+.openwebicons-bitcoin - the bitcoin icon
 
-Markup: <i class="icon-bitcoin"></i>
+Markup: <i class="openwebicons-bitcoin"></i>
 
 Styleguide 1.73
 */
-.icon-bitcoin:before {
+.openwebicons-bitcoin:before {
   content: "";
   font-size: 50px;
 }
@@ -1058,13 +1058,13 @@ Styleguide 1.73
 /*
 The bitcoin-simple icon
 
-.icon-bitcoin-simple - the bitcoin-simple icon
+.openwebicons-bitcoin-simple - the bitcoin-simple icon
 
-Markup: <i class="icon-bitcoin-simple"></i>
+Markup: <i class="openwebicons-bitcoin-simple"></i>
 
 Styleguide 1.74
 */
-.icon-bitcoin-simple:before {
+.openwebicons-bitcoin-simple:before {
   content: "";
   font-size: 50px;
 }
@@ -1072,13 +1072,13 @@ Styleguide 1.74
 /*
 The svg icon
 
-.icon-svg - the svg icon
+.openwebicons-svg - the svg icon
 
-Markup: <i class="icon-svg"></i>
+Markup: <i class="openwebicons-svg"></i>
 
 Styleguide 1.75
 */
-.icon-svg:before {
+.openwebicons-svg:before {
   content: "";
   font-size: 50px;
 }
@@ -1086,13 +1086,13 @@ Styleguide 1.75
 /*
 The json-ld icon
 
-.icon-json-ld - the json-ld icon
+.openwebicons-json-ld - the json-ld icon
 
-Markup: <i class="icon-json-ld"></i>
+Markup: <i class="openwebicons-json-ld"></i>
 
 Styleguide 1.76
 */
-.icon-json-ld:before {
+.openwebicons-json-ld:before {
   content: "";
   font-size: 50px;
 }
@@ -1100,13 +1100,13 @@ Styleguide 1.76
 /*
 The tent icon
 
-.icon-tent - the tent icon
+.openwebicons-tent - the tent icon
 
-Markup: <i class="icon-tent"></i>
+Markup: <i class="openwebicons-tent"></i>
 
 Styleguide 1.77
 */
-.icon-tent:before {
+.openwebicons-tent:before {
   content: "";
   font-size: 50px;
 }
@@ -1114,13 +1114,13 @@ Styleguide 1.77
 /*
 The copyleft icon
 
-.icon-copyleft - the copyleft icon
+.openwebicons-copyleft - the copyleft icon
 
-Markup: <i class="icon-copyleft"></i>
+Markup: <i class="openwebicons-copyleft"></i>
 
 Styleguide 1.78
 */
-.icon-copyleft:before {
+.openwebicons-copyleft:before {
   content: "";
   font-size: 50px;
 }
@@ -1128,13 +1128,13 @@ Styleguide 1.78
 /*
 The gnu icon
 
-.icon-gnu - the gnu icon
+.openwebicons-gnu - the gnu icon
 
-Markup: <i class="icon-gnu"></i>
+Markup: <i class="openwebicons-gnu"></i>
 
 Styleguide 1.79
 */
-.icon-gnu:before {
+.openwebicons-gnu:before {
   content: "";
   font-size: 50px;
 }
@@ -1142,13 +1142,13 @@ Styleguide 1.79
 /*
 The ofl-attribution icon
 
-.icon-ofl-attribution - the ofl-attribution icon
+.openwebicons-ofl-attribution - the ofl-attribution icon
 
-Markup: <i class="icon-ofl-attribution"></i>
+Markup: <i class="openwebicons-ofl-attribution"></i>
 
 Styleguide 1.80
 */
-.icon-ofl-attribution:before {
+.openwebicons-ofl-attribution:before {
   content: "";
   font-size: 50px;
 }
@@ -1156,13 +1156,13 @@ Styleguide 1.80
 /*
 The ofl-share icon
 
-.icon-ofl-share - the ofl-share icon
+.openwebicons-ofl-share - the ofl-share icon
 
-Markup: <i class="icon-ofl-share"></i>
+Markup: <i class="openwebicons-ofl-share"></i>
 
 Styleguide 1.81
 */
-.icon-ofl-share:before {
+.openwebicons-ofl-share:before {
   content: "";
   font-size: 50px;
 }
@@ -1170,13 +1170,13 @@ Styleguide 1.81
 /*
 The ofl-renaming icon
 
-.icon-ofl-renaming - the ofl-renaming icon
+.openwebicons-ofl-renaming - the ofl-renaming icon
 
-Markup: <i class="icon-ofl-renaming"></i>
+Markup: <i class="openwebicons-ofl-renaming"></i>
 
 Styleguide 1.82
 */
-.icon-ofl-renaming:before {
+.openwebicons-ofl-renaming:before {
   content: "";
   font-size: 50px;
 }
@@ -1184,13 +1184,13 @@ Styleguide 1.82
 /*
 The ofl-selling icon
 
-.icon-ofl-selling - the ofl-selling icon
+.openwebicons-ofl-selling - the ofl-selling icon
 
-Markup: <i class="icon-ofl-selling"></i>
+Markup: <i class="openwebicons-ofl-selling"></i>
 
 Styleguide 1.83
 */
-.icon-ofl-selling:before {
+.openwebicons-ofl-selling:before {
   content: "";
   font-size: 50px;
 }
@@ -1198,13 +1198,13 @@ Styleguide 1.83
 /*
 The ofl-embedding icon
 
-.icon-ofl-embedding - the ofl-embedding icon
+.openwebicons-ofl-embedding - the ofl-embedding icon
 
-Markup: <i class="icon-ofl-embedding"></i>
+Markup: <i class="openwebicons-ofl-embedding"></i>
 
 Styleguide 1.84
 */
-.icon-ofl-embedding:before {
+.openwebicons-ofl-embedding:before {
   content: "";
   font-size: 50px;
 }
@@ -1212,13 +1212,13 @@ Styleguide 1.84
 /*
 The webmention icon
 
-.icon-webmention - the webmention icon
+.openwebicons-webmention - the webmention icon
 
-Markup: <i class="icon-webmention"></i>
+Markup: <i class="openwebicons-webmention"></i>
 
 Styleguide 1.85
 */
-.icon-webmention:before {
+.openwebicons-webmention:before {
   content: "";
   font-size: 50px;
 }
@@ -1226,13 +1226,13 @@ Styleguide 1.85
 /*
 The javascript icon
 
-.icon-javascript - the javascript icon
+.openwebicons-javascript - the javascript icon
 
-Markup: <i class="icon-javascript"></i>
+Markup: <i class="openwebicons-javascript"></i>
 
 Styleguide 1.86
 */
-.icon-javascript:before {
+.openwebicons-javascript:before {
   content: "";
   font-size: 50px;
 }
@@ -1240,13 +1240,13 @@ Styleguide 1.86
 /*
 The wtfpl icon
 
-.icon-wtfpl - the wtfpl icon
+.openwebicons-wtfpl - the wtfpl icon
 
-Markup: <i class="icon-wtfpl"></i>
+Markup: <i class="openwebicons-wtfpl"></i>
 
 Styleguide 1.87
 */
-.icon-wtfpl:before {
+.openwebicons-wtfpl:before {
   content: "";
   font-size: 50px;
 }
@@ -1254,13 +1254,13 @@ Styleguide 1.87
 /*
 The ofl icon
 
-.icon-ofl - the ofl icon
+.openwebicons-ofl - the ofl icon
 
-Markup: <i class="icon-ofl"></i>
+Markup: <i class="openwebicons-ofl"></i>
 
 Styleguide 1.88
 */
-.icon-ofl:before {
+.openwebicons-ofl:before {
   content: "";
   font-size: 50px;
 }
@@ -1268,13 +1268,13 @@ Styleguide 1.88
 /*
 The wordpress icon
 
-.icon-wordpress - the wordpress icon
+.openwebicons-wordpress - the wordpress icon
 
-Markup: <i class="icon-wordpress"></i>
+Markup: <i class="openwebicons-wordpress"></i>
 
 Styleguide 1.89
 */
-.icon-wordpress:before {
+.openwebicons-wordpress:before {
   content: "";
   font-size: 50px;
 }
@@ -1282,13 +1282,13 @@ Styleguide 1.89
 /*
 The owncloud icon
 
-.icon-owncloud - the owncloud icon
+.openwebicons-owncloud - the owncloud icon
 
-Markup: <i class="icon-owncloud"></i>
+Markup: <i class="openwebicons-owncloud"></i>
 
 Styleguide 1.90
 */
-.icon-owncloud:before {
+.openwebicons-owncloud:before {
   content: "";
   font-size: 50px;
 }
@@ -1296,13 +1296,13 @@ Styleguide 1.90
 /*
 The cccs icon
 
-.icon-cccs - the cccs icon
+.openwebicons-cccs - the cccs icon
 
-Markup: <i class="icon-cccs"></i>
+Markup: <i class="openwebicons-cccs"></i>
 
 Styleguide 1.91
 */
-.icon-cccs:before {
+.openwebicons-cccs:before {
   content: "";
   font-size: 50px;
 }
@@ -1310,13 +1310,13 @@ Styleguide 1.91
 /*
 The barcamp icon
 
-.icon-barcamp - the barcamp icon
+.openwebicons-barcamp - the barcamp icon
 
-Markup: <i class="icon-barcamp"></i>
+Markup: <i class="openwebicons-barcamp"></i>
 
 Styleguide 1.92
 */
-.icon-barcamp:before {
+.openwebicons-barcamp:before {
   content: "";
   font-size: 50px;
 }
@@ -1324,13 +1324,13 @@ Styleguide 1.92
 /*
 The indiehosters icon
 
-.icon-indiehosters - the indiehosters icon
+.openwebicons-indiehosters - the indiehosters icon
 
-Markup: <i class="icon-indiehosters"></i>
+Markup: <i class="openwebicons-indiehosters"></i>
 
 Styleguide 1.93
 */
-.icon-indiehosters:before {
+.openwebicons-indiehosters:before {
   content: "";
   font-size: 50px;
 }
@@ -1338,13 +1338,13 @@ Styleguide 1.93
 /*
 The known icon
 
-.icon-known - the known icon
+.openwebicons-known - the known icon
 
-Markup: <i class="icon-known"></i>
+Markup: <i class="openwebicons-known"></i>
 
 Styleguide 1.94
 */
-.icon-known:before {
+.openwebicons-known:before {
   content: "";
   font-size: 50px;
 }
@@ -1352,13 +1352,13 @@ Styleguide 1.94
 /*
 The mozilla icon
 
-.icon-mozilla - the mozilla icon
+.openwebicons-mozilla - the mozilla icon
 
-Markup: <i class="icon-mozilla"></i>
+Markup: <i class="openwebicons-mozilla"></i>
 
 Styleguide 1.95
 */
-.icon-mozilla:before {
+.openwebicons-mozilla:before {
   content: "";
   font-size: 50px;
 }
@@ -1366,13 +1366,13 @@ Styleguide 1.95
 /*
 The unhosted icon
 
-.icon-unhosted - the unhosted icon
+.openwebicons-unhosted - the unhosted icon
 
-Markup: <i class="icon-unhosted"></i>
+Markup: <i class="openwebicons-unhosted"></i>
 
 Styleguide 1.96
 */
-.icon-unhosted:before {
+.openwebicons-unhosted:before {
   content: "";
   font-size: 50px;
 }
@@ -1380,13 +1380,13 @@ Styleguide 1.96
 /*
 The diaspora icon
 
-.icon-diaspora - the diaspora icon
+.openwebicons-diaspora - the diaspora icon
 
-Markup: <i class="icon-diaspora"></i>
+Markup: <i class="openwebicons-diaspora"></i>
 
 Styleguide 1.97
 */
-.icon-diaspora:before {
+.openwebicons-diaspora:before {
   content: "";
   font-size: 50px;
 }
@@ -1394,13 +1394,13 @@ Styleguide 1.97
 /*
 The indie icon
 
-.icon-indie - the indie icon
+.openwebicons-indie - the indie icon
 
-Markup: <i class="icon-indie"></i>
+Markup: <i class="openwebicons-indie"></i>
 
 Styleguide 1.98
 */
-.icon-indie:before {
+.openwebicons-indie:before {
   content: "";
   font-size: 50px;
 }
@@ -1408,13 +1408,13 @@ Styleguide 1.98
 /*
 The ghost icon
 
-.icon-ghost - the ghost icon
+.openwebicons-ghost - the ghost icon
 
-Markup: <i class="icon-ghost"></i>
+Markup: <i class="openwebicons-ghost"></i>
 
 Styleguide 1.99
 */
-.icon-ghost:before {
+.openwebicons-ghost:before {
   content: "";
   font-size: 50px;
 }
@@ -1422,13 +1422,13 @@ Styleguide 1.99
 /*
 The webplattform icon
 
-.icon-webplattform - the webplattform icon
+.openwebicons-webplattform - the webplattform icon
 
-Markup: <i class="icon-webplattform"></i>
+Markup: <i class="openwebicons-webplattform"></i>
 
 Styleguide 1.100
 */
-.icon-webplattform:before {
+.openwebicons-webplattform:before {
   content: "";
   font-size: 50px;
 }
@@ -1436,13 +1436,13 @@ Styleguide 1.100
 /*
 The opensourcedesign icon
 
-.icon-opensourcedesign - the opensourcedesign icon
+.openwebicons-opensourcedesign - the opensourcedesign icon
 
-Markup: <i class="icon-opensourcedesign"></i>
+Markup: <i class="openwebicons-opensourcedesign"></i>
 
 Styleguide 1.101
 */
-.icon-opensourcedesign:before {
+.openwebicons-opensourcedesign:before {
   content: "";
   font-size: 50px;
 }
@@ -1450,13 +1450,13 @@ Styleguide 1.101
 /*
 The opendesign icon
 
-.icon-opendesign - the opendesign icon
+.openwebicons-opendesign - the opendesign icon
 
-Markup: <i class="icon-opendesign"></i>
+Markup: <i class="openwebicons-opendesign"></i>
 
 Styleguide 1.102
 */
-.icon-opendesign:before {
+.openwebicons-opendesign:before {
   content: "";
   font-size: 50px;
 }
@@ -1464,13 +1464,13 @@ Styleguide 1.102
 /*
 The gnusocial icon
 
-.icon-gnusocial - the gnusocial icon
+.openwebicons-gnusocial - the gnusocial icon
 
-Markup: <i class="icon-gnusocial"></i>
+Markup: <i class="openwebicons-gnusocial"></i>
 
 Styleguide 1.103
 */
-.icon-gnusocial:before {
+.openwebicons-gnusocial:before {
   content: "";
   font-size: 50px;
 }
@@ -1478,13 +1478,13 @@ Styleguide 1.103
 /*
 The gnusocial-simple icon
 
-.icon-gnusocial-simple - the gnusocial-simple icon
+.openwebicons-gnusocial-simple - the gnusocial-simple icon
 
-Markup: <i class="icon-gnusocial-simple"></i>
+Markup: <i class="openwebicons-gnusocial-simple"></i>
 
 Styleguide 1.104
 */
-.icon-gnusocial-simple:before {
+.openwebicons-gnusocial-simple:before {
   content: "";
   font-size: 50px;
 }
@@ -1499,13 +1499,13 @@ Styleguide 2.0
 /*
 The apml colored-icon
 
-.icon-apml-colored - the icon-apml-colored icon
+.openwebicons-apml-colored - the openwebicons-apml-colored icon
 
-Markup: <i class="icon-apml-colored"></i>
+Markup: <i class="openwebicons-apml-colored"></i>
 
 Styleguide 2.1
 */
-.icon-apml-colored:before {
+.openwebicons-apml-colored:before {
   content: "";
   color: #AFDD63;
   font-size: 50px;
@@ -1514,13 +1514,13 @@ Styleguide 2.1
 /*
 The open-share colored-icon
 
-.icon-open-share-colored - the icon-open-share-colored icon
+.openwebicons-open-share-colored - the openwebicons-open-share-colored icon
 
-Markup: <i class="icon-open-share-colored"></i>
+Markup: <i class="openwebicons-open-share-colored"></i>
 
 Styleguide 2.2
 */
-.icon-open-share-colored:before {
+.openwebicons-open-share-colored:before {
   content: "";
   color: #538439;
   font-size: 50px;
@@ -1529,13 +1529,13 @@ Styleguide 2.2
 /*
 The share colored-icon
 
-.icon-share-colored - the icon-share-colored icon
+.openwebicons-share-colored - the openwebicons-share-colored icon
 
-Markup: <i class="icon-share-colored"></i>
+Markup: <i class="openwebicons-share-colored"></i>
 
 Styleguide 2.3
 */
-.icon-share-colored:before {
+.openwebicons-share-colored:before {
   content: "";
   color: #538439;
   font-size: 50px;
@@ -1544,13 +1544,13 @@ Styleguide 2.3
 /*
 The feed colored-icon
 
-.icon-feed-colored - the icon-feed-colored icon
+.openwebicons-feed-colored - the openwebicons-feed-colored icon
 
-Markup: <i class="icon-feed-colored"></i>
+Markup: <i class="openwebicons-feed-colored"></i>
 
 Styleguide 2.4
 */
-.icon-feed-colored:before {
+.openwebicons-feed-colored:before {
   content: "";
   color: #EA680B;
   font-size: 50px;
@@ -1559,13 +1559,13 @@ Styleguide 2.4
 /*
 The ostatus colored-icon
 
-.icon-ostatus-colored - the icon-ostatus-colored icon
+.openwebicons-ostatus-colored - the openwebicons-ostatus-colored icon
 
-Markup: <i class="icon-ostatus-colored"></i>
+Markup: <i class="openwebicons-ostatus-colored"></i>
 
 Styleguide 2.5
 */
-.icon-ostatus-colored:before {
+.openwebicons-ostatus-colored:before {
   content: "";
   color: #FF6600;
   font-size: 50px;
@@ -1574,13 +1574,13 @@ Styleguide 2.5
 /*
 The opml colored-icon
 
-.icon-opml-colored - the icon-opml-colored icon
+.openwebicons-opml-colored - the openwebicons-opml-colored icon
 
-Markup: <i class="icon-opml-colored"></i>
+Markup: <i class="openwebicons-opml-colored"></i>
 
 Styleguide 2.6
 */
-.icon-opml-colored:before {
+.openwebicons-opml-colored:before {
   content: "";
   color: #2490A1;
   font-size: 50px;
@@ -1589,13 +1589,13 @@ Styleguide 2.6
 /*
 The activity colored-icon
 
-.icon-activity-colored - the icon-activity-colored icon
+.openwebicons-activity-colored - the openwebicons-activity-colored icon
 
-Markup: <i class="icon-activity-colored"></i>
+Markup: <i class="openwebicons-activity-colored"></i>
 
 Styleguide 2.7
 */
-.icon-activity-colored:before {
+.openwebicons-activity-colored:before {
   content: "";
   color: #4FB2D9;
   font-size: 50px;
@@ -1604,13 +1604,13 @@ Styleguide 2.7
 /*
 The microformats colored-icon
 
-.icon-microformats-colored - the icon-microformats-colored icon
+.openwebicons-microformats-colored - the openwebicons-microformats-colored icon
 
-Markup: <i class="icon-microformats-colored"></i>
+Markup: <i class="openwebicons-microformats-colored"></i>
 
 Styleguide 2.8
 */
-.icon-microformats-colored:before {
+.openwebicons-microformats-colored:before {
   content: "";
   color: #85BC07;
   font-size: 50px;
@@ -1619,13 +1619,13 @@ Styleguide 2.8
 /*
 The geo colored-icon
 
-.icon-geo-colored - the icon-geo-colored icon
+.openwebicons-geo-colored - the openwebicons-geo-colored icon
 
-Markup: <i class="icon-geo-colored"></i>
+Markup: <i class="openwebicons-geo-colored"></i>
 
 Styleguide 2.9
 */
-.icon-geo-colored:before {
+.openwebicons-geo-colored:before {
   content: "";
   color: #990000;
   font-size: 50px;
@@ -1634,13 +1634,13 @@ Styleguide 2.9
 /*
 The opensearch colored-icon
 
-.icon-opensearch-colored - the icon-opensearch-colored icon
+.openwebicons-opensearch-colored - the openwebicons-opensearch-colored icon
 
-Markup: <i class="icon-opensearch-colored"></i>
+Markup: <i class="openwebicons-opensearch-colored"></i>
 
 Styleguide 2.10
 */
-.icon-opensearch-colored:before {
+.openwebicons-opensearch-colored:before {
   content: "";
   color: #5050f3;
   font-size: 50px;
@@ -1649,13 +1649,13 @@ Styleguide 2.10
 /*
 The html5 colored-icon
 
-.icon-html5-colored - the icon-html5-colored icon
+.openwebicons-html5-colored - the openwebicons-html5-colored icon
 
-Markup: <i class="icon-html5-colored"></i>
+Markup: <i class="openwebicons-html5-colored"></i>
 
 Styleguide 2.11
 */
-.icon-html5-colored:before {
+.openwebicons-html5-colored:before {
   content: "";
   color: #E34C26;
   font-size: 50px;
@@ -1664,13 +1664,13 @@ Styleguide 2.11
 /*
 The git colored-icon
 
-.icon-git-colored - the icon-git-colored icon
+.openwebicons-git-colored - the openwebicons-git-colored icon
 
-Markup: <i class="icon-git-colored"></i>
+Markup: <i class="openwebicons-git-colored"></i>
 
 Styleguide 2.12
 */
-.icon-git-colored:before {
+.openwebicons-git-colored:before {
   content: "";
   color: #F05133;
   font-size: 50px;
@@ -1679,13 +1679,13 @@ Styleguide 2.12
 /*
 The osi colored-icon
 
-.icon-osi-colored - the icon-osi-colored icon
+.openwebicons-osi-colored - the openwebicons-osi-colored icon
 
-Markup: <i class="icon-osi-colored"></i>
+Markup: <i class="openwebicons-osi-colored"></i>
 
 Styleguide 2.13
 */
-.icon-osi-colored:before {
+.openwebicons-osi-colored:before {
   content: "";
   color: #3DA639;
   font-size: 50px;
@@ -1694,13 +1694,13 @@ Styleguide 2.13
 /*
 The opensource colored-icon
 
-.icon-opensource-colored - the icon-opensource-colored icon
+.openwebicons-opensource-colored - the openwebicons-opensource-colored icon
 
-Markup: <i class="icon-opensource-colored"></i>
+Markup: <i class="openwebicons-opensource-colored"></i>
 
 Styleguide 2.14
 */
-.icon-opensource-colored:before {
+.openwebicons-opensource-colored:before {
   content: "";
   color: #3DA639;
   font-size: 50px;
@@ -1709,13 +1709,13 @@ Styleguide 2.14
 /*
 The epub colored-icon
 
-.icon-epub-colored - the icon-epub-colored icon
+.openwebicons-epub-colored - the openwebicons-epub-colored icon
 
-Markup: <i class="icon-epub-colored"></i>
+Markup: <i class="openwebicons-epub-colored"></i>
 
 Styleguide 2.15
 */
-.icon-epub-colored:before {
+.openwebicons-epub-colored:before {
   content: "";
   color: #85b916;
   font-size: 50px;
@@ -1724,13 +1724,13 @@ Styleguide 2.15
 /*
 The info-card colored-icon
 
-.icon-info-card-colored - the icon-info-card-colored icon
+.openwebicons-info-card-colored - the openwebicons-info-card-colored icon
 
-Markup: <i class="icon-info-card-colored"></i>
+Markup: <i class="openwebicons-info-card-colored"></i>
 
 Styleguide 2.16
 */
-.icon-info-card-colored:before {
+.openwebicons-info-card-colored:before {
   content: "";
   color: #BF84E5;
   font-size: 50px;
@@ -1739,13 +1739,13 @@ Styleguide 2.16
 /*
 The remote-storage colored-icon
 
-.icon-remote-storage-colored - the icon-remote-storage-colored icon
+.openwebicons-remote-storage-colored - the openwebicons-remote-storage-colored icon
 
-Markup: <i class="icon-remote-storage-colored"></i>
+Markup: <i class="openwebicons-remote-storage-colored"></i>
 
 Styleguide 2.17
 */
-.icon-remote-storage-colored:before {
+.openwebicons-remote-storage-colored:before {
   content: "";
   color: #ff4e09;
   font-size: 50px;
@@ -1754,13 +1754,13 @@ Styleguide 2.17
 /*
 The odata colored-icon
 
-.icon-odata-colored - the icon-odata-colored icon
+.openwebicons-odata-colored - the openwebicons-odata-colored icon
 
-Markup: <i class="icon-odata-colored"></i>
+Markup: <i class="openwebicons-odata-colored"></i>
 
 Styleguide 2.18
 */
-.icon-odata-colored:before {
+.openwebicons-odata-colored:before {
   content: "";
   color: #EA680B;
   font-size: 50px;
@@ -1769,13 +1769,13 @@ Styleguide 2.18
 /*
 The pub colored-icon
 
-.icon-pub-colored - the icon-pub-colored icon
+.openwebicons-pub-colored - the openwebicons-pub-colored icon
 
-Markup: <i class="icon-pub-colored"></i>
+Markup: <i class="openwebicons-pub-colored"></i>
 
 Styleguide 2.19
 */
-.icon-pub-colored:before {
+.openwebicons-pub-colored:before {
   content: "";
   color: #99cc00;
   font-size: 50px;
@@ -1784,13 +1784,13 @@ Styleguide 2.19
 /*
 The sub colored-icon
 
-.icon-sub-colored - the icon-sub-colored icon
+.openwebicons-sub-colored - the openwebicons-sub-colored icon
 
-Markup: <i class="icon-sub-colored"></i>
+Markup: <i class="openwebicons-sub-colored"></i>
 
 Styleguide 2.20
 */
-.icon-sub-colored:before {
+.openwebicons-sub-colored:before {
   content: "";
   color: #ffff00;
   font-size: 50px;
@@ -1799,13 +1799,13 @@ Styleguide 2.20
 /*
 The hubbub colored-icon
 
-.icon-hubbub-colored - the icon-hubbub-colored icon
+.openwebicons-hubbub-colored - the openwebicons-hubbub-colored icon
 
-Markup: <i class="icon-hubbub-colored"></i>
+Markup: <i class="openwebicons-hubbub-colored"></i>
 
 Styleguide 2.21
 */
-.icon-hubbub-colored:before {
+.openwebicons-hubbub-colored:before {
   content: "";
   color: #ff6fcf;
   font-size: 50px;
@@ -1814,13 +1814,13 @@ Styleguide 2.21
 /*
 The javascript colored-icon
 
-.icon-javascript-colored - the icon-javascript-colored icon
+.openwebicons-javascript-colored - the openwebicons-javascript-colored icon
 
-Markup: <i class="icon-javascript-colored"></i>
+Markup: <i class="openwebicons-javascript-colored"></i>
 
 Styleguide 2.22
 */
-.icon-javascript-colored:before {
+.openwebicons-javascript-colored:before {
   content: "";
   color: #f0db4f;
   font-size: 50px;
@@ -1829,13 +1829,13 @@ Styleguide 2.22
 /*
 The gnusocial colored-icon
 
-.icon-gnusocial-colored - the icon-gnusocial-colored icon
+.openwebicons-gnusocial-colored - the openwebicons-gnusocial-colored icon
 
-Markup: <i class="icon-gnusocial-colored"></i>
+Markup: <i class="openwebicons-gnusocial-colored"></i>
 
 Styleguide 2.23
 */
-.icon-gnusocial-colored:before {
+.openwebicons-gnusocial-colored:before {
   content: "";
   color: #a22430;
   font-size: 50px;

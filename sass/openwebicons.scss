@@ -2,6 +2,44 @@
 @import "mixins";
 
 @include font_face;
-@include simple_mapper;
-@include icon_list;
-@include colored_icon_list;
+
+[class^="icon-"]:before, [class*=" icon-"]:before,
+[class^="openwebicons-"]:before, [class*=" openwebicons-"]:before {
+  font-family: 'OpenWeb Icons';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  vertical-align: center;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+a [class^="icon-"], a [class*=" icon-"],
+a [class^="openwebicons-"], a [class*=" openwebicons-"] {
+  display: inline-block;
+  text-decoration: inherit;
+}
+li[class^="icon-"], li[class*=" icon-"],
+li[class^="openwebicons-"], li[class*=" openwebicons-"] {
+  display: block;
+}
+
+// iterate icons
+@each $icon in $icons {
+  .icon-#{nth($icon, 1)}:before,
+  .openwebicons-#{nth($icon, 1)}:before {
+    content: "#{nth($icon, 2)}";
+  }
+}
+
+// iterate icons
+@each $icon in $icons {
+  // check if icon has a color
+  @if nth($icon, 3) != "monochrome" {
+    .icon-#{nth($icon, 1)}-colored:before,
+    .openwebicons-#{nth($icon, 1)}-colored:before {
+      content: "#{nth($icon, 2)}";
+      color: #{nth($icon, 3)};
+    }
+  }
+}

@@ -2,6 +2,10 @@
 All notable changes to the OpenWebIcons project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.4.0] - 2016-02-22
+### Changed
+- Added `openwebicons-*` prefix to the standard CSS files, to be able deprecate the `icon-*` prefix in the near future
+
 ## [1.3.3] - 2016-01-19
 ### Added
 - WebPlattform icon
