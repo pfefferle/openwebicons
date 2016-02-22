@@ -9,6 +9,10 @@ ROOT_DIR = File.expand_path("./../", File.dirname(__FILE__))
 # path to store assets
 ASSETS_DIR = File.join(ROOT_DIR, "docset", "assets")
 
+FileUtils.mkdir_p(ASSETS_DIR)
+FileUtils.mkdir_p(File.join(ASSETS_DIR, 'font'))
+FileUtils.mkdir_p(File.join(ASSETS_DIR, 'css'))
+
 # Copy Assets to assets/
 FileUtils.cp File.join(ROOT_DIR, 'css', 'openwebicons.css'), File.join(ASSETS_DIR, 'css/')
 FileUtils.cp File.join(ROOT_DIR, 'font', 'openwebicons.eot'), File.join(ASSETS_DIR, 'font/')
@@ -38,7 +42,7 @@ cheatsheet do
   style <<-EOS
     @import 'assets/css/openwebicons.css';
 
-    [class^="icon-"]:before, [class*=" icon-"]:before {
+    [class^="openwebicons-"]:before, [class*=" openwebicons-"]:before {
       font-size: 40px;
     }
   EOS
@@ -49,11 +53,11 @@ cheatsheet do
     icons.each do |icon|
       entry do
         name icon.children.first.value.to_s
-        command "icon-#{icon.children.first.value.to_s}"
-        td_notes "<i class='icon-#{icon.children.first.value.to_s}'></i>"
+        command "openwebicons-#{icon.children.first.value.to_s}"
+        td_notes "<i class='openwebicons-#{icon.children.first.value.to_s}'></i>"
         td_notes <<-EOS
           ```html
-          <i class='icon-#{icon.children.first.value.to_s}'></i>
+          <i class='openwebicons-#{icon.children.first.value.to_s}'></i>
           ```
         EOS
       end
@@ -67,11 +71,11 @@ cheatsheet do
       if not icon.children[2].value.to_s == "\"monochrome\""
         entry do
           name "#{icon.children.first.value.to_s}"
-          command "icon-#{icon.children.first.value.to_s}-colored"
-          td_notes "<i class='icon-#{icon.children.first.value.to_s}-colored'></i>"
+          command "openwebicons-#{icon.children.first.value.to_s}-colored"
+          td_notes "<i class='openwebicons-#{icon.children.first.value.to_s}-colored'></i>"
           td_notes <<-EOS
             ```html
-            <i class="icon-#{icon.children.first.value.to_s}-colored"></i>
+            <i class="openwebicons-#{icon.children.first.value.to_s}-colored"></i>
             ```
           EOS
         end
