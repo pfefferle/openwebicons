@@ -1,4 +1,4 @@
-[![Latest Stable Version](https://poser.pugx.org/pfefferle/openwebicons/v/stable.svg)](https://packagist.org/packages/pfefferle/openwebicons) [![Total Downloads](https://poser.pugx.org/pfefferle/openwebicons/downloads.svg)](https://packagist.org/packages/pfefferle/openwebicons) [![Latest Unstable Version](https://poser.pugx.org/pfefferle/openwebicons/v/unstable.svg)](https://packagist.org/packages/pfefferle/openwebicons) [![License](https://poser.pugx.org/pfefferle/openwebicons/license.svg)](https://packagist.org/packages/pfefferle/openwebicons) [![Flattr this](http://button.flattr.com/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=pfefferle&url=https%3A%2F%2Fgithub.com%2Fpfefferle%2Fopenwebicons)
+[![Bower](https://img.shields.io/bower/v/openwebicons.svg?maxAge=2592000)]() [![npm](https://img.shields.io/npm/v/openwebicons.svg?maxAge=2592000)]() [![npm](https://img.shields.io/npm/l/openwebicons.svg?maxAge=2592000)]() [![npm](https://img.shields.io/npm/dt/openwebicons.svg?maxAge=2592000)]()
 
 # OpenWeb Icons
 
