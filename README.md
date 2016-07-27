@@ -1,4 +1,4 @@
-[![Bower](https://img.shields.io/bower/v/openwebicons.svg?maxAge=2592000)]() [![npm](https://img.shields.io/npm/v/openwebicons.svg?maxAge=2592000)]() [![npm](https://img.shields.io/npm/l/openwebicons.svg?maxAge=2592000)]() [![npm](https://img.shields.io/npm/dt/openwebicons.svg?maxAge=2592000)]()
+[![Bower](https://img.shields.io/bower/v/openwebicons.svg?maxAge=2592000)](https://github.com/pfefferle/openwebicons) [![npm](https://img.shields.io/npm/v/openwebicons.svg?maxAge=2592000)](https://www.npmjs.com/package/openwebicons) [![npm](https://img.shields.io/npm/l/openwebicons.svg?maxAge=2592000)](https://www.npmjs.com/package/openwebicons) [![npm](https://img.shields.io/npm/dt/openwebicons.svg?maxAge=2592000)](https://www.npmjs.com/package/openwebicons)
 
 # OpenWeb Icons
 
