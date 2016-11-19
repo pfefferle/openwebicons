@@ -2,6 +2,14 @@
 All notable changes to the OpenWebIcons project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.4.2] - 2016-11-19
+### Changed
+- Updated IndieWeb Icons
+
+## [1.4.1] - 2016-06-01
+### Changed
+- Updated remote-storage icon
+
 ## [1.4.0] - 2016-02-22
 ### Changed
 - Added `openwebicons-*` prefix to the standard CSS files, to be able deprecate the `icon-*` prefix in the near future
