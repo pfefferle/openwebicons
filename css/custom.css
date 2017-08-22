@@ -109,8 +109,8 @@ footer .container {
 
 .microformats-gradient {
   font-size: 150px;
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#679a06), color-stop(49%,#85bc07), color-stop(100%,#aee219), color-stop(100%,#2989d8)); /* Chrome,Safari4+ */
-  background: gradient(linear, left bottom, right top, color-stop(0%,#679a06), color-stop(49%,#85bc07), color-stop(100%,#aee219), color-stop(100%,#2989d8)); /* Chrome,Safari4+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0,#679a06), color-stop(0.5,#85bc07), color-stop(1,#aee219), color-stop(1,#2989d8)); /* Chrome,Safari4+ */
+  background: gradient(linear, left bottom, right top, color-stop(0,#679a06), color-stop(0.5,#85bc07), color-stop(1,#aee219), color-stop(1,#2989d8)); /* Chrome,Safari4+ */
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -118,8 +118,8 @@ footer .container {
 
 .opml-gradient {
   font-size: 150px;
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#27529d), color-stop(49%,#248ea1), color-stop(100%,#27529d), color-stop(100%,#aee219)); /* Chrome,Safari4+ */
-  background: gradient(linear, left top, right bottom, color-stop(0%,#27529d), color-stop(49%,#248ea1), color-stop(100%,#27529d), color-stop(100%,#aee219)); /* Chrome,Safari4+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0,#27529d), color-stop(0.5,#248ea1), color-stop(1,#27529d), color-stop(1,#aee219)); /* Chrome,Safari4+ */
+  background: gradient(linear, left top, right bottom, color-stop(0,#27529d), color-stop(0.5,#248ea1), color-stop(1,#27529d), color-stop(1,#aee219)); /* Chrome,Safari4+ */
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -127,8 +127,8 @@ footer .container {
 
 .feed-gradient {
   font-size: 150px;
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#e4712d), color-stop(49%,#fb9e3a), color-stop(100%,#e4712d), color-stop(100%,#27529d)); /* Chrome,Safari4+ */
-  background: gradient(linear, left top, right bottom, color-stop(0%,#e4712d), color-stop(49%,#fb9e3a), color-stop(100%,#e4712d), color-stop(100%,#27529d)); /* Chrome,Safari4+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0,#e4712d), color-stop(0.5,#fb9e3a), color-stop(1,#e4712d), color-stop(1,#27529d)); /* Chrome,Safari4+ */
+  background: gradient(linear, left top, right bottom, color-stop(0,#e4712d), color-stop(0.5,#fb9e3a), color-stop(1,#e4712d), color-stop(1,#27529d)); /* Chrome,Safari4+ */
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
