@@ -107,7 +107,7 @@ footer .container {
   position: relative;
 }
 
-.microformats-gradient {
+.microformats-gradient:before {
   font-size: 150px;
   background: -webkit-gradient(linear, left bottom, right top, color-stop(0,#679a06), color-stop(0.5,#85bc07), color-stop(1,#aee219), color-stop(1,#2989d8)); /* Chrome,Safari4+ */
   background: gradient(linear, left bottom, right top, color-stop(0,#679a06), color-stop(0.5,#85bc07), color-stop(1,#aee219), color-stop(1,#2989d8)); /* Chrome,Safari4+ */
@@ -116,7 +116,7 @@ footer .container {
   color: transparent;
 }
 
-.opml-gradient {
+.opml-gradient:before {
   font-size: 150px;
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0,#27529d), color-stop(0.5,#248ea1), color-stop(1,#27529d), color-stop(1,#aee219)); /* Chrome,Safari4+ */
   background: gradient(linear, left top, right bottom, color-stop(0,#27529d), color-stop(0.5,#248ea1), color-stop(1,#27529d), color-stop(1,#aee219)); /* Chrome,Safari4+ */
@@ -125,7 +125,7 @@ footer .container {
   color: transparent;
 }
 
-.feed-gradient {
+.feed-gradient:before {
   font-size: 150px;
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0,#e4712d), color-stop(0.5,#fb9e3a), color-stop(1,#e4712d), color-stop(1,#27529d)); /* Chrome,Safari4+ */
   background: gradient(linear, left top, right bottom, color-stop(0,#e4712d), color-stop(0.5,#fb9e3a), color-stop(1,#e4712d), color-stop(1,#27529d)); /* Chrome,Safari4+ */
