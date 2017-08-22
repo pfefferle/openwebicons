@@ -110,25 +110,28 @@ footer .container {
 .microformats-gradient {
   font-size: 150px;
   background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#679a06), color-stop(49%,#85bc07), color-stop(100%,#aee219), color-stop(100%,#2989d8)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(45deg,  #679a06 0%,#85bc07 49%,#aee219 100%,#2989d8 100%); /* Chrome10+,Safari5.1+ */
+  background: gradient(linear, left bottom, right top, color-stop(0%,#679a06), color-stop(49%,#85bc07), color-stop(100%,#aee219), color-stop(100%,#2989d8)); /* Chrome,Safari4+ */
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 .opml-gradient {
   font-size: 150px;
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#27529d), color-stop(49%,#248ea1), color-stop(100%,#27529d), color-stop(100%,#aee219)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg,  #27529d 0%,#248ea1 49%,#27529d 100%,#aee219 100%); /* Chrome10+,Safari5.1+ */
+  background: gradient(linear, left top, right bottom, color-stop(0%,#27529d), color-stop(49%,#248ea1), color-stop(100%,#27529d), color-stop(100%,#aee219)); /* Chrome,Safari4+ */
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 .feed-gradient {
   font-size: 150px;
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#e4712d), color-stop(49%,#fb9e3a), color-stop(100%,#e4712d), color-stop(100%,#27529d)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg,  #e4712d 0%,#fb9e3a 49%,#e4712d 100%,#27529d 100%); /* Chrome10+,Safari5.1+ */
+  background: gradient(linear, left top, right bottom, color-stop(0%,#e4712d), color-stop(49%,#fb9e3a), color-stop(100%,#e4712d), color-stop(100%,#27529d)); /* Chrome,Safari4+ */
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 .webmention-container {
