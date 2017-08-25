@@ -213,3 +213,7 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] { display: block; }
 .openwebicons-gnusocial:before { content: ""; }
 
 .openwebicons-gnusocial-simple:before { content: ""; }
+
+.openwebicons-mastodon:before { content: ""; }
+
+.openwebicons-mastodon-simple:before { content: ""; }

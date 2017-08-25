@@ -550,6 +550,16 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] {
   content: "";
 }
 
+.icon-mastodon:before,
+.openwebicons-mastodon:before {
+  content: "";
+}
+
+.icon-mastodon-simple:before,
+.openwebicons-mastodon-simple:before {
+  content: "";
+}
+
 .icon-apml-colored:before,
 .openwebicons-apml-colored:before {
   content: "";
@@ -686,4 +696,16 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] {
 .openwebicons-gnusocial-colored:before {
   content: "";
   color: #a22430;
+}
+
+.icon-mastodon-colored:before,
+.openwebicons-mastodon-colored:before {
+  content: "";
+  color: #2b90d9;
+}
+
+.icon-mastodon-simple-colored:before,
+.openwebicons-mastodon-simple-colored:before {
+  content: "";
+  color: #2b90d9;
 }
