@@ -1490,6 +1490,34 @@ Styleguide 1.104
 }
 
 /*
+The mastodon icon
+
+.openwebicons-mastodon - the mastodon icon
+
+Markup: <i class="openwebicons-mastodon"></i>
+
+Styleguide 1.105
+*/
+.openwebicons-mastodon:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
+The mastodon-simple icon
+
+.openwebicons-mastodon-simple - the mastodon-simple icon
+
+Markup: <i class="openwebicons-mastodon-simple"></i>
+
+Styleguide 1.106
+*/
+.openwebicons-mastodon-simple:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
 Colored Icons
 
 Change the color of an icon with CSS
@@ -1838,5 +1866,35 @@ Styleguide 2.23
 .openwebicons-gnusocial-colored:before {
   content: "";
   color: #a22430;
+  font-size: 50px;
+}
+
+/*
+The mastodon colored-icon
+
+.openwebicons-mastodon-colored - the openwebicons-mastodon-colored icon
+
+Markup: <i class="openwebicons-mastodon-colored"></i>
+
+Styleguide 2.24
+*/
+.openwebicons-mastodon-colored:before {
+  content: "";
+  color: #2b90d9;
+  font-size: 50px;
+}
+
+/*
+The mastodon-simple colored-icon
+
+.openwebicons-mastodon-simple-colored - the openwebicons-mastodon-simple-colored icon
+
+Markup: <i class="openwebicons-mastodon-simple-colored"></i>
+
+Styleguide 2.25
+*/
+.openwebicons-mastodon-simple-colored:before {
+  content: "";
+  color: #2b90d9;
   font-size: 50px;
 }
