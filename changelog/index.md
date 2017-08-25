@@ -4,43 +4,44 @@ title: OpenWeb Icons - Changelog
 ---
 
 # Change Log
-
 All notable changes to the OpenWebIcons project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [1.4.0] - 2016-02-22
-
+## [1.4.3] - 2017-08-25
 ### Changed
+- Added Mastodon Icons
 
+## [1.4.2] - 2016-11-19
+### Changed
+- Updated IndieWeb Icons
+
+## [1.4.1] - 2016-06-01
+### Changed
+- Updated remote-storage icon
+
+## [1.4.0] - 2016-02-22
+### Changed
 - Added `openwebicons-*` prefix to the standard CSS files, to be able deprecate the `icon-*` prefix in the near future
 
 ## [1.3.3] - 2016-01-19
-
 ### Added
-
 - WebPlattform icon
 - DesignOpen icon
 - OpenSourceDesign icon
 - GNU Social icon
 
 ## [1.3.2] - 2015-05-18
-
 ### Added
-
 - Ghost icon
 - Diaspora icon
 - Ind.ie icon
 
 ## [1.3.1] - 2014-11-28
-
 ### Added
-
 - Unhosted icon
 
 ## [1.3.0] - 2014-11-28
-
 ### Added
-
 - WordPress icon
 - ownCloud icon
 - Known icon
@@ -50,9 +51,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Mozilla icon
 
 ## [1.2.3] - 2014-09-21
-
 ### Added
-
 - SIL OFL icon
 - WebMention icon
 - JavaScript (Community) icon
@@ -87,6 +86,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 * **2012-05-05**: Added *federated social web*, *DataPortability* and *Open Web Foundation* Icon
 * **2012-05-03**: Initial Release
 
+[1.4.3]: https://github.com/pfefferle/openwebicons/compare/1.4.2...1.4.3
+[1.4.2]: https://github.com/pfefferle/openwebicons/compare/1.4.1...1.4.2
+[1.4.1]: https://github.com/pfefferle/openwebicons/compare/1.4.0...1.4.1
 [1.4.0]: https://github.com/pfefferle/openwebicons/compare/1.3.3...1.4.0
 [1.3.3]: https://github.com/pfefferle/openwebicons/compare/1.3.2...1.3.3
 [1.3.2]: https://github.com/pfefferle/openwebicons/compare/1.3.1...1.3.2
