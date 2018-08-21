@@ -450,6 +450,22 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] {
   content: "";
 }
 
+.openwebicons-activitypub:before {
+  content: "";
+}
+
+.openwebicons-wapuu:before {
+  content: "";
+}
+
+.openwebicons-micro-blog:before {
+  content: "";
+}
+
+.openwebicons-indieauth:before {
+  content: "";
+}
+
 .openwebicons-apml-colored:before {
   content: "";
   color: #AFDD63;

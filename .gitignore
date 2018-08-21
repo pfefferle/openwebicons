@@ -2,3 +2,5 @@ _site
 node_modules
 .sass-cache
 npm-debug.log
+package-lock.json
+.DS_Store

@@ -560,6 +560,26 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] {
   content: "";
 }
 
+.icon-activitypub:before,
+.openwebicons-activitypub:before {
+  content: "";
+}
+
+.icon-wapuu:before,
+.openwebicons-wapuu:before {
+  content: "";
+}
+
+.icon-micro-blog:before,
+.openwebicons-micro-blog:before {
+  content: "";
+}
+
+.icon-indieauth:before,
+.openwebicons-indieauth:before {
+  content: "";
+}
+
 .icon-apml-colored:before,
 .openwebicons-apml-colored:before {
   content: "";

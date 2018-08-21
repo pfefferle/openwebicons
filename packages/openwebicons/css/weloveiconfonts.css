@@ -217,3 +217,11 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] { display: block; }
 .openwebicons-mastodon:before { content: ""; }
 
 .openwebicons-mastodon-simple:before { content: ""; }
+
+.openwebicons-activitypub:before { content: ""; }
+
+.openwebicons-wapuu:before { content: ""; }
+
+.openwebicons-micro-blog:before { content: ""; }
+
+.openwebicons-indieauth:before { content: ""; }
