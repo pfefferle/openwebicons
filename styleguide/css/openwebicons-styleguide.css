@@ -1518,6 +1518,62 @@ Styleguide 1.106
 }
 
 /*
+The activitypub icon
+
+.openwebicons-activitypub - the activitypub icon
+
+Markup: <i class="openwebicons-activitypub"></i>
+
+Styleguide 1.107
+*/
+.openwebicons-activitypub:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
+The wapuu icon
+
+.openwebicons-wapuu - the wapuu icon
+
+Markup: <i class="openwebicons-wapuu"></i>
+
+Styleguide 1.108
+*/
+.openwebicons-wapuu:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
+The micro-blog icon
+
+.openwebicons-micro-blog - the micro-blog icon
+
+Markup: <i class="openwebicons-micro-blog"></i>
+
+Styleguide 1.109
+*/
+.openwebicons-micro-blog:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
+The indieauth icon
+
+.openwebicons-indieauth - the indieauth icon
+
+Markup: <i class="openwebicons-indieauth"></i>
+
+Styleguide 1.110
+*/
+.openwebicons-indieauth:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
 Colored Icons
 
 Change the color of an icon with CSS

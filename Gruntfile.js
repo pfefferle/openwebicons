@@ -50,8 +50,7 @@ module.exports = function (grunt) {
 
     kss: {
       options: {
-        includeType: 'css',
-        includePath: 'styleguide/css/openwebicons-styleguide.css',
+        'css': ['css/openwebicons-styleguide.css']
       },
       dist: {
         files: {
