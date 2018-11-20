@@ -7,6 +7,14 @@ title: OpenWeb Icons - Changelog
 All notable changes to the OpenWebIcons project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.6.0] - 2018-11-20
+### Added
+- JSONFeed Icon
+- Fediverse Icon
+- HubZilla Icon
+- Pump.io Icon
+- Friendi.ca Icon
+
 ## [1.4.3] - 2017-08-25
 ### Changed
 - Added Mastodon Icons
