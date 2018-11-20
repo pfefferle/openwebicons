@@ -1504,13 +1504,83 @@ Styleguide 1.105
 }
 
 /*
+The jsonfeed icon
+
+.openwebicons-jsonfeed - the jsonfeed icon
+
+Markup: <i class="openwebicons-jsonfeed"></i>
+
+Styleguide 1.106
+*/
+.openwebicons-jsonfeed:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
+The pump-io icon
+
+.openwebicons-pump-io - the pump-io icon
+
+Markup: <i class="openwebicons-pump-io"></i>
+
+Styleguide 1.107
+*/
+.openwebicons-pump-io:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
+The friendica icon
+
+.openwebicons-friendica - the friendica icon
+
+Markup: <i class="openwebicons-friendica"></i>
+
+Styleguide 1.108
+*/
+.openwebicons-friendica:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
+The hubzilla icon
+
+.openwebicons-hubzilla - the hubzilla icon
+
+Markup: <i class="openwebicons-hubzilla"></i>
+
+Styleguide 1.109
+*/
+.openwebicons-hubzilla:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
+The fediverse icon
+
+.openwebicons-fediverse - the fediverse icon
+
+Markup: <i class="openwebicons-fediverse"></i>
+
+Styleguide 1.110
+*/
+.openwebicons-fediverse:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
 The mastodon-simple icon
 
 .openwebicons-mastodon-simple - the mastodon-simple icon
 
 Markup: <i class="openwebicons-mastodon-simple"></i>
 
-Styleguide 1.106
+Styleguide 1.111
 */
 .openwebicons-mastodon-simple:before {
   content: "";
@@ -1524,7 +1594,7 @@ The activitypub icon
 
 Markup: <i class="openwebicons-activitypub"></i>
 
-Styleguide 1.107
+Styleguide 1.112
 */
 .openwebicons-activitypub:before {
   content: "";
@@ -1538,7 +1608,7 @@ The wapuu icon
 
 Markup: <i class="openwebicons-wapuu"></i>
 
-Styleguide 1.108
+Styleguide 1.113
 */
 .openwebicons-wapuu:before {
   content: "";
@@ -1552,7 +1622,7 @@ The micro-blog icon
 
 Markup: <i class="openwebicons-micro-blog"></i>
 
-Styleguide 1.109
+Styleguide 1.114
 */
 .openwebicons-micro-blog:before {
   content: "";
@@ -1566,7 +1636,7 @@ The indieauth icon
 
 Markup: <i class="openwebicons-indieauth"></i>
 
-Styleguide 1.110
+Styleguide 1.115
 */
 .openwebicons-indieauth:before {
   content: "";

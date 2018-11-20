@@ -216,6 +216,16 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] { display: block; }
 
 .openwebicons-mastodon:before { content: ""; }
 
+.openwebicons-jsonfeed:before { content: ""; }
+
+.openwebicons-pump-io:before { content: ""; }
+
+.openwebicons-friendica:before { content: ""; }
+
+.openwebicons-hubzilla:before { content: ""; }
+
+.openwebicons-fediverse:before { content: ""; }
+
 .openwebicons-mastodon-simple:before { content: ""; }
 
 .openwebicons-activitypub:before { content: ""; }

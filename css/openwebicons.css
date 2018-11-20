@@ -555,6 +555,31 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] {
   content: "";
 }
 
+.icon-jsonfeed:before,
+.openwebicons-jsonfeed:before {
+  content: "";
+}
+
+.icon-pump-io:before,
+.openwebicons-pump-io:before {
+  content: "";
+}
+
+.icon-friendica:before,
+.openwebicons-friendica:before {
+  content: "";
+}
+
+.icon-hubzilla:before,
+.openwebicons-hubzilla:before {
+  content: "";
+}
+
+.icon-fediverse:before,
+.openwebicons-fediverse:before {
+  content: "";
+}
+
 .icon-mastodon-simple:before,
 .openwebicons-mastodon-simple:before {
   content: "";
