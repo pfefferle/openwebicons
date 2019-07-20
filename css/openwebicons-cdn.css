@@ -1,13 +1,13 @@
 @charset "UTF-8";
 @font-face {
-  font-family: 'OpenWeb Icons';
+  font-family: "OpenWeb Icons";
   src: url("http://pfefferle.github.io/openwebicons/font/openwebicons.eot");
   src: url("http://pfefferle.github.io/openwebicons/font/openwebicons.eot?#iefix") format("embedded-opentype"), url("http://pfefferle.github.io/openwebicons/font/openwebicons.woff2") format("woff2"), url("http://pfefferle.github.io/openwebicons/font/openwebicons.woff") format("woff"), url("http://pfefferle.github.io/openwebicons/font/openwebicons.ttf") format("truetype"), url("http://pfefferle.github.io/openwebicons/font/openwebicons.svg#openweb_iconsregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-[class^="openwebicons-"]:before, [class*=" openwebicons-"]:before {
-  font-family: 'OpenWeb Icons';
+[class^=openwebicons-]:before, [class*=" openwebicons-"]:before {
+  font-family: "OpenWeb Icons";
   font-weight: normal;
   font-style: normal;
   display: inline-block;
@@ -17,12 +17,12 @@
   -webkit-font-smoothing: antialiased;
 }
 
-a [class^="openwebicons-"], a [class*=" openwebicons-"] {
+a [class^=openwebicons-], a [class*=" openwebicons-"] {
   display: inline-block;
   text-decoration: inherit;
 }
 
-li[class^="openwebicons-"], li[class*=" openwebicons-"] {
+li[class^=openwebicons-], li[class*=" openwebicons-"] {
   display: block;
 }
 
@@ -486,6 +486,10 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] {
   content: "";
 }
 
+.openwebicons-id4me:before {
+  content: "";
+}
+
 .openwebicons-apml-colored:before {
   content: "";
   color: #AFDD63;
@@ -610,3 +614,10 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] {
   content: "";
   color: #2b90d9;
 }
+
+.openwebicons-id4me-colored:before {
+  content: "";
+  color: #007A9D;
+}
+
+/*# sourceMappingURL=openwebicons-cdn.css.map */

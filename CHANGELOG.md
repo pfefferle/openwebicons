@@ -2,6 +2,10 @@
 All notable changes to the OpenWebIcons project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.6.1] - 2019-07-20
+### Added
+- ID4me Icon
+
 ## [1.6.0] - 2018-11-20
 ### Added
 - JSONFeed Icon
@@ -89,6 +93,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 * **2012-05-05**: Added *federated social web*, *DataPortability* and *Open Web Foundation* Icon
 * **2012-05-03**: Initial Release
 
+[1.6.1]: https://github.com/pfefferle/openwebicons/compare/1.6.0...1.6.1
+[1.6.0]: https://github.com/pfefferle/openwebicons/compare/1.4.3...1.6.0
 [1.4.3]: https://github.com/pfefferle/openwebicons/compare/1.4.2...1.4.3
 [1.4.2]: https://github.com/pfefferle/openwebicons/compare/1.4.1...1.4.2
 [1.4.1]: https://github.com/pfefferle/openwebicons/compare/1.4.0...1.4.1

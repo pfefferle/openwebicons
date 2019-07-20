@@ -9,8 +9,7 @@ module.exports = function (grunt) {
     sass: {
       expanded: {
         options: {
-          style: 'expanded',
-          sourcemap: 'none'
+          style: 'expanded'
         },
         files: {
           'css/openwebicons.css': 'sass/openwebicons.scss',
@@ -21,21 +20,12 @@ module.exports = function (grunt) {
       },
       compressed: {
         options: {
-          style: 'compressed',
-          sourcemap: 'none'
+          style: 'compressed'
         },
         files: {
           'css/openwebicons.min.css': 'sass/openwebicons.scss',
           'css/openwebicons-bootstrap.min.css': 'sass/openwebicons-bootstrap.scss',
-          'css/openwebicons-cdn.min.css': 'sass/openwebicons-cdn.scss'
-        }
-      },
-      compact: {
-        options: {
-          style: 'compact',
-          sourcemap: 'none'
-        },
-        files: {
+          'css/openwebicons-cdn.min.css': 'sass/openwebicons-cdn.scss',
           'css/weloveiconfonts.css': 'sass/weloveiconfonts.scss'
         }
       }

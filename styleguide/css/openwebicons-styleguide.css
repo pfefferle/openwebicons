@@ -1,13 +1,13 @@
 @charset "UTF-8";
 @font-face {
-  font-family: 'OpenWeb Icons';
+  font-family: "OpenWeb Icons";
   src: url("../../font/openwebicons.eot");
   src: url("../../font/openwebicons.eot?#iefix") format("embedded-opentype"), url("../../font/openwebicons.woff2") format("woff2"), url("../../font/openwebicons.woff") format("woff"), url("../../font/openwebicons.ttf") format("truetype"), url("../../font/openwebicons.svg#openweb_iconsregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-[class^="openwebicons-"]:before, [class*=" openwebicons-"]:before {
-  font-family: 'OpenWeb Icons';
+[class^=openwebicons-]:before, [class*=" openwebicons-"]:before {
+  font-family: "OpenWeb Icons";
   font-weight: normal;
   font-style: normal;
   display: inline-block;
@@ -17,12 +17,12 @@
   -webkit-font-smoothing: antialiased;
 }
 
-a [class^="openwebicons-"], a [class*=" openwebicons-"] {
+a [class^=openwebicons-], a [class*=" openwebicons-"] {
   display: inline-block;
   text-decoration: inherit;
 }
 
-li[class^="openwebicons-"], li[class*=" openwebicons-"] {
+li[class^=openwebicons-], li[class*=" openwebicons-"] {
   display: block;
 }
 
@@ -1644,6 +1644,20 @@ Styleguide 1.115
 }
 
 /*
+The id4me icon
+
+.openwebicons-id4me - the id4me icon
+
+Markup: <i class="openwebicons-id4me"></i>
+
+Styleguide 1.116
+*/
+.openwebicons-id4me:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
 Colored Icons
 
 Change the color of an icon with CSS
@@ -2024,3 +2038,20 @@ Styleguide 2.25
   color: #2b90d9;
   font-size: 50px;
 }
+
+/*
+The id4me colored-icon
+
+.openwebicons-id4me-colored - the openwebicons-id4me-colored icon
+
+Markup: <i class="openwebicons-id4me-colored"></i>
+
+Styleguide 2.26
+*/
+.openwebicons-id4me-colored:before {
+  content: "";
+  color: #007A9D;
+  font-size: 50px;
+}
+
+/*# sourceMappingURL=openwebicons-styleguide.css.map */
