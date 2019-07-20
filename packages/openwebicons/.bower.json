@@ -1,6 +1,6 @@
 {
   "name": "openwebicons",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "main": [
     "./css/openwebicons.css",
     "./css/openwebicons-bootstrap.css"
@@ -26,11 +26,11 @@
   ],
   "description": "OpenWeb Icons",
   "homepage": "https://github.com/pfefferle/openwebicons",
-  "_release": "1.6.0",
+  "_release": "1.6.1",
   "_resolution": {
     "type": "version",
-    "tag": "1.6.0",
-    "commit": "10734091eb904be826f70ab6bae02d7dfa79548a"
+    "tag": "1.6.1",
+    "commit": "231edf603a99fde4d0404cdfdc1a154e66686c11"
   },
   "_source": "https://github.com/pfefferle/openwebicons.git",
   "_target": "*",

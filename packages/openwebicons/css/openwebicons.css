@@ -1,14 +1,14 @@
 @charset "UTF-8";
 @font-face {
-  font-family: 'OpenWeb Icons';
+  font-family: "OpenWeb Icons";
   src: url("../font/openwebicons.eot");
   src: url("../font/openwebicons.eot?#iefix") format("embedded-opentype"), url("../font/openwebicons.woff2") format("woff2"), url("../font/openwebicons.woff") format("woff"), url("../font/openwebicons.ttf") format("truetype"), url("../font/openwebicons.svg#openweb_iconsregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-[class^="icon-"]:before, [class*=" icon-"]:before,
-[class^="openwebicons-"]:before, [class*=" openwebicons-"]:before {
-  font-family: 'OpenWeb Icons';
+[class^=icon-]:before, [class*=" icon-"]:before,
+[class^=openwebicons-]:before, [class*=" openwebicons-"]:before {
+  font-family: "OpenWeb Icons";
   font-weight: normal;
   font-style: normal;
   display: inline-block;
@@ -19,14 +19,14 @@
   -webkit-font-smoothing: antialiased;
 }
 
-a [class^="icon-"], a [class*=" icon-"],
-a [class^="openwebicons-"], a [class*=" openwebicons-"] {
+a [class^=icon-], a [class*=" icon-"],
+a [class^=openwebicons-], a [class*=" openwebicons-"] {
   display: inline-block;
   text-decoration: inherit;
 }
 
-li[class^="icon-"], li[class*=" icon-"],
-li[class^="openwebicons-"], li[class*=" openwebicons-"] {
+li[class^=icon-], li[class*=" icon-"],
+li[class^=openwebicons-], li[class*=" openwebicons-"] {
   display: block;
 }
 
@@ -605,6 +605,11 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] {
   content: "";
 }
 
+.icon-id4me:before,
+.openwebicons-id4me:before {
+  content: "";
+}
+
 .icon-apml-colored:before,
 .openwebicons-apml-colored:before {
   content: "";
@@ -754,3 +759,11 @@ li[class^="openwebicons-"], li[class*=" openwebicons-"] {
   content: "";
   color: #2b90d9;
 }
+
+.icon-id4me-colored:before,
+.openwebicons-id4me-colored:before {
+  content: "";
+  color: #007A9D;
+}
+
+/*# sourceMappingURL=openwebicons.css.map */
