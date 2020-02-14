@@ -490,6 +490,18 @@ li[class^=openwebicons-], li[class*=" openwebicons-"] {
   content: "";
 }
 
+.openwebicons-movim:before {
+  content: "";
+}
+
+.openwebicons-pleroma:before {
+  content: "";
+}
+
+.openwebicons-pixelfed:before {
+  content: "";
+}
+
 .openwebicons-apml-colored:before {
   content: "";
   color: #AFDD63;

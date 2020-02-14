@@ -610,6 +610,21 @@ li[class^=openwebicons-], li[class*=" openwebicons-"] {
   content: "";
 }
 
+.icon-movim:before,
+.openwebicons-movim:before {
+  content: "";
+}
+
+.icon-pleroma:before,
+.openwebicons-pleroma:before {
+  content: "";
+}
+
+.icon-pixelfed:before,
+.openwebicons-pixelfed:before {
+  content: "";
+}
+
 .icon-apml-colored:before,
 .openwebicons-apml-colored:before {
   content: "";
