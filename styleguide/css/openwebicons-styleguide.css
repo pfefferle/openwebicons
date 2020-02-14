@@ -1658,6 +1658,48 @@ Styleguide 1.116
 }
 
 /*
+The movim icon
+
+.openwebicons-movim - the movim icon
+
+Markup: <i class="openwebicons-movim"></i>
+
+Styleguide 1.117
+*/
+.openwebicons-movim:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
+The pleroma icon
+
+.openwebicons-pleroma - the pleroma icon
+
+Markup: <i class="openwebicons-pleroma"></i>
+
+Styleguide 1.118
+*/
+.openwebicons-pleroma:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
+The pixelfed icon
+
+.openwebicons-pixelfed - the pixelfed icon
+
+Markup: <i class="openwebicons-pixelfed"></i>
+
+Styleguide 1.119
+*/
+.openwebicons-pixelfed:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
 Colored Icons
 
 Change the color of an icon with CSS

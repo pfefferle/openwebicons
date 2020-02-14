@@ -1,6 +1,6 @@
 {
   "name": "openwebicons",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "OpenWeb Icons",
   "main": "css/openwebicons.min.css",
   "author": {
@@ -31,5 +31,6 @@
     "css",
     "sass",
     "scss"
-  ]
+  ],
+  "publishConfig": { "registry": "https://npm.pkg.github.com/@pfefferle" }
 }
