@@ -24,7 +24,7 @@ npm ([npmjs.org](https://www.npmjs.org/package/openwebicons))
 
 ## Project Page
 
-You can find more informations and a list of all icons here: http://pfefferle.github.io/openwebicons/
+You can find more informations and a list of all icons here: https://pfefferle.dev/openwebicons/
 
 ---
 
