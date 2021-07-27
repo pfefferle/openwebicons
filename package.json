@@ -31,6 +31,5 @@
     "css",
     "sass",
     "scss"
-  ],
-  "publishConfig": { "registry": "https://npm.pkg.github.com/@pfefferle" }
+  ]
 }
