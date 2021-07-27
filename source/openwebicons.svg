@@ -2,24 +2,24 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
-   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
    width="1000"
    height="1000"
    id="svg5496"
    sodipodi:version="0.32"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
    sodipodi:docname="openwebicons.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   viewBox="0 0 1000 1000"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/">
   <metadata
      id="metadata5594">
     <rdf:RDF>
@@ -33,8 +33,8 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     inkscape:window-height="856"
-     inkscape:window-width="1440"
+     inkscape:window-height="728"
+     inkscape:window-width="1920"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -45,13 +45,17 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="0.5"
-     inkscape:cx="555.02931"
-     inkscape:cy="417.93185"
-     inkscape:window-x="1"
-     inkscape:window-y="0"
-     inkscape:current-layer="layer1-80"
+     inkscape:cx="123"
+     inkscape:cy="624"
+     inkscape:window-x="1440"
+     inkscape:window-y="109"
+     inkscape:current-layer="g6249"
      inkscape:window-maximized="0"
-     inkscape:snap-others="false">
+     inkscape:snap-others="false"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     inkscape:snap-page="false"
+     inkscape:object-paths="false">
     <sodipodi:guide
        orientation="horizontal"
        position="605.72687,-26.431718"
@@ -84,6 +88,56 @@
        orientation="1000,0"
        id="guide5599"
        inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,250"
+       orientation="0,1"
+       inkscape:label="baseline"
+       id="guide6112" />
+    <sodipodi:guide
+       position="0,1000"
+       orientation="0,1"
+       inkscape:label="ascender"
+       id="guide6114" />
+    <sodipodi:guide
+       position="0,950"
+       orientation="0,1"
+       inkscape:label="caps"
+       id="guide6116" />
+    <sodipodi:guide
+       position="0,750"
+       orientation="0,1"
+       inkscape:label="xheight"
+       id="guide6118" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="0,1"
+       inkscape:label="descender"
+       id="guide6120" />
+    <sodipodi:guide
+       position="0,250"
+       orientation="0,1"
+       inkscape:label="baseline"
+       id="guide9041" />
+    <sodipodi:guide
+       position="0,1000"
+       orientation="0,1"
+       inkscape:label="ascender"
+       id="guide9043" />
+    <sodipodi:guide
+       position="0,950"
+       orientation="0,1"
+       inkscape:label="caps"
+       id="guide9045" />
+    <sodipodi:guide
+       position="0,750"
+       orientation="0,1"
+       inkscape:label="xheight"
+       id="guide9047" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="0,1"
+       inkscape:label="descender"
+       id="guide9049" />
   </sodipodi:namedview>
   <defs
      id="defs5498">
@@ -668,18 +722,23 @@
       <glyph
          glyph-name="Glyphe 113"
          id="glyph1394"
-         unicode="&#xf06c;"
+         unicode=""
          d="M 500,842.93555 A 419.28267,419.28267 0 0 1 80.716797,423.65234 419.28267,419.28267 0 0 1 500,4.3711 419.28267,419.28267 0 0 1 919.2832,423.65234 419.28267,419.28267 0 0 1 500,842.93555 Z M 429.8125,601.46094 c 45.05977,0 84.56799,-23.69731 106.79297,-59.29688 16.40611,7.83734 34.795,12.26953 54.18945,12.26953 69.49208,0 125.82227,-56.33025 125.82227,-125.82226 -4e-5,-2.22509 -0.12507,-4.41471 -0.23828,-6.61133 0.15666,8.4e-4 0.31796,0 0.47656,0 48.64441,0 88.07812,-39.43372 88.07812,-88.07812 0,-48.64461 -39.43371,-88.07813 -88.07812,-88.07813 H 302.01758 c -59.06838,0 -106.94922,47.88276 -106.94922,106.95117 0,59.06817 47.88084,106.95737 106.94922,106.95703 1.00212,0 1.99689,-0.0515 2.99219,-0.082 -0.66014,5.22155 -1.02735,10.56813 -1.02735,15.96875 0,69.49204 56.33765,125.82227 125.83008,125.82227 z" />
       <glyph
          glyph-name="Glyphe 114"
          id="glyph1396"
-         unicode="&#xf06d;"
+         unicode=""
          d="M 158.00781,848.74414 C 112.15547,848.74414 75,811.58867 75,765.73633 V 81.75195 C 75,35.89961 112.15547,-1.2559 158.00781,-1.2559 H 841.99023 C 887.84257,-1.2559 925,35.89961 925,81.75195 v 683.98438 c 0.0376,45.85234 -37.15797,83.00781 -82.97266,83.00781 z m 206.75,-137.25586 h 98.2168 V 136 H 319.95898 v 530.68945 c 0,24.73316 20.06567,44.79883 44.79883,44.79883 z m 170.57227,0 H 680.07617 V 468.52344 c 0,-24.73316 -20.06371,-44.79883 -44.79687,-44.79883 h -99.94922 z m 0,-432.47266 H 680.07617 V 180.79883 C 680.07617,156.06567 660.01246,136 635.2793,136 h -99.94922 z" />
       <glyph
          glyph-name="Glyphe 115"
          id="glyph1398"
-         unicode="&#xf06e;"
+         unicode=""
          d="m 500,847.78711 c -234.72102,0 -425,-190.27898 -425,-425 C 75,188.06608 265.27898,-2.2129 500,-2.2129 c 234.72102,0 425,190.27898 425,425.00001 0,234.72102 -190.27898,425 -425,425 z M 431.69922,588.92188 h 112.52539 c 73.44571,0 132.98633,-57.96144 132.98633,-129.46094 C 677.21094,387.96143 617.67032,330 544.22461,330 H 466.25977 L 354.97656,223.5332 v 290.70118 c 0,41.24971 34.35014,74.6875 76.72266,74.6875 z" />
+      <glyph
+         glyph-name="Glyphe 116"
+         id="glyph11986"
+         unicode="&#xf095;"
+         d="M 500.125,735.56641 C 352.00808,735.56641 228.26539,634.91595 193.2832,498 h 169.91602 c 28.24941,48.92951 80.42698,79.10555 136.92578,79.18945 87.47117,0.003 158.37695,-70.90779 158.37695,-158.3789 0,-87.4712 -70.90578,-158.37916 -158.37695,-158.37696 -56.51846,0.064 -108.72134,30.24281 -136.98047,79.18946 H 193.2832 C 228.26539,202.70653 352.00808,102.05664 500.125,102.05664 c 148.12788,0 271.87165,100.65019 306.86523,237.56641 h 161.72266 c 8.53003,54.11097 8.23181,107.94504 0,158.37695 H 806.99023 C 771.99665,634.91595 648.25288,735.56641 500.125,735.56641 Z M 193.2832,339.62305 c -6.46393,25.294 -9.91406,51.8239 -9.91406,79.1875 0,27.3637 3.44996,53.89539 9.91406,79.18945 H 31.550781 C 27.252708,472.2549 25,445.8086 25,418.81055 c 0,-26.99783 2.274808,-53.4425 6.550781,-79.1875 z" />
     </font>
     <linearGradient
        id="OpenSearchg"
@@ -6741,40 +6800,40 @@
     .fil0 {fill:#FF4B03}
    ]]></style>
     <linearGradient
-       osb:paint="solid"
-       id="AP-4-0">
+       id="AP-4-0"
+       inkscape:swatch="solid">
       <stop
          id="stop5660"
          offset="0"
          style="stop-color:#5e5e5e;stop-opacity:1;" />
     </linearGradient>
     <linearGradient
-       osb:paint="solid"
-       id="linearGradient5640">
+       id="linearGradient5640"
+       inkscape:swatch="solid">
       <stop
          id="stop5638"
          offset="0"
          style="stop-color:#000000;stop-opacity:1;" />
     </linearGradient>
     <linearGradient
-       osb:paint="solid"
-       id="AP-3-7">
+       id="AP-3-7"
+       inkscape:swatch="solid">
       <stop
          id="stop5498"
          offset="0"
          style="stop-color:#c678c5;stop-opacity:1;" />
     </linearGradient>
     <linearGradient
-       osb:paint="solid"
-       id="AP-2-3">
+       id="AP-2-3"
+       inkscape:swatch="solid">
       <stop
          id="stop5230"
          offset="0"
          style="stop-color:#6d6d6d;stop-opacity:1;" />
     </linearGradient>
     <linearGradient
-       osb:paint="solid"
-       id="AP1-5">
+       id="AP1-5"
+       inkscape:swatch="solid">
       <stop
          id="stop5212"
          offset="0"
@@ -7021,10 +7080,7 @@
            width="1"
            y="0"
            x="0"
-           requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/">
-          <i:pgfRef
-             xlink:href="#adobe_illustrator_pgf" />
-        </foreignObject>
+           requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" />
         <g
            id="g6030"
            i:extraneous="self">
@@ -7043,10 +7099,7 @@
                    width="1"
                    y="0"
                    x="0"
-                   requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/">
-                  <i:pgfRef
-                     xlink:href="#adobe_illustrator_pgf" />
-                </foreignObject>
+                   requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" />
                 <g
                    id="g4094"
                    transform="matrix(0.31072228,0,0,0.31072228,30.329817,-18.379334)">
@@ -7066,70 +7119,60 @@
                        style="line-height:0%;display:inline"
                        id="text785"
                        display="inline"
-                       transform="matrix(-0.4186,0.9082,-0.9082,-0.4186,499.5928,369.3687)">
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                       transform="matrix(-0.4186,0.9082,-0.9082,-0.4186,499.5928,369.3687)"><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan787"
                          font-size="61.586"
                          y="0"
-                         x="0">D</tspan>
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                         x="0">D</tspan><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan789"
                          rotate="14.552"
                          font-size="61.586"
                          y="4.184"
-                         x="65.337997">I</tspan>
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                         x="65.337997">I</tspan><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan791"
                          rotate="29.145"
                          font-size="61.586"
                          y="14.865"
-                         x="102.593">S</tspan>
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                         x="102.593">S</tspan><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan793"
                          rotate="42.896999"
                          font-size="61.586"
                          y="45.706001"
-                         x="152.509">C</tspan>
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                         x="152.509">C</tspan><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan795"
                          rotate="63.455002"
                          font-size="61.586"
                          y="91.466003"
-                         x="196.72301">O</tspan>
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                         x="196.72301">O</tspan><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan797"
                          rotate="81.585999"
                          font-size="61.586"
                          y="155.226"
-                         x="225.093">V</tspan>
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                         x="225.093">V</tspan><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan799"
                          rotate="99.060997"
                          font-size="61.586"
                          y="220.26801"
-                         x="231.37199">E</tspan>
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                         x="231.37199">E</tspan><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan801"
                          rotate="114.66"
                          font-size="61.586"
                          y="278.70001"
-                         x="219.44">R</tspan>
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                         x="219.44">R</tspan><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan803"
                          rotate="134.058"
                          font-size="61.586"
                          y="334.83301"
-                         x="190.896">Y</tspan>
-                    </text>
+                         x="190.896">Y</tspan></text>
                   </g>
                   <g
                      transform="translate(-68.159202,-23.488722)"
@@ -7334,10 +7377,7 @@
                                    width="1"
                                    y="0"
                                    x="0"
-                                   requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/">
-                                <i:pgfRef
-                                   xlink:href="#adobe_illustrator_pgf" />
-                                </foreignObject>
+                                   requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" />
                                 <g
                                    id="g6612"
                                    i:extraneous="self">
@@ -7362,10 +7402,7 @@
                                    width="1"
                                    y="0"
                                    x="0"
-                                   requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/">
-                                <i:pgfRef
-                                   xlink:href="#adobe_illustrator_pgf" />
-                                </foreignObject>
+                                   requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" />
                                 <g
                                    id="g12779"
                                    i:extraneous="self">
@@ -7473,7 +7510,8 @@
                                    id="g8717"
                                    transform="matrix(0.11513495,0,0,0.11513495,30.919572,810.14454)">
                                 <g
-                                   id="Layer_x0020_1">
+                                   id="Layer_x0020_1"
+                                   inkscape:label="Layer 1">
                                 <metadata
                                    id="CorelCorpID_0Corel-Layer" />
                                 <g
@@ -7487,144 +7525,6 @@
                                    x="0"
                                    y="0"
                                    style="fill:none" />
-                                <g
-                                   id="g6418"
-                                   transform="translate(113.32908,-34.795914)">
-                                <g
-                                   id="g6420">
-                                <g
-                                   id="g6428">
-                                <g
-                                   id="g6430">
-                                <defs
-                                   id="defs6432">
-                                <rect
-                                   height="33"
-                                   width="117.8"
-                                   y="33"
-                                   x="33"
-                                   id="SVGID_1_-3" />
-                                </defs>
-                                <clipPath
-                                   id="SVGID_2_-5">
-                                <use
-                                   id="use6438"
-                                   style="overflow:visible"
-                                   xlink:href="#SVGID_1_-3"
-                                   x="0"
-                                   y="0"
-                                   width="100%"
-                                   height="100%" />
-                                </clipPath>
-                                </g>
-                                <g
-                                   id="g6442">
-                                <defs
-                                   id="defs6444">
-                                <rect
-                                   height="71.800003"
-                                   width="117.8"
-                                   y="78"
-                                   x="33"
-                                   id="SVGID_3_-7" />
-                                </defs>
-                                <clipPath
-                                   id="SVGID_4_-3">
-                                <use
-                                   id="use6450"
-                                   style="overflow:visible"
-                                   xlink:href="#SVGID_3_-7"
-                                   x="0"
-                                   y="0"
-                                   width="100%"
-                                   height="100%" />
-                                </clipPath>
-                                </g>
-                                </g>
-                                <g
-                                   id="g6579"
-                                   transform="translate(72.620124,-4.0000009)">
-                                <rect
-                                   id="rect6617"
-                                   height="182.8"
-                                   width="487"
-                                   class="st4"
-                                   x="0"
-                                   y="0"
-                                   style="fill:none" />
-                                <g
-                                   id="g4808"
-                                   transform="matrix(3.92765,0,0,3.92765,-344.12011,-225.84825)"
-                                   style="fill:#000000">
-                                <g
-                                   transform="matrix(0.96228733,0,0,0.96228733,58.034073,251.09655)"
-                                   style="opacity:1"
-                                   id="layer1-02"
-                                   inkscape:label="Layer 1">
-                                <path
-                                   inkscape:connector-curvature="0"
-                                   id="path5497"
-                                   d=""
-                                   style="fill:#000000;stroke-width:0.26458335" />
-                                <g
-                                   transform="matrix(8.7951833,0,0,8.7951833,-73.537498,947.70218)"
-                                   id="g5197"
-                                   style="fill:#000000">
-                                <g
-                                   transform="matrix(0.9789804,0,0,0.9789804,-3157.9561,1202.4422)"
-                                   style="fill:#000000;fill-opacity:1"
-                                   id="g5132-90">
-                                <g
-                                   style="fill:#000000;fill-opacity:1"
-                                   id="g5080-78"
-                                   transform="matrix(0.2553682,0,0,0.2553682,2615.9213,-1125.3113)">
-                                <g
-                                   id="g6250"
-                                   transform="matrix(4.4979848,0,0,4.4979848,-8465.9771,3217.0349)">
-                                <g
-                                   id="Page-1"
-                                   transform="matrix(0.02675216,0,0,0.02675216,2423.9734,-916.80726)"
-                                   style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
-                                <g
-                                   transform="translate(-4,-14)"
-                                   id="icon">
-                                <g
-                                   transform="translate(7.3069935,-833.89373)"
-                                   id="layer1-80"
-                                   inkscape:label="Calque 1">
-                                <g
-                                   id="g2185"
-                                   transform="matrix(36.557561,0,0,36.557561,-428.16929,490.32077)" />
-                                </g>
-                                </g>
-                                </g>
-                                </g>
-                                </g>
-                                </g>
-                                <g
-                                   transform="matrix(0.9789804,0,0,0.9789804,-3157.9561,1202.4422)"
-                                   style="fill:#000000;fill-opacity:1"
-                                   id="g5127-1" />
-                                </g>
-                                <g
-                                   transform="matrix(2.2173353,0,0,2.2173353,-35.445741,150.88402)"
-                                   id="g5203">
-                                <g
-                                   id="g4523" />
-                                </g>
-                                </g>
-                                </g>
-                                </g>
-                                </g>
-                                <rect
-                                   id="rect6456"
-                                   height="182.8"
-                                   width="487"
-                                   class="st4"
-                                   x="0"
-                                   y="0"
-                                   style="fill:none" />
-                                </g>
                                 </g>
                                 </g>
                                 </g>
@@ -7680,70 +7580,60 @@
                        style="line-height:0%;display:inline"
                        id="text785-1"
                        display="inline"
-                       transform="matrix(-0.4186,0.9082,-0.9082,-0.4186,499.5928,369.3687)">
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                       transform="matrix(-0.4186,0.9082,-0.9082,-0.4186,499.5928,369.3687)"><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan787-9"
                          font-size="61.586"
                          y="0"
-                         x="0">D</tspan>
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                         x="0">D</tspan><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan789-8"
                          rotate="14.552"
                          font-size="61.586"
                          y="4.184"
-                         x="65.337997">I</tspan>
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                         x="65.337997">I</tspan><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan791-6"
                          rotate="29.145"
                          font-size="61.586"
                          y="14.865"
-                         x="102.593">S</tspan>
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                         x="102.593">S</tspan><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan793-9"
                          rotate="42.896999"
                          font-size="61.586"
                          y="45.706001"
-                         x="152.509">C</tspan>
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                         x="152.509">C</tspan><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan795-0"
                          rotate="63.455002"
                          font-size="61.586"
                          y="91.466003"
-                         x="196.72301">O</tspan>
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                         x="196.72301">O</tspan><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan797-1"
                          rotate="81.585999"
                          font-size="61.586"
                          y="155.226"
-                         x="225.093">V</tspan>
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                         x="225.093">V</tspan><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan799-6"
                          rotate="99.060997"
                          font-size="61.586"
                          y="220.26801"
-                         x="231.37199">E</tspan>
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                         x="231.37199">E</tspan><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan801-4"
                          rotate="114.66"
                          font-size="61.586"
                          y="278.70001"
-                         x="219.44">R</tspan>
-                      <tspan
-                         style="font-size:61.58599854px;font-family:Gotham-Black;fill:#ffffff"
+                         x="219.44">R</tspan><tspan
+                         style="font-size:61.586px;font-family:Gotham-Black;fill:#ffffff"
                          id="tspan803-4"
                          rotate="134.058"
                          font-size="61.586"
                          y="334.83301"
-                         x="190.896">Y</tspan>
-                    </text>
+                         x="190.896">Y</tspan></text>
                   </g>
                   <g
                      transform="translate(3.0300026e-4,35.624741)"

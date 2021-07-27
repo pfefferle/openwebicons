@@ -1644,13 +1644,27 @@ Styleguide 1.115
 }
 
 /*
+The freesoftware icon
+
+.openwebicons-freesoftware - the freesoftware icon
+
+Markup: <i class="openwebicons-freesoftware"></i>
+
+Styleguide 1.116
+*/
+.openwebicons-freesoftware:before {
+  content: "";
+  font-size: 50px;
+}
+
+/*
 The id4me icon
 
 .openwebicons-id4me - the id4me icon
 
 Markup: <i class="openwebicons-id4me"></i>
 
-Styleguide 1.116
+Styleguide 1.117
 */
 .openwebicons-id4me:before {
   content: "";
@@ -1664,7 +1678,7 @@ The movim icon
 
 Markup: <i class="openwebicons-movim"></i>
 
-Styleguide 1.117
+Styleguide 1.118
 */
 .openwebicons-movim:before {
   content: "";
@@ -1678,7 +1692,7 @@ The pleroma icon
 
 Markup: <i class="openwebicons-pleroma"></i>
 
-Styleguide 1.118
+Styleguide 1.119
 */
 .openwebicons-pleroma:before {
   content: "";
@@ -1692,7 +1706,7 @@ The pixelfed icon
 
 Markup: <i class="openwebicons-pixelfed"></i>
 
-Styleguide 1.119
+Styleguide 1.120
 */
 .openwebicons-pixelfed:before {
   content: "";

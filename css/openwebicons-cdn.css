@@ -486,6 +486,10 @@ li[class^=openwebicons-], li[class*=" openwebicons-"] {
   content: "";
 }
 
+.openwebicons-freesoftware:before {
+  content: "";
+}
+
 .openwebicons-id4me:before {
   content: "";
 }
