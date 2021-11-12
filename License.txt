@@ -1,4 +1,4 @@
-Copyright (c) 2012, Matthias Pfefferle (http://notizblog.org/),
+Copyright (c) 2021, Matthias Pfefferle (https://notiz.blog/),
 with Reserved Font Name OpenWeb Icons.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
