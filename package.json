@@ -19,7 +19,7 @@
     "validate": "node scripts/validate.mjs"
   },
   "devDependencies": {
-    "fantasticon": "^3.0.0",
+    "fantasticon": "^4.1.0",
     "sass": "^1.80.0"
   },
   "repository": {
