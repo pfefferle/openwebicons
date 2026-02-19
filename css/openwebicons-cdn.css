@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: "OpenWeb Icons";
   src: url("http://pfefferle.github.io/openwebicons/font/openwebicons.eot");
@@ -26,614 +25,933 @@ li[class^=openwebicons-], li[class*=" openwebicons-"] {
   display: block;
 }
 
+.openwebicons-semantic-web:before {
+  content: "\f000";
+}
+
 .openwebicons-apml:before {
-  content: "";
-}
-
-.openwebicons-open-share:before {
-  content: "";
-}
-
-.openwebicons-open-share-simple:before {
-  content: "";
-}
-
-.openwebicons-share:before {
-  content: "";
-}
-
-.openwebicons-share-simple:before {
-  content: "";
-}
-
-.openwebicons-feed:before {
-  content: "";
-}
-
-.openwebicons-feed-simple:before {
-  content: "";
-}
-
-.openwebicons-ostatus:before {
-  content: "";
-}
-
-.openwebicons-ostatus-simple:before {
-  content: "";
-}
-
-.openwebicons-opml:before {
-  content: "";
-}
-
-.openwebicons-activity:before {
-  content: "";
-}
-
-.openwebicons-activity-simple:before {
-  content: "";
-}
-
-.openwebicons-microformats:before {
-  content: "";
-}
-
-.openwebicons-geo:before {
-  content: "";
+  content: "\f001";
 }
 
 .openwebicons-opensearch:before {
-  content: "";
+  content: "\f002";
+}
+
+.openwebicons-opml:before {
+  content: "\f003";
+}
+
+.openwebicons-ostatus:before {
+  content: "\f004";
+}
+
+.openwebicons-ostatus-simple:before {
+  content: "\f005";
+}
+
+.openwebicons-share:before {
+  content: "\f006";
+}
+
+.openwebicons-share-simple:before {
+  content: "\f007";
 }
 
 .openwebicons-oauth:before {
-  content: "";
+  content: "\f008";
+}
+
+.openwebicons-feed:before {
+  content: "\f009";
+}
+
+.openwebicons-feed-simple:before {
+  content: "\f00a";
+}
+
+.openwebicons-geo:before {
+  content: "\f00b";
+}
+
+.openwebicons-microformats:before {
+  content: "\f00c";
 }
 
 .openwebicons-openid:before {
-  content: "";
+  content: "\f00d";
 }
 
-.openwebicons-semantic-web:before {
-  content: "";
+.openwebicons-open-share:before {
+  content: "\f00e";
 }
 
-.openwebicons-rdf:before {
-  content: "";
+.openwebicons-open-share-simple:before {
+  content: "\f00f";
 }
 
-.openwebicons-rdfa:before {
-  content: "";
-}
-
-.openwebicons-owl:before {
-  content: "";
-}
-
-.openwebicons-dataportability:before {
-  content: "";
+.openwebicons-activity:before {
+  content: "\f010";
 }
 
 .openwebicons-federated:before {
-  content: "";
-}
-
-.openwebicons-web-intents:before {
-  content: "";
+  content: "\f011";
 }
 
 .openwebicons-open-web:before {
-  content: "";
+  content: "\f012";
+}
+
+.openwebicons-dataportability:before {
+  content: "\f013";
+}
+
+.openwebicons-web-intents:before {
+  content: "\f014";
 }
 
 .openwebicons-xmpp:before {
-  content: "";
+  content: "\f015";
 }
 
 .openwebicons-html5:before {
-  content: "";
+  content: "\f016";
 }
 
 .openwebicons-css3:before {
-  content: "";
+  content: "\f017";
 }
 
 .openwebicons-connectivity:before {
-  content: "";
+  content: "\f018";
 }
 
 .openwebicons-semantics:before {
-  content: "";
-}
-
-.openwebicons-3deffects:before {
-  content: "";
-}
-
-.openwebicons-device-access:before {
-  content: "";
-}
-
-.openwebicons-multimedia:before {
-  content: "";
-}
-
-.openwebicons-offline-storage:before {
-  content: "";
-}
-
-.openwebicons-perfintegration:before {
-  content: "";
-}
-
-.openwebicons-git:before {
-  content: "";
-}
-
-.openwebicons-webhooks:before {
-  content: "";
-}
-
-.openwebicons-osi:before {
-  content: "";
-}
-
-.openwebicons-opensource:before {
-  content: "";
+  content: "\f019";
 }
 
 .openwebicons-opengraph:before {
-  content: "";
+  content: "\f020";
 }
 
 .openwebicons-epub:before {
-  content: "";
+  content: "\f021";
 }
 
 .openwebicons-qr:before {
-  content: "";
+  content: "\f022";
 }
 
 .openwebicons-foaf:before {
-  content: "";
+  content: "\f023";
 }
 
 .openwebicons-info-card:before {
-  content: "";
+  content: "\f024";
 }
 
 .openwebicons-browserid:before {
-  content: "";
+  content: "\f025";
 }
 
 .openwebicons-remote-storage:before {
-  content: "";
+  content: "\f026";
 }
 
 .openwebicons-persona:before {
-  content: "";
+  content: "\f027";
 }
 
 .openwebicons-odata:before {
-  content: "";
+  content: "\f028";
 }
 
 .openwebicons-markdown:before {
-  content: "";
+  content: "\f029";
 }
 
 .openwebicons-tosdr:before {
-  content: "";
+  content: "\f030";
 }
 
-.openwebicons-pub:before {
-  content: "";
+.openwebicons-device-access:before {
+  content: "\f031";
 }
 
-.openwebicons-sub:before {
-  content: "";
+.openwebicons-multimedia:before {
+  content: "\f032";
 }
 
-.openwebicons-hubbub:before {
-  content: "";
+.openwebicons-offline-storage:before {
+  content: "\f033";
 }
 
-.openwebicons-pubsubhubbub:before {
-  content: "";
+.openwebicons-perfintegration:before {
+  content: "\f034";
 }
 
-.openwebicons-cc:before {
-  content: "";
+.openwebicons-git:before {
+  content: "\f035";
 }
 
-.openwebicons-cc-by:before {
-  content: "";
+.openwebicons-webhooks:before {
+  content: "\f036";
 }
 
-.openwebicons-cc-nc:before {
-  content: "";
+.openwebicons-3deffects:before {
+  content: "\f037";
 }
 
-.openwebicons-cc-nc-eu:before {
-  content: "";
+.openwebicons-osi:before {
+  content: "\f038";
 }
 
-.openwebicons-cc-nc-jp:before {
-  content: "";
-}
-
-.openwebicons-cc-sa:before {
-  content: "";
-}
-
-.openwebicons-cc-nd:before {
-  content: "";
-}
-
-.openwebicons-cc-public:before {
-  content: "";
-}
-
-.openwebicons-cc-zero:before {
-  content: "";
-}
-
-.openwebicons-cc-share:before {
-  content: "";
-}
-
-.openwebicons-cc-remix:before {
-  content: "";
+.openwebicons-rdf:before {
+  content: "\f039";
 }
 
 .openwebicons-hatom:before {
-  content: "";
+  content: "\f040";
+}
+
+.openwebicons-activity-simple:before {
+  content: "\f041";
 }
 
 .openwebicons-hresume:before {
-  content: "";
+  content: "\f042";
 }
 
 .openwebicons-hcard-add:before {
-  content: "";
+  content: "\f043";
 }
 
 .openwebicons-hcard-download:before {
-  content: "";
+  content: "\f044";
 }
 
-.openwebicons-indieweb:before {
-  content: "";
+.openwebicons-pubsubhubbub-pub:before {
+  content: "\f045";
 }
 
-.openwebicons-indiewebcamp:before {
-  content: "";
+.openwebicons-pubsubhubbub-sub:before {
+  content: "\f046";
 }
 
-.openwebicons-webfinger:before {
-  content: "";
-}
-
-.openwebicons-bitcoin:before {
-  content: "";
-}
-
-.openwebicons-bitcoin-simple:before {
-  content: "";
-}
-
-.openwebicons-svg:before {
-  content: "";
+.openwebicons-pubsubhubbub:before {
+  content: "\f047";
 }
 
 .openwebicons-json-ld:before {
-  content: "";
+  content: "\f048";
 }
 
-.openwebicons-tent:before {
-  content: "";
-}
-
-.openwebicons-copyleft:before {
-  content: "";
-}
-
-.openwebicons-gnu:before {
-  content: "";
-}
-
-.openwebicons-ofl-attribution:before {
-  content: "";
-}
-
-.openwebicons-ofl-share:before {
-  content: "";
+.openwebicons-svg:before {
+  content: "\f049";
 }
 
 .openwebicons-ofl-renaming:before {
-  content: "";
+  content: "\f04a";
 }
 
 .openwebicons-ofl-selling:before {
-  content: "";
+  content: "\f04b";
 }
 
 .openwebicons-ofl-embedding:before {
-  content: "";
+  content: "\f04c";
 }
 
 .openwebicons-webmention:before {
-  content: "";
+  content: "\f04d";
 }
 
 .openwebicons-javascript:before {
-  content: "";
+  content: "\f04e";
 }
 
 .openwebicons-wtfpl:before {
-  content: "";
+  content: "\f04f";
+}
+
+.openwebicons-tent:before {
+  content: "\f050";
+}
+
+.openwebicons-copyleft:before {
+  content: "\f051";
+}
+
+.openwebicons-gnu:before {
+  content: "\f052";
 }
 
 .openwebicons-ofl:before {
-  content: "";
+  content: "\f053";
 }
 
 .openwebicons-wordpress:before {
-  content: "";
+  content: "\f054";
 }
 
 .openwebicons-owncloud:before {
-  content: "";
+  content: "\f055";
 }
 
 .openwebicons-cccs:before {
-  content: "";
+  content: "\f056";
 }
 
 .openwebicons-barcamp:before {
-  content: "";
+  content: "\f057";
 }
 
 .openwebicons-indiehosters:before {
-  content: "";
+  content: "\f058";
 }
 
 .openwebicons-known:before {
-  content: "";
+  content: "\f059";
 }
 
 .openwebicons-mozilla:before {
-  content: "";
+  content: "\f05a";
 }
 
 .openwebicons-unhosted:before {
-  content: "";
+  content: "\f05b";
 }
 
 .openwebicons-diaspora:before {
-  content: "";
+  content: "\f05c";
 }
 
 .openwebicons-indie:before {
-  content: "";
+  content: "\f05d";
 }
 
 .openwebicons-ghost:before {
-  content: "";
-}
-
-.openwebicons-webplattform:before {
-  content: "";
+  content: "\f05e";
 }
 
 .openwebicons-opensourcedesign:before {
-  content: "";
+  content: "\f060";
 }
 
 .openwebicons-opendesign:before {
-  content: "";
+  content: "\f061";
 }
 
 .openwebicons-gnusocial:before {
-  content: "";
+  content: "\f062";
 }
 
 .openwebicons-gnusocial-simple:before {
-  content: "";
-}
-
-.openwebicons-mastodon:before {
-  content: "";
-}
-
-.openwebicons-jsonfeed:before {
-  content: "";
-}
-
-.openwebicons-pump-io:before {
-  content: "";
-}
-
-.openwebicons-friendica:before {
-  content: "";
-}
-
-.openwebicons-hubzilla:before {
-  content: "";
-}
-
-.openwebicons-fediverse:before {
-  content: "";
+  content: "\f063";
 }
 
 .openwebicons-mastodon-simple:before {
-  content: "";
+  content: "\f064";
 }
 
-.openwebicons-activitypub:before {
-  content: "";
+.openwebicons-mastodon:before {
+  content: "\f065";
 }
 
-.openwebicons-wapuu:before {
-  content: "";
+.openwebicons-jsonfeed:before {
+  content: "\f066";
 }
 
-.openwebicons-micro-blog:before {
-  content: "";
+.openwebicons-pump-io:before {
+  content: "\f067";
 }
 
-.openwebicons-indieauth:before {
-  content: "";
+.openwebicons-friendica:before {
+  content: "\f068";
 }
 
-.openwebicons-freesoftware:before {
-  content: "";
+.openwebicons-hubzilla:before {
+  content: "\f069";
+}
+
+.openwebicons-fediverse:before {
+  content: "\f06a";
 }
 
 .openwebicons-id4me:before {
-  content: "";
+  content: "\f06b";
 }
 
 .openwebicons-movim:before {
-  content: "";
+  content: "\f06c";
 }
 
 .openwebicons-pleroma:before {
-  content: "";
+  content: "\f06d";
 }
 
 .openwebicons-pixelfed:before {
-  content: "";
+  content: "\f06e";
+}
+
+.openwebicons-cc:before {
+  content: "\f080";
+}
+
+.openwebicons-cc-by:before {
+  content: "\f081";
+}
+
+.openwebicons-cc-nc:before {
+  content: "\f082";
+}
+
+.openwebicons-cc-nc-eu:before {
+  content: "\f083";
+}
+
+.openwebicons-cc-nc-jp:before {
+  content: "\f084";
+}
+
+.openwebicons-cc-sa:before {
+  content: "\f085";
+}
+
+.openwebicons-cc-nd:before {
+  content: "\f086";
+}
+
+.openwebicons-cc-public:before {
+  content: "\f087";
+}
+
+.openwebicons-cc-zero:before {
+  content: "\f088";
+}
+
+.openwebicons-cc-share:before {
+  content: "\f089";
+}
+
+.openwebicons-cc-remix:before {
+  content: "\f08a";
+}
+
+.openwebicons-indieweb-indie:before {
+  content: "\f08b";
+}
+
+.openwebicons-indieweb-web:before {
+  content: "\f08c";
+}
+
+.openwebicons-indieweb-camp:before {
+  content: "\f08d";
+}
+
+.openwebicons-webfinger:before {
+  content: "\f08e";
+}
+
+.openwebicons-bitcoin:before {
+  content: "\f08f";
+}
+
+.openwebicons-bitcoin-simple:before {
+  content: "\f090";
+}
+
+.openwebicons-activitypub:before {
+  content: "\f091";
+}
+
+.openwebicons-wapuu:before {
+  content: "\f092";
+}
+
+.openwebicons-micro-blog:before {
+  content: "\f093";
+}
+
+.openwebicons-indieauth:before {
+  content: "\f094";
+}
+
+.openwebicons-freesoftware:before {
+  content: "\f095";
+}
+
+.openwebicons-lemmy:before {
+  content: "\f096";
+}
+
+.openwebicons-peertube:before {
+  content: "\f097";
+}
+
+.openwebicons-misskey:before {
+  content: "\f098";
+}
+
+.openwebicons-akkoma:before {
+  content: "\f099";
+}
+
+.openwebicons-bookwyrm:before {
+  content: "\f09a";
+}
+
+.openwebicons-funkwhale:before {
+  content: "\f09b";
+}
+
+.openwebicons-gotosocial:before {
+  content: "\f09c";
+}
+
+.openwebicons-forgejo:before {
+  content: "\f09d";
+}
+
+.openwebicons-gitea:before {
+  content: "\f09e";
+}
+
+.openwebicons-owncast:before {
+  content: "\f09f";
+}
+
+.openwebicons-mobilizon:before {
+  content: "\f0a0";
+}
+
+.openwebicons-castopod:before {
+  content: "\f0a1";
+}
+
+.openwebicons-kbin:before {
+  content: "\f0a2";
+}
+
+.openwebicons-firefish:before {
+  content: "\f0a3";
+}
+
+.openwebicons-iceshrimp:before {
+  content: "\f0a4";
+}
+
+.openwebicons-sharkey:before {
+  content: "\f0a5";
+}
+
+.openwebicons-plume:before {
+  content: "\f0a6";
+}
+
+.openwebicons-discourse:before {
+  content: "\f0a7";
+}
+
+.openwebicons-nextcloud:before {
+  content: "\f0a8";
+}
+
+.openwebicons-loops:before {
+  content: "\f0aa";
+}
+
+.openwebicons-bonfire:before {
+  content: "\f0ab";
+}
+
+.openwebicons-hometown:before {
+  content: "\f0ac";
+}
+
+.openwebicons-writefreely:before {
+  content: "\f0ad";
+}
+
+.openwebicons-gancio:before {
+  content: "\f0ae";
+}
+
+.openwebicons-glitch-soc:before {
+  content: "\f0af";
+}
+
+.openwebicons-soapbox:before {
+  content: "\f0b0";
+}
+
+.openwebicons-snac:before {
+  content: "\f0b1";
+}
+
+.openwebicons-honk:before {
+  content: "\f0b2";
+}
+
+.openwebicons-epicyon:before {
+  content: "\f0b3";
+}
+
+.openwebicons-drupal:before {
+  content: "\f0b4";
+}
+
+.openwebicons-socialhome:before {
+  content: "\f0b5";
+}
+
+.openwebicons-keyoxide:before {
+  content: "\f0b6";
+}
+
+.openwebicons-streams:before {
+  content: "\f0b7";
+}
+
+.openwebicons-takahe:before {
+  content: "\f0b8";
+}
+
+.openwebicons-hubzilla-simple:before {
+  content: "\f0b9";
+}
+
+.openwebicons-guppe:before {
+  content: "\f0ba";
+}
+
+.openwebicons-ecko:before {
+  content: "\f0bb";
+}
+
+.openwebicons-fedibird:before {
+  content: "\f0bc";
+}
+
+.openwebicons-forgefed:before {
+  content: "\f0bd";
+}
+
+.openwebicons-gath-io:before {
+  content: "\f0be";
+}
+
+.openwebicons-ktistec:before {
+  content: "\f0bf";
+}
+
+.openwebicons-relatica:before {
+  content: "\f0c0";
+}
+
+.openwebicons-shuttlecraft:before {
+  content: "\f0c1";
+}
+
+.openwebicons-flohmarkt:before {
+  content: "\f0c2";
+}
+
+.openwebicons-inventaire:before {
+  content: "\f0c3";
+}
+
+.openwebicons-disroot:before {
+  content: "\f0c4";
+}
+
+.openwebicons-fedimarks:before {
+  content: "\f0c5";
+}
+
+.openwebicons-fediverse-symbol:before {
+  content: "\f0c6";
+}
+
+.openwebicons-seppo:before {
+  content: "\f0c7";
+}
+
+.openwebicons-fediverse-logo:before {
+  content: "\f0c8";
+}
+
+.openwebicons-rdfa:before {
+  content: "\f039";
+}
+
+.openwebicons-owl:before {
+  content: "\f039";
+}
+
+.openwebicons-opensource:before {
+  content: "\f038";
+}
+
+.openwebicons-ofl-attribution:before {
+  content: "\f081";
+}
+
+.openwebicons-ofl-share:before {
+  content: "\f085";
+}
+
+.openwebicons-pub:before {
+  content: "\f045";
+}
+
+.openwebicons-sub:before {
+  content: "\f046";
+}
+
+.openwebicons-hubbub:before {
+  content: "\f045";
+}
+
+.openwebicons-indieweb:before {
+  content: "\f08b\f08c";
+}
+
+.openwebicons-indiewebcamp:before {
+  content: "\f08b\f08c\f08d";
 }
 
 .openwebicons-apml-colored:before {
-  content: "";
+  content: "\f001";
   color: #AFDD63;
 }
 
-.openwebicons-open-share-colored:before {
-  content: "";
-  color: #538439;
+.openwebicons-opensearch-colored:before {
+  content: "\f002";
+  color: #5050f3;
+}
+
+.openwebicons-opml-colored:before {
+  content: "\f003";
+  color: #2490A1;
+}
+
+.openwebicons-ostatus-colored:before {
+  content: "\f004";
+  color: #FF6600;
 }
 
 .openwebicons-share-colored:before {
-  content: "";
+  content: "\f006";
   color: #538439;
 }
 
 .openwebicons-feed-colored:before {
-  content: "";
+  content: "\f009";
   color: #EA680B;
 }
 
-.openwebicons-ostatus-colored:before {
-  content: "";
-  color: #FF6600;
-}
-
-.openwebicons-opml-colored:before {
-  content: "";
-  color: #2490A1;
-}
-
-.openwebicons-activity-colored:before {
-  content: "";
-  color: #4FB2D9;
-}
-
-.openwebicons-microformats-colored:before {
-  content: "";
-  color: #85BC07;
-}
-
 .openwebicons-geo-colored:before {
-  content: "";
+  content: "\f00b";
   color: #990000;
 }
 
-.openwebicons-opensearch-colored:before {
-  content: "";
-  color: #5050f3;
+.openwebicons-microformats-colored:before {
+  content: "\f00c";
+  color: #85BC07;
+}
+
+.openwebicons-open-share-colored:before {
+  content: "\f00e";
+  color: #538439;
+}
+
+.openwebicons-activity-colored:before {
+  content: "\f010";
+  color: #4FB2D9;
 }
 
 .openwebicons-html5-colored:before {
-  content: "";
+  content: "\f016";
   color: #E34C26;
 }
 
-.openwebicons-git-colored:before {
-  content: "";
-  color: #F05133;
-}
-
-.openwebicons-osi-colored:before {
-  content: "";
-  color: #3DA639;
-}
-
-.openwebicons-opensource-colored:before {
-  content: "";
-  color: #3DA639;
-}
-
 .openwebicons-epub-colored:before {
-  content: "";
+  content: "\f021";
   color: #85b916;
 }
 
 .openwebicons-info-card-colored:before {
-  content: "";
+  content: "\f024";
   color: #BF84E5;
 }
 
 .openwebicons-remote-storage-colored:before {
-  content: "";
+  content: "\f026";
   color: #ff4e09;
 }
 
 .openwebicons-odata-colored:before {
-  content: "";
+  content: "\f028";
   color: #EA680B;
 }
 
-.openwebicons-pub-colored:before {
-  content: "";
-  color: #99cc00;
+.openwebicons-git-colored:before {
+  content: "\f035";
+  color: #F05133;
 }
 
-.openwebicons-sub-colored:before {
-  content: "";
-  color: #ffff00;
-}
-
-.openwebicons-hubbub-colored:before {
-  content: "";
-  color: #ff6fcf;
+.openwebicons-osi-colored:before {
+  content: "\f038";
+  color: #3DA639;
 }
 
 .openwebicons-javascript-colored:before {
-  content: "";
+  content: "\f04e";
   color: #f0db4f;
 }
 
 .openwebicons-gnusocial-colored:before {
-  content: "";
+  content: "\f062";
   color: #a22430;
 }
 
-.openwebicons-mastodon-colored:before {
-  content: "";
+.openwebicons-mastodon-simple-colored:before {
+  content: "\f064";
   color: #2b90d9;
 }
 
-.openwebicons-mastodon-simple-colored:before {
-  content: "";
+.openwebicons-mastodon-colored:before {
+  content: "\f065";
   color: #2b90d9;
 }
 
 .openwebicons-id4me-colored:before {
-  content: "";
+  content: "\f06b";
   color: #007A9D;
 }
 
-/*# sourceMappingURL=openwebicons-cdn.css.map */
+.openwebicons-lemmy-colored:before {
+  content: "\f096";
+  color: #00BC8C;
+}
+
+.openwebicons-peertube-colored:before {
+  content: "\f097";
+  color: #F1680D;
+}
+
+.openwebicons-misskey-colored:before {
+  content: "\f098";
+  color: #99c837;
+}
+
+.openwebicons-akkoma-colored:before {
+  content: "\f099";
+  color: #593196;
+}
+
+.openwebicons-bookwyrm-colored:before {
+  content: "\f09a";
+  color: #002549;
+}
+
+.openwebicons-funkwhale-colored:before {
+  content: "\f09b";
+  color: #0D47A1;
+}
+
+.openwebicons-gotosocial-colored:before {
+  content: "\f09c";
+  color: #F26522;
+}
+
+.openwebicons-forgejo-colored:before {
+  content: "\f09d";
+  color: #E44729;
+}
+
+.openwebicons-gitea-colored:before {
+  content: "\f09e";
+  color: #609926;
+}
+
+.openwebicons-owncast-colored:before {
+  content: "\f09f";
+  color: #7871FF;
+}
+
+.openwebicons-mobilizon-colored:before {
+  content: "\f0a0";
+  color: #3E50AF;
+}
+
+.openwebicons-castopod-colored:before {
+  content: "\f0a1";
+  color: #00564A;
+}
+
+.openwebicons-kbin-colored:before {
+  content: "\f0a2";
+  color: #7B1FA2;
+}
+
+.openwebicons-iceshrimp-colored:before {
+  content: "\f0a4";
+  color: #F75E7B;
+}
+
+.openwebicons-discourse-colored:before {
+  content: "\f0a7";
+  color: #231F20;
+}
+
+.openwebicons-nextcloud-colored:before {
+  content: "\f0a8";
+  color: #0082C9;
+}
+
+.openwebicons-bonfire-colored:before {
+  content: "\f0ab";
+  color: #F15B40;
+}
+
+.openwebicons-drupal-colored:before {
+  content: "\f0b4";
+  color: #0678BE;
+}
+
+.openwebicons-keyoxide-colored:before {
+  content: "\f0b6";
+  color: #56A300;
+}
+
+.openwebicons-hubzilla-simple-colored:before {
+  content: "\f0b9";
+  color: #2E5AA1;
+}
+
+.openwebicons-flohmarkt-colored:before {
+  content: "\f0c2";
+  color: #D93F00;
+}
+
+.openwebicons-opensource-colored:before {
+  content: "\f038";
+  color: #3DA639;
+}
+
+.openwebicons-pub-colored:before {
+  content: "\f045";
+  color: #99cc00;
+}
+
+.openwebicons-sub-colored:before {
+  content: "\f046";
+  color: #ffff00;
+}
+
+.openwebicons-hubbub-colored:before {
+  content: "\f045";
+  color: #ff6fcf;
+}

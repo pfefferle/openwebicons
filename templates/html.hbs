@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>OpenWeb Icons</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="OpenWeb Icons — scalable vector icons for open communities, standards, and projects.">
+  <style>
+    :root {
+      --bg: #fff; --text: #1a1a1a; --muted: #666; --border: #e5e5e5;
+      --card-bg: #fafafa; --card-hover: #f0f0f0; --accent: #4a90d9;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1a1a1a; --text: #e5e5e5; --muted: #999; --border: #333;
+        --card-bg: #222; --card-hover: #2a2a2a; --accent: #6ab0ff;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.6;
+    }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+    header {
+      text-align: center; padding: 60px 20px 40px;
+      border-bottom: 1px solid var(--border);
+    }
+    header h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 8px; }
+    header p { color: var(--muted); font-size: 1.1rem; max-width: 600px; margin: 0 auto; }
+
+    .hero-icons {
+      margin: 24px 0 0; font-size: 48px;
+      display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;
+    }
+
+    .stats {
+      display: flex; justify-content: center; gap: 32px; padding: 20px;
+      color: var(--muted); font-size: 0.9rem; flex-wrap: wrap;
+    }
+    .stats strong { color: var(--text); }
+
+    section { padding: 40px 0; }
+    section h2 {
+      font-size: 1.5rem; margin-bottom: 24px; padding-bottom: 8px;
+      border-bottom: 2px solid var(--border);
+    }
+    section h3 {
+      font-size: 1.1rem; margin: 24px 0 12px; color: var(--muted);
+    }
+    section h3:first-child { margin-top: 0; }
+
+    .icon-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 12px;
+    }
+
+    .icon-card {
+      display: flex; flex-direction: column; align-items: center;
+      padding: 20px 12px; border: 1px solid var(--border); border-radius: 8px;
+      background: var(--card-bg); transition: background 0.15s; text-align: center;
+    }
+    .icon-card:hover { background: var(--card-hover); }
+    .icon-card i, .icon-card .icon-preview {
+      font-size: 36px; margin-bottom: 10px; min-height: 40px;
+      display: flex; align-items: center;
+    }
+    .icon-card .icon-name { font-size: 0.75rem; font-weight: 500; word-break: break-all; }
+    .icon-card code { font-size: 0.65rem; color: var(--muted); margin-top: 4px; }
+    .icon-card.alias { border-style: dashed; }
+    .icon-card.composition { border-color: var(--accent); }
+
+    footer {
+      text-align: center; padding: 40px 20px;
+      border-top: 1px solid var(--border); color: var(--muted); font-size: 0.85rem;
+    }
+    footer a { color: var(--accent); }
+
+    #search {
+      width: 100%; max-width: 400px; padding: 10px 16px; margin: 24px auto 0;
+      display: block; border: 1px solid var(--border); border-radius: 6px;
+      background: var(--card-bg); color: var(--text); font-size: 1rem;
+    }
+    #search:focus { outline: 2px solid var(--accent); border-color: transparent; }
+  </style>
+  <link rel="stylesheet" type="text/css" href="{{ name }}.css">
+</head>
+<body>
+  <header>
+    <h1>OpenWeb Icons</h1>
+    <p>Scalable vector icons for open communities, standards, and projects.</p>
+    <div class="hero-icons">
+      <i class="{{ prefix }}-html5-colored"></i>
+      <i class="{{ prefix }}-feed-colored"></i>
+      <i class="{{ prefix }}-cc"></i>
+      <i class="{{ prefix }}-mastodon-colored"></i>
+      <i class="{{ prefix }}-activitypub"></i>
+      <i class="{{ prefix }}-indieweb"></i>
+      <i class="{{ prefix }}-fediverse"></i>
+    </div>
+    <div class="stats">
+      <span><strong>{{ iconCount }}</strong> icons</span>
+      <span><strong>{{ aliasCount }}</strong> aliases</span>
+      <span><strong>{{ compositionCount }}</strong> compositions</span>
+      <span><strong>{{ coloredCount }}</strong> colored</span>
+    </div>
+    <input type="search" id="search" placeholder="Search icons..." autocomplete="off">
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Icons by Category</h2>
+      {{# each groupedIcons }}
+      <h3>{{ this.groupName }}</h3>
+      <div class="icon-grid">
+        {{# each this.icons }}
+        <div class="icon-card">
+          <i class="{{ ../../prefix }}-{{ this.name }}"></i>
+          <span class="icon-name">{{ this.name }}</span>
+          <code>{{ this.codepoint }}</code>
+        </div>
+        {{/ each }}
+      </div>
+      {{/ each }}
+
+      {{# if ungroupedIcons }}
+      <h3>Ungrouped</h3>
+      <div class="icon-grid">
+        {{# each ungroupedIcons }}
+        <div class="icon-card">
+          <i class="{{ ../prefix }}-{{ this.name }}"></i>
+          <span class="icon-name">{{ this.name }}</span>
+          <code>{{ this.codepoint }}</code>
+        </div>
+        {{/ each }}
+      </div>
+      {{/ if }}
+    </section>
+
+    {{# if coloredIcons }}
+    <section>
+      <h2>Colored Variants</h2>
+      <div class="icon-grid">
+        {{# each coloredIcons }}
+        <div class="icon-card">
+          <i class="{{ ../prefix }}-{{ this.name }}-colored"></i>
+          <span class="icon-name">{{ this.name }}-colored</span>
+          <code>{{ this.color }}</code>
+        </div>
+        {{/ each }}
+      </div>
+    </section>
+    {{/ if }}
+
+    {{# if aliasIcons }}
+    <section>
+      <h2>Aliases</h2>
+      <div class="icon-grid">
+        {{# each aliasIcons }}
+        <div class="icon-card alias">
+          <i class="{{ ../prefix }}-{{ this.name }}"></i>
+          <span class="icon-name">{{ this.name }}</span>
+          <code>alias of {{ this.aliasOf }}</code>
+        </div>
+        {{/ each }}
+      </div>
+    </section>
+    {{/ if }}
+
+    {{# if compositionIcons }}
+    <section>
+      <h2>Compositions</h2>
+      <div class="icon-grid">
+        {{# each compositionIcons }}
+        <div class="icon-card composition">
+          <i class="{{ ../prefix }}-{{ this.name }}"></i>
+          <span class="icon-name">{{ this.name }}</span>
+          <code>{{ this.glyphs }}</code>
+        </div>
+        {{/ each }}
+      </div>
+    </section>
+    {{/ if }}
+  </div>
+
+  <footer>
+    <p>
+      <i class="{{ prefix }}-ofl-attribution"></i>
+      <i class="{{ prefix }}-ofl-share"></i>
+      <i class="{{ prefix }}-ofl-embedding"></i>
+      Licensed under <a href="http://scripts.sil.org/OFL">SIL Open Font License</a>.
+      Created by <a href="https://github.com/pfefferle">Matthias Pfefferle</a>.
+    </p>
+    <p>
+      <a href="https://github.com/pfefferle/openwebicons">GitHub</a> &middot;
+      <a href="https://www.npmjs.com/package/openwebicons">npm</a>
+    </p>
+    <p style="font-size: 0.75rem; max-width: 640px; margin: 12px auto 0;">
+      Disclaimer: The individual project logos and icons included in this font are trademarks or registered trademarks of their respective owners. Their inclusion in this icon font does not imply ownership, endorsement, or affiliation. All rights to the original logos remain with their respective copyright holders.
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById('search').addEventListener('input', function(e) {
+      var q = e.target.value.toLowerCase();
+      document.querySelectorAll('.icon-card').forEach(function(card) {
+        var name = card.querySelector('.icon-name').textContent.toLowerCase();
+        card.style.display = name.includes(q) ? '' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>

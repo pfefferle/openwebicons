@@ -1,0 +1,772 @@
+{
+  "icons": {
+    "semantic-web": {
+      "codepoint": "0xf000"
+    },
+    "apml": {
+      "codepoint": "0xf001",
+      "color": "#AFDD63"
+    },
+    "opensearch": {
+      "codepoint": "0xf002",
+      "color": "#5050f3"
+    },
+    "opml": {
+      "codepoint": "0xf003",
+      "color": "#2490A1"
+    },
+    "ostatus": {
+      "codepoint": "0xf004",
+      "color": "#FF6600"
+    },
+    "ostatus-simple": {
+      "codepoint": "0xf005"
+    },
+    "share": {
+      "codepoint": "0xf006",
+      "color": "#538439"
+    },
+    "share-simple": {
+      "codepoint": "0xf007"
+    },
+    "oauth": {
+      "codepoint": "0xf008"
+    },
+    "feed": {
+      "codepoint": "0xf009",
+      "color": "#EA680B"
+    },
+    "feed-simple": {
+      "codepoint": "0xf00a"
+    },
+    "geo": {
+      "codepoint": "0xf00b",
+      "color": "#990000"
+    },
+    "microformats": {
+      "codepoint": "0xf00c",
+      "color": "#85BC07"
+    },
+    "openid": {
+      "codepoint": "0xf00d"
+    },
+    "open-share": {
+      "codepoint": "0xf00e",
+      "color": "#538439"
+    },
+    "open-share-simple": {
+      "codepoint": "0xf00f"
+    },
+    "activity": {
+      "codepoint": "0xf010",
+      "color": "#4FB2D9"
+    },
+    "federated": {
+      "codepoint": "0xf011"
+    },
+    "open-web": {
+      "codepoint": "0xf012"
+    },
+    "dataportability": {
+      "codepoint": "0xf013"
+    },
+    "web-intents": {
+      "codepoint": "0xf014"
+    },
+    "xmpp": {
+      "codepoint": "0xf015"
+    },
+    "html5": {
+      "codepoint": "0xf016",
+      "color": "#E34C26"
+    },
+    "css3": {
+      "codepoint": "0xf017"
+    },
+    "connectivity": {
+      "codepoint": "0xf018"
+    },
+    "semantics": {
+      "codepoint": "0xf019"
+    },
+    "opengraph": {
+      "codepoint": "0xf020"
+    },
+    "epub": {
+      "codepoint": "0xf021",
+      "color": "#85b916"
+    },
+    "qr": {
+      "codepoint": "0xf022"
+    },
+    "foaf": {
+      "codepoint": "0xf023"
+    },
+    "info-card": {
+      "codepoint": "0xf024",
+      "color": "#BF84E5"
+    },
+    "browserid": {
+      "codepoint": "0xf025"
+    },
+    "remote-storage": {
+      "codepoint": "0xf026",
+      "color": "#ff4e09"
+    },
+    "persona": {
+      "codepoint": "0xf027"
+    },
+    "odata": {
+      "codepoint": "0xf028",
+      "color": "#EA680B"
+    },
+    "markdown": {
+      "codepoint": "0xf029"
+    },
+    "tosdr": {
+      "codepoint": "0xf030"
+    },
+    "device-access": {
+      "codepoint": "0xf031"
+    },
+    "multimedia": {
+      "codepoint": "0xf032"
+    },
+    "offline-storage": {
+      "codepoint": "0xf033"
+    },
+    "perfintegration": {
+      "codepoint": "0xf034"
+    },
+    "git": {
+      "codepoint": "0xf035",
+      "color": "#F05133"
+    },
+    "webhooks": {
+      "codepoint": "0xf036"
+    },
+    "3deffects": {
+      "codepoint": "0xf037"
+    },
+    "osi": {
+      "codepoint": "0xf038",
+      "color": "#3DA639"
+    },
+    "rdf": {
+      "codepoint": "0xf039"
+    },
+    "hatom": {
+      "codepoint": "0xf040"
+    },
+    "activity-simple": {
+      "codepoint": "0xf041"
+    },
+    "hresume": {
+      "codepoint": "0xf042"
+    },
+    "hcard-add": {
+      "codepoint": "0xf043"
+    },
+    "hcard-download": {
+      "codepoint": "0xf044"
+    },
+    "pubsubhubbub-pub": {
+      "codepoint": "0xf045"
+    },
+    "pubsubhubbub-sub": {
+      "codepoint": "0xf046"
+    },
+    "pubsubhubbub": {
+      "codepoint": "0xf047"
+    },
+    "json-ld": {
+      "codepoint": "0xf048"
+    },
+    "svg": {
+      "codepoint": "0xf049"
+    },
+    "ofl-renaming": {
+      "codepoint": "0xf04a"
+    },
+    "ofl-selling": {
+      "codepoint": "0xf04b"
+    },
+    "ofl-embedding": {
+      "codepoint": "0xf04c"
+    },
+    "webmention": {
+      "codepoint": "0xf04d"
+    },
+    "javascript": {
+      "codepoint": "0xf04e",
+      "color": "#f0db4f"
+    },
+    "wtfpl": {
+      "codepoint": "0xf04f"
+    },
+    "tent": {
+      "codepoint": "0xf050"
+    },
+    "copyleft": {
+      "codepoint": "0xf051"
+    },
+    "gnu": {
+      "codepoint": "0xf052"
+    },
+    "ofl": {
+      "codepoint": "0xf053"
+    },
+    "wordpress": {
+      "codepoint": "0xf054"
+    },
+    "owncloud": {
+      "codepoint": "0xf055"
+    },
+    "cccs": {
+      "codepoint": "0xf056"
+    },
+    "barcamp": {
+      "codepoint": "0xf057"
+    },
+    "indiehosters": {
+      "codepoint": "0xf058"
+    },
+    "known": {
+      "codepoint": "0xf059"
+    },
+    "mozilla": {
+      "codepoint": "0xf05a"
+    },
+    "unhosted": {
+      "codepoint": "0xf05b"
+    },
+    "diaspora": {
+      "codepoint": "0xf05c"
+    },
+    "indie": {
+      "codepoint": "0xf05d"
+    },
+    "ghost": {
+      "codepoint": "0xf05e"
+    },
+    "opensourcedesign": {
+      "codepoint": "0xf060"
+    },
+    "opendesign": {
+      "codepoint": "0xf061"
+    },
+    "gnusocial": {
+      "codepoint": "0xf062",
+      "color": "#a22430"
+    },
+    "gnusocial-simple": {
+      "codepoint": "0xf063"
+    },
+    "mastodon-simple": {
+      "codepoint": "0xf064",
+      "color": "#2b90d9"
+    },
+    "mastodon": {
+      "codepoint": "0xf065",
+      "color": "#2b90d9"
+    },
+    "jsonfeed": {
+      "codepoint": "0xf066"
+    },
+    "pump-io": {
+      "codepoint": "0xf067"
+    },
+    "friendica": {
+      "codepoint": "0xf068"
+    },
+    "hubzilla": {
+      "codepoint": "0xf069"
+    },
+    "fediverse": {
+      "codepoint": "0xf06a"
+    },
+    "id4me": {
+      "codepoint": "0xf06b",
+      "color": "#007A9D"
+    },
+    "movim": {
+      "codepoint": "0xf06c"
+    },
+    "pleroma": {
+      "codepoint": "0xf06d"
+    },
+    "pixelfed": {
+      "codepoint": "0xf06e"
+    },
+    "cc": {
+      "codepoint": "0xf080"
+    },
+    "cc-by": {
+      "codepoint": "0xf081"
+    },
+    "cc-nc": {
+      "codepoint": "0xf082"
+    },
+    "cc-nc-eu": {
+      "codepoint": "0xf083"
+    },
+    "cc-nc-jp": {
+      "codepoint": "0xf084"
+    },
+    "cc-sa": {
+      "codepoint": "0xf085"
+    },
+    "cc-nd": {
+      "codepoint": "0xf086"
+    },
+    "cc-public": {
+      "codepoint": "0xf087"
+    },
+    "cc-zero": {
+      "codepoint": "0xf088"
+    },
+    "cc-share": {
+      "codepoint": "0xf089"
+    },
+    "cc-remix": {
+      "codepoint": "0xf08a"
+    },
+    "indieweb-indie": {
+      "codepoint": "0xf08b"
+    },
+    "indieweb-web": {
+      "codepoint": "0xf08c"
+    },
+    "indieweb-camp": {
+      "codepoint": "0xf08d"
+    },
+    "webfinger": {
+      "codepoint": "0xf08e"
+    },
+    "bitcoin": {
+      "codepoint": "0xf08f"
+    },
+    "bitcoin-simple": {
+      "codepoint": "0xf090"
+    },
+    "activitypub": {
+      "codepoint": "0xf091"
+    },
+    "wapuu": {
+      "codepoint": "0xf092"
+    },
+    "micro-blog": {
+      "codepoint": "0xf093"
+    },
+    "indieauth": {
+      "codepoint": "0xf094"
+    },
+    "freesoftware": {
+      "codepoint": "0xf095"
+    },
+    "lemmy": {
+      "codepoint": "0xf096",
+      "color": "#00BC8C"
+    },
+    "peertube": {
+      "codepoint": "0xf097",
+      "color": "#F1680D"
+    },
+    "misskey": {
+      "codepoint": "0xf098",
+      "color": "#99c837"
+    },
+    "akkoma": {
+      "codepoint": "0xf099",
+      "color": "#593196"
+    },
+    "bookwyrm": {
+      "codepoint": "0xf09a",
+      "color": "#002549"
+    },
+    "funkwhale": {
+      "codepoint": "0xf09b",
+      "color": "#0D47A1"
+    },
+    "gotosocial": {
+      "codepoint": "0xf09c",
+      "color": "#F26522"
+    },
+    "forgejo": {
+      "codepoint": "0xf09d",
+      "color": "#E44729"
+    },
+    "gitea": {
+      "codepoint": "0xf09e",
+      "color": "#609926"
+    },
+    "owncast": {
+      "codepoint": "0xf09f",
+      "color": "#7871FF"
+    },
+    "mobilizon": {
+      "codepoint": "0xf0a0",
+      "color": "#3E50AF"
+    },
+    "castopod": {
+      "codepoint": "0xf0a1",
+      "color": "#00564A"
+    },
+    "kbin": {
+      "codepoint": "0xf0a2",
+      "color": "#7B1FA2"
+    },
+    "firefish": {
+      "codepoint": "0xf0a3"
+    },
+    "iceshrimp": {
+      "codepoint": "0xf0a4",
+      "color": "#F75E7B"
+    },
+    "sharkey": {
+      "codepoint": "0xf0a5"
+    },
+    "plume": {
+      "codepoint": "0xf0a6"
+    },
+    "discourse": {
+      "codepoint": "0xf0a7",
+      "color": "#231F20"
+    },
+    "nextcloud": {
+      "codepoint": "0xf0a8",
+      "color": "#0082C9"
+    },
+    "loops": {
+      "codepoint": "0xf0aa"
+    },
+    "bonfire": {
+      "codepoint": "0xf0ab",
+      "color": "#F15B40"
+    },
+    "hometown": {
+      "codepoint": "0xf0ac"
+    },
+    "writefreely": {
+      "codepoint": "0xf0ad"
+    },
+    "gancio": {
+      "codepoint": "0xf0ae"
+    },
+    "glitch-soc": {
+      "codepoint": "0xf0af"
+    },
+    "soapbox": {
+      "codepoint": "0xf0b0"
+    },
+    "snac": {
+      "codepoint": "0xf0b1"
+    },
+    "honk": {
+      "codepoint": "0xf0b2"
+    },
+    "epicyon": {
+      "codepoint": "0xf0b3"
+    },
+    "drupal": {
+      "codepoint": "0xf0b4",
+      "color": "#0678BE"
+    },
+    "socialhome": {
+      "codepoint": "0xf0b5"
+    },
+    "keyoxide": {
+      "codepoint": "0xf0b6",
+      "color": "#56A300"
+    },
+    "streams": {
+      "codepoint": "0xf0b7"
+    },
+    "takahe": {
+      "codepoint": "0xf0b8"
+    },
+    "hubzilla-simple": {
+      "codepoint": "0xf0b9",
+      "color": "#2E5AA1"
+    },
+    "guppe": {
+      "codepoint": "0xf0ba"
+    },
+    "ecko": {
+      "codepoint": "0xf0bb"
+    },
+    "fedibird": {
+      "codepoint": "0xf0bc"
+    },
+    "forgefed": {
+      "codepoint": "0xf0bd"
+    },
+    "gath-io": {
+      "codepoint": "0xf0be"
+    },
+    "ktistec": {
+      "codepoint": "0xf0bf"
+    },
+    "relatica": {
+      "codepoint": "0xf0c0"
+    },
+    "shuttlecraft": {
+      "codepoint": "0xf0c1"
+    },
+    "flohmarkt": {
+      "codepoint": "0xf0c2",
+      "color": "#D93F00"
+    },
+    "inventaire": {
+      "codepoint": "0xf0c3"
+    },
+    "disroot": {
+      "codepoint": "0xf0c4"
+    },
+    "fedimarks": {
+      "codepoint": "0xf0c5"
+    },
+    "fediverse-symbol": {
+      "codepoint": "0xf0c6"
+    },
+    "seppo": {
+      "codepoint": "0xf0c7"
+    },
+    "fediverse-logo": {
+      "codepoint": "0xf0c8"
+    }
+  },
+  "aliases": {
+    "rdfa": {
+      "aliasOf": "rdf"
+    },
+    "owl": {
+      "aliasOf": "rdf"
+    },
+    "opensource": {
+      "aliasOf": "osi",
+      "color": "#3DA639"
+    },
+    "ofl-attribution": {
+      "aliasOf": "cc-by"
+    },
+    "ofl-share": {
+      "aliasOf": "cc-sa"
+    },
+    "pub": {
+      "aliasOf": "pubsubhubbub-pub",
+      "color": "#99cc00"
+    },
+    "sub": {
+      "aliasOf": "pubsubhubbub-sub",
+      "color": "#ffff00"
+    },
+    "hubbub": {
+      "aliasOf": "pubsubhubbub-pub",
+      "color": "#ff6fcf"
+    }
+  },
+  "compositions": {
+    "indieweb": {
+      "glyphs": [
+        "indieweb-indie",
+        "indieweb-web"
+      ]
+    },
+    "indiewebcamp": {
+      "glyphs": [
+        "indieweb-indie",
+        "indieweb-web",
+        "indieweb-camp"
+      ]
+    }
+  },
+  "groups": {
+    "Fediverse": [
+      "activitypub",
+      "fediverse",
+      "federated",
+      "mastodon",
+      "mastodon-simple",
+      "pleroma",
+      "pixelfed",
+      "movim",
+      "friendica",
+      "hubzilla",
+      "hubzilla-simple",
+      "pump-io",
+      "gnusocial",
+      "gnusocial-simple",
+      "diaspora",
+      "ostatus",
+      "ostatus-simple",
+      "webfinger",
+      "lemmy",
+      "peertube",
+      "misskey",
+      "akkoma",
+      "bookwyrm",
+      "funkwhale",
+      "gotosocial",
+      "forgejo",
+      "gitea",
+      "owncast",
+      "mobilizon",
+      "castopod",
+      "kbin",
+      "firefish",
+      "iceshrimp",
+      "sharkey",
+      "plume",
+      "discourse",
+      "nextcloud",
+      "loops",
+      "bonfire",
+      "hometown",
+      "writefreely",
+      "gancio",
+      "glitch-soc",
+      "soapbox",
+      "snac",
+      "honk",
+      "epicyon",
+      "socialhome",
+      "keyoxide",
+      "streams",
+      "takahe",
+      "guppe",
+      "ecko",
+      "fedibird",
+      "forgefed",
+      "gath-io",
+      "ktistec",
+      "relatica",
+      "shuttlecraft",
+      "flohmarkt",
+      "inventaire",
+      "disroot",
+      "fedimarks",
+      "fediverse-symbol",
+      "seppo",
+      "fediverse-logo"
+    ],
+    "IndieWeb": [
+      "indieweb-indie",
+      "indieweb-web",
+      "indieweb-camp",
+      "indieauth",
+      "indie",
+      "indiehosters",
+      "webmention",
+      "micro-blog"
+    ],
+    "HTML5": [
+      "html5",
+      "css3",
+      "connectivity",
+      "semantics",
+      "3deffects",
+      "device-access",
+      "multimedia",
+      "offline-storage",
+      "perfintegration"
+    ],
+    "Creative Commons": [
+      "cc",
+      "cc-by",
+      "cc-nc",
+      "cc-nc-eu",
+      "cc-nc-jp",
+      "cc-sa",
+      "cc-nd",
+      "cc-public",
+      "cc-zero",
+      "cc-share",
+      "cc-remix"
+    ],
+    "Microformats": [
+      "microformats",
+      "hatom",
+      "hresume",
+      "hcard-add",
+      "hcard-download",
+      "geo"
+    ],
+    "SIL Open Font License": [
+      "ofl",
+      "ofl-renaming",
+      "ofl-selling",
+      "ofl-embedding"
+    ],
+    "Licenses": [
+      "copyleft",
+      "gnu",
+      "freesoftware",
+      "osi",
+      "wtfpl"
+    ],
+    "Protocols & Standards": [
+      "semantic-web",
+      "rdf",
+      "json-ld",
+      "svg",
+      "opengraph",
+      "foaf",
+      "odata",
+      "markdown",
+      "epub",
+      "jsonfeed",
+      "pubsubhubbub",
+      "pubsubhubbub-pub",
+      "pubsubhubbub-sub",
+      "xmpp",
+      "webhooks",
+      "oauth",
+      "openid",
+      "tosdr"
+    ],
+    "Sharing & Feeds": [
+      "feed",
+      "feed-simple",
+      "share",
+      "share-simple",
+      "open-share",
+      "open-share-simple",
+      "opml",
+      "apml",
+      "activity",
+      "activity-simple",
+      "dataportability"
+    ],
+    "Projects & Communities": [
+      "wordpress",
+      "owncloud",
+      "known",
+      "ghost",
+      "mozilla",
+      "unhosted",
+      "barcamp",
+      "cccs",
+      "opensourcedesign",
+      "opendesign",
+      "wapuu",
+      "drupal",
+      "id4me",
+      "tent"
+    ],
+    "Other": [
+      "open-web",
+      "web-intents",
+      "git",
+      "javascript",
+      "qr",
+      "info-card",
+      "browserid",
+      "remote-storage",
+      "persona",
+      "opensearch",
+      "bitcoin",
+      "bitcoin-simple"
+    ]
+  }
+}

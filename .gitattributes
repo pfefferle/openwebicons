@@ -5,3 +5,5 @@
 # Files
 /.gitattributes export-ignore
 /.gitignore export-ignore
+/scripts export-ignore
+/templates export-ignore

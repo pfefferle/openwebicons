@@ -1,0 +1,1182 @@
+@font-face {
+  font-family: "OpenWeb Icons";
+  src: url("font/openwebicons.eot");
+  src: url("font/openwebicons.eot?#iefix") format("embedded-opentype"), url("font/openwebicons.woff2") format("woff2"), url("font/openwebicons.woff") format("woff"), url("font/openwebicons.ttf") format("truetype"), url("font/openwebicons.svg#openweb_iconsregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^=icon-]:before, [class*=" icon-"]:before,
+[class^=openwebicons-]:before, [class*=" openwebicons-"]:before {
+  font-family: "OpenWeb Icons";
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  vertical-align: center;
+  speak: none;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+a [class^=icon-], a [class*=" icon-"],
+a [class^=openwebicons-], a [class*=" openwebicons-"] {
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+li[class^=icon-], li[class*=" icon-"],
+li[class^=openwebicons-], li[class*=" openwebicons-"] {
+  display: block;
+}
+
+.icon-semantic-web:before,
+.openwebicons-semantic-web:before {
+  content: "\f000";
+}
+
+.icon-apml:before,
+.openwebicons-apml:before {
+  content: "\f001";
+}
+
+.icon-opensearch:before,
+.openwebicons-opensearch:before {
+  content: "\f002";
+}
+
+.icon-opml:before,
+.openwebicons-opml:before {
+  content: "\f003";
+}
+
+.icon-ostatus:before,
+.openwebicons-ostatus:before {
+  content: "\f004";
+}
+
+.icon-ostatus-simple:before,
+.openwebicons-ostatus-simple:before {
+  content: "\f005";
+}
+
+.icon-share:before,
+.openwebicons-share:before {
+  content: "\f006";
+}
+
+.icon-share-simple:before,
+.openwebicons-share-simple:before {
+  content: "\f007";
+}
+
+.icon-oauth:before,
+.openwebicons-oauth:before {
+  content: "\f008";
+}
+
+.icon-feed:before,
+.openwebicons-feed:before {
+  content: "\f009";
+}
+
+.icon-feed-simple:before,
+.openwebicons-feed-simple:before {
+  content: "\f00a";
+}
+
+.icon-geo:before,
+.openwebicons-geo:before {
+  content: "\f00b";
+}
+
+.icon-microformats:before,
+.openwebicons-microformats:before {
+  content: "\f00c";
+}
+
+.icon-openid:before,
+.openwebicons-openid:before {
+  content: "\f00d";
+}
+
+.icon-open-share:before,
+.openwebicons-open-share:before {
+  content: "\f00e";
+}
+
+.icon-open-share-simple:before,
+.openwebicons-open-share-simple:before {
+  content: "\f00f";
+}
+
+.icon-activity:before,
+.openwebicons-activity:before {
+  content: "\f010";
+}
+
+.icon-federated:before,
+.openwebicons-federated:before {
+  content: "\f011";
+}
+
+.icon-open-web:before,
+.openwebicons-open-web:before {
+  content: "\f012";
+}
+
+.icon-dataportability:before,
+.openwebicons-dataportability:before {
+  content: "\f013";
+}
+
+.icon-web-intents:before,
+.openwebicons-web-intents:before {
+  content: "\f014";
+}
+
+.icon-xmpp:before,
+.openwebicons-xmpp:before {
+  content: "\f015";
+}
+
+.icon-html5:before,
+.openwebicons-html5:before {
+  content: "\f016";
+}
+
+.icon-css3:before,
+.openwebicons-css3:before {
+  content: "\f017";
+}
+
+.icon-connectivity:before,
+.openwebicons-connectivity:before {
+  content: "\f018";
+}
+
+.icon-semantics:before,
+.openwebicons-semantics:before {
+  content: "\f019";
+}
+
+.icon-opengraph:before,
+.openwebicons-opengraph:before {
+  content: "\f020";
+}
+
+.icon-epub:before,
+.openwebicons-epub:before {
+  content: "\f021";
+}
+
+.icon-qr:before,
+.openwebicons-qr:before {
+  content: "\f022";
+}
+
+.icon-foaf:before,
+.openwebicons-foaf:before {
+  content: "\f023";
+}
+
+.icon-info-card:before,
+.openwebicons-info-card:before {
+  content: "\f024";
+}
+
+.icon-browserid:before,
+.openwebicons-browserid:before {
+  content: "\f025";
+}
+
+.icon-remote-storage:before,
+.openwebicons-remote-storage:before {
+  content: "\f026";
+}
+
+.icon-persona:before,
+.openwebicons-persona:before {
+  content: "\f027";
+}
+
+.icon-odata:before,
+.openwebicons-odata:before {
+  content: "\f028";
+}
+
+.icon-markdown:before,
+.openwebicons-markdown:before {
+  content: "\f029";
+}
+
+.icon-tosdr:before,
+.openwebicons-tosdr:before {
+  content: "\f030";
+}
+
+.icon-device-access:before,
+.openwebicons-device-access:before {
+  content: "\f031";
+}
+
+.icon-multimedia:before,
+.openwebicons-multimedia:before {
+  content: "\f032";
+}
+
+.icon-offline-storage:before,
+.openwebicons-offline-storage:before {
+  content: "\f033";
+}
+
+.icon-perfintegration:before,
+.openwebicons-perfintegration:before {
+  content: "\f034";
+}
+
+.icon-git:before,
+.openwebicons-git:before {
+  content: "\f035";
+}
+
+.icon-webhooks:before,
+.openwebicons-webhooks:before {
+  content: "\f036";
+}
+
+.icon-3deffects:before,
+.openwebicons-3deffects:before {
+  content: "\f037";
+}
+
+.icon-osi:before,
+.openwebicons-osi:before {
+  content: "\f038";
+}
+
+.icon-rdf:before,
+.openwebicons-rdf:before {
+  content: "\f039";
+}
+
+.icon-hatom:before,
+.openwebicons-hatom:before {
+  content: "\f040";
+}
+
+.icon-activity-simple:before,
+.openwebicons-activity-simple:before {
+  content: "\f041";
+}
+
+.icon-hresume:before,
+.openwebicons-hresume:before {
+  content: "\f042";
+}
+
+.icon-hcard-add:before,
+.openwebicons-hcard-add:before {
+  content: "\f043";
+}
+
+.icon-hcard-download:before,
+.openwebicons-hcard-download:before {
+  content: "\f044";
+}
+
+.icon-pubsubhubbub-pub:before,
+.openwebicons-pubsubhubbub-pub:before {
+  content: "\f045";
+}
+
+.icon-pubsubhubbub-sub:before,
+.openwebicons-pubsubhubbub-sub:before {
+  content: "\f046";
+}
+
+.icon-pubsubhubbub:before,
+.openwebicons-pubsubhubbub:before {
+  content: "\f047";
+}
+
+.icon-json-ld:before,
+.openwebicons-json-ld:before {
+  content: "\f048";
+}
+
+.icon-svg:before,
+.openwebicons-svg:before {
+  content: "\f049";
+}
+
+.icon-ofl-renaming:before,
+.openwebicons-ofl-renaming:before {
+  content: "\f04a";
+}
+
+.icon-ofl-selling:before,
+.openwebicons-ofl-selling:before {
+  content: "\f04b";
+}
+
+.icon-ofl-embedding:before,
+.openwebicons-ofl-embedding:before {
+  content: "\f04c";
+}
+
+.icon-webmention:before,
+.openwebicons-webmention:before {
+  content: "\f04d";
+}
+
+.icon-javascript:before,
+.openwebicons-javascript:before {
+  content: "\f04e";
+}
+
+.icon-wtfpl:before,
+.openwebicons-wtfpl:before {
+  content: "\f04f";
+}
+
+.icon-tent:before,
+.openwebicons-tent:before {
+  content: "\f050";
+}
+
+.icon-copyleft:before,
+.openwebicons-copyleft:before {
+  content: "\f051";
+}
+
+.icon-gnu:before,
+.openwebicons-gnu:before {
+  content: "\f052";
+}
+
+.icon-ofl:before,
+.openwebicons-ofl:before {
+  content: "\f053";
+}
+
+.icon-wordpress:before,
+.openwebicons-wordpress:before {
+  content: "\f054";
+}
+
+.icon-owncloud:before,
+.openwebicons-owncloud:before {
+  content: "\f055";
+}
+
+.icon-cccs:before,
+.openwebicons-cccs:before {
+  content: "\f056";
+}
+
+.icon-barcamp:before,
+.openwebicons-barcamp:before {
+  content: "\f057";
+}
+
+.icon-indiehosters:before,
+.openwebicons-indiehosters:before {
+  content: "\f058";
+}
+
+.icon-known:before,
+.openwebicons-known:before {
+  content: "\f059";
+}
+
+.icon-mozilla:before,
+.openwebicons-mozilla:before {
+  content: "\f05a";
+}
+
+.icon-unhosted:before,
+.openwebicons-unhosted:before {
+  content: "\f05b";
+}
+
+.icon-diaspora:before,
+.openwebicons-diaspora:before {
+  content: "\f05c";
+}
+
+.icon-indie:before,
+.openwebicons-indie:before {
+  content: "\f05d";
+}
+
+.icon-ghost:before,
+.openwebicons-ghost:before {
+  content: "\f05e";
+}
+
+.icon-opensourcedesign:before,
+.openwebicons-opensourcedesign:before {
+  content: "\f060";
+}
+
+.icon-opendesign:before,
+.openwebicons-opendesign:before {
+  content: "\f061";
+}
+
+.icon-gnusocial:before,
+.openwebicons-gnusocial:before {
+  content: "\f062";
+}
+
+.icon-gnusocial-simple:before,
+.openwebicons-gnusocial-simple:before {
+  content: "\f063";
+}
+
+.icon-mastodon-simple:before,
+.openwebicons-mastodon-simple:before {
+  content: "\f064";
+}
+
+.icon-mastodon:before,
+.openwebicons-mastodon:before {
+  content: "\f065";
+}
+
+.icon-jsonfeed:before,
+.openwebicons-jsonfeed:before {
+  content: "\f066";
+}
+
+.icon-pump-io:before,
+.openwebicons-pump-io:before {
+  content: "\f067";
+}
+
+.icon-friendica:before,
+.openwebicons-friendica:before {
+  content: "\f068";
+}
+
+.icon-hubzilla:before,
+.openwebicons-hubzilla:before {
+  content: "\f069";
+}
+
+.icon-fediverse:before,
+.openwebicons-fediverse:before {
+  content: "\f06a";
+}
+
+.icon-id4me:before,
+.openwebicons-id4me:before {
+  content: "\f06b";
+}
+
+.icon-movim:before,
+.openwebicons-movim:before {
+  content: "\f06c";
+}
+
+.icon-pleroma:before,
+.openwebicons-pleroma:before {
+  content: "\f06d";
+}
+
+.icon-pixelfed:before,
+.openwebicons-pixelfed:before {
+  content: "\f06e";
+}
+
+.icon-cc:before,
+.openwebicons-cc:before {
+  content: "\f080";
+}
+
+.icon-cc-by:before,
+.openwebicons-cc-by:before {
+  content: "\f081";
+}
+
+.icon-cc-nc:before,
+.openwebicons-cc-nc:before {
+  content: "\f082";
+}
+
+.icon-cc-nc-eu:before,
+.openwebicons-cc-nc-eu:before {
+  content: "\f083";
+}
+
+.icon-cc-nc-jp:before,
+.openwebicons-cc-nc-jp:before {
+  content: "\f084";
+}
+
+.icon-cc-sa:before,
+.openwebicons-cc-sa:before {
+  content: "\f085";
+}
+
+.icon-cc-nd:before,
+.openwebicons-cc-nd:before {
+  content: "\f086";
+}
+
+.icon-cc-public:before,
+.openwebicons-cc-public:before {
+  content: "\f087";
+}
+
+.icon-cc-zero:before,
+.openwebicons-cc-zero:before {
+  content: "\f088";
+}
+
+.icon-cc-share:before,
+.openwebicons-cc-share:before {
+  content: "\f089";
+}
+
+.icon-cc-remix:before,
+.openwebicons-cc-remix:before {
+  content: "\f08a";
+}
+
+.icon-indieweb-indie:before,
+.openwebicons-indieweb-indie:before {
+  content: "\f08b";
+}
+
+.icon-indieweb-web:before,
+.openwebicons-indieweb-web:before {
+  content: "\f08c";
+}
+
+.icon-indieweb-camp:before,
+.openwebicons-indieweb-camp:before {
+  content: "\f08d";
+}
+
+.icon-webfinger:before,
+.openwebicons-webfinger:before {
+  content: "\f08e";
+}
+
+.icon-bitcoin:before,
+.openwebicons-bitcoin:before {
+  content: "\f08f";
+}
+
+.icon-bitcoin-simple:before,
+.openwebicons-bitcoin-simple:before {
+  content: "\f090";
+}
+
+.icon-activitypub:before,
+.openwebicons-activitypub:before {
+  content: "\f091";
+}
+
+.icon-wapuu:before,
+.openwebicons-wapuu:before {
+  content: "\f092";
+}
+
+.icon-micro-blog:before,
+.openwebicons-micro-blog:before {
+  content: "\f093";
+}
+
+.icon-indieauth:before,
+.openwebicons-indieauth:before {
+  content: "\f094";
+}
+
+.icon-freesoftware:before,
+.openwebicons-freesoftware:before {
+  content: "\f095";
+}
+
+.icon-lemmy:before,
+.openwebicons-lemmy:before {
+  content: "\f096";
+}
+
+.icon-peertube:before,
+.openwebicons-peertube:before {
+  content: "\f097";
+}
+
+.icon-misskey:before,
+.openwebicons-misskey:before {
+  content: "\f098";
+}
+
+.icon-akkoma:before,
+.openwebicons-akkoma:before {
+  content: "\f099";
+}
+
+.icon-bookwyrm:before,
+.openwebicons-bookwyrm:before {
+  content: "\f09a";
+}
+
+.icon-funkwhale:before,
+.openwebicons-funkwhale:before {
+  content: "\f09b";
+}
+
+.icon-gotosocial:before,
+.openwebicons-gotosocial:before {
+  content: "\f09c";
+}
+
+.icon-forgejo:before,
+.openwebicons-forgejo:before {
+  content: "\f09d";
+}
+
+.icon-gitea:before,
+.openwebicons-gitea:before {
+  content: "\f09e";
+}
+
+.icon-owncast:before,
+.openwebicons-owncast:before {
+  content: "\f09f";
+}
+
+.icon-mobilizon:before,
+.openwebicons-mobilizon:before {
+  content: "\f0a0";
+}
+
+.icon-castopod:before,
+.openwebicons-castopod:before {
+  content: "\f0a1";
+}
+
+.icon-kbin:before,
+.openwebicons-kbin:before {
+  content: "\f0a2";
+}
+
+.icon-firefish:before,
+.openwebicons-firefish:before {
+  content: "\f0a3";
+}
+
+.icon-iceshrimp:before,
+.openwebicons-iceshrimp:before {
+  content: "\f0a4";
+}
+
+.icon-sharkey:before,
+.openwebicons-sharkey:before {
+  content: "\f0a5";
+}
+
+.icon-plume:before,
+.openwebicons-plume:before {
+  content: "\f0a6";
+}
+
+.icon-discourse:before,
+.openwebicons-discourse:before {
+  content: "\f0a7";
+}
+
+.icon-nextcloud:before,
+.openwebicons-nextcloud:before {
+  content: "\f0a8";
+}
+
+.icon-loops:before,
+.openwebicons-loops:before {
+  content: "\f0aa";
+}
+
+.icon-bonfire:before,
+.openwebicons-bonfire:before {
+  content: "\f0ab";
+}
+
+.icon-hometown:before,
+.openwebicons-hometown:before {
+  content: "\f0ac";
+}
+
+.icon-writefreely:before,
+.openwebicons-writefreely:before {
+  content: "\f0ad";
+}
+
+.icon-gancio:before,
+.openwebicons-gancio:before {
+  content: "\f0ae";
+}
+
+.icon-glitch-soc:before,
+.openwebicons-glitch-soc:before {
+  content: "\f0af";
+}
+
+.icon-soapbox:before,
+.openwebicons-soapbox:before {
+  content: "\f0b0";
+}
+
+.icon-snac:before,
+.openwebicons-snac:before {
+  content: "\f0b1";
+}
+
+.icon-honk:before,
+.openwebicons-honk:before {
+  content: "\f0b2";
+}
+
+.icon-epicyon:before,
+.openwebicons-epicyon:before {
+  content: "\f0b3";
+}
+
+.icon-drupal:before,
+.openwebicons-drupal:before {
+  content: "\f0b4";
+}
+
+.icon-socialhome:before,
+.openwebicons-socialhome:before {
+  content: "\f0b5";
+}
+
+.icon-keyoxide:before,
+.openwebicons-keyoxide:before {
+  content: "\f0b6";
+}
+
+.icon-streams:before,
+.openwebicons-streams:before {
+  content: "\f0b7";
+}
+
+.icon-takahe:before,
+.openwebicons-takahe:before {
+  content: "\f0b8";
+}
+
+.icon-hubzilla-simple:before,
+.openwebicons-hubzilla-simple:before {
+  content: "\f0b9";
+}
+
+.icon-guppe:before,
+.openwebicons-guppe:before {
+  content: "\f0ba";
+}
+
+.icon-ecko:before,
+.openwebicons-ecko:before {
+  content: "\f0bb";
+}
+
+.icon-fedibird:before,
+.openwebicons-fedibird:before {
+  content: "\f0bc";
+}
+
+.icon-forgefed:before,
+.openwebicons-forgefed:before {
+  content: "\f0bd";
+}
+
+.icon-gath-io:before,
+.openwebicons-gath-io:before {
+  content: "\f0be";
+}
+
+.icon-ktistec:before,
+.openwebicons-ktistec:before {
+  content: "\f0bf";
+}
+
+.icon-relatica:before,
+.openwebicons-relatica:before {
+  content: "\f0c0";
+}
+
+.icon-shuttlecraft:before,
+.openwebicons-shuttlecraft:before {
+  content: "\f0c1";
+}
+
+.icon-flohmarkt:before,
+.openwebicons-flohmarkt:before {
+  content: "\f0c2";
+}
+
+.icon-inventaire:before,
+.openwebicons-inventaire:before {
+  content: "\f0c3";
+}
+
+.icon-disroot:before,
+.openwebicons-disroot:before {
+  content: "\f0c4";
+}
+
+.icon-fedimarks:before,
+.openwebicons-fedimarks:before {
+  content: "\f0c5";
+}
+
+.icon-fediverse-symbol:before,
+.openwebicons-fediverse-symbol:before {
+  content: "\f0c6";
+}
+
+.icon-seppo:before,
+.openwebicons-seppo:before {
+  content: "\f0c7";
+}
+
+.icon-fediverse-logo:before,
+.openwebicons-fediverse-logo:before {
+  content: "\f0c8";
+}
+
+.icon-rdfa:before,
+.openwebicons-rdfa:before {
+  content: "\f039";
+}
+
+.icon-owl:before,
+.openwebicons-owl:before {
+  content: "\f039";
+}
+
+.icon-opensource:before,
+.openwebicons-opensource:before {
+  content: "\f038";
+}
+
+.icon-ofl-attribution:before,
+.openwebicons-ofl-attribution:before {
+  content: "\f081";
+}
+
+.icon-ofl-share:before,
+.openwebicons-ofl-share:before {
+  content: "\f085";
+}
+
+.icon-pub:before,
+.openwebicons-pub:before {
+  content: "\f045";
+}
+
+.icon-sub:before,
+.openwebicons-sub:before {
+  content: "\f046";
+}
+
+.icon-hubbub:before,
+.openwebicons-hubbub:before {
+  content: "\f045";
+}
+
+.icon-indieweb:before,
+.openwebicons-indieweb:before {
+  content: "\f08b\f08c";
+}
+
+.icon-indiewebcamp:before,
+.openwebicons-indiewebcamp:before {
+  content: "\f08b\f08c\f08d";
+}
+
+.icon-apml-colored:before,
+.openwebicons-apml-colored:before {
+  content: "\f001";
+  color: #AFDD63;
+}
+
+.icon-opensearch-colored:before,
+.openwebicons-opensearch-colored:before {
+  content: "\f002";
+  color: #5050f3;
+}
+
+.icon-opml-colored:before,
+.openwebicons-opml-colored:before {
+  content: "\f003";
+  color: #2490A1;
+}
+
+.icon-ostatus-colored:before,
+.openwebicons-ostatus-colored:before {
+  content: "\f004";
+  color: #FF6600;
+}
+
+.icon-share-colored:before,
+.openwebicons-share-colored:before {
+  content: "\f006";
+  color: #538439;
+}
+
+.icon-feed-colored:before,
+.openwebicons-feed-colored:before {
+  content: "\f009";
+  color: #EA680B;
+}
+
+.icon-geo-colored:before,
+.openwebicons-geo-colored:before {
+  content: "\f00b";
+  color: #990000;
+}
+
+.icon-microformats-colored:before,
+.openwebicons-microformats-colored:before {
+  content: "\f00c";
+  color: #85BC07;
+}
+
+.icon-open-share-colored:before,
+.openwebicons-open-share-colored:before {
+  content: "\f00e";
+  color: #538439;
+}
+
+.icon-activity-colored:before,
+.openwebicons-activity-colored:before {
+  content: "\f010";
+  color: #4FB2D9;
+}
+
+.icon-html5-colored:before,
+.openwebicons-html5-colored:before {
+  content: "\f016";
+  color: #E34C26;
+}
+
+.icon-epub-colored:before,
+.openwebicons-epub-colored:before {
+  content: "\f021";
+  color: #85b916;
+}
+
+.icon-info-card-colored:before,
+.openwebicons-info-card-colored:before {
+  content: "\f024";
+  color: #BF84E5;
+}
+
+.icon-remote-storage-colored:before,
+.openwebicons-remote-storage-colored:before {
+  content: "\f026";
+  color: #ff4e09;
+}
+
+.icon-odata-colored:before,
+.openwebicons-odata-colored:before {
+  content: "\f028";
+  color: #EA680B;
+}
+
+.icon-git-colored:before,
+.openwebicons-git-colored:before {
+  content: "\f035";
+  color: #F05133;
+}
+
+.icon-osi-colored:before,
+.openwebicons-osi-colored:before {
+  content: "\f038";
+  color: #3DA639;
+}
+
+.icon-javascript-colored:before,
+.openwebicons-javascript-colored:before {
+  content: "\f04e";
+  color: #f0db4f;
+}
+
+.icon-gnusocial-colored:before,
+.openwebicons-gnusocial-colored:before {
+  content: "\f062";
+  color: #a22430;
+}
+
+.icon-mastodon-simple-colored:before,
+.openwebicons-mastodon-simple-colored:before {
+  content: "\f064";
+  color: #2b90d9;
+}
+
+.icon-mastodon-colored:before,
+.openwebicons-mastodon-colored:before {
+  content: "\f065";
+  color: #2b90d9;
+}
+
+.icon-id4me-colored:before,
+.openwebicons-id4me-colored:before {
+  content: "\f06b";
+  color: #007A9D;
+}
+
+.icon-lemmy-colored:before,
+.openwebicons-lemmy-colored:before {
+  content: "\f096";
+  color: #00BC8C;
+}
+
+.icon-peertube-colored:before,
+.openwebicons-peertube-colored:before {
+  content: "\f097";
+  color: #F1680D;
+}
+
+.icon-misskey-colored:before,
+.openwebicons-misskey-colored:before {
+  content: "\f098";
+  color: #99c837;
+}
+
+.icon-akkoma-colored:before,
+.openwebicons-akkoma-colored:before {
+  content: "\f099";
+  color: #593196;
+}
+
+.icon-bookwyrm-colored:before,
+.openwebicons-bookwyrm-colored:before {
+  content: "\f09a";
+  color: #002549;
+}
+
+.icon-funkwhale-colored:before,
+.openwebicons-funkwhale-colored:before {
+  content: "\f09b";
+  color: #0D47A1;
+}
+
+.icon-gotosocial-colored:before,
+.openwebicons-gotosocial-colored:before {
+  content: "\f09c";
+  color: #F26522;
+}
+
+.icon-forgejo-colored:before,
+.openwebicons-forgejo-colored:before {
+  content: "\f09d";
+  color: #E44729;
+}
+
+.icon-gitea-colored:before,
+.openwebicons-gitea-colored:before {
+  content: "\f09e";
+  color: #609926;
+}
+
+.icon-owncast-colored:before,
+.openwebicons-owncast-colored:before {
+  content: "\f09f";
+  color: #7871FF;
+}
+
+.icon-mobilizon-colored:before,
+.openwebicons-mobilizon-colored:before {
+  content: "\f0a0";
+  color: #3E50AF;
+}
+
+.icon-castopod-colored:before,
+.openwebicons-castopod-colored:before {
+  content: "\f0a1";
+  color: #00564A;
+}
+
+.icon-kbin-colored:before,
+.openwebicons-kbin-colored:before {
+  content: "\f0a2";
+  color: #7B1FA2;
+}
+
+.icon-iceshrimp-colored:before,
+.openwebicons-iceshrimp-colored:before {
+  content: "\f0a4";
+  color: #F75E7B;
+}
+
+.icon-discourse-colored:before,
+.openwebicons-discourse-colored:before {
+  content: "\f0a7";
+  color: #231F20;
+}
+
+.icon-nextcloud-colored:before,
+.openwebicons-nextcloud-colored:before {
+  content: "\f0a8";
+  color: #0082C9;
+}
+
+.icon-bonfire-colored:before,
+.openwebicons-bonfire-colored:before {
+  content: "\f0ab";
+  color: #F15B40;
+}
+
+.icon-drupal-colored:before,
+.openwebicons-drupal-colored:before {
+  content: "\f0b4";
+  color: #0678BE;
+}
+
+.icon-keyoxide-colored:before,
+.openwebicons-keyoxide-colored:before {
+  content: "\f0b6";
+  color: #56A300;
+}
+
+.icon-hubzilla-simple-colored:before,
+.openwebicons-hubzilla-simple-colored:before {
+  content: "\f0b9";
+  color: #2E5AA1;
+}
+
+.icon-flohmarkt-colored:before,
+.openwebicons-flohmarkt-colored:before {
+  content: "\f0c2";
+  color: #D93F00;
+}
+
+.icon-opensource-colored:before,
+.openwebicons-opensource-colored:before {
+  content: "\f038";
+  color: #3DA639;
+}
+
+.icon-pub-colored:before,
+.openwebicons-pub-colored:before {
+  content: "\f045";
+  color: #99cc00;
+}
+
+.icon-sub-colored:before,
+.openwebicons-sub-colored:before {
+  content: "\f046";
+  color: #ffff00;
+}
+
+.icon-hubbub-colored:before,
+.openwebicons-hubbub-colored:before {
+  content: "\f045";
+  color: #ff6fcf;
+}

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: "OpenWeb Icons";
   src: url("../font/openwebicons.eot");
@@ -6,7 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-[class^=icon-pixelfed]:before, [class*=" icon-pixelfed"]:before, [class^=icon-pleroma]:before, [class*=" icon-pleroma"]:before, [class^=icon-movim]:before, [class*=" icon-movim"]:before, [class^=icon-id4me]:before, [class*=" icon-id4me"]:before, [class^=icon-freesoftware]:before, [class*=" icon-freesoftware"]:before, [class^=icon-indieauth]:before, [class*=" icon-indieauth"]:before, [class^=icon-micro-blog]:before, [class*=" icon-micro-blog"]:before, [class^=icon-wapuu]:before, [class*=" icon-wapuu"]:before, [class^=icon-activitypub]:before, [class*=" icon-activitypub"]:before, [class^=icon-mastodon-simple]:before, [class*=" icon-mastodon-simple"]:before, [class^=icon-fediverse]:before, [class*=" icon-fediverse"]:before, [class^=icon-hubzilla]:before, [class*=" icon-hubzilla"]:before, [class^=icon-friendica]:before, [class*=" icon-friendica"]:before, [class^=icon-pump-io]:before, [class*=" icon-pump-io"]:before, [class^=icon-jsonfeed]:before, [class*=" icon-jsonfeed"]:before, [class^=icon-mastodon]:before, [class*=" icon-mastodon"]:before, [class^=icon-gnusocial-simple]:before, [class*=" icon-gnusocial-simple"]:before, [class^=icon-gnusocial]:before, [class*=" icon-gnusocial"]:before, [class^=icon-opendesign]:before, [class*=" icon-opendesign"]:before, [class^=icon-opensourcedesign]:before, [class*=" icon-opensourcedesign"]:before, [class^=icon-webplattform]:before, [class*=" icon-webplattform"]:before, [class^=icon-ghost]:before, [class*=" icon-ghost"]:before, [class^=icon-indie]:before, [class*=" icon-indie"]:before, [class^=icon-diaspora]:before, [class*=" icon-diaspora"]:before, [class^=icon-unhosted]:before, [class*=" icon-unhosted"]:before, [class^=icon-mozilla]:before, [class*=" icon-mozilla"]:before, [class^=icon-known]:before, [class*=" icon-known"]:before, [class^=icon-indiehosters]:before, [class*=" icon-indiehosters"]:before, [class^=icon-barcamp]:before, [class*=" icon-barcamp"]:before, [class^=icon-cccs]:before, [class*=" icon-cccs"]:before, [class^=icon-owncloud]:before, [class*=" icon-owncloud"]:before, [class^=icon-wordpress]:before, [class*=" icon-wordpress"]:before, [class^=icon-ofl]:before, [class*=" icon-ofl"]:before, [class^=icon-wtfpl]:before, [class*=" icon-wtfpl"]:before, [class^=icon-javascript]:before, [class*=" icon-javascript"]:before, [class^=icon-webmention]:before, [class*=" icon-webmention"]:before, [class^=icon-ofl-embedding]:before, [class*=" icon-ofl-embedding"]:before, [class^=icon-ofl-selling]:before, [class*=" icon-ofl-selling"]:before, [class^=icon-ofl-renaming]:before, [class*=" icon-ofl-renaming"]:before, [class^=icon-ofl-share]:before, [class*=" icon-ofl-share"]:before, [class^=icon-ofl-attribution]:before, [class*=" icon-ofl-attribution"]:before, [class^=icon-gnu]:before, [class*=" icon-gnu"]:before, [class^=icon-copyleft]:before, [class*=" icon-copyleft"]:before, [class^=icon-tent]:before, [class*=" icon-tent"]:before, [class^=icon-json-ld]:before, [class*=" icon-json-ld"]:before, [class^=icon-svg]:before, [class*=" icon-svg"]:before, [class^=icon-bitcoin-simple]:before, [class*=" icon-bitcoin-simple"]:before, [class^=icon-bitcoin]:before, [class*=" icon-bitcoin"]:before, [class^=icon-webfinger]:before, [class*=" icon-webfinger"]:before, [class^=icon-indiewebcamp]:before, [class*=" icon-indiewebcamp"]:before, [class^=icon-indieweb]:before, [class*=" icon-indieweb"]:before, [class^=icon-hcard-download]:before, [class*=" icon-hcard-download"]:before, [class^=icon-hcard-add]:before, [class*=" icon-hcard-add"]:before, [class^=icon-hresume]:before, [class*=" icon-hresume"]:before, [class^=icon-hatom]:before, [class*=" icon-hatom"]:before, [class^=icon-cc-remix]:before, [class*=" icon-cc-remix"]:before, [class^=icon-cc-share]:before, [class*=" icon-cc-share"]:before, [class^=icon-cc-zero]:before, [class*=" icon-cc-zero"]:before, [class^=icon-cc-public]:before, [class*=" icon-cc-public"]:before, [class^=icon-cc-nd]:before, [class*=" icon-cc-nd"]:before, [class^=icon-cc-sa]:before, [class*=" icon-cc-sa"]:before, [class^=icon-cc-nc-jp]:before, [class*=" icon-cc-nc-jp"]:before, [class^=icon-cc-nc-eu]:before, [class*=" icon-cc-nc-eu"]:before, [class^=icon-cc-nc]:before, [class*=" icon-cc-nc"]:before, [class^=icon-cc-by]:before, [class*=" icon-cc-by"]:before, [class^=icon-cc]:before, [class*=" icon-cc"]:before, [class^=icon-pubsubhubbub]:before, [class*=" icon-pubsubhubbub"]:before, [class^=icon-hubbub]:before, [class*=" icon-hubbub"]:before, [class^=icon-sub]:before, [class*=" icon-sub"]:before, [class^=icon-pub]:before, [class*=" icon-pub"]:before, [class^=icon-tosdr]:before, [class*=" icon-tosdr"]:before, [class^=icon-markdown]:before, [class*=" icon-markdown"]:before, [class^=icon-odata]:before, [class*=" icon-odata"]:before, [class^=icon-persona]:before, [class*=" icon-persona"]:before, [class^=icon-remote-storage]:before, [class*=" icon-remote-storage"]:before, [class^=icon-browserid]:before, [class*=" icon-browserid"]:before, [class^=icon-info-card]:before, [class*=" icon-info-card"]:before, [class^=icon-foaf]:before, [class*=" icon-foaf"]:before, [class^=icon-qr]:before, [class*=" icon-qr"]:before, [class^=icon-epub]:before, [class*=" icon-epub"]:before, [class^=icon-opengraph]:before, [class*=" icon-opengraph"]:before, [class^=icon-opensource]:before, [class*=" icon-opensource"]:before, [class^=icon-osi]:before, [class*=" icon-osi"]:before, [class^=icon-webhooks]:before, [class*=" icon-webhooks"]:before, [class^=icon-git]:before, [class*=" icon-git"]:before, [class^=icon-perfintegration]:before, [class*=" icon-perfintegration"]:before, [class^=icon-offline-storage]:before, [class*=" icon-offline-storage"]:before, [class^=icon-multimedia]:before, [class*=" icon-multimedia"]:before, [class^=icon-device-access]:before, [class*=" icon-device-access"]:before, [class^=icon-3deffects]:before, [class*=" icon-3deffects"]:before, [class^=icon-semantics]:before, [class*=" icon-semantics"]:before, [class^=icon-connectivity]:before, [class*=" icon-connectivity"]:before, [class^=icon-css3]:before, [class*=" icon-css3"]:before, [class^=icon-html5]:before, [class*=" icon-html5"]:before, [class^=icon-xmpp]:before, [class*=" icon-xmpp"]:before, [class^=icon-open-web]:before, [class*=" icon-open-web"]:before, [class^=icon-web-intents]:before, [class*=" icon-web-intents"]:before, [class^=icon-federated]:before, [class*=" icon-federated"]:before, [class^=icon-dataportability]:before, [class*=" icon-dataportability"]:before, [class^=icon-owl]:before, [class*=" icon-owl"]:before, [class^=icon-rdfa]:before, [class*=" icon-rdfa"]:before, [class^=icon-rdf]:before, [class*=" icon-rdf"]:before, [class^=icon-semantic-web]:before, [class*=" icon-semantic-web"]:before, [class^=icon-openid]:before, [class*=" icon-openid"]:before, [class^=icon-oauth]:before, [class*=" icon-oauth"]:before, [class^=icon-opensearch]:before, [class*=" icon-opensearch"]:before, [class^=icon-geo]:before, [class*=" icon-geo"]:before, [class^=icon-microformats]:before, [class*=" icon-microformats"]:before, [class^=icon-activity-simple]:before, [class*=" icon-activity-simple"]:before, [class^=icon-activity]:before, [class*=" icon-activity"]:before, [class^=icon-opml]:before, [class*=" icon-opml"]:before, [class^=icon-ostatus-simple]:before, [class*=" icon-ostatus-simple"]:before, [class^=icon-ostatus]:before, [class*=" icon-ostatus"]:before, [class^=icon-feed-simple]:before, [class*=" icon-feed-simple"]:before, [class^=icon-feed]:before, [class*=" icon-feed"]:before, [class^=icon-share-simple]:before, [class*=" icon-share-simple"]:before, [class^=icon-share]:before, [class*=" icon-share"]:before, [class^=icon-open-share-simple]:before, [class*=" icon-open-share-simple"]:before, [class^=icon-open-share]:before, [class*=" icon-open-share"]:before, [class^=icon-apml]:before, [class*=" icon-apml"]:before {
+[class^=icon-indiewebcamp]:before, [class*=" icon-indiewebcamp"]:before, [class^=icon-indieweb]:before, [class*=" icon-indieweb"]:before, [class^=icon-hubbub]:before, [class*=" icon-hubbub"]:before, [class^=icon-sub]:before, [class*=" icon-sub"]:before, [class^=icon-pub]:before, [class*=" icon-pub"]:before, [class^=icon-ofl-share]:before, [class*=" icon-ofl-share"]:before, [class^=icon-ofl-attribution]:before, [class*=" icon-ofl-attribution"]:before, [class^=icon-opensource]:before, [class*=" icon-opensource"]:before, [class^=icon-owl]:before, [class*=" icon-owl"]:before, [class^=icon-rdfa]:before, [class*=" icon-rdfa"]:before, [class^=icon-fediverse-logo]:before, [class*=" icon-fediverse-logo"]:before, [class^=icon-seppo]:before, [class*=" icon-seppo"]:before, [class^=icon-fediverse-symbol]:before, [class*=" icon-fediverse-symbol"]:before, [class^=icon-fedimarks]:before, [class*=" icon-fedimarks"]:before, [class^=icon-disroot]:before, [class*=" icon-disroot"]:before, [class^=icon-inventaire]:before, [class*=" icon-inventaire"]:before, [class^=icon-flohmarkt]:before, [class*=" icon-flohmarkt"]:before, [class^=icon-shuttlecraft]:before, [class*=" icon-shuttlecraft"]:before, [class^=icon-relatica]:before, [class*=" icon-relatica"]:before, [class^=icon-ktistec]:before, [class*=" icon-ktistec"]:before, [class^=icon-gath-io]:before, [class*=" icon-gath-io"]:before, [class^=icon-forgefed]:before, [class*=" icon-forgefed"]:before, [class^=icon-fedibird]:before, [class*=" icon-fedibird"]:before, [class^=icon-ecko]:before, [class*=" icon-ecko"]:before, [class^=icon-guppe]:before, [class*=" icon-guppe"]:before, [class^=icon-hubzilla-simple]:before, [class*=" icon-hubzilla-simple"]:before, [class^=icon-takahe]:before, [class*=" icon-takahe"]:before, [class^=icon-streams]:before, [class*=" icon-streams"]:before, [class^=icon-keyoxide]:before, [class*=" icon-keyoxide"]:before, [class^=icon-socialhome]:before, [class*=" icon-socialhome"]:before, [class^=icon-drupal]:before, [class*=" icon-drupal"]:before, [class^=icon-epicyon]:before, [class*=" icon-epicyon"]:before, [class^=icon-honk]:before, [class*=" icon-honk"]:before, [class^=icon-snac]:before, [class*=" icon-snac"]:before, [class^=icon-soapbox]:before, [class*=" icon-soapbox"]:before, [class^=icon-glitch-soc]:before, [class*=" icon-glitch-soc"]:before, [class^=icon-gancio]:before, [class*=" icon-gancio"]:before, [class^=icon-writefreely]:before, [class*=" icon-writefreely"]:before, [class^=icon-hometown]:before, [class*=" icon-hometown"]:before, [class^=icon-bonfire]:before, [class*=" icon-bonfire"]:before, [class^=icon-loops]:before, [class*=" icon-loops"]:before, [class^=icon-nextcloud]:before, [class*=" icon-nextcloud"]:before, [class^=icon-discourse]:before, [class*=" icon-discourse"]:before, [class^=icon-plume]:before, [class*=" icon-plume"]:before, [class^=icon-sharkey]:before, [class*=" icon-sharkey"]:before, [class^=icon-iceshrimp]:before, [class*=" icon-iceshrimp"]:before, [class^=icon-firefish]:before, [class*=" icon-firefish"]:before, [class^=icon-kbin]:before, [class*=" icon-kbin"]:before, [class^=icon-castopod]:before, [class*=" icon-castopod"]:before, [class^=icon-mobilizon]:before, [class*=" icon-mobilizon"]:before, [class^=icon-owncast]:before, [class*=" icon-owncast"]:before, [class^=icon-gitea]:before, [class*=" icon-gitea"]:before, [class^=icon-forgejo]:before, [class*=" icon-forgejo"]:before, [class^=icon-gotosocial]:before, [class*=" icon-gotosocial"]:before, [class^=icon-funkwhale]:before, [class*=" icon-funkwhale"]:before, [class^=icon-bookwyrm]:before, [class*=" icon-bookwyrm"]:before, [class^=icon-akkoma]:before, [class*=" icon-akkoma"]:before, [class^=icon-misskey]:before, [class*=" icon-misskey"]:before, [class^=icon-peertube]:before, [class*=" icon-peertube"]:before, [class^=icon-lemmy]:before, [class*=" icon-lemmy"]:before, [class^=icon-freesoftware]:before, [class*=" icon-freesoftware"]:before, [class^=icon-indieauth]:before, [class*=" icon-indieauth"]:before, [class^=icon-micro-blog]:before, [class*=" icon-micro-blog"]:before, [class^=icon-wapuu]:before, [class*=" icon-wapuu"]:before, [class^=icon-activitypub]:before, [class*=" icon-activitypub"]:before, [class^=icon-bitcoin-simple]:before, [class*=" icon-bitcoin-simple"]:before, [class^=icon-bitcoin]:before, [class*=" icon-bitcoin"]:before, [class^=icon-webfinger]:before, [class*=" icon-webfinger"]:before, [class^=icon-indieweb-camp]:before, [class*=" icon-indieweb-camp"]:before, [class^=icon-indieweb-web]:before, [class*=" icon-indieweb-web"]:before, [class^=icon-indieweb-indie]:before, [class*=" icon-indieweb-indie"]:before, [class^=icon-cc-remix]:before, [class*=" icon-cc-remix"]:before, [class^=icon-cc-share]:before, [class*=" icon-cc-share"]:before, [class^=icon-cc-zero]:before, [class*=" icon-cc-zero"]:before, [class^=icon-cc-public]:before, [class*=" icon-cc-public"]:before, [class^=icon-cc-nd]:before, [class*=" icon-cc-nd"]:before, [class^=icon-cc-sa]:before, [class*=" icon-cc-sa"]:before, [class^=icon-cc-nc-jp]:before, [class*=" icon-cc-nc-jp"]:before, [class^=icon-cc-nc-eu]:before, [class*=" icon-cc-nc-eu"]:before, [class^=icon-cc-nc]:before, [class*=" icon-cc-nc"]:before, [class^=icon-cc-by]:before, [class*=" icon-cc-by"]:before, [class^=icon-cc]:before, [class*=" icon-cc"]:before, [class^=icon-pixelfed]:before, [class*=" icon-pixelfed"]:before, [class^=icon-pleroma]:before, [class*=" icon-pleroma"]:before, [class^=icon-movim]:before, [class*=" icon-movim"]:before, [class^=icon-id4me]:before, [class*=" icon-id4me"]:before, [class^=icon-fediverse]:before, [class*=" icon-fediverse"]:before, [class^=icon-hubzilla]:before, [class*=" icon-hubzilla"]:before, [class^=icon-friendica]:before, [class*=" icon-friendica"]:before, [class^=icon-pump-io]:before, [class*=" icon-pump-io"]:before, [class^=icon-jsonfeed]:before, [class*=" icon-jsonfeed"]:before, [class^=icon-mastodon]:before, [class*=" icon-mastodon"]:before, [class^=icon-mastodon-simple]:before, [class*=" icon-mastodon-simple"]:before, [class^=icon-gnusocial-simple]:before, [class*=" icon-gnusocial-simple"]:before, [class^=icon-gnusocial]:before, [class*=" icon-gnusocial"]:before, [class^=icon-opendesign]:before, [class*=" icon-opendesign"]:before, [class^=icon-opensourcedesign]:before, [class*=" icon-opensourcedesign"]:before, [class^=icon-ghost]:before, [class*=" icon-ghost"]:before, [class^=icon-indie]:before, [class*=" icon-indie"]:before, [class^=icon-diaspora]:before, [class*=" icon-diaspora"]:before, [class^=icon-unhosted]:before, [class*=" icon-unhosted"]:before, [class^=icon-mozilla]:before, [class*=" icon-mozilla"]:before, [class^=icon-known]:before, [class*=" icon-known"]:before, [class^=icon-indiehosters]:before, [class*=" icon-indiehosters"]:before, [class^=icon-barcamp]:before, [class*=" icon-barcamp"]:before, [class^=icon-cccs]:before, [class*=" icon-cccs"]:before, [class^=icon-owncloud]:before, [class*=" icon-owncloud"]:before, [class^=icon-wordpress]:before, [class*=" icon-wordpress"]:before, [class^=icon-ofl]:before, [class*=" icon-ofl"]:before, [class^=icon-gnu]:before, [class*=" icon-gnu"]:before, [class^=icon-copyleft]:before, [class*=" icon-copyleft"]:before, [class^=icon-tent]:before, [class*=" icon-tent"]:before, [class^=icon-wtfpl]:before, [class*=" icon-wtfpl"]:before, [class^=icon-javascript]:before, [class*=" icon-javascript"]:before, [class^=icon-webmention]:before, [class*=" icon-webmention"]:before, [class^=icon-ofl-embedding]:before, [class*=" icon-ofl-embedding"]:before, [class^=icon-ofl-selling]:before, [class*=" icon-ofl-selling"]:before, [class^=icon-ofl-renaming]:before, [class*=" icon-ofl-renaming"]:before, [class^=icon-svg]:before, [class*=" icon-svg"]:before, [class^=icon-json-ld]:before, [class*=" icon-json-ld"]:before, [class^=icon-pubsubhubbub]:before, [class*=" icon-pubsubhubbub"]:before, [class^=icon-pubsubhubbub-sub]:before, [class*=" icon-pubsubhubbub-sub"]:before, [class^=icon-pubsubhubbub-pub]:before, [class*=" icon-pubsubhubbub-pub"]:before, [class^=icon-hcard-download]:before, [class*=" icon-hcard-download"]:before, [class^=icon-hcard-add]:before, [class*=" icon-hcard-add"]:before, [class^=icon-hresume]:before, [class*=" icon-hresume"]:before, [class^=icon-activity-simple]:before, [class*=" icon-activity-simple"]:before, [class^=icon-hatom]:before, [class*=" icon-hatom"]:before, [class^=icon-rdf]:before, [class*=" icon-rdf"]:before, [class^=icon-osi]:before, [class*=" icon-osi"]:before, [class^=icon-3deffects]:before, [class*=" icon-3deffects"]:before, [class^=icon-webhooks]:before, [class*=" icon-webhooks"]:before, [class^=icon-git]:before, [class*=" icon-git"]:before, [class^=icon-perfintegration]:before, [class*=" icon-perfintegration"]:before, [class^=icon-offline-storage]:before, [class*=" icon-offline-storage"]:before, [class^=icon-multimedia]:before, [class*=" icon-multimedia"]:before, [class^=icon-device-access]:before, [class*=" icon-device-access"]:before, [class^=icon-tosdr]:before, [class*=" icon-tosdr"]:before, [class^=icon-markdown]:before, [class*=" icon-markdown"]:before, [class^=icon-odata]:before, [class*=" icon-odata"]:before, [class^=icon-persona]:before, [class*=" icon-persona"]:before, [class^=icon-remote-storage]:before, [class*=" icon-remote-storage"]:before, [class^=icon-browserid]:before, [class*=" icon-browserid"]:before, [class^=icon-info-card]:before, [class*=" icon-info-card"]:before, [class^=icon-foaf]:before, [class*=" icon-foaf"]:before, [class^=icon-qr]:before, [class*=" icon-qr"]:before, [class^=icon-epub]:before, [class*=" icon-epub"]:before, [class^=icon-opengraph]:before, [class*=" icon-opengraph"]:before, [class^=icon-semantics]:before, [class*=" icon-semantics"]:before, [class^=icon-connectivity]:before, [class*=" icon-connectivity"]:before, [class^=icon-css3]:before, [class*=" icon-css3"]:before, [class^=icon-html5]:before, [class*=" icon-html5"]:before, [class^=icon-xmpp]:before, [class*=" icon-xmpp"]:before, [class^=icon-web-intents]:before, [class*=" icon-web-intents"]:before, [class^=icon-dataportability]:before, [class*=" icon-dataportability"]:before, [class^=icon-open-web]:before, [class*=" icon-open-web"]:before, [class^=icon-federated]:before, [class*=" icon-federated"]:before, [class^=icon-activity]:before, [class*=" icon-activity"]:before, [class^=icon-open-share-simple]:before, [class*=" icon-open-share-simple"]:before, [class^=icon-open-share]:before, [class*=" icon-open-share"]:before, [class^=icon-openid]:before, [class*=" icon-openid"]:before, [class^=icon-microformats]:before, [class*=" icon-microformats"]:before, [class^=icon-geo]:before, [class*=" icon-geo"]:before, [class^=icon-feed-simple]:before, [class*=" icon-feed-simple"]:before, [class^=icon-feed]:before, [class*=" icon-feed"]:before, [class^=icon-oauth]:before, [class*=" icon-oauth"]:before, [class^=icon-share-simple]:before, [class*=" icon-share-simple"]:before, [class^=icon-share]:before, [class*=" icon-share"]:before, [class^=icon-ostatus-simple]:before, [class*=" icon-ostatus-simple"]:before, [class^=icon-ostatus]:before, [class*=" icon-ostatus"]:before, [class^=icon-opml]:before, [class*=" icon-opml"]:before, [class^=icon-opensearch]:before, [class*=" icon-opensearch"]:before, [class^=icon-apml]:before, [class*=" icon-apml"]:before, [class^=icon-semantic-web]:before, [class*=" icon-semantic-web"]:before {
   font-family: "OpenWeb Icons";
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
@@ -29,614 +28,933 @@ li[class^=icon-], li[class*=" icon-"] {
   display: block;
 }
 
+.icon-semantic-web:before {
+  content: "\f000";
+}
+
 .icon-apml:before {
-  content: "";
-}
-
-.icon-open-share:before {
-  content: "";
-}
-
-.icon-open-share-simple:before {
-  content: "";
-}
-
-.icon-share:before {
-  content: "";
-}
-
-.icon-share-simple:before {
-  content: "";
-}
-
-.icon-feed:before {
-  content: "";
-}
-
-.icon-feed-simple:before {
-  content: "";
-}
-
-.icon-ostatus:before {
-  content: "";
-}
-
-.icon-ostatus-simple:before {
-  content: "";
-}
-
-.icon-opml:before {
-  content: "";
-}
-
-.icon-activity:before {
-  content: "";
-}
-
-.icon-activity-simple:before {
-  content: "";
-}
-
-.icon-microformats:before {
-  content: "";
-}
-
-.icon-geo:before {
-  content: "";
+  content: "\f001";
 }
 
 .icon-opensearch:before {
-  content: "";
+  content: "\f002";
+}
+
+.icon-opml:before {
+  content: "\f003";
+}
+
+.icon-ostatus:before {
+  content: "\f004";
+}
+
+.icon-ostatus-simple:before {
+  content: "\f005";
+}
+
+.icon-share:before {
+  content: "\f006";
+}
+
+.icon-share-simple:before {
+  content: "\f007";
 }
 
 .icon-oauth:before {
-  content: "";
+  content: "\f008";
+}
+
+.icon-feed:before {
+  content: "\f009";
+}
+
+.icon-feed-simple:before {
+  content: "\f00a";
+}
+
+.icon-geo:before {
+  content: "\f00b";
+}
+
+.icon-microformats:before {
+  content: "\f00c";
 }
 
 .icon-openid:before {
-  content: "";
+  content: "\f00d";
 }
 
-.icon-semantic-web:before {
-  content: "";
+.icon-open-share:before {
+  content: "\f00e";
 }
 
-.icon-rdf:before {
-  content: "";
+.icon-open-share-simple:before {
+  content: "\f00f";
 }
 
-.icon-rdfa:before {
-  content: "";
-}
-
-.icon-owl:before {
-  content: "";
-}
-
-.icon-dataportability:before {
-  content: "";
+.icon-activity:before {
+  content: "\f010";
 }
 
 .icon-federated:before {
-  content: "";
-}
-
-.icon-web-intents:before {
-  content: "";
+  content: "\f011";
 }
 
 .icon-open-web:before {
-  content: "";
+  content: "\f012";
+}
+
+.icon-dataportability:before {
+  content: "\f013";
+}
+
+.icon-web-intents:before {
+  content: "\f014";
 }
 
 .icon-xmpp:before {
-  content: "";
+  content: "\f015";
 }
 
 .icon-html5:before {
-  content: "";
+  content: "\f016";
 }
 
 .icon-css3:before {
-  content: "";
+  content: "\f017";
 }
 
 .icon-connectivity:before {
-  content: "";
+  content: "\f018";
 }
 
 .icon-semantics:before {
-  content: "";
-}
-
-.icon-3deffects:before {
-  content: "";
-}
-
-.icon-device-access:before {
-  content: "";
-}
-
-.icon-multimedia:before {
-  content: "";
-}
-
-.icon-offline-storage:before {
-  content: "";
-}
-
-.icon-perfintegration:before {
-  content: "";
-}
-
-.icon-git:before {
-  content: "";
-}
-
-.icon-webhooks:before {
-  content: "";
-}
-
-.icon-osi:before {
-  content: "";
-}
-
-.icon-opensource:before {
-  content: "";
+  content: "\f019";
 }
 
 .icon-opengraph:before {
-  content: "";
+  content: "\f020";
 }
 
 .icon-epub:before {
-  content: "";
+  content: "\f021";
 }
 
 .icon-qr:before {
-  content: "";
+  content: "\f022";
 }
 
 .icon-foaf:before {
-  content: "";
+  content: "\f023";
 }
 
 .icon-info-card:before {
-  content: "";
+  content: "\f024";
 }
 
 .icon-browserid:before {
-  content: "";
+  content: "\f025";
 }
 
 .icon-remote-storage:before {
-  content: "";
+  content: "\f026";
 }
 
 .icon-persona:before {
-  content: "";
+  content: "\f027";
 }
 
 .icon-odata:before {
-  content: "";
+  content: "\f028";
 }
 
 .icon-markdown:before {
-  content: "";
+  content: "\f029";
 }
 
 .icon-tosdr:before {
-  content: "";
+  content: "\f030";
 }
 
-.icon-pub:before {
-  content: "";
+.icon-device-access:before {
+  content: "\f031";
 }
 
-.icon-sub:before {
-  content: "";
+.icon-multimedia:before {
+  content: "\f032";
 }
 
-.icon-hubbub:before {
-  content: "";
+.icon-offline-storage:before {
+  content: "\f033";
 }
 
-.icon-pubsubhubbub:before {
-  content: "";
+.icon-perfintegration:before {
+  content: "\f034";
 }
 
-.icon-cc:before {
-  content: "";
+.icon-git:before {
+  content: "\f035";
 }
 
-.icon-cc-by:before {
-  content: "";
+.icon-webhooks:before {
+  content: "\f036";
 }
 
-.icon-cc-nc:before {
-  content: "";
+.icon-3deffects:before {
+  content: "\f037";
 }
 
-.icon-cc-nc-eu:before {
-  content: "";
+.icon-osi:before {
+  content: "\f038";
 }
 
-.icon-cc-nc-jp:before {
-  content: "";
-}
-
-.icon-cc-sa:before {
-  content: "";
-}
-
-.icon-cc-nd:before {
-  content: "";
-}
-
-.icon-cc-public:before {
-  content: "";
-}
-
-.icon-cc-zero:before {
-  content: "";
-}
-
-.icon-cc-share:before {
-  content: "";
-}
-
-.icon-cc-remix:before {
-  content: "";
+.icon-rdf:before {
+  content: "\f039";
 }
 
 .icon-hatom:before {
-  content: "";
+  content: "\f040";
+}
+
+.icon-activity-simple:before {
+  content: "\f041";
 }
 
 .icon-hresume:before {
-  content: "";
+  content: "\f042";
 }
 
 .icon-hcard-add:before {
-  content: "";
+  content: "\f043";
 }
 
 .icon-hcard-download:before {
-  content: "";
+  content: "\f044";
 }
 
-.icon-indieweb:before {
-  content: "";
+.icon-pubsubhubbub-pub:before {
+  content: "\f045";
 }
 
-.icon-indiewebcamp:before {
-  content: "";
+.icon-pubsubhubbub-sub:before {
+  content: "\f046";
 }
 
-.icon-webfinger:before {
-  content: "";
-}
-
-.icon-bitcoin:before {
-  content: "";
-}
-
-.icon-bitcoin-simple:before {
-  content: "";
-}
-
-.icon-svg:before {
-  content: "";
+.icon-pubsubhubbub:before {
+  content: "\f047";
 }
 
 .icon-json-ld:before {
-  content: "";
+  content: "\f048";
 }
 
-.icon-tent:before {
-  content: "";
-}
-
-.icon-copyleft:before {
-  content: "";
-}
-
-.icon-gnu:before {
-  content: "";
-}
-
-.icon-ofl-attribution:before {
-  content: "";
-}
-
-.icon-ofl-share:before {
-  content: "";
+.icon-svg:before {
+  content: "\f049";
 }
 
 .icon-ofl-renaming:before {
-  content: "";
+  content: "\f04a";
 }
 
 .icon-ofl-selling:before {
-  content: "";
+  content: "\f04b";
 }
 
 .icon-ofl-embedding:before {
-  content: "";
+  content: "\f04c";
 }
 
 .icon-webmention:before {
-  content: "";
+  content: "\f04d";
 }
 
 .icon-javascript:before {
-  content: "";
+  content: "\f04e";
 }
 
 .icon-wtfpl:before {
-  content: "";
+  content: "\f04f";
+}
+
+.icon-tent:before {
+  content: "\f050";
+}
+
+.icon-copyleft:before {
+  content: "\f051";
+}
+
+.icon-gnu:before {
+  content: "\f052";
 }
 
 .icon-ofl:before {
-  content: "";
+  content: "\f053";
 }
 
 .icon-wordpress:before {
-  content: "";
+  content: "\f054";
 }
 
 .icon-owncloud:before {
-  content: "";
+  content: "\f055";
 }
 
 .icon-cccs:before {
-  content: "";
+  content: "\f056";
 }
 
 .icon-barcamp:before {
-  content: "";
+  content: "\f057";
 }
 
 .icon-indiehosters:before {
-  content: "";
+  content: "\f058";
 }
 
 .icon-known:before {
-  content: "";
+  content: "\f059";
 }
 
 .icon-mozilla:before {
-  content: "";
+  content: "\f05a";
 }
 
 .icon-unhosted:before {
-  content: "";
+  content: "\f05b";
 }
 
 .icon-diaspora:before {
-  content: "";
+  content: "\f05c";
 }
 
 .icon-indie:before {
-  content: "";
+  content: "\f05d";
 }
 
 .icon-ghost:before {
-  content: "";
-}
-
-.icon-webplattform:before {
-  content: "";
+  content: "\f05e";
 }
 
 .icon-opensourcedesign:before {
-  content: "";
+  content: "\f060";
 }
 
 .icon-opendesign:before {
-  content: "";
+  content: "\f061";
 }
 
 .icon-gnusocial:before {
-  content: "";
+  content: "\f062";
 }
 
 .icon-gnusocial-simple:before {
-  content: "";
-}
-
-.icon-mastodon:before {
-  content: "";
-}
-
-.icon-jsonfeed:before {
-  content: "";
-}
-
-.icon-pump-io:before {
-  content: "";
-}
-
-.icon-friendica:before {
-  content: "";
-}
-
-.icon-hubzilla:before {
-  content: "";
-}
-
-.icon-fediverse:before {
-  content: "";
+  content: "\f063";
 }
 
 .icon-mastodon-simple:before {
-  content: "";
+  content: "\f064";
 }
 
-.icon-activitypub:before {
-  content: "";
+.icon-mastodon:before {
+  content: "\f065";
 }
 
-.icon-wapuu:before {
-  content: "";
+.icon-jsonfeed:before {
+  content: "\f066";
 }
 
-.icon-micro-blog:before {
-  content: "";
+.icon-pump-io:before {
+  content: "\f067";
 }
 
-.icon-indieauth:before {
-  content: "";
+.icon-friendica:before {
+  content: "\f068";
 }
 
-.icon-freesoftware:before {
-  content: "";
+.icon-hubzilla:before {
+  content: "\f069";
+}
+
+.icon-fediverse:before {
+  content: "\f06a";
 }
 
 .icon-id4me:before {
-  content: "";
+  content: "\f06b";
 }
 
 .icon-movim:before {
-  content: "";
+  content: "\f06c";
 }
 
 .icon-pleroma:before {
-  content: "";
+  content: "\f06d";
 }
 
 .icon-pixelfed:before {
-  content: "";
+  content: "\f06e";
+}
+
+.icon-cc:before {
+  content: "\f080";
+}
+
+.icon-cc-by:before {
+  content: "\f081";
+}
+
+.icon-cc-nc:before {
+  content: "\f082";
+}
+
+.icon-cc-nc-eu:before {
+  content: "\f083";
+}
+
+.icon-cc-nc-jp:before {
+  content: "\f084";
+}
+
+.icon-cc-sa:before {
+  content: "\f085";
+}
+
+.icon-cc-nd:before {
+  content: "\f086";
+}
+
+.icon-cc-public:before {
+  content: "\f087";
+}
+
+.icon-cc-zero:before {
+  content: "\f088";
+}
+
+.icon-cc-share:before {
+  content: "\f089";
+}
+
+.icon-cc-remix:before {
+  content: "\f08a";
+}
+
+.icon-indieweb-indie:before {
+  content: "\f08b";
+}
+
+.icon-indieweb-web:before {
+  content: "\f08c";
+}
+
+.icon-indieweb-camp:before {
+  content: "\f08d";
+}
+
+.icon-webfinger:before {
+  content: "\f08e";
+}
+
+.icon-bitcoin:before {
+  content: "\f08f";
+}
+
+.icon-bitcoin-simple:before {
+  content: "\f090";
+}
+
+.icon-activitypub:before {
+  content: "\f091";
+}
+
+.icon-wapuu:before {
+  content: "\f092";
+}
+
+.icon-micro-blog:before {
+  content: "\f093";
+}
+
+.icon-indieauth:before {
+  content: "\f094";
+}
+
+.icon-freesoftware:before {
+  content: "\f095";
+}
+
+.icon-lemmy:before {
+  content: "\f096";
+}
+
+.icon-peertube:before {
+  content: "\f097";
+}
+
+.icon-misskey:before {
+  content: "\f098";
+}
+
+.icon-akkoma:before {
+  content: "\f099";
+}
+
+.icon-bookwyrm:before {
+  content: "\f09a";
+}
+
+.icon-funkwhale:before {
+  content: "\f09b";
+}
+
+.icon-gotosocial:before {
+  content: "\f09c";
+}
+
+.icon-forgejo:before {
+  content: "\f09d";
+}
+
+.icon-gitea:before {
+  content: "\f09e";
+}
+
+.icon-owncast:before {
+  content: "\f09f";
+}
+
+.icon-mobilizon:before {
+  content: "\f0a0";
+}
+
+.icon-castopod:before {
+  content: "\f0a1";
+}
+
+.icon-kbin:before {
+  content: "\f0a2";
+}
+
+.icon-firefish:before {
+  content: "\f0a3";
+}
+
+.icon-iceshrimp:before {
+  content: "\f0a4";
+}
+
+.icon-sharkey:before {
+  content: "\f0a5";
+}
+
+.icon-plume:before {
+  content: "\f0a6";
+}
+
+.icon-discourse:before {
+  content: "\f0a7";
+}
+
+.icon-nextcloud:before {
+  content: "\f0a8";
+}
+
+.icon-loops:before {
+  content: "\f0aa";
+}
+
+.icon-bonfire:before {
+  content: "\f0ab";
+}
+
+.icon-hometown:before {
+  content: "\f0ac";
+}
+
+.icon-writefreely:before {
+  content: "\f0ad";
+}
+
+.icon-gancio:before {
+  content: "\f0ae";
+}
+
+.icon-glitch-soc:before {
+  content: "\f0af";
+}
+
+.icon-soapbox:before {
+  content: "\f0b0";
+}
+
+.icon-snac:before {
+  content: "\f0b1";
+}
+
+.icon-honk:before {
+  content: "\f0b2";
+}
+
+.icon-epicyon:before {
+  content: "\f0b3";
+}
+
+.icon-drupal:before {
+  content: "\f0b4";
+}
+
+.icon-socialhome:before {
+  content: "\f0b5";
+}
+
+.icon-keyoxide:before {
+  content: "\f0b6";
+}
+
+.icon-streams:before {
+  content: "\f0b7";
+}
+
+.icon-takahe:before {
+  content: "\f0b8";
+}
+
+.icon-hubzilla-simple:before {
+  content: "\f0b9";
+}
+
+.icon-guppe:before {
+  content: "\f0ba";
+}
+
+.icon-ecko:before {
+  content: "\f0bb";
+}
+
+.icon-fedibird:before {
+  content: "\f0bc";
+}
+
+.icon-forgefed:before {
+  content: "\f0bd";
+}
+
+.icon-gath-io:before {
+  content: "\f0be";
+}
+
+.icon-ktistec:before {
+  content: "\f0bf";
+}
+
+.icon-relatica:before {
+  content: "\f0c0";
+}
+
+.icon-shuttlecraft:before {
+  content: "\f0c1";
+}
+
+.icon-flohmarkt:before {
+  content: "\f0c2";
+}
+
+.icon-inventaire:before {
+  content: "\f0c3";
+}
+
+.icon-disroot:before {
+  content: "\f0c4";
+}
+
+.icon-fedimarks:before {
+  content: "\f0c5";
+}
+
+.icon-fediverse-symbol:before {
+  content: "\f0c6";
+}
+
+.icon-seppo:before {
+  content: "\f0c7";
+}
+
+.icon-fediverse-logo:before {
+  content: "\f0c8";
+}
+
+.icon-rdfa:before {
+  content: "\f039";
+}
+
+.icon-owl:before {
+  content: "\f039";
+}
+
+.icon-opensource:before {
+  content: "\f038";
+}
+
+.icon-ofl-attribution:before {
+  content: "\f081";
+}
+
+.icon-ofl-share:before {
+  content: "\f085";
+}
+
+.icon-pub:before {
+  content: "\f045";
+}
+
+.icon-sub:before {
+  content: "\f046";
+}
+
+.icon-hubbub:before {
+  content: "\f045";
+}
+
+.icon-indieweb:before {
+  content: "\f08b\f08c";
+}
+
+.icon-indiewebcamp:before {
+  content: "\f08b\f08c\f08d";
 }
 
 .icon-apml-colored:before {
-  content: "";
+  content: "\f001";
   color: #AFDD63;
 }
 
-.icon-open-share-colored:before {
-  content: "";
-  color: #538439;
+.icon-opensearch-colored:before {
+  content: "\f002";
+  color: #5050f3;
+}
+
+.icon-opml-colored:before {
+  content: "\f003";
+  color: #2490A1;
+}
+
+.icon-ostatus-colored:before {
+  content: "\f004";
+  color: #FF6600;
 }
 
 .icon-share-colored:before {
-  content: "";
+  content: "\f006";
   color: #538439;
 }
 
 .icon-feed-colored:before {
-  content: "";
+  content: "\f009";
   color: #EA680B;
 }
 
-.icon-ostatus-colored:before {
-  content: "";
-  color: #FF6600;
-}
-
-.icon-opml-colored:before {
-  content: "";
-  color: #2490A1;
-}
-
-.icon-activity-colored:before {
-  content: "";
-  color: #4FB2D9;
-}
-
-.icon-microformats-colored:before {
-  content: "";
-  color: #85BC07;
-}
-
 .icon-geo-colored:before {
-  content: "";
+  content: "\f00b";
   color: #990000;
 }
 
-.icon-opensearch-colored:before {
-  content: "";
-  color: #5050f3;
+.icon-microformats-colored:before {
+  content: "\f00c";
+  color: #85BC07;
+}
+
+.icon-open-share-colored:before {
+  content: "\f00e";
+  color: #538439;
+}
+
+.icon-activity-colored:before {
+  content: "\f010";
+  color: #4FB2D9;
 }
 
 .icon-html5-colored:before {
-  content: "";
+  content: "\f016";
   color: #E34C26;
 }
 
-.icon-git-colored:before {
-  content: "";
-  color: #F05133;
-}
-
-.icon-osi-colored:before {
-  content: "";
-  color: #3DA639;
-}
-
-.icon-opensource-colored:before {
-  content: "";
-  color: #3DA639;
-}
-
 .icon-epub-colored:before {
-  content: "";
+  content: "\f021";
   color: #85b916;
 }
 
 .icon-info-card-colored:before {
-  content: "";
+  content: "\f024";
   color: #BF84E5;
 }
 
 .icon-remote-storage-colored:before {
-  content: "";
+  content: "\f026";
   color: #ff4e09;
 }
 
 .icon-odata-colored:before {
-  content: "";
+  content: "\f028";
   color: #EA680B;
 }
 
-.icon-pub-colored:before {
-  content: "";
-  color: #99cc00;
+.icon-git-colored:before {
+  content: "\f035";
+  color: #F05133;
 }
 
-.icon-sub-colored:before {
-  content: "";
-  color: #ffff00;
-}
-
-.icon-hubbub-colored:before {
-  content: "";
-  color: #ff6fcf;
+.icon-osi-colored:before {
+  content: "\f038";
+  color: #3DA639;
 }
 
 .icon-javascript-colored:before {
-  content: "";
+  content: "\f04e";
   color: #f0db4f;
 }
 
 .icon-gnusocial-colored:before {
-  content: "";
+  content: "\f062";
   color: #a22430;
 }
 
-.icon-mastodon-colored:before {
-  content: "";
+.icon-mastodon-simple-colored:before {
+  content: "\f064";
   color: #2b90d9;
 }
 
-.icon-mastodon-simple-colored:before {
-  content: "";
+.icon-mastodon-colored:before {
+  content: "\f065";
   color: #2b90d9;
 }
 
 .icon-id4me-colored:before {
-  content: "";
+  content: "\f06b";
   color: #007A9D;
 }
 
-/*# sourceMappingURL=openwebicons-bootstrap.css.map */
+.icon-lemmy-colored:before {
+  content: "\f096";
+  color: #00BC8C;
+}
+
+.icon-peertube-colored:before {
+  content: "\f097";
+  color: #F1680D;
+}
+
+.icon-misskey-colored:before {
+  content: "\f098";
+  color: #99c837;
+}
+
+.icon-akkoma-colored:before {
+  content: "\f099";
+  color: #593196;
+}
+
+.icon-bookwyrm-colored:before {
+  content: "\f09a";
+  color: #002549;
+}
+
+.icon-funkwhale-colored:before {
+  content: "\f09b";
+  color: #0D47A1;
+}
+
+.icon-gotosocial-colored:before {
+  content: "\f09c";
+  color: #F26522;
+}
+
+.icon-forgejo-colored:before {
+  content: "\f09d";
+  color: #E44729;
+}
+
+.icon-gitea-colored:before {
+  content: "\f09e";
+  color: #609926;
+}
+
+.icon-owncast-colored:before {
+  content: "\f09f";
+  color: #7871FF;
+}
+
+.icon-mobilizon-colored:before {
+  content: "\f0a0";
+  color: #3E50AF;
+}
+
+.icon-castopod-colored:before {
+  content: "\f0a1";
+  color: #00564A;
+}
+
+.icon-kbin-colored:before {
+  content: "\f0a2";
+  color: #7B1FA2;
+}
+
+.icon-iceshrimp-colored:before {
+  content: "\f0a4";
+  color: #F75E7B;
+}
+
+.icon-discourse-colored:before {
+  content: "\f0a7";
+  color: #231F20;
+}
+
+.icon-nextcloud-colored:before {
+  content: "\f0a8";
+  color: #0082C9;
+}
+
+.icon-bonfire-colored:before {
+  content: "\f0ab";
+  color: #F15B40;
+}
+
+.icon-drupal-colored:before {
+  content: "\f0b4";
+  color: #0678BE;
+}
+
+.icon-keyoxide-colored:before {
+  content: "\f0b6";
+  color: #56A300;
+}
+
+.icon-hubzilla-simple-colored:before {
+  content: "\f0b9";
+  color: #2E5AA1;
+}
+
+.icon-flohmarkt-colored:before {
+  content: "\f0c2";
+  color: #D93F00;
+}
+
+.icon-opensource-colored:before {
+  content: "\f038";
+  color: #3DA639;
+}
+
+.icon-pub-colored:before {
+  content: "\f045";
+  color: #99cc00;
+}
+
+.icon-sub-colored:before {
+  content: "\f046";
+  color: #ffff00;
+}
+
+.icon-hubbub-colored:before {
+  content: "\f045";
+  color: #ff6fcf;
+}

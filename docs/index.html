@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>OpenWeb Icons</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="OpenWeb Icons — scalable vector icons for open communities, standards, and projects.">
+  <style>
+    :root {
+      --bg: #fff; --text: #1a1a1a; --muted: #666; --border: #e5e5e5;
+      --card-bg: #fafafa; --card-hover: #f0f0f0; --accent: #4a90d9;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1a1a1a; --text: #e5e5e5; --muted: #999; --border: #333;
+        --card-bg: #222; --card-hover: #2a2a2a; --accent: #6ab0ff;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.6;
+    }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+    header {
+      text-align: center; padding: 60px 20px 40px;
+      border-bottom: 1px solid var(--border);
+    }
+    header h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 8px; }
+    header p { color: var(--muted); font-size: 1.1rem; max-width: 600px; margin: 0 auto; }
+
+    .hero-icons {
+      margin: 24px 0 0; font-size: 48px;
+      display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;
+    }
+
+    .stats {
+      display: flex; justify-content: center; gap: 32px; padding: 20px;
+      color: var(--muted); font-size: 0.9rem; flex-wrap: wrap;
+    }
+    .stats strong { color: var(--text); }
+
+    section { padding: 40px 0; }
+    section h2 {
+      font-size: 1.5rem; margin-bottom: 24px; padding-bottom: 8px;
+      border-bottom: 2px solid var(--border);
+    }
+    section h3 {
+      font-size: 1.1rem; margin: 24px 0 12px; color: var(--muted);
+    }
+    section h3:first-child { margin-top: 0; }
+
+    .icon-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 12px;
+    }
+
+    .icon-card {
+      display: flex; flex-direction: column; align-items: center;
+      padding: 20px 12px; border: 1px solid var(--border); border-radius: 8px;
+      background: var(--card-bg); transition: background 0.15s; text-align: center;
+    }
+    .icon-card:hover { background: var(--card-hover); }
+    .icon-card i, .icon-card .icon-preview {
+      font-size: 36px; margin-bottom: 10px; min-height: 40px;
+      display: flex; align-items: center;
+    }
+    .icon-card .icon-name { font-size: 0.75rem; font-weight: 500; word-break: break-all; }
+    .icon-card code { font-size: 0.65rem; color: var(--muted); margin-top: 4px; }
+    .icon-card.alias { border-style: dashed; }
+    .icon-card.composition { border-color: var(--accent); }
+
+    footer {
+      text-align: center; padding: 40px 20px;
+      border-top: 1px solid var(--border); color: var(--muted); font-size: 0.85rem;
+    }
+    footer a { color: var(--accent); }
+
+    #search {
+      width: 100%; max-width: 400px; padding: 10px 16px; margin: 24px auto 0;
+      display: block; border: 1px solid var(--border); border-radius: 6px;
+      background: var(--card-bg); color: var(--text); font-size: 1rem;
+    }
+    #search:focus { outline: 2px solid var(--accent); border-color: transparent; }
+  </style>
+  <link rel="stylesheet" type="text/css" href="openwebicons.css">
+</head>
+<body>
+  <header>
+    <h1>OpenWeb Icons</h1>
+    <p>Scalable vector icons for open communities, standards, and projects.</p>
+    <div class="hero-icons">
+      <i class="icon-html5-colored"></i>
+      <i class="icon-feed-colored"></i>
+      <i class="icon-cc"></i>
+      <i class="icon-mastodon-colored"></i>
+      <i class="icon-activitypub"></i>
+      <i class="icon-indieweb"></i>
+      <i class="icon-fediverse"></i>
+    </div>
+    <div class="stats">
+      <span><strong>164</strong> icons</span>
+      <span><strong>8</strong> aliases</span>
+      <span><strong>2</strong> compositions</span>
+      <span><strong>43</strong> colored</span>
+    </div>
+    <input type="search" id="search" placeholder="Search icons..." autocomplete="off">
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Icons by Category</h2>
+      <h3>Fediverse</h3>
+      <div class="icon-grid">
+        <div class="icon-card">
+          <i class="icon-activitypub"></i>
+          <span class="icon-name">activitypub</span>
+          <code>0xf091</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-fediverse"></i>
+          <span class="icon-name">fediverse</span>
+          <code>0xf06a</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-federated"></i>
+          <span class="icon-name">federated</span>
+          <code>0xf011</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-mastodon"></i>
+          <span class="icon-name">mastodon</span>
+          <code>0xf065</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-mastodon-simple"></i>
+          <span class="icon-name">mastodon-simple</span>
+          <code>0xf064</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-pleroma"></i>
+          <span class="icon-name">pleroma</span>
+          <code>0xf06d</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-pixelfed"></i>
+          <span class="icon-name">pixelfed</span>
+          <code>0xf06e</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-movim"></i>
+          <span class="icon-name">movim</span>
+          <code>0xf06c</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-friendica"></i>
+          <span class="icon-name">friendica</span>
+          <code>0xf068</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-hubzilla"></i>
+          <span class="icon-name">hubzilla</span>
+          <code>0xf069</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-hubzilla-simple"></i>
+          <span class="icon-name">hubzilla-simple</span>
+          <code>0xf0b9</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-pump-io"></i>
+          <span class="icon-name">pump-io</span>
+          <code>0xf067</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-gnusocial"></i>
+          <span class="icon-name">gnusocial</span>
+          <code>0xf062</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-gnusocial-simple"></i>
+          <span class="icon-name">gnusocial-simple</span>
+          <code>0xf063</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-diaspora"></i>
+          <span class="icon-name">diaspora</span>
+          <code>0xf05c</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-ostatus"></i>
+          <span class="icon-name">ostatus</span>
+          <code>0xf004</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-ostatus-simple"></i>
+          <span class="icon-name">ostatus-simple</span>
+          <code>0xf005</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-webfinger"></i>
+          <span class="icon-name">webfinger</span>
+          <code>0xf08e</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-lemmy"></i>
+          <span class="icon-name">lemmy</span>
+          <code>0xf096</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-peertube"></i>
+          <span class="icon-name">peertube</span>
+          <code>0xf097</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-misskey"></i>
+          <span class="icon-name">misskey</span>
+          <code>0xf098</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-akkoma"></i>
+          <span class="icon-name">akkoma</span>
+          <code>0xf099</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-bookwyrm"></i>
+          <span class="icon-name">bookwyrm</span>
+          <code>0xf09a</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-funkwhale"></i>
+          <span class="icon-name">funkwhale</span>
+          <code>0xf09b</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-gotosocial"></i>
+          <span class="icon-name">gotosocial</span>
+          <code>0xf09c</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-forgejo"></i>
+          <span class="icon-name">forgejo</span>
+          <code>0xf09d</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-gitea"></i>
+          <span class="icon-name">gitea</span>
+          <code>0xf09e</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-owncast"></i>
+          <span class="icon-name">owncast</span>
+          <code>0xf09f</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-mobilizon"></i>
+          <span class="icon-name">mobilizon</span>
+          <code>0xf0a0</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-castopod"></i>
+          <span class="icon-name">castopod</span>
+          <code>0xf0a1</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-kbin"></i>
+          <span class="icon-name">kbin</span>
+          <code>0xf0a2</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-firefish"></i>
+          <span class="icon-name">firefish</span>
+          <code>0xf0a3</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-iceshrimp"></i>
+          <span class="icon-name">iceshrimp</span>
+          <code>0xf0a4</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-sharkey"></i>
+          <span class="icon-name">sharkey</span>
+          <code>0xf0a5</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-plume"></i>
+          <span class="icon-name">plume</span>
+          <code>0xf0a6</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-discourse"></i>
+          <span class="icon-name">discourse</span>
+          <code>0xf0a7</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-nextcloud"></i>
+          <span class="icon-name">nextcloud</span>
+          <code>0xf0a8</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-loops"></i>
+          <span class="icon-name">loops</span>
+          <code>0xf0aa</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-bonfire"></i>
+          <span class="icon-name">bonfire</span>
+          <code>0xf0ab</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-hometown"></i>
+          <span class="icon-name">hometown</span>
+          <code>0xf0ac</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-writefreely"></i>
+          <span class="icon-name">writefreely</span>
+          <code>0xf0ad</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-gancio"></i>
+          <span class="icon-name">gancio</span>
+          <code>0xf0ae</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-glitch-soc"></i>
+          <span class="icon-name">glitch-soc</span>
+          <code>0xf0af</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-soapbox"></i>
+          <span class="icon-name">soapbox</span>
+          <code>0xf0b0</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-snac"></i>
+          <span class="icon-name">snac</span>
+          <code>0xf0b1</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-honk"></i>
+          <span class="icon-name">honk</span>
+          <code>0xf0b2</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-epicyon"></i>
+          <span class="icon-name">epicyon</span>
+          <code>0xf0b3</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-socialhome"></i>
+          <span class="icon-name">socialhome</span>
+          <code>0xf0b5</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-keyoxide"></i>
+          <span class="icon-name">keyoxide</span>
+          <code>0xf0b6</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-streams"></i>
+          <span class="icon-name">streams</span>
+          <code>0xf0b7</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-takahe"></i>
+          <span class="icon-name">takahe</span>
+          <code>0xf0b8</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-guppe"></i>
+          <span class="icon-name">guppe</span>
+          <code>0xf0ba</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-ecko"></i>
+          <span class="icon-name">ecko</span>
+          <code>0xf0bb</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-fedibird"></i>
+          <span class="icon-name">fedibird</span>
+          <code>0xf0bc</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-forgefed"></i>
+          <span class="icon-name">forgefed</span>
+          <code>0xf0bd</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-gath-io"></i>
+          <span class="icon-name">gath-io</span>
+          <code>0xf0be</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-ktistec"></i>
+          <span class="icon-name">ktistec</span>
+          <code>0xf0bf</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-relatica"></i>
+          <span class="icon-name">relatica</span>
+          <code>0xf0c0</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-shuttlecraft"></i>
+          <span class="icon-name">shuttlecraft</span>
+          <code>0xf0c1</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-flohmarkt"></i>
+          <span class="icon-name">flohmarkt</span>
+          <code>0xf0c2</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-inventaire"></i>
+          <span class="icon-name">inventaire</span>
+          <code>0xf0c3</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-disroot"></i>
+          <span class="icon-name">disroot</span>
+          <code>0xf0c4</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-fedimarks"></i>
+          <span class="icon-name">fedimarks</span>
+          <code>0xf0c5</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-fediverse-symbol"></i>
+          <span class="icon-name">fediverse-symbol</span>
+          <code>0xf0c6</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-seppo"></i>
+          <span class="icon-name">seppo</span>
+          <code>0xf0c7</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-fediverse-logo"></i>
+          <span class="icon-name">fediverse-logo</span>
+          <code>0xf0c8</code>
+        </div>
+      </div>
+      <h3>IndieWeb</h3>
+      <div class="icon-grid">
+        <div class="icon-card">
+          <i class="icon-indieweb-indie"></i>
+          <span class="icon-name">indieweb-indie</span>
+          <code>0xf08b</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-indieweb-web"></i>
+          <span class="icon-name">indieweb-web</span>
+          <code>0xf08c</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-indieweb-camp"></i>
+          <span class="icon-name">indieweb-camp</span>
+          <code>0xf08d</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-indieauth"></i>
+          <span class="icon-name">indieauth</span>
+          <code>0xf094</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-indie"></i>
+          <span class="icon-name">indie</span>
+          <code>0xf05d</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-indiehosters"></i>
+          <span class="icon-name">indiehosters</span>
+          <code>0xf058</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-webmention"></i>
+          <span class="icon-name">webmention</span>
+          <code>0xf04d</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-micro-blog"></i>
+          <span class="icon-name">micro-blog</span>
+          <code>0xf093</code>
+        </div>
+      </div>
+      <h3>HTML5</h3>
+      <div class="icon-grid">
+        <div class="icon-card">
+          <i class="icon-html5"></i>
+          <span class="icon-name">html5</span>
+          <code>0xf016</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-css3"></i>
+          <span class="icon-name">css3</span>
+          <code>0xf017</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-connectivity"></i>
+          <span class="icon-name">connectivity</span>
+          <code>0xf018</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-semantics"></i>
+          <span class="icon-name">semantics</span>
+          <code>0xf019</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-3deffects"></i>
+          <span class="icon-name">3deffects</span>
+          <code>0xf037</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-device-access"></i>
+          <span class="icon-name">device-access</span>
+          <code>0xf031</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-multimedia"></i>
+          <span class="icon-name">multimedia</span>
+          <code>0xf032</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-offline-storage"></i>
+          <span class="icon-name">offline-storage</span>
+          <code>0xf033</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-perfintegration"></i>
+          <span class="icon-name">perfintegration</span>
+          <code>0xf034</code>
+        </div>
+      </div>
+      <h3>Creative Commons</h3>
+      <div class="icon-grid">
+        <div class="icon-card">
+          <i class="icon-cc"></i>
+          <span class="icon-name">cc</span>
+          <code>0xf080</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-cc-by"></i>
+          <span class="icon-name">cc-by</span>
+          <code>0xf081</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-cc-nc"></i>
+          <span class="icon-name">cc-nc</span>
+          <code>0xf082</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-cc-nc-eu"></i>
+          <span class="icon-name">cc-nc-eu</span>
+          <code>0xf083</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-cc-nc-jp"></i>
+          <span class="icon-name">cc-nc-jp</span>
+          <code>0xf084</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-cc-sa"></i>
+          <span class="icon-name">cc-sa</span>
+          <code>0xf085</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-cc-nd"></i>
+          <span class="icon-name">cc-nd</span>
+          <code>0xf086</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-cc-public"></i>
+          <span class="icon-name">cc-public</span>
+          <code>0xf087</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-cc-zero"></i>
+          <span class="icon-name">cc-zero</span>
+          <code>0xf088</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-cc-share"></i>
+          <span class="icon-name">cc-share</span>
+          <code>0xf089</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-cc-remix"></i>
+          <span class="icon-name">cc-remix</span>
+          <code>0xf08a</code>
+        </div>
+      </div>
+      <h3>Microformats</h3>
+      <div class="icon-grid">
+        <div class="icon-card">
+          <i class="icon-microformats"></i>
+          <span class="icon-name">microformats</span>
+          <code>0xf00c</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-hatom"></i>
+          <span class="icon-name">hatom</span>
+          <code>0xf040</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-hresume"></i>
+          <span class="icon-name">hresume</span>
+          <code>0xf042</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-hcard-add"></i>
+          <span class="icon-name">hcard-add</span>
+          <code>0xf043</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-hcard-download"></i>
+          <span class="icon-name">hcard-download</span>
+          <code>0xf044</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-geo"></i>
+          <span class="icon-name">geo</span>
+          <code>0xf00b</code>
+        </div>
+      </div>
+      <h3>SIL Open Font License</h3>
+      <div class="icon-grid">
+        <div class="icon-card">
+          <i class="icon-ofl"></i>
+          <span class="icon-name">ofl</span>
+          <code>0xf053</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-ofl-renaming"></i>
+          <span class="icon-name">ofl-renaming</span>
+          <code>0xf04a</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-ofl-selling"></i>
+          <span class="icon-name">ofl-selling</span>
+          <code>0xf04b</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-ofl-embedding"></i>
+          <span class="icon-name">ofl-embedding</span>
+          <code>0xf04c</code>
+        </div>
+      </div>
+      <h3>Licenses</h3>
+      <div class="icon-grid">
+        <div class="icon-card">
+          <i class="icon-copyleft"></i>
+          <span class="icon-name">copyleft</span>
+          <code>0xf051</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-gnu"></i>
+          <span class="icon-name">gnu</span>
+          <code>0xf052</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-freesoftware"></i>
+          <span class="icon-name">freesoftware</span>
+          <code>0xf095</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-osi"></i>
+          <span class="icon-name">osi</span>
+          <code>0xf038</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-wtfpl"></i>
+          <span class="icon-name">wtfpl</span>
+          <code>0xf04f</code>
+        </div>
+      </div>
+      <h3>Protocols &amp; Standards</h3>
+      <div class="icon-grid">
+        <div class="icon-card">
+          <i class="icon-semantic-web"></i>
+          <span class="icon-name">semantic-web</span>
+          <code>0xf000</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-rdf"></i>
+          <span class="icon-name">rdf</span>
+          <code>0xf039</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-json-ld"></i>
+          <span class="icon-name">json-ld</span>
+          <code>0xf048</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-svg"></i>
+          <span class="icon-name">svg</span>
+          <code>0xf049</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-opengraph"></i>
+          <span class="icon-name">opengraph</span>
+          <code>0xf020</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-foaf"></i>
+          <span class="icon-name">foaf</span>
+          <code>0xf023</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-odata"></i>
+          <span class="icon-name">odata</span>
+          <code>0xf028</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-markdown"></i>
+          <span class="icon-name">markdown</span>
+          <code>0xf029</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-epub"></i>
+          <span class="icon-name">epub</span>
+          <code>0xf021</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-jsonfeed"></i>
+          <span class="icon-name">jsonfeed</span>
+          <code>0xf066</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-pubsubhubbub"></i>
+          <span class="icon-name">pubsubhubbub</span>
+          <code>0xf047</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-pubsubhubbub-pub"></i>
+          <span class="icon-name">pubsubhubbub-pub</span>
+          <code>0xf045</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-pubsubhubbub-sub"></i>
+          <span class="icon-name">pubsubhubbub-sub</span>
+          <code>0xf046</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-xmpp"></i>
+          <span class="icon-name">xmpp</span>
+          <code>0xf015</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-webhooks"></i>
+          <span class="icon-name">webhooks</span>
+          <code>0xf036</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-oauth"></i>
+          <span class="icon-name">oauth</span>
+          <code>0xf008</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-openid"></i>
+          <span class="icon-name">openid</span>
+          <code>0xf00d</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-tosdr"></i>
+          <span class="icon-name">tosdr</span>
+          <code>0xf030</code>
+        </div>
+      </div>
+      <h3>Sharing &amp; Feeds</h3>
+      <div class="icon-grid">
+        <div class="icon-card">
+          <i class="icon-feed"></i>
+          <span class="icon-name">feed</span>
+          <code>0xf009</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-feed-simple"></i>
+          <span class="icon-name">feed-simple</span>
+          <code>0xf00a</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-share"></i>
+          <span class="icon-name">share</span>
+          <code>0xf006</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-share-simple"></i>
+          <span class="icon-name">share-simple</span>
+          <code>0xf007</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-open-share"></i>
+          <span class="icon-name">open-share</span>
+          <code>0xf00e</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-open-share-simple"></i>
+          <span class="icon-name">open-share-simple</span>
+          <code>0xf00f</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-opml"></i>
+          <span class="icon-name">opml</span>
+          <code>0xf003</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-apml"></i>
+          <span class="icon-name">apml</span>
+          <code>0xf001</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-activity"></i>
+          <span class="icon-name">activity</span>
+          <code>0xf010</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-activity-simple"></i>
+          <span class="icon-name">activity-simple</span>
+          <code>0xf041</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-dataportability"></i>
+          <span class="icon-name">dataportability</span>
+          <code>0xf013</code>
+        </div>
+      </div>
+      <h3>Projects &amp; Communities</h3>
+      <div class="icon-grid">
+        <div class="icon-card">
+          <i class="icon-wordpress"></i>
+          <span class="icon-name">wordpress</span>
+          <code>0xf054</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-owncloud"></i>
+          <span class="icon-name">owncloud</span>
+          <code>0xf055</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-known"></i>
+          <span class="icon-name">known</span>
+          <code>0xf059</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-ghost"></i>
+          <span class="icon-name">ghost</span>
+          <code>0xf05e</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-mozilla"></i>
+          <span class="icon-name">mozilla</span>
+          <code>0xf05a</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-unhosted"></i>
+          <span class="icon-name">unhosted</span>
+          <code>0xf05b</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-barcamp"></i>
+          <span class="icon-name">barcamp</span>
+          <code>0xf057</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-cccs"></i>
+          <span class="icon-name">cccs</span>
+          <code>0xf056</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-opensourcedesign"></i>
+          <span class="icon-name">opensourcedesign</span>
+          <code>0xf060</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-opendesign"></i>
+          <span class="icon-name">opendesign</span>
+          <code>0xf061</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-wapuu"></i>
+          <span class="icon-name">wapuu</span>
+          <code>0xf092</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-drupal"></i>
+          <span class="icon-name">drupal</span>
+          <code>0xf0b4</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-id4me"></i>
+          <span class="icon-name">id4me</span>
+          <code>0xf06b</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-tent"></i>
+          <span class="icon-name">tent</span>
+          <code>0xf050</code>
+        </div>
+      </div>
+      <h3>Other</h3>
+      <div class="icon-grid">
+        <div class="icon-card">
+          <i class="icon-open-web"></i>
+          <span class="icon-name">open-web</span>
+          <code>0xf012</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-web-intents"></i>
+          <span class="icon-name">web-intents</span>
+          <code>0xf014</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-git"></i>
+          <span class="icon-name">git</span>
+          <code>0xf035</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-javascript"></i>
+          <span class="icon-name">javascript</span>
+          <code>0xf04e</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-qr"></i>
+          <span class="icon-name">qr</span>
+          <code>0xf022</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-info-card"></i>
+          <span class="icon-name">info-card</span>
+          <code>0xf024</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-browserid"></i>
+          <span class="icon-name">browserid</span>
+          <code>0xf025</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-remote-storage"></i>
+          <span class="icon-name">remote-storage</span>
+          <code>0xf026</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-persona"></i>
+          <span class="icon-name">persona</span>
+          <code>0xf027</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-opensearch"></i>
+          <span class="icon-name">opensearch</span>
+          <code>0xf002</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-bitcoin"></i>
+          <span class="icon-name">bitcoin</span>
+          <code>0xf08f</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-bitcoin-simple"></i>
+          <span class="icon-name">bitcoin-simple</span>
+          <code>0xf090</code>
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+      <h2>Colored Variants</h2>
+      <div class="icon-grid">
+        <div class="icon-card">
+          <i class="icon-apml-colored"></i>
+          <span class="icon-name">apml-colored</span>
+          <code>#AFDD63</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-opensearch-colored"></i>
+          <span class="icon-name">opensearch-colored</span>
+          <code>#5050f3</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-opml-colored"></i>
+          <span class="icon-name">opml-colored</span>
+          <code>#2490A1</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-ostatus-colored"></i>
+          <span class="icon-name">ostatus-colored</span>
+          <code>#FF6600</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-share-colored"></i>
+          <span class="icon-name">share-colored</span>
+          <code>#538439</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-feed-colored"></i>
+          <span class="icon-name">feed-colored</span>
+          <code>#EA680B</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-geo-colored"></i>
+          <span class="icon-name">geo-colored</span>
+          <code>#990000</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-microformats-colored"></i>
+          <span class="icon-name">microformats-colored</span>
+          <code>#85BC07</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-open-share-colored"></i>
+          <span class="icon-name">open-share-colored</span>
+          <code>#538439</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-activity-colored"></i>
+          <span class="icon-name">activity-colored</span>
+          <code>#4FB2D9</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-html5-colored"></i>
+          <span class="icon-name">html5-colored</span>
+          <code>#E34C26</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-epub-colored"></i>
+          <span class="icon-name">epub-colored</span>
+          <code>#85b916</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-info-card-colored"></i>
+          <span class="icon-name">info-card-colored</span>
+          <code>#BF84E5</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-remote-storage-colored"></i>
+          <span class="icon-name">remote-storage-colored</span>
+          <code>#ff4e09</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-odata-colored"></i>
+          <span class="icon-name">odata-colored</span>
+          <code>#EA680B</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-git-colored"></i>
+          <span class="icon-name">git-colored</span>
+          <code>#F05133</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-osi-colored"></i>
+          <span class="icon-name">osi-colored</span>
+          <code>#3DA639</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-javascript-colored"></i>
+          <span class="icon-name">javascript-colored</span>
+          <code>#f0db4f</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-gnusocial-colored"></i>
+          <span class="icon-name">gnusocial-colored</span>
+          <code>#a22430</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-mastodon-simple-colored"></i>
+          <span class="icon-name">mastodon-simple-colored</span>
+          <code>#2b90d9</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-mastodon-colored"></i>
+          <span class="icon-name">mastodon-colored</span>
+          <code>#2b90d9</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-id4me-colored"></i>
+          <span class="icon-name">id4me-colored</span>
+          <code>#007A9D</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-lemmy-colored"></i>
+          <span class="icon-name">lemmy-colored</span>
+          <code>#00BC8C</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-peertube-colored"></i>
+          <span class="icon-name">peertube-colored</span>
+          <code>#F1680D</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-misskey-colored"></i>
+          <span class="icon-name">misskey-colored</span>
+          <code>#99c837</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-akkoma-colored"></i>
+          <span class="icon-name">akkoma-colored</span>
+          <code>#593196</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-bookwyrm-colored"></i>
+          <span class="icon-name">bookwyrm-colored</span>
+          <code>#002549</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-funkwhale-colored"></i>
+          <span class="icon-name">funkwhale-colored</span>
+          <code>#0D47A1</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-gotosocial-colored"></i>
+          <span class="icon-name">gotosocial-colored</span>
+          <code>#F26522</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-forgejo-colored"></i>
+          <span class="icon-name">forgejo-colored</span>
+          <code>#E44729</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-gitea-colored"></i>
+          <span class="icon-name">gitea-colored</span>
+          <code>#609926</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-owncast-colored"></i>
+          <span class="icon-name">owncast-colored</span>
+          <code>#7871FF</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-mobilizon-colored"></i>
+          <span class="icon-name">mobilizon-colored</span>
+          <code>#3E50AF</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-castopod-colored"></i>
+          <span class="icon-name">castopod-colored</span>
+          <code>#00564A</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-kbin-colored"></i>
+          <span class="icon-name">kbin-colored</span>
+          <code>#7B1FA2</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-iceshrimp-colored"></i>
+          <span class="icon-name">iceshrimp-colored</span>
+          <code>#F75E7B</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-discourse-colored"></i>
+          <span class="icon-name">discourse-colored</span>
+          <code>#231F20</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-nextcloud-colored"></i>
+          <span class="icon-name">nextcloud-colored</span>
+          <code>#0082C9</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-bonfire-colored"></i>
+          <span class="icon-name">bonfire-colored</span>
+          <code>#F15B40</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-drupal-colored"></i>
+          <span class="icon-name">drupal-colored</span>
+          <code>#0678BE</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-keyoxide-colored"></i>
+          <span class="icon-name">keyoxide-colored</span>
+          <code>#56A300</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-hubzilla-simple-colored"></i>
+          <span class="icon-name">hubzilla-simple-colored</span>
+          <code>#2E5AA1</code>
+        </div>
+        <div class="icon-card">
+          <i class="icon-flohmarkt-colored"></i>
+          <span class="icon-name">flohmarkt-colored</span>
+          <code>#D93F00</code>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Aliases</h2>
+      <div class="icon-grid">
+        <div class="icon-card alias">
+          <i class="icon-rdfa"></i>
+          <span class="icon-name">rdfa</span>
+          <code>alias of rdf</code>
+        </div>
+        <div class="icon-card alias">
+          <i class="icon-owl"></i>
+          <span class="icon-name">owl</span>
+          <code>alias of rdf</code>
+        </div>
+        <div class="icon-card alias">
+          <i class="icon-opensource"></i>
+          <span class="icon-name">opensource</span>
+          <code>alias of osi</code>
+        </div>
+        <div class="icon-card alias">
+          <i class="icon-ofl-attribution"></i>
+          <span class="icon-name">ofl-attribution</span>
+          <code>alias of cc-by</code>
+        </div>
+        <div class="icon-card alias">
+          <i class="icon-ofl-share"></i>
+          <span class="icon-name">ofl-share</span>
+          <code>alias of cc-sa</code>
+        </div>
+        <div class="icon-card alias">
+          <i class="icon-pub"></i>
+          <span class="icon-name">pub</span>
+          <code>alias of pubsubhubbub-pub</code>
+        </div>
+        <div class="icon-card alias">
+          <i class="icon-sub"></i>
+          <span class="icon-name">sub</span>
+          <code>alias of pubsubhubbub-sub</code>
+        </div>
+        <div class="icon-card alias">
+          <i class="icon-hubbub"></i>
+          <span class="icon-name">hubbub</span>
+          <code>alias of pubsubhubbub-pub</code>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Compositions</h2>
+      <div class="icon-grid">
+        <div class="icon-card composition">
+          <i class="icon-indieweb"></i>
+          <span class="icon-name">indieweb</span>
+          <code>indieweb-indie + indieweb-web</code>
+        </div>
+        <div class="icon-card composition">
+          <i class="icon-indiewebcamp"></i>
+          <span class="icon-name">indiewebcamp</span>
+          <code>indieweb-indie + indieweb-web + indieweb-camp</code>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>
+      <i class="icon-ofl-attribution"></i>
+      <i class="icon-ofl-share"></i>
+      <i class="icon-ofl-embedding"></i>
+      Licensed under <a href="http://scripts.sil.org/OFL">SIL Open Font License</a>.
+      Created by <a href="https://github.com/pfefferle">Matthias Pfefferle</a>.
+    </p>
+    <p>
+      <a href="https://github.com/pfefferle/openwebicons">GitHub</a> &middot;
+      <a href="https://www.npmjs.com/package/openwebicons">npm</a>
+    </p>
+    <p style="font-size: 0.75rem; max-width: 640px; margin: 12px auto 0;">
+      Disclaimer: The individual project logos and icons included in this font are trademarks or registered trademarks of their respective owners. Their inclusion in this icon font does not imply ownership, endorsement, or affiliation. All rights to the original logos remain with their respective copyright holders.
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById('search').addEventListener('input', function(e) {
+      var q = e.target.value.toLowerCase();
+      document.querySelectorAll('.icon-card').forEach(function(card) {
+        var name = card.querySelector('.icon-name').textContent.toLowerCase();
+        card.style.display = name.includes(q) ? '' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>

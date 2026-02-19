@@ -1,21 +1,26 @@
 {
   "name": "openwebicons",
-  "version": "1.6.3",
+  "version": "1.7.0",
   "description": "OpenWeb Icons",
   "main": "css/openwebicons.min.css",
   "author": {
     "name": "Matthias Pfefferle",
     "email": "pfefferle@gmail.com",
-    "url": "http://notizblog.org"
+    "url": "https://pfefferle.dev"
   },
-  "homepage": "http://pfefferle.github.io/openwebicons/",
+  "homepage": "https://pfefferle.dev/openwebicons/",
   "license": "OFL-1.1",
+  "scripts": {
+    "build": "npm run build:fonts && npm run build:scss && npm run build:css && npm run build:docs",
+    "build:fonts": "node scripts/build-fonts.mjs",
+    "build:scss": "node scripts/generate-scss.mjs",
+    "build:css": "node scripts/compile-css.mjs",
+    "build:docs": "mkdir -p docs/font && sed 's|../font/|font/|g' css/openwebicons.css > docs/openwebicons.css && cp font/openwebicons.{woff2,woff,ttf,eot,svg} docs/font/",
+    "validate": "node scripts/validate.mjs"
+  },
   "devDependencies": {
-    "grunt": "^1.0.3",
-    "grunt-contrib-sass": "^2.0.0",
-    "grunt-kss": "^5.0.1",
-    "grunt-svg2ttf": "*",
-    "grunt-update-json": "*"
+    "fantasticon": "^3.0.0",
+    "sass": "^1.80.0"
   },
   "repository": {
     "type": "git",

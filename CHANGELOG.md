@@ -2,6 +2,32 @@
 All notable changes to the OpenWebIcons project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.7.0] - 2026-02-19
+### Added
+- Added 40+ Fediverse project icons: Lemmy, PeerTube, Misskey, Akkoma, BookWyrm, Funkwhale, GoToSocial, Forgejo, Gitea, Owncast, Mobilizon, Castopod, Kbin, Firefish, Iceshrimp, Sharkey, Plume, Discourse, Nextcloud, Loops, Bonfire, Hometown, WriteFreely, Gancio, Glitch-soc, Soapbox, Snac, Honk, Epicyon, Drupal, SocialHome, Keyoxide, Streams, Takahē, Hubzilla Simple, Guppe, Ecko, Fedibird, ForgeFed, Gath.io, Ktistec, Relatica, Shuttlecraft, Flohmarkt, Inventaire, Disroot, Fedimarks, Fediverse Symbol, Seppo
+- Icon sources: [JoinFediverse Wiki](https://joinfediverse.wiki/Category:Fediverse_projects_logos), [Fediverse Symbol](https://symbol.fediverse.info/en), [Fediverse Logo](https://gitlab.digitalcourage.de/twinkelicious/fediverse-logo)
+- Added icon group system for organized browsing
+- Added colored icon variants with brand colors
+- Added trademark disclaimer to demo page
+
+### Changed
+- Reworked build system: replaced Grunt with npm scripts + fantasticon + dart-sass
+- `svg/` is now the single source of truth for all icons
+- `icons.json` is the authoritative icon metadata registry
+- Auto-generated `sass/_vars.scss` from `icons.json`
+- Auto-generated demo page at `docs/index.html`
+- Migrated docs from gh-pages branch to `docs/` in main branch
+- Fixed typo: renamed `hcard-sownload.svg` to `hcard-download.svg`
+- Extracted missing `freesoftware.svg` from font
+
+### Removed
+- Grunt build system and all Grunt dependencies
+- Bower and Component.js package manifests
+- Font Squirrel generator config
+- KSS-based styleguide
+- Manual `source/` SVG font (fonts now generated from individual SVGs)
+- Removed WebPlattform icon
+
 ## [1.6.2] - 2020-02-14
 ### Added
 - Pleroma Icon
@@ -99,6 +125,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 * **2012-05-05**: Added *federated social web*, *DataPortability* and *Open Web Foundation* Icon
 * **2012-05-03**: Initial Release
 
+[1.7.0]: https://github.com/pfefferle/openwebicons/compare/1.6.2...1.7.0
+[1.6.2]: https://github.com/pfefferle/openwebicons/compare/1.6.1...1.6.2
 [1.6.1]: https://github.com/pfefferle/openwebicons/compare/1.6.0...1.6.1
 [1.6.0]: https://github.com/pfefferle/openwebicons/compare/1.4.3...1.6.0
 [1.4.3]: https://github.com/pfefferle/openwebicons/compare/1.4.2...1.4.3
