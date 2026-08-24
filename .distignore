@@ -20,3 +20,5 @@ README.md
 .claude
 .wp-env.json
 .wp-env.override.json
+dist
+react

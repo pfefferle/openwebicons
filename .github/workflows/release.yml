@@ -1,0 +1,26 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  plugin-zip:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      # npm install, not npm ci: package-lock.json is git-ignored, so there is
+      # no lockfile to install from.
+      - run: npm install
+      - run: npm run validate
+      - run: npm run build:plugin
+      - name: Attach the plugin zip to the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${GITHUB_REF_NAME}" dist/openwebicons.zip --clobber

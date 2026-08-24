@@ -97,8 +97,10 @@ for (const file of svgFiles) {
     error(`${file}: contains a transform attribute — run "npm run normalize:svg"`);
   }
 
-  // openwebicons.php builds the composed icons by pulling <path/> elements out
-  // of these files with a regex, so they have to stay self-closing.
+  // Self-closing <path/> is what the normalizer emits, and what
+  // generate-compositions.mjs expects to find when it pulls the paths out of a
+  // glyph. A hand-authored file that has not been through the normalizer would
+  // be skipped without a word.
   if (/<path\b[^>]*(?<!\/)>/.test(content)) {
     error(`${file}: <path> must be self-closing — run "npm run normalize:svg"`);
   }
@@ -191,8 +193,15 @@ for (const [groupName, members] of Object.entries(groups)) {
 
 // Every composition needs its generated file: openwebicons.php registers it
 // by path, so a stale composed/ means the icon silently disappears.
+let composedFiles = [];
+try {
+  composedFiles = readdirSync(COMPOSED_DIR);
+} catch {
+  error('composed/ is missing — run "npm run build:compositions"');
+}
+
 for (const name of Object.keys(compositions)) {
-  if (!readdirSync(COMPOSED_DIR).includes(`${name}.svg`)) {
+  if (composedFiles.length && !composedFiles.includes(`${name}.svg`)) {
     error(`composed/${name}.svg is missing — run "npm run build:compositions"`);
   }
 }

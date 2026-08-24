@@ -5,3 +5,4 @@ npm-debug.log
 package-lock.json
 font/openwebicons.json
 .wp-env.override.json
+dist
