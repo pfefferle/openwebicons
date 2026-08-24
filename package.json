@@ -1,8 +1,14 @@
 {
   "name": "openwebicons",
-  "version": "1.7.0",
+  "version": "2.0.0",
   "description": "OpenWeb Icons",
   "main": "css/openwebicons.min.css",
+  "files": [
+    "css",
+    "font",
+    "sass",
+    "License.txt"
+  ],
   "author": {
     "name": "Matthias Pfefferle",
     "email": "pfefferle@gmail.com",
@@ -11,15 +17,22 @@
   "homepage": "https://pfefferle.dev/openwebicons/",
   "license": "OFL-1.1",
   "scripts": {
-    "build": "npm run build:fonts && npm run build:scss && npm run build:css && npm run build:docs",
+    "build": "npm run build:fonts && npm run build:scss && npm run build:css && npm run build:compositions && npm run build:docs",
     "build:fonts": "node scripts/build-fonts.mjs",
     "build:scss": "node scripts/generate-scss.mjs",
     "build:css": "node scripts/compile-css.mjs",
-    "build:docs": "mkdir -p docs/font && sed 's|../font/|font/|g' css/openwebicons.css > docs/openwebicons.css && cp font/openwebicons.{woff2,woff,ttf,eot,svg} docs/font/",
+    "build:compositions": "node scripts/generate-compositions.mjs",
+    "build:plugin": "bash scripts/build-plugin.sh",
+    "build:docs": "node scripts/build-docs.mjs",
     "validate": "node scripts/validate.mjs",
+    "env": "wp-env",
+    "env-start": "wp-env start",
+    "env-stop": "wp-env stop",
+    "env-clean": "wp-env clean all",
     "normalize:svg": "node scripts/normalize-svgs.mjs"
   },
   "devDependencies": {
+    "@wordpress/env": "^11.11.0",
     "fantasticon": "^4.1.0",
     "sass": "^1.80.0",
     "svgpath": "^2.6.0",

@@ -1,0 +1,28 @@
+name: Update WordPress.org assets
+
+# Banner, icon, screenshots and readme.txt live on the wordpress.org page
+# rather than in a release, so they are pushed whenever they change on main.
+# Needs the same SVN_USERNAME / SVN_PASSWORD secrets as the deploy.
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.wordpress-org/**'
+      - 'readme.txt'
+
+jobs:
+  update_assets:
+    name: Update WP.org assets
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install SVN
+        run: |
+          sudo apt-get update
+          sudo apt-get install subversion
+      - name: WordPress.org Plugin Asset Update
+        uses: 10up/action-wordpress-plugin-asset-update@2480306f6f693672726d08b5917ea114cb2825f7 # 2.2.0
+        env:
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SLUG: openwebicons

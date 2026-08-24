@@ -1,579 +1,753 @@
 {
   "icons": {
     "semantic-web": {
+      "label": "Semantic Web",
       "codepoint": "0xf000"
     },
     "apml": {
+      "label": "APML",
       "codepoint": "0xf001",
       "color": "#AFDD63"
     },
     "opensearch": {
+      "label": "OpenSearch",
       "codepoint": "0xf002",
       "color": "#5050f3"
     },
     "opml": {
+      "label": "OPML",
       "codepoint": "0xf003",
       "color": "#2490A1"
     },
     "ostatus": {
+      "label": "OStatus",
       "codepoint": "0xf004",
       "color": "#FF6600"
     },
     "ostatus-simple": {
+      "label": "OStatus (simple)",
       "codepoint": "0xf005"
     },
     "share": {
+      "label": "Share",
       "codepoint": "0xf006",
       "color": "#538439"
     },
     "share-simple": {
+      "label": "Share (simple)",
       "codepoint": "0xf007"
     },
     "oauth": {
+      "label": "OAuth",
       "codepoint": "0xf008"
     },
     "feed": {
+      "label": "Feed",
       "codepoint": "0xf009",
       "color": "#EA680B"
     },
     "feed-simple": {
+      "label": "Feed (simple)",
       "codepoint": "0xf00a"
     },
     "geo": {
+      "label": "Geo",
       "codepoint": "0xf00b",
       "color": "#990000"
     },
     "microformats": {
+      "label": "Microformats",
       "codepoint": "0xf00c",
       "color": "#85BC07"
     },
     "openid": {
+      "label": "OpenID",
       "codepoint": "0xf00d"
     },
     "open-share": {
+      "label": "Open Share",
       "codepoint": "0xf00e",
       "color": "#538439"
     },
     "open-share-simple": {
+      "label": "Open Share (simple)",
       "codepoint": "0xf00f"
     },
     "activity": {
+      "label": "Activity",
       "codepoint": "0xf010",
       "color": "#4FB2D9"
     },
     "federated": {
+      "label": "Federated",
       "codepoint": "0xf011"
     },
     "open-web": {
+      "label": "Open Web",
       "codepoint": "0xf012"
     },
     "dataportability": {
+      "label": "DataPortability",
       "codepoint": "0xf013"
     },
     "web-intents": {
+      "label": "Web Intents",
       "codepoint": "0xf014"
     },
     "xmpp": {
+      "label": "XMPP",
       "codepoint": "0xf015"
     },
     "html5": {
+      "label": "HTML5",
       "codepoint": "0xf016",
       "color": "#E34C26"
     },
     "css3": {
+      "label": "CSS3",
       "codepoint": "0xf017"
     },
     "connectivity": {
+      "label": "Connectivity",
       "codepoint": "0xf018"
     },
     "semantics": {
+      "label": "Semantics",
       "codepoint": "0xf019"
     },
     "opengraph": {
+      "label": "Open Graph",
       "codepoint": "0xf020"
     },
     "epub": {
+      "label": "EPUB",
       "codepoint": "0xf021",
       "color": "#85b916"
     },
     "qr": {
+      "label": "QR Code",
       "codepoint": "0xf022"
     },
     "foaf": {
+      "label": "FOAF",
       "codepoint": "0xf023"
     },
     "info-card": {
+      "label": "Info Card",
       "codepoint": "0xf024",
       "color": "#BF84E5"
     },
     "browserid": {
+      "label": "BrowserID",
       "codepoint": "0xf025"
     },
     "remote-storage": {
+      "label": "remoteStorage",
       "codepoint": "0xf026",
       "color": "#ff4e09"
     },
     "persona": {
+      "label": "Persona",
       "codepoint": "0xf027"
     },
     "odata": {
+      "label": "OData",
       "codepoint": "0xf028",
       "color": "#EA680B"
     },
     "markdown": {
+      "label": "Markdown",
       "codepoint": "0xf029"
     },
     "tosdr": {
+      "label": "Terms of Service; Didn't Read",
       "codepoint": "0xf030"
     },
     "device-access": {
+      "label": "Device Access",
       "codepoint": "0xf031"
     },
     "multimedia": {
+      "label": "Multimedia",
       "codepoint": "0xf032"
     },
     "offline-storage": {
+      "label": "Offline Storage",
       "codepoint": "0xf033"
     },
     "perfintegration": {
+      "label": "Performance & Integration",
       "codepoint": "0xf034"
     },
     "git": {
+      "label": "Git",
       "codepoint": "0xf035",
       "color": "#F05133"
     },
     "webhooks": {
+      "label": "Webhooks",
       "codepoint": "0xf036"
     },
     "3deffects": {
+      "label": "3D Effects",
       "codepoint": "0xf037"
     },
     "osi": {
+      "label": "Open Source Initiative",
       "codepoint": "0xf038",
       "color": "#3DA639"
     },
     "rdf": {
+      "label": "RDF",
       "codepoint": "0xf039"
     },
     "hatom": {
+      "label": "hAtom",
       "codepoint": "0xf040"
     },
     "activity-simple": {
+      "label": "Activity (simple)",
       "codepoint": "0xf041"
     },
     "hresume": {
+      "label": "hResume",
       "codepoint": "0xf042"
     },
     "hcard-add": {
+      "label": "hCard (add)",
       "codepoint": "0xf043"
     },
     "hcard-download": {
+      "label": "hCard (download)",
       "codepoint": "0xf044"
     },
     "pubsubhubbub-pub": {
+      "label": "PubSubHubbub (publisher)",
       "codepoint": "0xf045"
     },
     "pubsubhubbub-sub": {
+      "label": "PubSubHubbub (subscriber)",
       "codepoint": "0xf046"
     },
     "pubsubhubbub": {
+      "label": "PubSubHubbub",
       "codepoint": "0xf047"
     },
     "json-ld": {
+      "label": "JSON-LD",
       "codepoint": "0xf048"
     },
     "svg": {
+      "label": "SVG",
       "codepoint": "0xf049"
     },
     "ofl-renaming": {
+      "label": "OFL Renaming",
       "codepoint": "0xf04a"
     },
     "ofl-selling": {
+      "label": "OFL Selling",
       "codepoint": "0xf04b"
     },
     "ofl-embedding": {
+      "label": "OFL Embedding",
       "codepoint": "0xf04c"
     },
     "webmention": {
+      "label": "Webmention",
       "codepoint": "0xf04d"
     },
     "javascript": {
+      "label": "JavaScript",
       "codepoint": "0xf04e",
       "color": "#f0db4f"
     },
     "wtfpl": {
+      "label": "WTFPL",
       "codepoint": "0xf04f"
     },
     "tent": {
+      "label": "Tent",
       "codepoint": "0xf050"
     },
     "copyleft": {
+      "label": "Copyleft",
       "codepoint": "0xf051"
     },
     "gnu": {
+      "label": "GNU",
       "codepoint": "0xf052"
     },
     "ofl": {
+      "label": "SIL Open Font License",
       "codepoint": "0xf053"
     },
     "wordpress": {
+      "label": "WordPress",
       "codepoint": "0xf054"
     },
     "owncloud": {
+      "label": "ownCloud",
       "codepoint": "0xf055"
     },
     "cccs": {
+      "label": "CCCS",
       "codepoint": "0xf056"
     },
     "barcamp": {
+      "label": "BarCamp",
       "codepoint": "0xf057"
     },
     "indiehosters": {
+      "label": "IndieHosters",
       "codepoint": "0xf058"
     },
     "known": {
+      "label": "Known",
       "codepoint": "0xf059"
     },
     "mozilla": {
+      "label": "Mozilla",
       "codepoint": "0xf05a"
     },
     "unhosted": {
+      "label": "Unhosted",
       "codepoint": "0xf05b"
     },
     "diaspora": {
+      "label": "diaspora*",
       "codepoint": "0xf05c"
     },
     "indie": {
+      "label": "Indie",
       "codepoint": "0xf05d"
     },
     "ghost": {
+      "label": "Ghost",
       "codepoint": "0xf05e"
     },
     "opensourcedesign": {
+      "label": "Open Source Design",
       "codepoint": "0xf060"
     },
     "opendesign": {
+      "label": "Open Design",
       "codepoint": "0xf061"
     },
     "gnusocial": {
+      "label": "GNU social",
       "codepoint": "0xf062",
       "color": "#a22430"
     },
     "gnusocial-simple": {
+      "label": "GNU social (simple)",
       "codepoint": "0xf063"
     },
     "mastodon-simple": {
+      "label": "Mastodon (simple)",
       "codepoint": "0xf064",
       "color": "#2b90d9"
     },
     "mastodon": {
+      "label": "Mastodon",
       "codepoint": "0xf065",
       "color": "#2b90d9"
     },
     "jsonfeed": {
+      "label": "JSON Feed",
       "codepoint": "0xf066"
     },
     "pump-io": {
+      "label": "Pump.io",
       "codepoint": "0xf067"
     },
     "friendica": {
+      "label": "Friendica",
       "codepoint": "0xf068"
     },
     "hubzilla": {
+      "label": "Hubzilla",
       "codepoint": "0xf069"
     },
     "fediverse": {
+      "label": "Fediverse",
       "codepoint": "0xf06a"
     },
     "id4me": {
+      "label": "ID4me",
       "codepoint": "0xf06b",
       "color": "#007A9D"
     },
     "movim": {
+      "label": "Movim",
       "codepoint": "0xf06c"
     },
     "pleroma": {
+      "label": "Pleroma",
       "codepoint": "0xf06d"
     },
     "pixelfed": {
+      "label": "Pixelfed",
       "codepoint": "0xf06e"
     },
     "cc": {
+      "label": "Creative Commons",
       "codepoint": "0xf080"
     },
     "cc-by": {
+      "label": "CC Attribution",
       "codepoint": "0xf081"
     },
     "cc-nc": {
+      "label": "CC NonCommercial",
       "codepoint": "0xf082"
     },
     "cc-nc-eu": {
+      "label": "CC NonCommercial (EU)",
       "codepoint": "0xf083"
     },
     "cc-nc-jp": {
+      "label": "CC NonCommercial (JP)",
       "codepoint": "0xf084"
     },
     "cc-sa": {
+      "label": "CC ShareAlike",
       "codepoint": "0xf085"
     },
     "cc-nd": {
+      "label": "CC NoDerivatives",
       "codepoint": "0xf086"
     },
     "cc-public": {
+      "label": "CC Public Domain",
       "codepoint": "0xf087"
     },
     "cc-zero": {
+      "label": "CC Zero",
       "codepoint": "0xf088"
     },
     "cc-share": {
+      "label": "CC Share",
       "codepoint": "0xf089"
     },
     "cc-remix": {
+      "label": "CC Remix",
       "codepoint": "0xf08a"
     },
     "indieweb-indie": {
+      "label": "IndieWeb (indie)",
       "codepoint": "0xf08b"
     },
     "indieweb-web": {
+      "label": "IndieWeb (web)",
       "codepoint": "0xf08c"
     },
     "indieweb-camp": {
+      "label": "IndieWeb (camp)",
       "codepoint": "0xf08d"
     },
     "webfinger": {
+      "label": "WebFinger",
       "codepoint": "0xf08e"
     },
     "bitcoin": {
+      "label": "Bitcoin",
       "codepoint": "0xf08f"
     },
     "bitcoin-simple": {
+      "label": "Bitcoin (simple)",
       "codepoint": "0xf090"
     },
     "activitypub": {
+      "label": "ActivityPub",
       "codepoint": "0xf091"
     },
     "wapuu": {
+      "label": "Wapuu",
       "codepoint": "0xf092"
     },
     "micro-blog": {
+      "label": "Micro.blog",
       "codepoint": "0xf093"
     },
     "indieauth": {
+      "label": "IndieAuth",
       "codepoint": "0xf094"
     },
     "freesoftware": {
+      "label": "Free Software",
       "codepoint": "0xf095"
     },
     "lemmy": {
+      "label": "Lemmy",
       "codepoint": "0xf096",
       "color": "#00BC8C"
     },
     "peertube": {
+      "label": "PeerTube",
       "codepoint": "0xf097",
       "color": "#F1680D"
     },
     "misskey": {
+      "label": "Misskey",
       "codepoint": "0xf098",
       "color": "#99c837"
     },
     "akkoma": {
+      "label": "Akkoma",
       "codepoint": "0xf099",
       "color": "#593196"
     },
     "bookwyrm": {
+      "label": "BookWyrm",
       "codepoint": "0xf09a",
       "color": "#002549"
     },
     "funkwhale": {
+      "label": "Funkwhale",
       "codepoint": "0xf09b",
       "color": "#0D47A1"
     },
     "gotosocial": {
+      "label": "GoToSocial",
       "codepoint": "0xf09c",
       "color": "#F26522"
     },
     "forgejo": {
+      "label": "Forgejo",
       "codepoint": "0xf09d",
       "color": "#E44729"
     },
     "gitea": {
+      "label": "Gitea",
       "codepoint": "0xf09e",
       "color": "#609926"
     },
     "owncast": {
+      "label": "Owncast",
       "codepoint": "0xf09f",
       "color": "#7871FF"
     },
     "mobilizon": {
+      "label": "Mobilizon",
       "codepoint": "0xf0a0",
       "color": "#3E50AF"
     },
     "castopod": {
+      "label": "Castopod",
       "codepoint": "0xf0a1",
       "color": "#00564A"
     },
     "kbin": {
+      "label": "kbin",
       "codepoint": "0xf0a2",
       "color": "#7B1FA2"
     },
     "firefish": {
+      "label": "Firefish",
       "codepoint": "0xf0a3"
     },
     "iceshrimp": {
+      "label": "Iceshrimp",
       "codepoint": "0xf0a4",
       "color": "#F75E7B"
     },
     "sharkey": {
+      "label": "Sharkey",
       "codepoint": "0xf0a5"
     },
     "plume": {
+      "label": "Plume",
       "codepoint": "0xf0a6"
     },
     "discourse": {
+      "label": "Discourse",
       "codepoint": "0xf0a7",
       "color": "#231F20"
     },
     "nextcloud": {
+      "label": "Nextcloud",
       "codepoint": "0xf0a8",
       "color": "#0082C9"
     },
     "loops": {
+      "label": "Loops",
       "codepoint": "0xf0aa"
     },
     "bonfire": {
+      "label": "Bonfire",
       "codepoint": "0xf0ab",
       "color": "#F15B40"
     },
     "hometown": {
+      "label": "Hometown",
       "codepoint": "0xf0ac"
     },
     "writefreely": {
+      "label": "WriteFreely",
       "codepoint": "0xf0ad"
     },
     "gancio": {
+      "label": "Gancio",
       "codepoint": "0xf0ae"
     },
     "glitch-soc": {
+      "label": "glitch-soc",
       "codepoint": "0xf0af"
     },
     "soapbox": {
+      "label": "Soapbox",
       "codepoint": "0xf0b0"
     },
     "snac": {
+      "label": "snac",
       "codepoint": "0xf0b1"
     },
     "honk": {
+      "label": "honk",
       "codepoint": "0xf0b2"
     },
     "epicyon": {
+      "label": "Epicyon",
       "codepoint": "0xf0b3"
     },
     "drupal": {
+      "label": "Drupal",
       "codepoint": "0xf0b4",
       "color": "#0678BE"
     },
     "socialhome": {
+      "label": "Socialhome",
       "codepoint": "0xf0b5"
     },
     "keyoxide": {
+      "label": "Keyoxide",
       "codepoint": "0xf0b6",
       "color": "#56A300"
     },
     "streams": {
+      "label": "streams",
       "codepoint": "0xf0b7"
     },
     "takahe": {
+      "label": "Takahē",
       "codepoint": "0xf0b8"
     },
     "hubzilla-simple": {
+      "label": "Hubzilla (simple)",
       "codepoint": "0xf0b9",
       "color": "#2E5AA1"
     },
     "guppe": {
+      "label": "Guppe",
       "codepoint": "0xf0ba"
     },
     "ecko": {
+      "label": "Ecko",
       "codepoint": "0xf0bb"
     },
     "fedibird": {
+      "label": "Fedibird",
       "codepoint": "0xf0bc"
     },
     "forgefed": {
+      "label": "ForgeFed",
       "codepoint": "0xf0bd"
     },
     "gath-io": {
+      "label": "Gath.io",
       "codepoint": "0xf0be"
     },
     "ktistec": {
+      "label": "Ktistec",
       "codepoint": "0xf0bf"
     },
     "relatica": {
+      "label": "Relatica",
       "codepoint": "0xf0c0"
     },
     "shuttlecraft": {
+      "label": "Shuttlecraft",
       "codepoint": "0xf0c1"
     },
     "flohmarkt": {
+      "label": "flohmarkt",
       "codepoint": "0xf0c2",
       "color": "#D93F00"
     },
     "inventaire": {
+      "label": "Inventaire",
       "codepoint": "0xf0c3"
     },
     "disroot": {
+      "label": "Disroot",
       "codepoint": "0xf0c4"
     },
     "fedimarks": {
+      "label": "Fedimarks",
       "codepoint": "0xf0c5"
     },
     "fediverse-symbol": {
+      "label": "Fediverse (symbol)",
       "codepoint": "0xf0c6"
     },
     "seppo": {
+      "label": "Seppo",
       "codepoint": "0xf0c7"
     },
     "fediverse-logo": {
+      "label": "Fediverse (logo)",
       "codepoint": "0xf0c8"
     }
   },
   "aliases": {
     "rdfa": {
+      "label": "RDFa",
       "aliasOf": "rdf"
     },
     "owl": {
+      "label": "OWL",
       "aliasOf": "rdf"
     },
     "opensource": {
+      "label": "Open Source",
       "aliasOf": "osi",
       "color": "#3DA639"
     },
     "ofl-attribution": {
+      "label": "OFL Attribution",
       "aliasOf": "cc-by"
     },
     "ofl-share": {
+      "label": "OFL Share",
       "aliasOf": "cc-sa"
     },
     "pub": {
+      "label": "PubSubHubbub (publisher)",
       "aliasOf": "pubsubhubbub-pub",
       "color": "#99cc00"
     },
     "sub": {
+      "label": "PubSubHubbub (subscriber)",
       "aliasOf": "pubsubhubbub-sub",
       "color": "#ffff00"
     },
     "hubbub": {
+      "label": "PubSubHubbub",
       "aliasOf": "pubsubhubbub-pub",
       "color": "#ff6fcf"
     }
   },
   "compositions": {
     "indieweb": {
+      "label": "IndieWeb",
       "glyphs": [
         "indieweb-indie",
         "indieweb-web"
       ]
     },
     "indiewebcamp": {
+      "label": "IndieWebCamp",
       "glyphs": [
         "indieweb-indie",
         "indieweb-web",

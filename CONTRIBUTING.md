@@ -19,16 +19,19 @@ Thank you for your interest in contributing! This guide explains how to add new 
 
 3. **Add an entry to `icons.json`**
 
-   Add your icon to the `icons` object with the next available codepoint and an optional brand color:
+   Add your icon to the `icons` object with a label, the next available codepoint and an optional brand color:
 
    ```json
    "your-icon": {
+     "label": "Your Icon",
      "codepoint": "0xf0c9",
      "color": "#FF6600"
    }
    ```
 
    Codepoints must be in the private use area (`0xf000`–`0xf0ff`). Check the existing entries to find the next available one.
+
+   The label is what people see in the WordPress icon library, so write the project's own spelling: `HTML5`, not `Html5`.
 
 4. **Add to a group**
 
@@ -69,10 +72,11 @@ The file has four sections:
 
 ### `icons`
 
-Each icon maps to a codepoint and optional color:
+Each icon maps to a label, a codepoint and an optional color:
 
 ```json
 "icon-name": {
+  "label": "Icon Name",
   "codepoint": "0xf000",
   "color": "#FF6600"
 }
@@ -84,10 +88,13 @@ Alternative names that reference an existing icon:
 
 ```json
 "alias-name": {
+  "label": "Alias Name",
   "aliasOf": "icon-name",
   "color": "#FF6600"
 }
 ```
+
+Aliases are for the webfont and the CSS only. They are not registered in the WordPress icon library, they would show up as a second copy of the same glyph.
 
 ### `compositions`
 
@@ -95,6 +102,7 @@ Multi-glyph icons built from existing icons:
 
 ```json
 "composed-name": {
+  "label": "Composed Name",
   "glyphs": ["icon-part-1", "icon-part-2"]
 }
 ```
@@ -137,3 +145,15 @@ npm run validate
 ## Trademark Note
 
 The logos and icons included in this project are trademarks of their respective owners. They are provided here for identification purposes only. Inclusion does not imply endorsement by the trademark holders.
+
+## WordPress plugin
+
+The repository is also the WordPress plugin. To try it in a real WordPress:
+
+```bash
+npm run env-start   # http://localhost:8893, admin/password
+npm run env-stop
+npm run env-clean   # throw the database away
+```
+
+It needs Docker. The icon library needs WordPress 7.1 or newer, `.wp-env.json` pulls the latest release.

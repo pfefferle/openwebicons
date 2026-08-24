@@ -1,8 +1,14 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { join, basename, extname } from 'node:path';
 
-const SVG_DIR = join(import.meta.dirname, '..', 'svg');
-const ICONS_JSON = join(import.meta.dirname, '..', 'icons.json');
+const ROOT = join(import.meta.dirname, '..');
+const SVG_DIR = join(ROOT, 'svg');
+const ICONS_JSON = join(ROOT, 'icons.json');
+const PKG = join(ROOT, 'package.json');
+const PLUGIN = join(ROOT, 'openwebicons.php');
+const README = join(ROOT, 'readme.txt');
+const CHANGELOG = join(ROOT, 'CHANGELOG.md');
+const COMPOSED_DIR = join(ROOT, 'composed');
 
 const errors = [];
 const warnings = [];
@@ -58,12 +64,17 @@ for (const file of svgFiles) {
     continue;
   }
 
-  // Check viewBox
+  // Check viewBox. Width and x-origin legitimately vary — a few icons are
+  // authored wider — but every icon has to sit on the same vertical scale, or
+  // the composed icons in openwebicons.php would layer out of alignment.
   const viewBoxMatch = content.match(/viewBox="([^"]*)"/);
   if (!viewBoxMatch) {
     error(`${file}: missing viewBox attribute`);
-  } else if (viewBoxMatch[1] !== '-10 0 1034 1024') {
-    warn(`${file}: viewBox should be "-10 0 1034 1024", got "${viewBoxMatch[1]}"`);
+  } else {
+    const [, y, , height] = viewBoxMatch[1].trim().split(/[\s,]+/).map(Number);
+    if (y !== 0 || height !== 1024) {
+      error(`${file}: viewBox must be "<x> 0 <width> 1024", got "${viewBoxMatch[1]}"`);
+    }
   }
 
   // Check fill="currentColor"
@@ -85,12 +96,34 @@ for (const file of svgFiles) {
   if (/transform=/.test(content)) {
     error(`${file}: contains a transform attribute — run "npm run normalize:svg"`);
   }
+
+  // Self-closing <path/> is what the normalizer emits, and what
+  // generate-compositions.mjs expects to find when it pulls the paths out of a
+  // glyph. A hand-authored file that has not been through the normalizer would
+  // be skipped without a word.
+  if (/<path\b[^>]*(?<!\/)>/.test(content)) {
+    error(`${file}: <path> must be self-closing — run "npm run normalize:svg"`);
+  }
 }
 
 // --- icons.json checks ---
 console.log('Validating icons.json...');
 
 const svgNames = new Set(svgFiles.map(f => basename(f, '.svg')));
+
+// Every entry needs a label. Icons and compositions are passed to
+// wp_register_icon(), which shows the label in the icon library and fails
+// without one. Aliases are not registered there, but they are the same kind of
+// entry, so the format asks for a label everywhere rather than in two of three
+// sections.
+const SINGULAR = { icons: 'icon', aliases: 'alias', compositions: 'composition' };
+for (const [section, entries] of Object.entries({ icons, aliases, compositions })) {
+  for (const [name, entry] of Object.entries(entries)) {
+    if (!entry.label) {
+      error(`icons.json: ${SINGULAR[section]} "${name}" is missing a label`);
+    }
+  }
+}
 
 // Every icon in icons.json must have a matching SVG
 for (const name of Object.keys(icons)) {
@@ -157,6 +190,42 @@ for (const [groupName, members] of Object.entries(groups)) {
     }
   }
 }
+
+// Every composition needs its generated file: openwebicons.php registers it
+// by path, so a stale composed/ means the icon silently disappears.
+let composedFiles = [];
+try {
+  composedFiles = readdirSync(COMPOSED_DIR);
+} catch {
+  error('composed/ is missing — run "npm run build:compositions"');
+}
+
+for (const name of Object.keys(compositions)) {
+  if (composedFiles.length && !composedFiles.includes(`${name}.svg`)) {
+    error(`composed/${name}.svg is missing — run "npm run build:compositions"`);
+  }
+}
+
+// --- Version checks ---
+// One version for everything: the npm package, the plugin header and the
+// readme.txt stable tag all have to agree, and nothing syncs them for us.
+console.log('Validating versions...');
+
+const version = JSON.parse(readFileSync(PKG, 'utf8')).version;
+
+function checkVersion(path, pattern, what) {
+  const match = readFileSync(path, 'utf8').match(pattern);
+
+  if (!match) {
+    error(`${basename(path)}: could not find a ${what}`);
+  } else if (match[1] !== version) {
+    error(`${basename(path)}: ${what} is ${match[1]}, but package.json is ${version}`);
+  }
+}
+
+checkVersion(PLUGIN, /^\s*\*\s*Version:\s*(\S+)\s*$/m, 'Version header');
+checkVersion(README, /^Stable tag:\s*(\S+)\s*$/m, 'Stable tag');
+checkVersion(CHANGELOG, /^## \[(\S+?)\]/m, 'newest entry');
 
 // --- Summary ---
 console.log('');

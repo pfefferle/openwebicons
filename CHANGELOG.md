@@ -2,6 +2,19 @@
 All notable changes to the OpenWebIcons project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.0] - 2026-08-24
+### Added
+- WordPress plugin that registers the icons with the icon library added in WordPress 7.1
+- `label` for every entry in `icons.json`, used as the name in the icon picker
+- `npm run normalize:svg` to flatten newly added icons
+
+### Changed
+- Flattened the transforms in `svg/` into the path data, every icon is now a plain `<svg><path/></svg>`. The rendering is unchanged, verified against every icon and every font glyph
+- The npm package now ships only `css/`, `font/` and `sass/`
+
+### Fixed
+- `npm run build` was broken since the fantasticon 4 update
+
 ## [1.7.0] - 2026-02-19
 ### Added
 - Added 40+ Fediverse project icons: Lemmy, PeerTube, Misskey, Akkoma, BookWyrm, Funkwhale, GoToSocial, Forgejo, Gitea, Owncast, Mobilizon, Castopod, Kbin, Firefish, Iceshrimp, Sharkey, Plume, Discourse, Nextcloud, Loops, Bonfire, Hometown, WriteFreely, Gancio, Glitch-soc, Soapbox, Snac, Honk, Epicyon, Drupal, SocialHome, Keyoxide, Streams, Takahē, Hubzilla Simple, Guppe, Ecko, Fedibird, ForgeFed, Gath.io, Ktistec, Relatica, Shuttlecraft, Flohmarkt, Inventaire, Disroot, Fedimarks, Fediverse Symbol, Seppo

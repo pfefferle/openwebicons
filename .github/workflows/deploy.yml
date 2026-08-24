@@ -1,0 +1,26 @@
+name: Deploy to WordPress.org
+
+# Needs the plugin to exist on wordpress.org, and SVN_USERNAME / SVN_PASSWORD
+# to be set as repository secrets. Until the plugin is reviewed and approved
+# there is no SVN repository to deploy to, and the zip from release.yml is the
+# only way to install it.
+on:
+  release:
+    types: [released]
+
+jobs:
+  deploy_to_wp_repository:
+    name: Deploy to WP.org
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install SVN
+        run: |
+          sudo apt-get update
+          sudo apt-get install subversion
+      - name: WordPress Plugin Deploy
+        uses: 10up/action-wordpress-plugin-deploy@54bd289b8525fd23a5c365ec369185f2966529c2 # 2.3.0
+        env:
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SLUG: openwebicons

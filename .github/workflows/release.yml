@@ -1,0 +1,29 @@
+name: Release
+
+on:
+  push:
+    tags:
+      # This repository tags without a "v" prefix (1.6.3), but accept both.
+      - '[0-9]*'
+      - 'v[0-9]*'
+
+jobs:
+  plugin-zip:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm run validate
+      - run: npm run build:plugin
+      - name: Attach the plugin zip to the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view "${GITHUB_REF_NAME}" >/dev/null 2>&1 \
+            || gh release create "${GITHUB_REF_NAME}" --generate-notes
+          gh release upload "${GITHUB_REF_NAME}" dist/openwebicons.zip --clobber

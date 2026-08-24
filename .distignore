@@ -1,0 +1,27 @@
+# Everything that is not part of the plugin.
+.git
+.DS_Store
+.editorconfig
+.distignore
+.gitattributes
+.github
+.gitignore
+node_modules
+package.json
+package-lock.json
+composer.json
+scripts
+templates
+sass
+css
+font
+docs
+CHANGELOG.md
+CONTRIBUTING.md
+README.md
+.claude
+.wp-env.json
+.wp-env.override.json
+dist
+react
+.wordpress-org

@@ -1,0 +1,16 @@
+{
+	"core": null,
+	"plugins": [ "." ],
+	"port": 8893,
+	"env": {
+		"tests": {
+			"port": 8894,
+			"config": {
+				"WP_ENVIRONMENT_TYPE": "production"
+			},
+			"mappings": {
+				"wp-content/plugins/openwebicons": "."
+			}
+		}
+	}
+}
