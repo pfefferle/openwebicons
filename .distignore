@@ -1,4 +1,6 @@
 # Everything that is not part of the plugin.
+.git
+.DS_Store
 .editorconfig
 .distignore
 .gitattributes
