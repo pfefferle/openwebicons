@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, basename, extname } from 'node:path';
 
 const SVG_DIR = join(import.meta.dirname, '..', 'svg');
@@ -85,6 +85,12 @@ for (const file of svgFiles) {
   if (/transform=/.test(content)) {
     error(`${file}: contains a transform attribute — run "npm run normalize:svg"`);
   }
+
+  // openwebicons.php builds the composed icons by pulling <path/> elements out
+  // of these files with a regex, so they have to stay self-closing.
+  if (/<path[^>]*[^/]>/.test(content)) {
+    error(`${file}: <path> must be self-closing — run "npm run normalize:svg"`);
+  }
 }
 
 // --- icons.json checks ---
@@ -92,12 +98,15 @@ console.log('Validating icons.json...');
 
 const svgNames = new Set(svgFiles.map(f => basename(f, '.svg')));
 
-// Every entry needs a label: the WordPress icon library shows it in the
-// picker, and wp_register_icon() fails without one.
-for (const [section, entries] of [['icons', icons], ['aliases', aliases], ['compositions', compositions]]) {
+// Every entry needs a label. Icons and compositions are passed to
+// wp_register_icon(), which shows the label in the icon library and fails
+// without one. Aliases are not registered, but the docs and the React package
+// read the same field, so they are held to the same rule.
+const SINGULAR = { icons: 'icon', aliases: 'alias', compositions: 'composition' };
+for (const [section, entries] of Object.entries({ icons, aliases, compositions })) {
   for (const [name, entry] of Object.entries(entries)) {
     if (!entry.label) {
-      error(`icons.json: ${section} "${name}" is missing a label`);
+      error(`icons.json: ${SINGULAR[section]} "${name}" is missing a label`);
     }
   }
 }
@@ -165,6 +174,34 @@ for (const [groupName, members] of Object.entries(groups)) {
     if (!allNames.has(member)) {
       error(`icons.json: group "${groupName}" references non-existent entry "${member}"`);
     }
+  }
+}
+
+// --- Version checks ---
+// One version for everything: the npm package, the plugin header and the
+// readme.txt stable tag all have to agree, and nothing syncs them for us.
+console.log('Validating versions...');
+
+const PKG = join(import.meta.dirname, '..', 'package.json');
+const PLUGIN = join(import.meta.dirname, '..', 'openwebicons.php');
+const README = join(import.meta.dirname, '..', 'readme.txt');
+
+const version = JSON.parse(readFileSync(PKG, 'utf8')).version;
+
+const versionSources = [
+  ['openwebicons.php', PLUGIN, /^\s*\*\s*Version:\s*(\S+)\s*$/m, 'Version header'],
+  ['readme.txt', README, /^Stable tag:\s*(\S+)\s*$/m, 'Stable tag'],
+];
+
+for (const [label, path, pattern, what] of versionSources) {
+  if (!existsSync(path)) continue;
+
+  const match = readFileSync(path, 'utf8').match(pattern);
+
+  if (!match) {
+    error(`${label}: could not find a ${what}`);
+  } else if (match[1] !== version) {
+    error(`${label}: ${what} is ${match[1]}, but package.json is ${version}`);
   }
 }
 

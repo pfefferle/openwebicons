@@ -7,3 +7,8 @@
 /.gitignore export-ignore
 /scripts export-ignore
 /templates export-ignore
+
+# Plugin-only files
+/openwebicons.php export-ignore
+/readme.txt export-ignore
+/.distignore export-ignore

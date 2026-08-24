@@ -29,10 +29,13 @@ add_action( 'init', 'openwebicons_register' );
  * The Icon Registration API landed in WordPress 7.1. On older versions the
  * plugin simply does nothing, the webfont is unaffected either way.
  *
+ * Aliases are left out on purpose: they are alternative names for a glyph that
+ * is already registered and would show up twice in the picker.
+ *
  * @return void
  */
 function openwebicons_register() {
-	if ( ! function_exists( 'wp_register_icon_collection' ) || ! function_exists( 'wp_register_icon' ) ) {
+	if ( ! function_exists( 'wp_register_icon' ) ) {
 		return;
 	}
 
@@ -50,18 +53,15 @@ function openwebicons_register() {
 		)
 	);
 
+	// WordPress reads the file only when the icon is actually rendered, and
+	// warns without fataling if it is gone, so there is no reason to stat all
+	// of them on every request.
 	foreach ( $data['icons'] as $name => $icon ) {
-		$file = sprintf( '%s/svg/%s.svg', __DIR__, $name );
-
-		if ( ! is_readable( $file ) ) {
-			continue;
-		}
-
 		wp_register_icon(
 			sprintf( '%s/%s', OPENWEBICONS_COLLECTION, $name ),
 			array(
 				'label'     => $icon['label'],
-				'file_path' => $file,
+				'file_path' => sprintf( '%s/svg/%s.svg', __DIR__, $name ),
 			)
 		);
 	}
@@ -88,9 +88,6 @@ function openwebicons_register() {
 /**
  * Reads the icon metadata.
  *
- * Aliases are deliberately left out: they are alternative names for a glyph
- * that is already registered, and would show up as duplicates in the picker.
- *
  * @return array|false The decoded icons.json, or false if it cannot be read.
  */
 function openwebicons_get_data() {
@@ -106,23 +103,29 @@ function openwebicons_get_data() {
 		return false;
 	}
 
-	return array(
-		'icons'        => $data['icons'],
-		'compositions' => isset( $data['compositions'] ) ? $data['compositions'] : array(),
-	);
+	if ( ! isset( $data['compositions'] ) ) {
+		$data['compositions'] = array();
+	}
+
+	return $data;
 }
 
 /**
  * Builds a single SVG out of several glyphs by concatenating their paths.
  *
+ * Path coordinates are absolute, the viewBox only crops them, so the glyphs
+ * share one coordinate space and the combined box is the union of theirs.
+ * Taking just the first one would cut off any glyph drawn wider, which
+ * indieweb-web is.
+ *
  * @param array $glyphs Icon names to layer, in drawing order.
  * @return string|false The combined SVG markup, or false if a glyph is missing.
  */
 function openwebicons_compose( $glyphs ) {
-	$paths    = '';
-	$view_box = '';
+	$paths = '';
+	$box   = null;
 
-	foreach ( (array) $glyphs as $glyph ) {
+	foreach ( $glyphs as $glyph ) {
 		$file = sprintf( '%s/svg/%s.svg', __DIR__, $glyph );
 
 		if ( ! is_readable( $file ) ) {
@@ -131,22 +134,44 @@ function openwebicons_compose( $glyphs ) {
 
 		$svg = file_get_contents( $file ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
 
-		if ( ! $view_box && preg_match( '/viewBox="([^"]*)"/', $svg, $match ) ) {
-			$view_box = $match[1];
+		if ( ! preg_match( '/viewBox="([^"]*)"/', $svg, $match ) ) {
+			return false;
 		}
+
+		$box = openwebicons_union( $box, array_map( 'floatval', preg_split( '/[\s,]+/', trim( $match[1] ) ) ) );
 
 		if ( preg_match_all( '/<path[^>]*\/>/', $svg, $matches ) ) {
 			$paths .= implode( '', $matches[0] );
 		}
 	}
 
-	if ( ! $paths || ! $view_box ) {
+	if ( ! $paths || ! $box ) {
 		return false;
 	}
 
 	return sprintf(
 		'<svg xmlns="http://www.w3.org/2000/svg" viewBox="%s">%s</svg>',
-		esc_attr( $view_box ),
+		esc_attr( implode( ' ', $box ) ),
 		$paths
 	);
+}
+
+/**
+ * Merges two viewBoxes into the smallest one containing both.
+ *
+ * @param array|null $a The box merged so far, as [x, y, width, height].
+ * @param array      $b The box to add.
+ * @return array The union, as [x, y, width, height].
+ */
+function openwebicons_union( $a, $b ) {
+	if ( ! $a ) {
+		return $b;
+	}
+
+	$min_x = min( $a[0], $b[0] );
+	$min_y = min( $a[1], $b[1] );
+	$max_x = max( $a[0] + $a[2], $b[0] + $b[2] );
+	$max_y = max( $a[1] + $a[3], $b[1] + $b[3] );
+
+	return array( $min_x, $min_y, $max_x - $min_x, $max_y - $min_y );
 }
