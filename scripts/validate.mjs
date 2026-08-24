@@ -92,6 +92,16 @@ console.log('Validating icons.json...');
 
 const svgNames = new Set(svgFiles.map(f => basename(f, '.svg')));
 
+// Every entry needs a label: the WordPress icon library shows it in the
+// picker, and wp_register_icon() fails without one.
+for (const [section, entries] of [['icons', icons], ['aliases', aliases], ['compositions', compositions]]) {
+  for (const [name, entry] of Object.entries(entries)) {
+    if (!entry.label) {
+      error(`icons.json: ${section} "${name}" is missing a label`);
+    }
+  }
+}
+
 // Every icon in icons.json must have a matching SVG
 for (const name of Object.keys(icons)) {
   if (!svgNames.has(name)) {
