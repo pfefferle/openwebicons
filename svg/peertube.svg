@@ -1,7 +1,3 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 0 1034 1024">
-  <g transform="translate(125.00, 0.00) scale(2.000000)" fill="currentColor">
-    <path d="M0 0L0 257L194 128.512046Z M0 255L0 512L194 383.512046Z M193 128L193 385L387 256.512046Z" />
-  </g>
+  <path fill="currentColor" d="M125 0L125 514 513 257.024ZM125 510L125 1024 513 767.024ZM511 256L511 770 899 513.024Z"/>
 </svg>
