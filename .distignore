@@ -1,0 +1,20 @@
+# Everything that is not part of the plugin.
+.editorconfig
+.distignore
+.gitattributes
+.github
+.gitignore
+.npmignore
+node_modules
+package.json
+package-lock.json
+composer.json
+scripts
+templates
+sass
+css
+font
+docs
+CHANGELOG.md
+CONTRIBUTING.md
+README.md
