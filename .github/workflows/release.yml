@@ -15,9 +15,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      # npm install, not npm ci: package-lock.json is git-ignored, so there is
-      # no lockfile to install from.
-      - run: npm install
+      - run: npm ci
       - run: npm run validate
       - run: npm run build:plugin
       - name: Attach the plugin zip to the release
