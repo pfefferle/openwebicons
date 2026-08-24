@@ -4,7 +4,6 @@
 .gitattributes
 .github
 .gitignore
-.npmignore
 node_modules
 package.json
 package-lock.json
@@ -18,3 +17,4 @@ docs
 CHANGELOG.md
 CONTRIBUTING.md
 README.md
+.claude

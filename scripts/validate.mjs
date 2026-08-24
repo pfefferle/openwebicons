@@ -1,8 +1,13 @@
-import { readFileSync, readdirSync, existsSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { join, basename, extname } from 'node:path';
 
-const SVG_DIR = join(import.meta.dirname, '..', 'svg');
-const ICONS_JSON = join(import.meta.dirname, '..', 'icons.json');
+const ROOT = join(import.meta.dirname, '..');
+const SVG_DIR = join(ROOT, 'svg');
+const ICONS_JSON = join(ROOT, 'icons.json');
+const PKG = join(ROOT, 'package.json');
+const PLUGIN = join(ROOT, 'openwebicons.php');
+const README = join(ROOT, 'readme.txt');
+const CHANGELOG = join(ROOT, 'CHANGELOG.md');
 
 const errors = [];
 const warnings = [];
@@ -58,12 +63,17 @@ for (const file of svgFiles) {
     continue;
   }
 
-  // Check viewBox
+  // Check viewBox. Width and x-origin legitimately vary — a few icons are
+  // authored wider — but every icon has to sit on the same vertical scale, or
+  // the composed icons in openwebicons.php would layer out of alignment.
   const viewBoxMatch = content.match(/viewBox="([^"]*)"/);
   if (!viewBoxMatch) {
     error(`${file}: missing viewBox attribute`);
-  } else if (viewBoxMatch[1] !== '-10 0 1034 1024') {
-    warn(`${file}: viewBox should be "-10 0 1034 1024", got "${viewBoxMatch[1]}"`);
+  } else {
+    const [, y, , height] = viewBoxMatch[1].trim().split(/[\s,]+/).map(Number);
+    if (y !== 0 || height !== 1024) {
+      error(`${file}: viewBox must be "<x> 0 <width> 1024", got "${viewBoxMatch[1]}"`);
+    }
   }
 
   // Check fill="currentColor"
@@ -88,7 +98,7 @@ for (const file of svgFiles) {
 
   // openwebicons.php builds the composed icons by pulling <path/> elements out
   // of these files with a regex, so they have to stay self-closing.
-  if (/<path[^>]*[^/]>/.test(content)) {
+  if (/<path\b[^>]*(?<!\/)>/.test(content)) {
     error(`${file}: <path> must be self-closing — run "npm run normalize:svg"`);
   }
 }
@@ -100,8 +110,9 @@ const svgNames = new Set(svgFiles.map(f => basename(f, '.svg')));
 
 // Every entry needs a label. Icons and compositions are passed to
 // wp_register_icon(), which shows the label in the icon library and fails
-// without one. Aliases are not registered, but the docs and the React package
-// read the same field, so they are held to the same rule.
+// without one. Aliases are not registered there, but they are the same kind of
+// entry, so the format asks for a label everywhere rather than in two of three
+// sections.
 const SINGULAR = { icons: 'icon', aliases: 'alias', compositions: 'composition' };
 for (const [section, entries] of Object.entries({ icons, aliases, compositions })) {
   for (const [name, entry] of Object.entries(entries)) {
@@ -182,28 +193,21 @@ for (const [groupName, members] of Object.entries(groups)) {
 // readme.txt stable tag all have to agree, and nothing syncs them for us.
 console.log('Validating versions...');
 
-const PKG = join(import.meta.dirname, '..', 'package.json');
-const PLUGIN = join(import.meta.dirname, '..', 'openwebicons.php');
-const README = join(import.meta.dirname, '..', 'readme.txt');
-
 const version = JSON.parse(readFileSync(PKG, 'utf8')).version;
 
-const versionSources = [
-  ['openwebicons.php', PLUGIN, /^\s*\*\s*Version:\s*(\S+)\s*$/m, 'Version header'],
-  ['readme.txt', README, /^Stable tag:\s*(\S+)\s*$/m, 'Stable tag'],
-];
-
-for (const [label, path, pattern, what] of versionSources) {
-  if (!existsSync(path)) continue;
-
+function checkVersion(path, pattern, what) {
   const match = readFileSync(path, 'utf8').match(pattern);
 
   if (!match) {
-    error(`${label}: could not find a ${what}`);
+    error(`${basename(path)}: could not find a ${what}`);
   } else if (match[1] !== version) {
-    error(`${label}: ${what} is ${match[1]}, but package.json is ${version}`);
+    error(`${basename(path)}: ${what} is ${match[1]}, but package.json is ${version}`);
   }
 }
+
+checkVersion(PLUGIN, /^\s*\*\s*Version:\s*(\S+)\s*$/m, 'Version header');
+checkVersion(README, /^Stable tag:\s*(\S+)\s*$/m, 'Stable tag');
+checkVersion(CHANGELOG, /^## \[(\S+?)\]/m, 'newest entry');
 
 // --- Summary ---
 console.log('');

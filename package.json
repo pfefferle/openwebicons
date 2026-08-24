@@ -3,6 +3,12 @@
   "version": "2.0.0",
   "description": "OpenWeb Icons",
   "main": "css/openwebicons.min.css",
+  "files": [
+    "css",
+    "font",
+    "sass",
+    "License.txt"
+  ],
   "author": {
     "name": "Matthias Pfefferle",
     "email": "pfefferle@gmail.com",

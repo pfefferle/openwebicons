@@ -122,30 +122,35 @@ function openwebicons_get_data() {
  * @return string|false The combined SVG markup, or false if a glyph is missing.
  */
 function openwebicons_compose( $glyphs ) {
+	// indieweb and indiewebcamp share two of their three glyphs, so without
+	// this the same files are read twice on every request.
+	static $cache = array();
+
 	$paths = '';
 	$box   = null;
 
 	foreach ( $glyphs as $glyph ) {
-		$file = sprintf( '%s/svg/%s.svg', __DIR__, $glyph );
+		if ( ! isset( $cache[ $glyph ] ) ) {
+			$file = sprintf( '%s/svg/%s.svg', __DIR__, $glyph );
+			$svg  = is_readable( $file ) ? file_get_contents( $file ) : ''; // phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
 
-		if ( ! is_readable( $file ) ) {
-			return false;
+			if ( ! $svg || ! preg_match( '/viewBox="([^"]*)"/', $svg, $match ) ) {
+				return false;
+			}
+
+			preg_match_all( '/<path[^>]*\/>/', $svg, $matches );
+
+			$cache[ $glyph ] = array(
+				'box'   => array_map( 'floatval', preg_split( '/[\s,]+/', trim( $match[1] ) ) ),
+				'paths' => implode( '', $matches[0] ),
+			);
 		}
 
-		$svg = file_get_contents( $file ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
-
-		if ( ! preg_match( '/viewBox="([^"]*)"/', $svg, $match ) ) {
-			return false;
-		}
-
-		$box = openwebicons_union( $box, array_map( 'floatval', preg_split( '/[\s,]+/', trim( $match[1] ) ) ) );
-
-		if ( preg_match_all( '/<path[^>]*\/>/', $svg, $matches ) ) {
-			$paths .= implode( '', $matches[0] );
-		}
+		$box    = openwebicons_union( $box, $cache[ $glyph ]['box'] );
+		$paths .= $cache[ $glyph ]['paths'];
 	}
 
-	if ( ! $paths || ! $box ) {
+	if ( ! $paths ) {
 		return false;
 	}
 
