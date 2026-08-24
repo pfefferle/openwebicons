@@ -9,7 +9,6 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { generateFonts } from 'fantasticon';
 import Handlebars from 'handlebars';
-import { getHexCodepoint } from 'fantasticon/lib/utils/codepoints.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -71,7 +70,6 @@ const ungroupedIcons = Object.entries(iconsData.icons)
 // Render HTML template
 const templateSrc = readFileSync(join(ROOT, 'templates', 'html.hbs'), 'utf8');
 const template = Handlebars.compile(templateSrc);
-Handlebars.registerHelper('codepoint', getHexCodepoint);
 
 const html = template({
   name: 'openwebicons',
