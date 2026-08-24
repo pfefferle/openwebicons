@@ -145,3 +145,15 @@ npm run validate
 ## Trademark Note
 
 The logos and icons included in this project are trademarks of their respective owners. They are provided here for identification purposes only. Inclusion does not imply endorsement by the trademark holders.
+
+## WordPress plugin
+
+The repository is also the WordPress plugin. To try it in a real WordPress:
+
+```bash
+npm run env-start   # http://localhost:8893, admin/password
+npm run env-stop
+npm run env-clean   # throw the database away
+```
+
+It needs Docker. The icon library needs WordPress 7.1 or newer, `.wp-env.json` pulls the latest release.

@@ -18,3 +18,5 @@ CHANGELOG.md
 CONTRIBUTING.md
 README.md
 .claude
+.wp-env.json
+.wp-env.override.json

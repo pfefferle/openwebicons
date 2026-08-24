@@ -4,3 +4,4 @@ npm-debug.log
 .DS_Store
 package-lock.json
 font/openwebicons.json
+.wp-env.override.json

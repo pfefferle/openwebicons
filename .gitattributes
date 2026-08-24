@@ -13,3 +13,4 @@
 /readme.txt export-ignore
 /.distignore export-ignore
 /composed export-ignore
+/.wp-env.json export-ignore
