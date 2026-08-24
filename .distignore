@@ -22,3 +22,4 @@ README.md
 .wp-env.override.json
 dist
 react
+.wordpress-org

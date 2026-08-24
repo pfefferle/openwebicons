@@ -1,16 +1,23 @@
+# Excluded from git archive exports (GitHub source ZIP, Composer dist).
+# The Composer package is the web-font and the CSS, so the plugin files are
+# kept out of it. What ships in the WordPress plugin zip is governed by
+# .distignore, which the wordpress.org deploy reads instead of this file.
+
 # Directories
 /.sass-cache export-ignore
 /.github export-ignore
+/scripts export-ignore
+/templates export-ignore
 
 # Files
 /.gitattributes export-ignore
 /.gitignore export-ignore
-/scripts export-ignore
-/templates export-ignore
+/.distignore export-ignore
+/.editorconfig export-ignore
+/.wp-env.json export-ignore
 
 # Plugin-only files
 /openwebicons.php export-ignore
 /readme.txt export-ignore
-/.distignore export-ignore
 /composed export-ignore
-/.wp-env.json export-ignore
+/.wordpress-org export-ignore
