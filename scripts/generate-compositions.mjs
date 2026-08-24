@@ -27,8 +27,26 @@ const data = JSON.parse(readFileSync(join(ROOT, 'icons.json'), 'utf8'));
 
 const glyph = async (name) => {
   const svg = await normalizeSvg(readFileSync(join(ROOT, 'svg', `${name}.svg`), 'utf8'));
-  const [x, , width] = svg.match(/viewBox="([^"]*)"/)[1].trim().split(/[\s,]+/).map(Number);
-  return { x, width, paths: [...svg.matchAll(/ d="([^"]+)"/g)].map(m => m[1]) };
+
+  // Without these the offsets silently come out as NaN, and the composed file
+  // is written anyway. Fail loudly instead.
+  const viewBox = svg.match(/viewBox="([^"]*)"/);
+  if (!viewBox) {
+    throw new Error(`svg/${name}.svg has no viewBox`);
+  }
+
+  const box = viewBox[1].trim().split(/[\s,]+/).map(Number);
+  if (box.length !== 4 || box.some(Number.isNaN)) {
+    throw new Error(`svg/${name}.svg needs a viewBox of four numbers, got "${viewBox[1]}"`);
+  }
+
+  const paths = [...svg.matchAll(/ d="([^"]+)"/g)].map(m => m[1]);
+  if (!paths.length) {
+    throw new Error(`svg/${name}.svg has no paths`);
+  }
+
+  const [x, , width] = box;
+  return { x, width, paths };
 };
 
 rmSync(OUT, { recursive: true, force: true });
