@@ -51,14 +51,14 @@ function openwebicons_register() {
 	);
 
 	foreach ( $data['icons'] as $name => $icon ) {
-		$file = __DIR__ . '/svg/' . $name . '.svg';
+		$file = sprintf( '%s/svg/%s.svg', __DIR__, $name );
 
 		if ( ! is_readable( $file ) ) {
 			continue;
 		}
 
 		wp_register_icon(
-			OPENWEBICONS_COLLECTION . '/' . $name,
+			sprintf( '%s/%s', OPENWEBICONS_COLLECTION, $name ),
 			array(
 				'label'     => $icon['label'],
 				'file_path' => $file,
@@ -76,7 +76,7 @@ function openwebicons_register() {
 		}
 
 		wp_register_icon(
-			OPENWEBICONS_COLLECTION . '/' . $name,
+			sprintf( '%s/%s', OPENWEBICONS_COLLECTION, $name ),
 			array(
 				'label'   => $composition['label'],
 				'content' => $content,
@@ -94,7 +94,7 @@ function openwebicons_register() {
  * @return array|false The decoded icons.json, or false if it cannot be read.
  */
 function openwebicons_get_data() {
-	$file = __DIR__ . '/icons.json';
+	$file = sprintf( '%s/icons.json', __DIR__ );
 
 	if ( ! is_readable( $file ) ) {
 		return false;
@@ -123,7 +123,7 @@ function openwebicons_compose( $glyphs ) {
 	$view_box = '';
 
 	foreach ( (array) $glyphs as $glyph ) {
-		$file = __DIR__ . '/svg/' . $glyph . '.svg';
+		$file = sprintf( '%s/svg/%s.svg', __DIR__, $glyph );
 
 		if ( ! is_readable( $file ) ) {
 			return false;
