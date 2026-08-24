@@ -16,11 +16,14 @@
     "build:scss": "node scripts/generate-scss.mjs",
     "build:css": "node scripts/compile-css.mjs",
     "build:docs": "mkdir -p docs/font && sed 's|../font/|font/|g' css/openwebicons.css > docs/openwebicons.css && cp font/openwebicons.{woff2,woff,ttf,eot,svg} docs/font/",
-    "validate": "node scripts/validate.mjs"
+    "validate": "node scripts/validate.mjs",
+    "normalize:svg": "node scripts/normalize-svgs.mjs"
   },
   "devDependencies": {
     "fantasticon": "^4.1.0",
-    "sass": "^1.80.0"
+    "sass": "^1.80.0",
+    "svgpath": "^2.6.0",
+    "svgson": "^5.3.1"
   },
   "repository": {
     "type": "git",

@@ -75,6 +75,16 @@ for (const file of svgFiles) {
   if (!/<path[\s>]/.test(content)) {
     error(`${file}: must contain at least one <path> element`);
   }
+
+  // Icons must be flat: WordPress strips any element that is not <svg>,
+  // <path> or <polygon>, so a transformed group would have its contents
+  // displaced rather than merely unwrapped.
+  if (/<g[\s>]/.test(content)) {
+    error(`${file}: contains a <g> element — run "npm run normalize:svg"`);
+  }
+  if (/transform=/.test(content)) {
+    error(`${file}: contains a transform attribute — run "npm run normalize:svg"`);
+  }
 }
 
 // --- icons.json checks ---
