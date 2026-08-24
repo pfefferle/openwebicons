@@ -23,7 +23,7 @@
     "build:css": "node scripts/compile-css.mjs",
     "build:compositions": "node scripts/generate-compositions.mjs",
     "build:plugin": "bash scripts/build-plugin.sh",
-    "build:docs": "mkdir -p docs/font && sed 's|../font/|font/|g' css/openwebicons.css > docs/openwebicons.css && cp font/openwebicons.{woff2,woff,ttf,eot,svg} docs/font/",
+    "build:docs": "node scripts/build-docs.mjs",
     "validate": "node scripts/validate.mjs",
     "env": "wp-env",
     "env-start": "wp-env start",
