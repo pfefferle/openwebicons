@@ -8,6 +8,7 @@ const PKG = join(ROOT, 'package.json');
 const PLUGIN = join(ROOT, 'openwebicons.php');
 const README = join(ROOT, 'readme.txt');
 const CHANGELOG = join(ROOT, 'CHANGELOG.md');
+const COMPOSED_DIR = join(ROOT, 'composed');
 
 const errors = [];
 const warnings = [];
@@ -185,6 +186,14 @@ for (const [groupName, members] of Object.entries(groups)) {
     if (!allNames.has(member)) {
       error(`icons.json: group "${groupName}" references non-existent entry "${member}"`);
     }
+  }
+}
+
+// Every composition needs its generated file: openwebicons.php registers it
+// by path, so a stale composed/ means the icon silently disappears.
+for (const name of Object.keys(compositions)) {
+  if (!readdirSync(COMPOSED_DIR).includes(`${name}.svg`)) {
+    error(`composed/${name}.svg is missing — run "npm run build:compositions"`);
   }
 }
 
