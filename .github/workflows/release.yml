@@ -3,7 +3,9 @@ name: Release
 on:
   push:
     tags:
-      - 'v*'
+      # This repository tags without a "v" prefix (1.6.3), but accept both.
+      - '[0-9]*'
+      - 'v[0-9]*'
 
 jobs:
   plugin-zip:
@@ -21,4 +23,7 @@ jobs:
       - name: Attach the plugin zip to the release
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release upload "${GITHUB_REF_NAME}" dist/openwebicons.zip --clobber
+        run: |
+          gh release view "${GITHUB_REF_NAME}" >/dev/null 2>&1 \
+            || gh release create "${GITHUB_REF_NAME}" --generate-notes
+          gh release upload "${GITHUB_REF_NAME}" dist/openwebicons.zip --clobber
