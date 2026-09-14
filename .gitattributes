@@ -19,5 +19,6 @@
 # Plugin-only files
 /openwebicons.php export-ignore
 /readme.txt export-ignore
+/LICENSE-GPL.txt export-ignore
 /composed export-ignore
 /.wordpress-org export-ignore

@@ -7,7 +7,8 @@
     "css",
     "font",
     "sass",
-    "License.txt"
+    "LICENSE.md",
+    "LICENSE-OFL.txt"
   ],
   "author": {
     "name": "Matthias Pfefferle",
