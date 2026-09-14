@@ -70,7 +70,11 @@
       font-size: 36px; margin-bottom: 10px; min-height: 40px;
       display: flex; align-items: center;
     }
-    .icon-card .icon-name { font-size: 0.75rem; font-weight: 500; word-break: break-all; }
+    .icon-card .icon-label { font-size: 0.85rem; font-weight: 600; color: var(--text); text-decoration: none; }
+    .icon-card a.icon-label:hover { color: var(--accent); text-decoration: underline; }
+    .icon-card .icon-name { font-size: 0.7rem; color: var(--muted); word-break: break-all; }
+    .icon-card .icon-source { font-size: 0.65rem; color: var(--muted); margin-top: 6px; }
+    .icon-card .icon-source:hover { color: var(--accent); }
     .icon-card code { font-size: 0.65rem; color: var(--muted); margin-top: 4px; }
     .icon-card.alias { border-style: dashed; }
     .icon-card.composition { border-color: var(--accent); }
@@ -91,6 +95,7 @@
   <link rel="stylesheet" type="text/css" href="openwebicons.css">
 </head>
 <body>
+
   <header>
     <h1>OpenWeb Icons</h1>
     <p>Scalable vector icons for open communities, standards, and projects.</p>
@@ -117,856 +122,1168 @@
       <h2>Icons by Category</h2>
       <h3>Fediverse</h3>
       <div class="icon-grid">
-        <div class="icon-card">
-          <i class="icon-activitypub"></i>
-          <span class="icon-name">activitypub</span>
-          <code>0xf091</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-fediverse"></i>
-          <span class="icon-name">fediverse</span>
-          <code>0xf06a</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-federated"></i>
-          <span class="icon-name">federated</span>
-          <code>0xf011</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-mastodon"></i>
-          <span class="icon-name">mastodon</span>
-          <code>0xf065</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-mastodon-simple"></i>
-          <span class="icon-name">mastodon-simple</span>
-          <code>0xf064</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-pleroma"></i>
-          <span class="icon-name">pleroma</span>
-          <code>0xf06d</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-pixelfed"></i>
-          <span class="icon-name">pixelfed</span>
-          <code>0xf06e</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-movim"></i>
-          <span class="icon-name">movim</span>
-          <code>0xf06c</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-friendica"></i>
-          <span class="icon-name">friendica</span>
-          <code>0xf068</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-hubzilla"></i>
-          <span class="icon-name">hubzilla</span>
-          <code>0xf069</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-hubzilla-simple"></i>
-          <span class="icon-name">hubzilla-simple</span>
-          <code>0xf0b9</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-pump-io"></i>
-          <span class="icon-name">pump-io</span>
-          <code>0xf067</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-gnusocial"></i>
-          <span class="icon-name">gnusocial</span>
-          <code>0xf062</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-gnusocial-simple"></i>
-          <span class="icon-name">gnusocial-simple</span>
-          <code>0xf063</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-diaspora"></i>
-          <span class="icon-name">diaspora</span>
-          <code>0xf05c</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-ostatus"></i>
-          <span class="icon-name">ostatus</span>
-          <code>0xf004</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-ostatus-simple"></i>
-          <span class="icon-name">ostatus-simple</span>
-          <code>0xf005</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-webfinger"></i>
-          <span class="icon-name">webfinger</span>
-          <code>0xf08e</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-lemmy"></i>
-          <span class="icon-name">lemmy</span>
-          <code>0xf096</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-peertube"></i>
-          <span class="icon-name">peertube</span>
-          <code>0xf097</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-misskey"></i>
-          <span class="icon-name">misskey</span>
-          <code>0xf098</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-akkoma"></i>
-          <span class="icon-name">akkoma</span>
-          <code>0xf099</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-bookwyrm"></i>
-          <span class="icon-name">bookwyrm</span>
-          <code>0xf09a</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-funkwhale"></i>
-          <span class="icon-name">funkwhale</span>
-          <code>0xf09b</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-gotosocial"></i>
-          <span class="icon-name">gotosocial</span>
-          <code>0xf09c</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-forgejo"></i>
-          <span class="icon-name">forgejo</span>
-          <code>0xf09d</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-gitea"></i>
-          <span class="icon-name">gitea</span>
-          <code>0xf09e</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-owncast"></i>
-          <span class="icon-name">owncast</span>
-          <code>0xf09f</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-mobilizon"></i>
-          <span class="icon-name">mobilizon</span>
-          <code>0xf0a0</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-castopod"></i>
-          <span class="icon-name">castopod</span>
-          <code>0xf0a1</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-kbin"></i>
-          <span class="icon-name">kbin</span>
-          <code>0xf0a2</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-firefish"></i>
-          <span class="icon-name">firefish</span>
-          <code>0xf0a3</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-iceshrimp"></i>
-          <span class="icon-name">iceshrimp</span>
-          <code>0xf0a4</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-sharkey"></i>
-          <span class="icon-name">sharkey</span>
-          <code>0xf0a5</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-plume"></i>
-          <span class="icon-name">plume</span>
-          <code>0xf0a6</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-discourse"></i>
-          <span class="icon-name">discourse</span>
-          <code>0xf0a7</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-nextcloud"></i>
-          <span class="icon-name">nextcloud</span>
-          <code>0xf0a8</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-loops"></i>
-          <span class="icon-name">loops</span>
-          <code>0xf0aa</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-bonfire"></i>
-          <span class="icon-name">bonfire</span>
-          <code>0xf0ab</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-hometown"></i>
-          <span class="icon-name">hometown</span>
-          <code>0xf0ac</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-writefreely"></i>
-          <span class="icon-name">writefreely</span>
-          <code>0xf0ad</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-gancio"></i>
-          <span class="icon-name">gancio</span>
-          <code>0xf0ae</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-glitch-soc"></i>
-          <span class="icon-name">glitch-soc</span>
-          <code>0xf0af</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-soapbox"></i>
-          <span class="icon-name">soapbox</span>
-          <code>0xf0b0</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-snac"></i>
-          <span class="icon-name">snac</span>
-          <code>0xf0b1</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-honk"></i>
-          <span class="icon-name">honk</span>
-          <code>0xf0b2</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-epicyon"></i>
-          <span class="icon-name">epicyon</span>
-          <code>0xf0b3</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-socialhome"></i>
-          <span class="icon-name">socialhome</span>
-          <code>0xf0b5</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-keyoxide"></i>
-          <span class="icon-name">keyoxide</span>
-          <code>0xf0b6</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-streams"></i>
-          <span class="icon-name">streams</span>
-          <code>0xf0b7</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-takahe"></i>
-          <span class="icon-name">takahe</span>
-          <code>0xf0b8</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-guppe"></i>
-          <span class="icon-name">guppe</span>
-          <code>0xf0ba</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-ecko"></i>
-          <span class="icon-name">ecko</span>
-          <code>0xf0bb</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-fedibird"></i>
-          <span class="icon-name">fedibird</span>
-          <code>0xf0bc</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-forgefed"></i>
-          <span class="icon-name">forgefed</span>
-          <code>0xf0bd</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-gath-io"></i>
-          <span class="icon-name">gath-io</span>
-          <code>0xf0be</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-ktistec"></i>
-          <span class="icon-name">ktistec</span>
-          <code>0xf0bf</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-relatica"></i>
-          <span class="icon-name">relatica</span>
-          <code>0xf0c0</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-shuttlecraft"></i>
-          <span class="icon-name">shuttlecraft</span>
-          <code>0xf0c1</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-flohmarkt"></i>
-          <span class="icon-name">flohmarkt</span>
-          <code>0xf0c2</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-inventaire"></i>
-          <span class="icon-name">inventaire</span>
-          <code>0xf0c3</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-disroot"></i>
-          <span class="icon-name">disroot</span>
-          <code>0xf0c4</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-fedimarks"></i>
-          <span class="icon-name">fedimarks</span>
-          <code>0xf0c5</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-fediverse-symbol"></i>
-          <span class="icon-name">fediverse-symbol</span>
-          <code>0xf0c6</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-seppo"></i>
-          <span class="icon-name">seppo</span>
-          <code>0xf0c7</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-fediverse-logo"></i>
-          <span class="icon-name">fediverse-logo</span>
-          <code>0xf0c8</code>
-        </div>
+          <div class="icon-card" data-search="activitypub ActivityPub">
+            <i class="icon-activitypub"></i>
+            <a class="icon-label" href="https://activitypub.rocks/" rel="noopener">ActivityPub</a>
+            <span class="icon-name">activitypub</span>
+            <code>0xf091</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:ActivityPub-logo-symbol.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="fediverse Fediverse">
+            <i class="icon-fediverse"></i>
+            <a class="icon-label" href="https://fediverse.info/" rel="noopener">Fediverse</a>
+            <span class="icon-name">fediverse</span>
+            <code>0xf06a</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="federated Federated">
+            <i class="icon-federated"></i>
+            <span class="icon-label">Federated</span>
+            <span class="icon-name">federated</span>
+            <code>0xf011</code>
+          </div>
+          <div class="icon-card" data-search="mastodon Mastodon">
+            <i class="icon-mastodon"></i>
+            <a class="icon-label" href="https://joinmastodon.org/" rel="noopener">Mastodon</a>
+            <span class="icon-name">mastodon</span>
+            <code>0xf065</code>
+            <a class="icon-source" href="https://joinmastodon.org/branding" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="mastodon-simple Mastodon (simple)">
+            <i class="icon-mastodon-simple"></i>
+            <a class="icon-label" href="https://joinmastodon.org/" rel="noopener">Mastodon (simple)</a>
+            <span class="icon-name">mastodon-simple</span>
+            <code>0xf064</code>
+            <a class="icon-source" href="https://joinmastodon.org/branding" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="pleroma Pleroma">
+            <i class="icon-pleroma"></i>
+            <a class="icon-label" href="https://pleroma.social/" rel="noopener">Pleroma</a>
+            <span class="icon-name">pleroma</span>
+            <code>0xf06d</code>
+            <a class="icon-source" href="https://git.pleroma.social/pleroma/pleroma-fe/src/branch/develop/public/static/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="pixelfed Pixelfed">
+            <i class="icon-pixelfed"></i>
+            <a class="icon-label" href="https://pixelfed.org/" rel="noopener">Pixelfed</a>
+            <span class="icon-name">pixelfed</span>
+            <code>0xf06e</code>
+            <a class="icon-source" href="https://github.com/pixelfed/brand-assets" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="movim Movim">
+            <i class="icon-movim"></i>
+            <a class="icon-label" href="https://movim.eu/" rel="noopener">Movim</a>
+            <span class="icon-name">movim</span>
+            <code>0xf06c</code>
+            <a class="icon-source" href="https://github.com/movim/movim/blob/master/public/theme/img/app/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="friendica Friendica">
+            <i class="icon-friendica"></i>
+            <a class="icon-label" href="https://friendi.ca/" rel="noopener">Friendica</a>
+            <span class="icon-name">friendica</span>
+            <code>0xf068</code>
+            <a class="icon-source" href="https://github.com/friendica/friendica/blob/develop/images/friendica.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="hubzilla Hubzilla">
+            <i class="icon-hubzilla"></i>
+            <a class="icon-label" href="https://hubzilla.org/" rel="noopener">Hubzilla</a>
+            <span class="icon-name">hubzilla</span>
+            <code>0xf069</code>
+            <a class="icon-source" href="https://framagit.org/hubzilla/core/-/blob/master/images/hubzilla.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="hubzilla-simple Hubzilla (simple)">
+            <i class="icon-hubzilla-simple"></i>
+            <a class="icon-label" href="https://hubzilla.org/" rel="noopener">Hubzilla (simple)</a>
+            <span class="icon-name">hubzilla-simple</span>
+            <code>0xf0b9</code>
+            <a class="icon-source" href="https://framagit.org/hubzilla/core/-/blob/master/images/hubzilla.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="pump-io Pump.io">
+            <i class="icon-pump-io"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/Pump.io" rel="noopener">Pump.io</a>
+            <span class="icon-name">pump-io</span>
+            <code>0xf067</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Pump.io.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="gnusocial GNU social">
+            <i class="icon-gnusocial"></i>
+            <a class="icon-label" href="https://gnusocial.rocks/" rel="noopener">GNU social</a>
+            <span class="icon-name">gnusocial</span>
+            <code>0xf062</code>
+            <a class="icon-source" href="https://www.gnu.org/graphics/social.html" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="gnusocial-simple GNU social (simple)">
+            <i class="icon-gnusocial-simple"></i>
+            <a class="icon-label" href="https://gnusocial.rocks/" rel="noopener">GNU social (simple)</a>
+            <span class="icon-name">gnusocial-simple</span>
+            <code>0xf063</code>
+            <a class="icon-source" href="https://www.gnu.org/graphics/social.html" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="diaspora diaspora*">
+            <i class="icon-diaspora"></i>
+            <a class="icon-label" href="https://diasporafoundation.org/" rel="noopener">diaspora*</a>
+            <span class="icon-name">diaspora</span>
+            <code>0xf05c</code>
+            <a class="icon-source" href="https://wiki.diasporafoundation.org/Branding" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="ostatus OStatus">
+            <i class="icon-ostatus"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/OStatus" rel="noopener">OStatus</a>
+            <span class="icon-name">ostatus</span>
+            <code>0xf004</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Ostatus.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="ostatus-simple OStatus (simple)">
+            <i class="icon-ostatus-simple"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/OStatus" rel="noopener">OStatus (simple)</a>
+            <span class="icon-name">ostatus-simple</span>
+            <code>0xf005</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Ostatus.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="webfinger WebFinger">
+            <i class="icon-webfinger"></i>
+            <a class="icon-label" href="https://webfinger.net/" rel="noopener">WebFinger</a>
+            <span class="icon-name">webfinger</span>
+            <code>0xf08e</code>
+            <a class="icon-source" href="https://github.com/webfinger/assets/tree/main/logo" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="lemmy Lemmy">
+            <i class="icon-lemmy"></i>
+            <a class="icon-label" href="https://join-lemmy.org/" rel="noopener">Lemmy</a>
+            <span class="icon-name">lemmy</span>
+            <code>0xf096</code>
+            <a class="icon-source" href="https://github.com/LemmyNet/joinlemmy-site/blob/main/src/assets/images/lemmy.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="peertube PeerTube">
+            <i class="icon-peertube"></i>
+            <a class="icon-label" href="https://joinpeertube.org/" rel="noopener">PeerTube</a>
+            <span class="icon-name">peertube</span>
+            <code>0xf097</code>
+            <a class="icon-source" href="https://framagit.org/framasoft/peertube/peertube/-/blob/develop/client/src/assets/images/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="misskey Misskey">
+            <i class="icon-misskey"></i>
+            <a class="icon-label" href="https://misskey-hub.net/" rel="noopener">Misskey</a>
+            <span class="icon-name">misskey</span>
+            <code>0xf098</code>
+            <a class="icon-source" href="https://misskey-hub.net/en/brand-assets/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="akkoma Akkoma">
+            <i class="icon-akkoma"></i>
+            <a class="icon-label" href="https://akkoma.dev/" rel="noopener">Akkoma</a>
+            <span class="icon-name">akkoma</span>
+            <code>0xf099</code>
+            <a class="icon-source" href="https://akkoma.dev/AkkomaGang/akkoma-fe/src/branch/develop/static/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="bookwyrm BookWyrm">
+            <i class="icon-bookwyrm"></i>
+            <a class="icon-label" href="https://joinbookwyrm.com/" rel="noopener">BookWyrm</a>
+            <span class="icon-name">bookwyrm</span>
+            <code>0xf09a</code>
+            <a class="icon-source" href="https://github.com/bookwyrm-social/bookwyrm/blob/main/bookwyrm/static/images/logo.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="funkwhale Funkwhale">
+            <i class="icon-funkwhale"></i>
+            <a class="icon-label" href="https://www.funkwhale.audio/" rel="noopener">Funkwhale</a>
+            <span class="icon-name">funkwhale</span>
+            <code>0xf09b</code>
+            <a class="icon-source" href="https://www.funkwhale.audio/logos/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="gotosocial GoToSocial">
+            <i class="icon-gotosocial"></i>
+            <a class="icon-label" href="https://gotosocial.org/" rel="noopener">GoToSocial</a>
+            <span class="icon-name">gotosocial</span>
+            <code>0xf09c</code>
+            <a class="icon-source" href="https://codeberg.org/superseriousbusiness/gotosocial/src/branch/main/web/assets/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="forgejo Forgejo">
+            <i class="icon-forgejo"></i>
+            <a class="icon-label" href="https://forgejo.org/" rel="noopener">Forgejo</a>
+            <span class="icon-name">forgejo</span>
+            <code>0xf09d</code>
+            <a class="icon-source" href="https://codeberg.org/forgejo/meta/src/branch/readme/branding" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="gitea Gitea">
+            <i class="icon-gitea"></i>
+            <a class="icon-label" href="https://about.gitea.com/" rel="noopener">Gitea</a>
+            <span class="icon-name">gitea</span>
+            <code>0xf09e</code>
+            <a class="icon-source" href="https://gitea.com/gitea/design" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="owncast Owncast">
+            <i class="icon-owncast"></i>
+            <a class="icon-label" href="https://owncast.online/" rel="noopener">Owncast</a>
+            <span class="icon-name">owncast</span>
+            <code>0xf09f</code>
+            <a class="icon-source" href="https://github.com/owncast/owncast/blob/develop/static/img/logo.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="mobilizon Mobilizon">
+            <i class="icon-mobilizon"></i>
+            <a class="icon-label" href="https://joinmobilizon.org/" rel="noopener">Mobilizon</a>
+            <span class="icon-name">mobilizon</span>
+            <code>0xf0a0</code>
+            <a class="icon-source" href="https://framagit.org/framasoft/mobilizon/mobilizon/-/blob/main/src/assets/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="castopod Castopod">
+            <i class="icon-castopod"></i>
+            <a class="icon-label" href="https://castopod.org/" rel="noopener">Castopod</a>
+            <span class="icon-name">castopod</span>
+            <code>0xf0a1</code>
+            <a class="icon-source" href="https://code.castopod.org/adaures/castopod/-/blob/main/docs/src/assets/castopod-logo-inline.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="kbin kbin">
+            <i class="icon-kbin"></i>
+            <span class="icon-label">kbin</span>
+            <span class="icon-name">kbin</span>
+            <code>0xf0a2</code>
+            <a class="icon-source" href="https://codeberg.org/Kbin/kbin-core/src/branch/develop/assets/images/kbin.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="firefish Firefish">
+            <i class="icon-firefish"></i>
+            <a class="icon-label" href="https://joinfirefish.org/" rel="noopener">Firefish</a>
+            <span class="icon-name">firefish</span>
+            <code>0xf0a3</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Firefish_splash.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="iceshrimp Iceshrimp">
+            <i class="icon-iceshrimp"></i>
+            <a class="icon-label" href="https://iceshrimp.dev/" rel="noopener">Iceshrimp</a>
+            <span class="icon-name">iceshrimp</span>
+            <code>0xf0a4</code>
+            <a class="icon-source" href="https://iceshrimp.dev/iceshrimp/branding" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="sharkey Sharkey">
+            <i class="icon-sharkey"></i>
+            <a class="icon-label" href="https://joinsharkey.org/" rel="noopener">Sharkey</a>
+            <span class="icon-name">sharkey</span>
+            <code>0xf0a5</code>
+            <a class="icon-source" href="https://activitypub.software/TransFem-org/Sharkey/-/blob/develop/packages/frontend/assets/sharkey.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="plume Plume">
+            <i class="icon-plume"></i>
+            <a class="icon-label" href="https://joinplu.me/" rel="noopener">Plume</a>
+            <span class="icon-name">plume</span>
+            <code>0xf0a6</code>
+            <a class="icon-source" href="https://github.com/Plume-org/Plume/tree/main/assets/icons/trwnh" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="discourse Discourse">
+            <i class="icon-discourse"></i>
+            <a class="icon-label" href="https://www.discourse.org/" rel="noopener">Discourse</a>
+            <span class="icon-name">discourse</span>
+            <code>0xf0a7</code>
+            <a class="icon-source" href="https://www.discourse.org/brand" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="nextcloud Nextcloud">
+            <i class="icon-nextcloud"></i>
+            <a class="icon-label" href="https://nextcloud.com/" rel="noopener">Nextcloud</a>
+            <span class="icon-name">nextcloud</span>
+            <code>0xf0a8</code>
+            <a class="icon-source" href="https://nextcloud.com/brand/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="loops Loops">
+            <i class="icon-loops"></i>
+            <a class="icon-label" href="https://joinloops.org/" rel="noopener">Loops</a>
+            <span class="icon-name">loops</span>
+            <code>0xf0aa</code>
+            <a class="icon-source" href="https://github.com/joinloops/loops-server/blob/main/public/img/logo-light.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="bonfire Bonfire">
+            <i class="icon-bonfire"></i>
+            <a class="icon-label" href="https://bonfirenetworks.org/" rel="noopener">Bonfire</a>
+            <span class="icon-name">bonfire</span>
+            <code>0xf0ab</code>
+            <a class="icon-source" href="https://bonfirenetworks.org/press/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="hometown Hometown">
+            <i class="icon-hometown"></i>
+            <a class="icon-label" href="https://github.com/hometown-fork/hometown" rel="noopener">Hometown</a>
+            <span class="icon-name">hometown</span>
+            <code>0xf0ac</code>
+            <a class="icon-source" href="https://github.com/hometown-fork/hometown/blob/hometown-dev/app/javascript/images/hometown.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="writefreely WriteFreely">
+            <i class="icon-writefreely"></i>
+            <a class="icon-label" href="https://writefreely.org/" rel="noopener">WriteFreely</a>
+            <span class="icon-name">writefreely</span>
+            <code>0xf0ad</code>
+            <a class="icon-source" href="https://writefreely.org/img/writefreely.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="gancio Gancio">
+            <i class="icon-gancio"></i>
+            <a class="icon-label" href="https://gancio.org/" rel="noopener">Gancio</a>
+            <span class="icon-name">gancio</span>
+            <code>0xf0ae</code>
+            <a class="icon-source" href="https://framagit.org/les/gancio/-/blob/main/docs/public/assets/gancio-light.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="glitch-soc glitch-soc">
+            <i class="icon-glitch-soc"></i>
+            <a class="icon-label" href="https://glitch-soc.github.io/docs/" rel="noopener">glitch-soc</a>
+            <span class="icon-name">glitch-soc</span>
+            <code>0xf0af</code>
+            <a class="icon-source" href="https://github.com/glitch-soc/docs/tree/master/icon" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="soapbox Soapbox">
+            <i class="icon-soapbox"></i>
+            <a class="icon-label" href="https://soapbox.pub/" rel="noopener">Soapbox</a>
+            <span class="icon-name">soapbox</span>
+            <code>0xf0b0</code>
+            <a class="icon-source" href="https://gitlab.com/soapbox-pub/soapbox/-/blob/main/src/assets/images/soapbox-logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="snac snac">
+            <i class="icon-snac"></i>
+            <a class="icon-label" href="https://codeberg.org/grunfink/snac2" rel="noopener">snac</a>
+            <span class="icon-name">snac</span>
+            <code>0xf0b1</code>
+            <a class="icon-source" href="https://codeberg.org/grunfink/snac2/src/branch/master/artwork" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="honk honk">
+            <i class="icon-honk"></i>
+            <span class="icon-label">honk</span>
+            <span class="icon-name">honk</span>
+            <code>0xf0b2</code>
+          </div>
+          <div class="icon-card" data-search="epicyon Epicyon">
+            <i class="icon-epicyon"></i>
+            <a class="icon-label" href="https://epicyon.net/" rel="noopener">Epicyon</a>
+            <span class="icon-name">epicyon</span>
+            <code>0xf0b3</code>
+            <a class="icon-source" href="https://gitlab.com/bashrc2/epicyon/-/blob/main/img/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="socialhome Socialhome">
+            <i class="icon-socialhome"></i>
+            <a class="icon-label" href="https://socialhome.network/" rel="noopener">Socialhome</a>
+            <span class="icon-name">socialhome</span>
+            <code>0xf0b5</code>
+            <a class="icon-source" href="https://github.com/jaywink/socialhome/tree/master/socialhome/static/images/logo" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="keyoxide Keyoxide">
+            <i class="icon-keyoxide"></i>
+            <a class="icon-label" href="https://keyoxide.org/" rel="noopener">Keyoxide</a>
+            <span class="icon-name">keyoxide</span>
+            <code>0xf0b6</code>
+            <a class="icon-source" href="https://codeberg.org/keyoxide/keyoxide-artwork" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="streams streams">
+            <i class="icon-streams"></i>
+            <a class="icon-label" href="https://codeberg.org/streams/streams" rel="noopener">streams</a>
+            <span class="icon-name">streams</span>
+            <code>0xf0b7</code>
+            <a class="icon-source" href="https://codeberg.org/streams/streams/src/branch/release/images/streams.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="takahe Takahē">
+            <i class="icon-takahe"></i>
+            <a class="icon-label" href="https://jointakahe.org/" rel="noopener">Takahē</a>
+            <span class="icon-name">takahe</span>
+            <code>0xf0b8</code>
+            <a class="icon-source" href="https://github.com/jointakahe/takahe/blob/main/static/img/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="guppe Guppe">
+            <i class="icon-guppe"></i>
+            <a class="icon-label" href="https://a.gup.pe/" rel="noopener">Guppe</a>
+            <span class="icon-name">guppe</span>
+            <code>0xf0ba</code>
+            <a class="icon-source" href="https://github.com/immers-space/guppe/blob/main/public/files/guppe.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="ecko Ecko">
+            <i class="icon-ecko"></i>
+            <a class="icon-label" href="https://github.com/magicstone-dev/ecko" rel="noopener">Ecko</a>
+            <span class="icon-name">ecko</span>
+            <code>0xf0bb</code>
+            <a class="icon-source" href="https://github.com/magicstone-dev/ecko/blob/main/app/javascript/images/logo_full-ecko.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="fedibird Fedibird">
+            <i class="icon-fedibird"></i>
+            <a class="icon-label" href="https://fedibird.com/" rel="noopener">Fedibird</a>
+            <span class="icon-name">fedibird</span>
+            <code>0xf0bc</code>
+          </div>
+          <div class="icon-card" data-search="forgefed ForgeFed">
+            <i class="icon-forgefed"></i>
+            <a class="icon-label" href="https://forgefed.org/" rel="noopener">ForgeFed</a>
+            <span class="icon-name">forgefed</span>
+            <code>0xf0bd</code>
+            <a class="icon-source" href="https://codeberg.org/ForgeFed/ForgeFed/src/branch/main/static/img/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="gath-io Gath.io">
+            <i class="icon-gath-io"></i>
+            <a class="icon-label" href="https://gath.io/" rel="noopener">Gath.io</a>
+            <span class="icon-name">gath-io</span>
+            <code>0xf0be</code>
+            <a class="icon-source" href="https://github.com/lowercasename/gathio/tree/main/public" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="ktistec Ktistec">
+            <i class="icon-ktistec"></i>
+            <a class="icon-label" href="https://github.com/toddsundsted/ktistec" rel="noopener">Ktistec</a>
+            <span class="icon-name">ktistec</span>
+            <code>0xf0bf</code>
+            <a class="icon-source" href="https://github.com/toddsundsted/ktistec/blob/main/public/images/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="relatica Relatica">
+            <i class="icon-relatica"></i>
+            <a class="icon-label" href="https://gitlab.com/mysocialportal/relatica" rel="noopener">Relatica</a>
+            <span class="icon-name">relatica</span>
+            <code>0xf0c0</code>
+            <a class="icon-source" href="https://gitlab.com/mysocialportal/relatica/-/blob/main/icon/relatica_logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="shuttlecraft Shuttlecraft">
+            <i class="icon-shuttlecraft"></i>
+            <a class="icon-label" href="https://shuttlecraft.net/" rel="noopener">Shuttlecraft</a>
+            <span class="icon-name">shuttlecraft</span>
+            <code>0xf0c1</code>
+            <a class="icon-source" href="https://shuttlecraft.net/assets/shuttlecraft_fancy.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="flohmarkt flohmarkt">
+            <i class="icon-flohmarkt"></i>
+            <a class="icon-label" href="https://codeberg.org/flohmarkt/flohmarkt" rel="noopener">flohmarkt</a>
+            <span class="icon-name">flohmarkt</span>
+            <code>0xf0c2</code>
+            <a class="icon-source" href="https://codeberg.org/flohmarkt/flohmarkt/src/branch/master/meta/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="inventaire Inventaire">
+            <i class="icon-inventaire"></i>
+            <a class="icon-label" href="https://inventaire.io/" rel="noopener">Inventaire</a>
+            <span class="icon-name">inventaire</span>
+            <code>0xf0c3</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Inv-icon-192.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="disroot Disroot">
+            <i class="icon-disroot"></i>
+            <a class="icon-label" href="https://disroot.org/" rel="noopener">Disroot</a>
+            <span class="icon-name">disroot</span>
+            <code>0xf0c4</code>
+            <a class="icon-source" href="https://git.disroot.org/Disroot/Artwork_assets" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="fedimarks Fedimarks">
+            <i class="icon-fedimarks"></i>
+            <a class="icon-label" href="https://sharepostmarks.org/" rel="noopener">Fedimarks</a>
+            <span class="icon-name">fedimarks</span>
+            <code>0xf0c5</code>
+            <a class="icon-source" href="https://github.com/ckolderup/postmarks/blob/main/public/postmarks-logo.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="fediverse-symbol Fediverse (symbol)">
+            <i class="icon-fediverse-symbol"></i>
+            <a class="icon-label" href="https://fediverse.info/" rel="noopener">Fediverse (symbol)</a>
+            <span class="icon-name">fediverse-symbol</span>
+            <code>0xf0c6</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="seppo Seppo">
+            <i class="icon-seppo"></i>
+            <a class="icon-label" href="https://seppo.mro.name/" rel="noopener">Seppo</a>
+            <span class="icon-name">seppo</span>
+            <code>0xf0c7</code>
+            <a class="icon-source" href="https://codeberg.org/seppo/seppo/src/branch/ma/res/static/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="fediverse-logo Fediverse (logo)">
+            <i class="icon-fediverse-logo"></i>
+            <a class="icon-label" href="https://fediverse.info/" rel="noopener">Fediverse (logo)</a>
+            <span class="icon-name">fediverse-logo</span>
+            <code>0xf0c8</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg" rel="noopener">logo source</a>
+          </div>
       </div>
       <h3>IndieWeb</h3>
       <div class="icon-grid">
-        <div class="icon-card">
-          <i class="icon-indieweb-indie"></i>
-          <span class="icon-name">indieweb-indie</span>
-          <code>0xf08b</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-indieweb-web"></i>
-          <span class="icon-name">indieweb-web</span>
-          <code>0xf08c</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-indieweb-camp"></i>
-          <span class="icon-name">indieweb-camp</span>
-          <code>0xf08d</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-indieauth"></i>
-          <span class="icon-name">indieauth</span>
-          <code>0xf094</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-indie"></i>
-          <span class="icon-name">indie</span>
-          <code>0xf05d</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-indiehosters"></i>
-          <span class="icon-name">indiehosters</span>
-          <code>0xf058</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-webmention"></i>
-          <span class="icon-name">webmention</span>
-          <code>0xf04d</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-micro-blog"></i>
-          <span class="icon-name">micro-blog</span>
-          <code>0xf093</code>
-        </div>
+          <div class="icon-card" data-search="indieweb-indie IndieWeb (indie)">
+            <i class="icon-indieweb-indie"></i>
+            <a class="icon-label" href="https://indieweb.org/" rel="noopener">IndieWeb (indie)</a>
+            <span class="icon-name">indieweb-indie</span>
+            <code>0xf08b</code>
+            <a class="icon-source" href="https://indieweb.org/logo" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="indieweb-web IndieWeb (web)">
+            <i class="icon-indieweb-web"></i>
+            <a class="icon-label" href="https://indieweb.org/" rel="noopener">IndieWeb (web)</a>
+            <span class="icon-name">indieweb-web</span>
+            <code>0xf08c</code>
+            <a class="icon-source" href="https://indieweb.org/logo" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="indieweb-camp IndieWeb (camp)">
+            <i class="icon-indieweb-camp"></i>
+            <a class="icon-label" href="https://indieweb.org/" rel="noopener">IndieWeb (camp)</a>
+            <span class="icon-name">indieweb-camp</span>
+            <code>0xf08d</code>
+            <a class="icon-source" href="https://indieweb.org/logo" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="indieauth IndieAuth">
+            <i class="icon-indieauth"></i>
+            <a class="icon-label" href="https://indieauth.net/" rel="noopener">IndieAuth</a>
+            <span class="icon-name">indieauth</span>
+            <code>0xf094</code>
+            <a class="icon-source" href="https://indieweb.org/File:indieAuthProp.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="indie Indie">
+            <i class="icon-indie"></i>
+            <span class="icon-label">Indie</span>
+            <span class="icon-name">indie</span>
+            <code>0xf05d</code>
+          </div>
+          <div class="icon-card" data-search="indiehosters IndieHosters">
+            <i class="icon-indiehosters"></i>
+            <a class="icon-label" href="https://indiehosters.net/" rel="noopener">IndieHosters</a>
+            <span class="icon-name">indiehosters</span>
+            <code>0xf058</code>
+          </div>
+          <div class="icon-card" data-search="webmention Webmention">
+            <i class="icon-webmention"></i>
+            <a class="icon-label" href="https://webmention.net/" rel="noopener">Webmention</a>
+            <span class="icon-name">webmention</span>
+            <code>0xf04d</code>
+            <a class="icon-source" href="https://indieweb.org/File:webmention-logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="micro-blog Micro.blog">
+            <i class="icon-micro-blog"></i>
+            <a class="icon-label" href="https://micro.blog/" rel="noopener">Micro.blog</a>
+            <span class="icon-name">micro-blog</span>
+            <code>0xf093</code>
+            <a class="icon-source" href="https://help.micro.blog/t/micro-blog-icons/91" rel="noopener">logo source</a>
+          </div>
       </div>
       <h3>HTML5</h3>
       <div class="icon-grid">
-        <div class="icon-card">
-          <i class="icon-html5"></i>
-          <span class="icon-name">html5</span>
-          <code>0xf016</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-css3"></i>
-          <span class="icon-name">css3</span>
-          <code>0xf017</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-connectivity"></i>
-          <span class="icon-name">connectivity</span>
-          <code>0xf018</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-semantics"></i>
-          <span class="icon-name">semantics</span>
-          <code>0xf019</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-3deffects"></i>
-          <span class="icon-name">3deffects</span>
-          <code>0xf037</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-device-access"></i>
-          <span class="icon-name">device-access</span>
-          <code>0xf031</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-multimedia"></i>
-          <span class="icon-name">multimedia</span>
-          <code>0xf032</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-offline-storage"></i>
-          <span class="icon-name">offline-storage</span>
-          <code>0xf033</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-perfintegration"></i>
-          <span class="icon-name">perfintegration</span>
-          <code>0xf034</code>
-        </div>
+          <div class="icon-card" data-search="html5 HTML5">
+            <i class="icon-html5"></i>
+            <a class="icon-label" href="https://www.w3.org/html/logo/" rel="noopener">HTML5</a>
+            <span class="icon-name">html5</span>
+            <code>0xf016</code>
+            <a class="icon-source" href="https://www.w3.org/html/logo/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="css3 CSS3">
+            <i class="icon-css3"></i>
+            <a class="icon-label" href="https://www.w3.org/Style/CSS/" rel="noopener">CSS3</a>
+            <span class="icon-name">css3</span>
+            <code>0xf017</code>
+            <a class="icon-source" href="https://www.w3.org/html/logo/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="connectivity Connectivity">
+            <i class="icon-connectivity"></i>
+            <a class="icon-label" href="https://www.w3.org/html/logo/" rel="noopener">Connectivity</a>
+            <span class="icon-name">connectivity</span>
+            <code>0xf018</code>
+            <a class="icon-source" href="https://www.w3.org/html/logo/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="semantics Semantics">
+            <i class="icon-semantics"></i>
+            <a class="icon-label" href="https://www.w3.org/html/logo/" rel="noopener">Semantics</a>
+            <span class="icon-name">semantics</span>
+            <code>0xf019</code>
+            <a class="icon-source" href="https://www.w3.org/html/logo/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="3deffects 3D Effects">
+            <i class="icon-3deffects"></i>
+            <a class="icon-label" href="https://www.w3.org/html/logo/" rel="noopener">3D Effects</a>
+            <span class="icon-name">3deffects</span>
+            <code>0xf037</code>
+            <a class="icon-source" href="https://www.w3.org/html/logo/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="device-access Device Access">
+            <i class="icon-device-access"></i>
+            <a class="icon-label" href="https://www.w3.org/html/logo/" rel="noopener">Device Access</a>
+            <span class="icon-name">device-access</span>
+            <code>0xf031</code>
+            <a class="icon-source" href="https://www.w3.org/html/logo/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="multimedia Multimedia">
+            <i class="icon-multimedia"></i>
+            <a class="icon-label" href="https://www.w3.org/html/logo/" rel="noopener">Multimedia</a>
+            <span class="icon-name">multimedia</span>
+            <code>0xf032</code>
+            <a class="icon-source" href="https://www.w3.org/html/logo/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="offline-storage Offline Storage">
+            <i class="icon-offline-storage"></i>
+            <a class="icon-label" href="https://www.w3.org/html/logo/" rel="noopener">Offline Storage</a>
+            <span class="icon-name">offline-storage</span>
+            <code>0xf033</code>
+            <a class="icon-source" href="https://www.w3.org/html/logo/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="perfintegration Performance &amp; Integration">
+            <i class="icon-perfintegration"></i>
+            <a class="icon-label" href="https://www.w3.org/html/logo/" rel="noopener">Performance &amp; Integration</a>
+            <span class="icon-name">perfintegration</span>
+            <code>0xf034</code>
+            <a class="icon-source" href="https://www.w3.org/html/logo/" rel="noopener">logo source</a>
+          </div>
       </div>
       <h3>Creative Commons</h3>
       <div class="icon-grid">
-        <div class="icon-card">
-          <i class="icon-cc"></i>
-          <span class="icon-name">cc</span>
-          <code>0xf080</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-cc-by"></i>
-          <span class="icon-name">cc-by</span>
-          <code>0xf081</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-cc-nc"></i>
-          <span class="icon-name">cc-nc</span>
-          <code>0xf082</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-cc-nc-eu"></i>
-          <span class="icon-name">cc-nc-eu</span>
-          <code>0xf083</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-cc-nc-jp"></i>
-          <span class="icon-name">cc-nc-jp</span>
-          <code>0xf084</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-cc-sa"></i>
-          <span class="icon-name">cc-sa</span>
-          <code>0xf085</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-cc-nd"></i>
-          <span class="icon-name">cc-nd</span>
-          <code>0xf086</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-cc-public"></i>
-          <span class="icon-name">cc-public</span>
-          <code>0xf087</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-cc-zero"></i>
-          <span class="icon-name">cc-zero</span>
-          <code>0xf088</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-cc-share"></i>
-          <span class="icon-name">cc-share</span>
-          <code>0xf089</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-cc-remix"></i>
-          <span class="icon-name">cc-remix</span>
-          <code>0xf08a</code>
-        </div>
+          <div class="icon-card" data-search="cc Creative Commons">
+            <i class="icon-cc"></i>
+            <a class="icon-label" href="https://creativecommons.org/" rel="noopener">Creative Commons</a>
+            <span class="icon-name">cc</span>
+            <code>0xf080</code>
+            <a class="icon-source" href="https://creativecommons.org/mission/downloads/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="cc-by CC Attribution">
+            <i class="icon-cc-by"></i>
+            <a class="icon-label" href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC Attribution</a>
+            <span class="icon-name">cc-by</span>
+            <code>0xf081</code>
+            <a class="icon-source" href="https://creativecommons.org/mission/downloads/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="cc-nc CC NonCommercial">
+            <i class="icon-cc-nc"></i>
+            <a class="icon-label" href="https://creativecommons.org/licenses/by-nc/4.0/" rel="noopener">CC NonCommercial</a>
+            <span class="icon-name">cc-nc</span>
+            <code>0xf082</code>
+            <a class="icon-source" href="https://creativecommons.org/mission/downloads/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="cc-nc-eu CC NonCommercial (EU)">
+            <i class="icon-cc-nc-eu"></i>
+            <a class="icon-label" href="https://creativecommons.org/licenses/by-nc/4.0/" rel="noopener">CC NonCommercial (EU)</a>
+            <span class="icon-name">cc-nc-eu</span>
+            <code>0xf083</code>
+            <a class="icon-source" href="https://creativecommons.org/mission/downloads/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="cc-nc-jp CC NonCommercial (JP)">
+            <i class="icon-cc-nc-jp"></i>
+            <a class="icon-label" href="https://creativecommons.org/licenses/by-nc/4.0/" rel="noopener">CC NonCommercial (JP)</a>
+            <span class="icon-name">cc-nc-jp</span>
+            <code>0xf084</code>
+            <a class="icon-source" href="https://creativecommons.org/mission/downloads/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="cc-sa CC ShareAlike">
+            <i class="icon-cc-sa"></i>
+            <a class="icon-label" href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC ShareAlike</a>
+            <span class="icon-name">cc-sa</span>
+            <code>0xf085</code>
+            <a class="icon-source" href="https://creativecommons.org/mission/downloads/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="cc-nd CC NoDerivatives">
+            <i class="icon-cc-nd"></i>
+            <a class="icon-label" href="https://creativecommons.org/licenses/by-nd/4.0/" rel="noopener">CC NoDerivatives</a>
+            <span class="icon-name">cc-nd</span>
+            <code>0xf086</code>
+            <a class="icon-source" href="https://creativecommons.org/mission/downloads/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="cc-public CC Public Domain">
+            <i class="icon-cc-public"></i>
+            <a class="icon-label" href="https://creativecommons.org/publicdomain/mark/1.0/" rel="noopener">CC Public Domain</a>
+            <span class="icon-name">cc-public</span>
+            <code>0xf087</code>
+            <a class="icon-source" href="https://creativecommons.org/mission/downloads/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="cc-zero CC Zero">
+            <i class="icon-cc-zero"></i>
+            <a class="icon-label" href="https://creativecommons.org/publicdomain/zero/1.0/" rel="noopener">CC Zero</a>
+            <span class="icon-name">cc-zero</span>
+            <code>0xf088</code>
+            <a class="icon-source" href="https://creativecommons.org/mission/downloads/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="cc-share CC Share">
+            <i class="icon-cc-share"></i>
+            <a class="icon-label" href="https://creativecommons.org/" rel="noopener">CC Share</a>
+            <span class="icon-name">cc-share</span>
+            <code>0xf089</code>
+            <a class="icon-source" href="https://creativecommons.org/mission/downloads/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="cc-remix CC Remix">
+            <i class="icon-cc-remix"></i>
+            <a class="icon-label" href="https://creativecommons.org/" rel="noopener">CC Remix</a>
+            <span class="icon-name">cc-remix</span>
+            <code>0xf08a</code>
+            <a class="icon-source" href="https://creativecommons.org/mission/downloads/" rel="noopener">logo source</a>
+          </div>
       </div>
       <h3>Microformats</h3>
       <div class="icon-grid">
-        <div class="icon-card">
-          <i class="icon-microformats"></i>
-          <span class="icon-name">microformats</span>
-          <code>0xf00c</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-hatom"></i>
-          <span class="icon-name">hatom</span>
-          <code>0xf040</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-hresume"></i>
-          <span class="icon-name">hresume</span>
-          <code>0xf042</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-hcard-add"></i>
-          <span class="icon-name">hcard-add</span>
-          <code>0xf043</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-hcard-download"></i>
-          <span class="icon-name">hcard-download</span>
-          <code>0xf044</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-geo"></i>
-          <span class="icon-name">geo</span>
-          <code>0xf00b</code>
-        </div>
+          <div class="icon-card" data-search="microformats Microformats">
+            <i class="icon-microformats"></i>
+            <a class="icon-label" href="https://microformats.org/" rel="noopener">Microformats</a>
+            <span class="icon-name">microformats</span>
+            <code>0xf00c</code>
+            <a class="icon-source" href="https://microformats.org/wiki/logo" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="hatom hAtom">
+            <i class="icon-hatom"></i>
+            <a class="icon-label" href="https://microformats.org/wiki/hatom" rel="noopener">hAtom</a>
+            <span class="icon-name">hatom</span>
+            <code>0xf040</code>
+            <a class="icon-source" href="https://microformats.org/wiki/logo" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="hresume hResume">
+            <i class="icon-hresume"></i>
+            <a class="icon-label" href="https://microformats.org/wiki/hresume" rel="noopener">hResume</a>
+            <span class="icon-name">hresume</span>
+            <code>0xf042</code>
+            <a class="icon-source" href="https://microformats.org/wiki/logo" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="hcard-add hCard (add)">
+            <i class="icon-hcard-add"></i>
+            <a class="icon-label" href="https://microformats.org/wiki/hcard" rel="noopener">hCard (add)</a>
+            <span class="icon-name">hcard-add</span>
+            <code>0xf043</code>
+            <a class="icon-source" href="https://microformats.org/wiki/logo" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="hcard-download hCard (download)">
+            <i class="icon-hcard-download"></i>
+            <a class="icon-label" href="https://microformats.org/wiki/hcard" rel="noopener">hCard (download)</a>
+            <span class="icon-name">hcard-download</span>
+            <code>0xf044</code>
+            <a class="icon-source" href="https://microformats.org/wiki/logo" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="geo Geo">
+            <i class="icon-geo"></i>
+            <a class="icon-label" href="https://microformats.org/wiki/geo" rel="noopener">Geo</a>
+            <span class="icon-name">geo</span>
+            <code>0xf00b</code>
+            <a class="icon-source" href="https://microformats.org/wiki/logo" rel="noopener">logo source</a>
+          </div>
       </div>
       <h3>SIL Open Font License</h3>
       <div class="icon-grid">
-        <div class="icon-card">
-          <i class="icon-ofl"></i>
-          <span class="icon-name">ofl</span>
-          <code>0xf053</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-ofl-renaming"></i>
-          <span class="icon-name">ofl-renaming</span>
-          <code>0xf04a</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-ofl-selling"></i>
-          <span class="icon-name">ofl-selling</span>
-          <code>0xf04b</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-ofl-embedding"></i>
-          <span class="icon-name">ofl-embedding</span>
-          <code>0xf04c</code>
-        </div>
+          <div class="icon-card" data-search="ofl SIL Open Font License">
+            <i class="icon-ofl"></i>
+            <a class="icon-label" href="https://openfontlicense.org/" rel="noopener">SIL Open Font License</a>
+            <span class="icon-name">ofl</span>
+            <code>0xf053</code>
+          </div>
+          <div class="icon-card" data-search="ofl-renaming OFL Renaming">
+            <i class="icon-ofl-renaming"></i>
+            <a class="icon-label" href="https://openfontlicense.org/" rel="noopener">OFL Renaming</a>
+            <span class="icon-name">ofl-renaming</span>
+            <code>0xf04a</code>
+          </div>
+          <div class="icon-card" data-search="ofl-selling OFL Selling">
+            <i class="icon-ofl-selling"></i>
+            <a class="icon-label" href="https://openfontlicense.org/" rel="noopener">OFL Selling</a>
+            <span class="icon-name">ofl-selling</span>
+            <code>0xf04b</code>
+          </div>
+          <div class="icon-card" data-search="ofl-embedding OFL Embedding">
+            <i class="icon-ofl-embedding"></i>
+            <a class="icon-label" href="https://openfontlicense.org/" rel="noopener">OFL Embedding</a>
+            <span class="icon-name">ofl-embedding</span>
+            <code>0xf04c</code>
+          </div>
       </div>
       <h3>Licenses</h3>
       <div class="icon-grid">
-        <div class="icon-card">
-          <i class="icon-copyleft"></i>
-          <span class="icon-name">copyleft</span>
-          <code>0xf051</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-gnu"></i>
-          <span class="icon-name">gnu</span>
-          <code>0xf052</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-freesoftware"></i>
-          <span class="icon-name">freesoftware</span>
-          <code>0xf095</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-osi"></i>
-          <span class="icon-name">osi</span>
-          <code>0xf038</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-wtfpl"></i>
-          <span class="icon-name">wtfpl</span>
-          <code>0xf04f</code>
-        </div>
+          <div class="icon-card" data-search="copyleft Copyleft">
+            <i class="icon-copyleft"></i>
+            <a class="icon-label" href="https://www.gnu.org/licenses/copyleft.en.html" rel="noopener">Copyleft</a>
+            <span class="icon-name">copyleft</span>
+            <code>0xf051</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Copyleft.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="gnu GNU">
+            <i class="icon-gnu"></i>
+            <a class="icon-label" href="https://www.gnu.org/" rel="noopener">GNU</a>
+            <span class="icon-name">gnu</span>
+            <code>0xf052</code>
+            <a class="icon-source" href="https://www.gnu.org/graphics/heckert_gnu.html" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="freesoftware Free Software">
+            <i class="icon-freesoftware"></i>
+            <a class="icon-label" href="https://www.gnu.org/philosophy/free-sw.html" rel="noopener">Free Software</a>
+            <span class="icon-name">freesoftware</span>
+            <code>0xf095</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Free-software-logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="osi Open Source Initiative">
+            <i class="icon-osi"></i>
+            <a class="icon-label" href="https://opensource.org/" rel="noopener">Open Source Initiative</a>
+            <span class="icon-name">osi</span>
+            <code>0xf038</code>
+            <a class="icon-source" href="https://opensource.org/about/brand-and-trademark-guidelines" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="wtfpl WTFPL">
+            <i class="icon-wtfpl"></i>
+            <a class="icon-label" href="https://www.wtfpl.net/" rel="noopener">WTFPL</a>
+            <span class="icon-name">wtfpl</span>
+            <code>0xf04f</code>
+            <a class="icon-source" href="https://www.wtfpl.net/download/" rel="noopener">logo source</a>
+          </div>
       </div>
       <h3>Protocols &amp; Standards</h3>
       <div class="icon-grid">
-        <div class="icon-card">
-          <i class="icon-semantic-web"></i>
-          <span class="icon-name">semantic-web</span>
-          <code>0xf000</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-rdf"></i>
-          <span class="icon-name">rdf</span>
-          <code>0xf039</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-json-ld"></i>
-          <span class="icon-name">json-ld</span>
-          <code>0xf048</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-svg"></i>
-          <span class="icon-name">svg</span>
-          <code>0xf049</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-opengraph"></i>
-          <span class="icon-name">opengraph</span>
-          <code>0xf020</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-foaf"></i>
-          <span class="icon-name">foaf</span>
-          <code>0xf023</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-odata"></i>
-          <span class="icon-name">odata</span>
-          <code>0xf028</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-markdown"></i>
-          <span class="icon-name">markdown</span>
-          <code>0xf029</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-epub"></i>
-          <span class="icon-name">epub</span>
-          <code>0xf021</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-jsonfeed"></i>
-          <span class="icon-name">jsonfeed</span>
-          <code>0xf066</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-pubsubhubbub"></i>
-          <span class="icon-name">pubsubhubbub</span>
-          <code>0xf047</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-pubsubhubbub-pub"></i>
-          <span class="icon-name">pubsubhubbub-pub</span>
-          <code>0xf045</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-pubsubhubbub-sub"></i>
-          <span class="icon-name">pubsubhubbub-sub</span>
-          <code>0xf046</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-xmpp"></i>
-          <span class="icon-name">xmpp</span>
-          <code>0xf015</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-webhooks"></i>
-          <span class="icon-name">webhooks</span>
-          <code>0xf036</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-oauth"></i>
-          <span class="icon-name">oauth</span>
-          <code>0xf008</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-openid"></i>
-          <span class="icon-name">openid</span>
-          <code>0xf00d</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-tosdr"></i>
-          <span class="icon-name">tosdr</span>
-          <code>0xf030</code>
-        </div>
+          <div class="icon-card" data-search="semantic-web Semantic Web">
+            <i class="icon-semantic-web"></i>
+            <a class="icon-label" href="https://www.w3.org/2001/sw/" rel="noopener">Semantic Web</a>
+            <span class="icon-name">semantic-web</span>
+            <code>0xf000</code>
+            <a class="icon-source" href="https://www.w3.org/2007/10/sw-logos.html" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="rdf RDF">
+            <i class="icon-rdf"></i>
+            <a class="icon-label" href="https://www.w3.org/RDF/" rel="noopener">RDF</a>
+            <span class="icon-name">rdf</span>
+            <code>0xf039</code>
+            <a class="icon-source" href="https://www.w3.org/2007/10/sw-logos.html" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="json-ld JSON-LD">
+            <i class="icon-json-ld"></i>
+            <a class="icon-label" href="https://json-ld.org/" rel="noopener">JSON-LD</a>
+            <span class="icon-name">json-ld</span>
+            <code>0xf048</code>
+            <a class="icon-source" href="https://github.com/json-ld/json-ld.org/blob/main/images/json-ld-logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="svg SVG">
+            <i class="icon-svg"></i>
+            <a class="icon-label" href="https://www.w3.org/Graphics/SVG/" rel="noopener">SVG</a>
+            <span class="icon-name">svg</span>
+            <code>0xf049</code>
+            <a class="icon-source" href="https://www.w3.org/2009/08/svg-logos.html" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="opengraph Open Graph">
+            <i class="icon-opengraph"></i>
+            <a class="icon-label" href="https://ogp.me/" rel="noopener">Open Graph</a>
+            <span class="icon-name">opengraph</span>
+            <code>0xf020</code>
+            <a class="icon-source" href="https://github.com/facebook/open-graph-protocol/blob/master/open_graph_protocol_logo.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="foaf FOAF">
+            <i class="icon-foaf"></i>
+            <a class="icon-label" href="https://xmlns.com/foaf/spec/" rel="noopener">FOAF</a>
+            <span class="icon-name">foaf</span>
+            <code>0xf023</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Foaf-Logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="odata OData">
+            <i class="icon-odata"></i>
+            <a class="icon-label" href="https://www.odata.org/" rel="noopener">OData</a>
+            <span class="icon-name">odata</span>
+            <code>0xf028</code>
+            <a class="icon-source" href="https://www.odata.org/odata-icon-usage-guidelines/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="markdown Markdown">
+            <i class="icon-markdown"></i>
+            <a class="icon-label" href="https://daringfireball.net/projects/markdown/" rel="noopener">Markdown</a>
+            <span class="icon-name">markdown</span>
+            <code>0xf029</code>
+            <a class="icon-source" href="https://github.com/dcurtis/markdown-mark" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="epub EPUB">
+            <i class="icon-epub"></i>
+            <a class="icon-label" href="https://www.w3.org/publishing/epub/" rel="noopener">EPUB</a>
+            <span class="icon-name">epub</span>
+            <code>0xf021</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Epub_logo_color.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="jsonfeed JSON Feed">
+            <i class="icon-jsonfeed"></i>
+            <a class="icon-label" href="https://www.jsonfeed.org/" rel="noopener">JSON Feed</a>
+            <span class="icon-name">jsonfeed</span>
+            <code>0xf066</code>
+            <a class="icon-source" href="https://github.com/manton/JSONFeed/blob/master/graphics/icon.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="pubsubhubbub PubSubHubbub">
+            <i class="icon-pubsubhubbub"></i>
+            <a class="icon-label" href="https://www.w3.org/TR/websub/" rel="noopener">PubSubHubbub</a>
+            <span class="icon-name">pubsubhubbub</span>
+            <code>0xf047</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Pubsubhubbub.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="pubsubhubbub-pub PubSubHubbub (publisher)">
+            <i class="icon-pubsubhubbub-pub"></i>
+            <a class="icon-label" href="https://www.w3.org/TR/websub/" rel="noopener">PubSubHubbub (publisher)</a>
+            <span class="icon-name">pubsubhubbub-pub</span>
+            <code>0xf045</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Pubsubhubbub.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="pubsubhubbub-sub PubSubHubbub (subscriber)">
+            <i class="icon-pubsubhubbub-sub"></i>
+            <a class="icon-label" href="https://www.w3.org/TR/websub/" rel="noopener">PubSubHubbub (subscriber)</a>
+            <span class="icon-name">pubsubhubbub-sub</span>
+            <code>0xf046</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Pubsubhubbub.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="xmpp XMPP">
+            <i class="icon-xmpp"></i>
+            <a class="icon-label" href="https://xmpp.org/" rel="noopener">XMPP</a>
+            <span class="icon-name">xmpp</span>
+            <code>0xf015</code>
+            <a class="icon-source" href="https://github.com/xsf/xmpp.org/blob/master/static/images/logos/xmpp-logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="webhooks Webhooks">
+            <i class="icon-webhooks"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/Webhook" rel="noopener">Webhooks</a>
+            <span class="icon-name">webhooks</span>
+            <code>0xf036</code>
+          </div>
+          <div class="icon-card" data-search="oauth OAuth">
+            <i class="icon-oauth"></i>
+            <a class="icon-label" href="https://oauth.net/" rel="noopener">OAuth</a>
+            <span class="icon-name">oauth</span>
+            <code>0xf008</code>
+            <a class="icon-source" href="http://wiki.oauth.net/w/page/12238520/Logo" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="openid OpenID">
+            <i class="icon-openid"></i>
+            <a class="icon-label" href="https://openid.net/" rel="noopener">OpenID</a>
+            <span class="icon-name">openid</span>
+            <code>0xf00d</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:OpenID_logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="tosdr Terms of Service; Didn&#x27;t Read">
+            <i class="icon-tosdr"></i>
+            <a class="icon-label" href="https://tosdr.org/" rel="noopener">Terms of Service; Didn&#x27;t Read</a>
+            <span class="icon-name">tosdr</span>
+            <code>0xf030</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Terms_of_Service;_Didn%27t_Read_logo.svg" rel="noopener">logo source</a>
+          </div>
       </div>
       <h3>Sharing &amp; Feeds</h3>
       <div class="icon-grid">
-        <div class="icon-card">
-          <i class="icon-feed"></i>
-          <span class="icon-name">feed</span>
-          <code>0xf009</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-feed-simple"></i>
-          <span class="icon-name">feed-simple</span>
-          <code>0xf00a</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-share"></i>
-          <span class="icon-name">share</span>
-          <code>0xf006</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-share-simple"></i>
-          <span class="icon-name">share-simple</span>
-          <code>0xf007</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-open-share"></i>
-          <span class="icon-name">open-share</span>
-          <code>0xf00e</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-open-share-simple"></i>
-          <span class="icon-name">open-share-simple</span>
-          <code>0xf00f</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-opml"></i>
-          <span class="icon-name">opml</span>
-          <code>0xf003</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-apml"></i>
-          <span class="icon-name">apml</span>
-          <code>0xf001</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-activity"></i>
-          <span class="icon-name">activity</span>
-          <code>0xf010</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-activity-simple"></i>
-          <span class="icon-name">activity-simple</span>
-          <code>0xf041</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-dataportability"></i>
-          <span class="icon-name">dataportability</span>
-          <code>0xf013</code>
-        </div>
+          <div class="icon-card" data-search="feed Feed">
+            <i class="icon-feed"></i>
+            <a class="icon-label" href="https://www.mozilla.org/en-US/foundation/feed-icon-guidelines/" rel="noopener">Feed</a>
+            <span class="icon-name">feed</span>
+            <code>0xf009</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Feed-icon.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="feed-simple Feed (simple)">
+            <i class="icon-feed-simple"></i>
+            <a class="icon-label" href="https://www.mozilla.org/en-US/foundation/feed-icon-guidelines/" rel="noopener">Feed (simple)</a>
+            <span class="icon-name">feed-simple</span>
+            <code>0xf00a</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Feed-icon.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="share Share">
+            <i class="icon-share"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/Share_icon" rel="noopener">Share</a>
+            <span class="icon-name">share</span>
+            <code>0xf006</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Openshareicon-128x128.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="share-simple Share (simple)">
+            <i class="icon-share-simple"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/Share_icon" rel="noopener">Share (simple)</a>
+            <span class="icon-name">share-simple</span>
+            <code>0xf007</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Openshareicon-128x128.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="open-share Open Share">
+            <i class="icon-open-share"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/Share_icon" rel="noopener">Open Share</a>
+            <span class="icon-name">open-share</span>
+            <code>0xf00e</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Openshareicon-128x128.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="open-share-simple Open Share (simple)">
+            <i class="icon-open-share-simple"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/Share_icon" rel="noopener">Open Share (simple)</a>
+            <span class="icon-name">open-share-simple</span>
+            <code>0xf00f</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Openshareicon-128x128.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="opml OPML">
+            <i class="icon-opml"></i>
+            <a class="icon-label" href="http://opml.org/" rel="noopener">OPML</a>
+            <span class="icon-name">opml</span>
+            <code>0xf003</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Opml-icon.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="apml APML">
+            <i class="icon-apml"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/Attention_Profiling_Mark-up_Language" rel="noopener">APML</a>
+            <span class="icon-name">apml</span>
+            <code>0xf001</code>
+          </div>
+          <div class="icon-card" data-search="activity Activity">
+            <i class="icon-activity"></i>
+            <a class="icon-label" href="https://activitystrea.ms/" rel="noopener">Activity</a>
+            <span class="icon-name">activity</span>
+            <code>0xf010</code>
+            <a class="icon-source" href="http://wiki.activitystrea.ms/w/page/23953797/Icon" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="activity-simple Activity (simple)">
+            <i class="icon-activity-simple"></i>
+            <a class="icon-label" href="https://activitystrea.ms/" rel="noopener">Activity (simple)</a>
+            <span class="icon-name">activity-simple</span>
+            <code>0xf041</code>
+            <a class="icon-source" href="http://wiki.activitystrea.ms/w/page/23953797/Icon" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="dataportability DataPortability">
+            <i class="icon-dataportability"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/Data_portability" rel="noopener">DataPortability</a>
+            <span class="icon-name">dataportability</span>
+            <code>0xf013</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Dataportability.jpg" rel="noopener">logo source</a>
+          </div>
       </div>
       <h3>Projects &amp; Communities</h3>
       <div class="icon-grid">
-        <div class="icon-card">
-          <i class="icon-wordpress"></i>
-          <span class="icon-name">wordpress</span>
-          <code>0xf054</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-owncloud"></i>
-          <span class="icon-name">owncloud</span>
-          <code>0xf055</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-known"></i>
-          <span class="icon-name">known</span>
-          <code>0xf059</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-ghost"></i>
-          <span class="icon-name">ghost</span>
-          <code>0xf05e</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-mozilla"></i>
-          <span class="icon-name">mozilla</span>
-          <code>0xf05a</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-unhosted"></i>
-          <span class="icon-name">unhosted</span>
-          <code>0xf05b</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-barcamp"></i>
-          <span class="icon-name">barcamp</span>
-          <code>0xf057</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-cccs"></i>
-          <span class="icon-name">cccs</span>
-          <code>0xf056</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-opensourcedesign"></i>
-          <span class="icon-name">opensourcedesign</span>
-          <code>0xf060</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-opendesign"></i>
-          <span class="icon-name">opendesign</span>
-          <code>0xf061</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-wapuu"></i>
-          <span class="icon-name">wapuu</span>
-          <code>0xf092</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-drupal"></i>
-          <span class="icon-name">drupal</span>
-          <code>0xf0b4</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-id4me"></i>
-          <span class="icon-name">id4me</span>
-          <code>0xf06b</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-tent"></i>
-          <span class="icon-name">tent</span>
-          <code>0xf050</code>
-        </div>
+          <div class="icon-card" data-search="wordpress WordPress">
+            <i class="icon-wordpress"></i>
+            <a class="icon-label" href="https://wordpress.org/" rel="noopener">WordPress</a>
+            <span class="icon-name">wordpress</span>
+            <code>0xf054</code>
+            <a class="icon-source" href="https://wordpress.org/about/logos/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="owncloud ownCloud">
+            <i class="icon-owncloud"></i>
+            <a class="icon-label" href="https://owncloud.com/" rel="noopener">ownCloud</a>
+            <span class="icon-name">owncloud</span>
+            <code>0xf055</code>
+            <a class="icon-source" href="https://owncloud.com/trademark/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="known Known">
+            <i class="icon-known"></i>
+            <a class="icon-label" href="https://withknown.com/" rel="noopener">Known</a>
+            <span class="icon-name">known</span>
+            <code>0xf059</code>
+            <a class="icon-source" href="https://github.com/idno/idno/tree/dev/gfx/logos" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="ghost Ghost">
+            <i class="icon-ghost"></i>
+            <a class="icon-label" href="https://ghost.org/" rel="noopener">Ghost</a>
+            <span class="icon-name">ghost</span>
+            <code>0xf05e</code>
+            <a class="icon-source" href="https://docs.ghost.org/logos/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="mozilla Mozilla">
+            <i class="icon-mozilla"></i>
+            <a class="icon-label" href="https://www.mozilla.org/" rel="noopener">Mozilla</a>
+            <span class="icon-name">mozilla</span>
+            <code>0xf05a</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Mozilla_dinosaur_head_logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="unhosted Unhosted">
+            <i class="icon-unhosted"></i>
+            <a class="icon-label" href="https://unhosted.org/" rel="noopener">Unhosted</a>
+            <span class="icon-name">unhosted</span>
+            <code>0xf05b</code>
+            <a class="icon-source" href="https://github.com/unhosted/design" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="barcamp BarCamp">
+            <i class="icon-barcamp"></i>
+            <a class="icon-label" href="http://barcamp.org/" rel="noopener">BarCamp</a>
+            <span class="icon-name">barcamp</span>
+            <code>0xf057</code>
+            <a class="icon-source" href="http://barcamp.org/w/page/405009/SpreadBarCamp" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="cccs CCCS">
+            <i class="icon-cccs"></i>
+            <a class="icon-label" href="https://www.c3s.cc/" rel="noopener">CCCS</a>
+            <span class="icon-name">cccs</span>
+            <code>0xf056</code>
+            <a class="icon-source" href="https://www.c3s.cc/en/press-area/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="opensourcedesign Open Source Design">
+            <i class="icon-opensourcedesign"></i>
+            <a class="icon-label" href="https://opensourcedesign.net/" rel="noopener">Open Source Design</a>
+            <span class="icon-name">opensourcedesign</span>
+            <code>0xf060</code>
+            <a class="icon-source" href="https://github.com/opensourcedesign/opensourcedesign.net/blob/main/static/images/brand/opensourcedesign-logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="opendesign Open Design">
+            <i class="icon-opendesign"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/Open-design_movement" rel="noopener">Open Design</a>
+            <span class="icon-name">opendesign</span>
+            <code>0xf061</code>
+          </div>
+          <div class="icon-card" data-search="wapuu Wapuu">
+            <i class="icon-wapuu"></i>
+            <a class="icon-label" href="https://wapu.us/" rel="noopener">Wapuu</a>
+            <span class="icon-name">wapuu</span>
+            <code>0xf092</code>
+            <a class="icon-source" href="https://github.com/jawordpressorg/wapuu/blob/gh-pages/wapuu-archive/original-wapuu.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="drupal Drupal">
+            <i class="icon-drupal"></i>
+            <a class="icon-label" href="https://www.drupal.org/" rel="noopener">Drupal</a>
+            <span class="icon-name">drupal</span>
+            <code>0xf0b4</code>
+            <a class="icon-source" href="https://www.drupal.org/about/media-kit/logos" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="id4me ID4me">
+            <i class="icon-id4me"></i>
+            <a class="icon-label" href="https://id4me.org/" rel="noopener">ID4me</a>
+            <span class="icon-name">id4me</span>
+            <code>0xf06b</code>
+            <a class="icon-source" href="https://id4me.org/media-kit/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="tent Tent">
+            <i class="icon-tent"></i>
+            <a class="icon-label" href="https://github.com/tent" rel="noopener">Tent</a>
+            <span class="icon-name">tent</span>
+            <code>0xf050</code>
+            <a class="icon-source" href="https://github.com/tent/tent.io/blob/master/source/images/tent.svg" rel="noopener">logo source</a>
+          </div>
       </div>
       <h3>Other</h3>
       <div class="icon-grid">
-        <div class="icon-card">
-          <i class="icon-open-web"></i>
-          <span class="icon-name">open-web</span>
-          <code>0xf012</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-web-intents"></i>
-          <span class="icon-name">web-intents</span>
-          <code>0xf014</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-git"></i>
-          <span class="icon-name">git</span>
-          <code>0xf035</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-javascript"></i>
-          <span class="icon-name">javascript</span>
-          <code>0xf04e</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-qr"></i>
-          <span class="icon-name">qr</span>
-          <code>0xf022</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-info-card"></i>
-          <span class="icon-name">info-card</span>
-          <code>0xf024</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-browserid"></i>
-          <span class="icon-name">browserid</span>
-          <code>0xf025</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-remote-storage"></i>
-          <span class="icon-name">remote-storage</span>
-          <code>0xf026</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-persona"></i>
-          <span class="icon-name">persona</span>
-          <code>0xf027</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-opensearch"></i>
-          <span class="icon-name">opensearch</span>
-          <code>0xf002</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-bitcoin"></i>
-          <span class="icon-name">bitcoin</span>
-          <code>0xf08f</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-bitcoin-simple"></i>
-          <span class="icon-name">bitcoin-simple</span>
-          <code>0xf090</code>
-        </div>
+          <div class="icon-card" data-search="open-web Open Web">
+            <i class="icon-open-web"></i>
+            <a class="icon-label" href="https://www.openwebfoundation.org/" rel="noopener">Open Web</a>
+            <span class="icon-name">open-web</span>
+            <code>0xf012</code>
+          </div>
+          <div class="icon-card" data-search="web-intents Web Intents">
+            <i class="icon-web-intents"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/Web_Intents" rel="noopener">Web Intents</a>
+            <span class="icon-name">web-intents</span>
+            <code>0xf014</code>
+          </div>
+          <div class="icon-card" data-search="git Git">
+            <i class="icon-git"></i>
+            <a class="icon-label" href="https://git-scm.com/" rel="noopener">Git</a>
+            <span class="icon-name">git</span>
+            <code>0xf035</code>
+            <a class="icon-source" href="https://git-scm.com/downloads/logos" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="javascript JavaScript">
+            <i class="icon-javascript"></i>
+            <a class="icon-label" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="noopener">JavaScript</a>
+            <span class="icon-name">javascript</span>
+            <code>0xf04e</code>
+            <a class="icon-source" href="https://github.com/voodootikigod/logo.js" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="qr QR Code">
+            <i class="icon-qr"></i>
+            <a class="icon-label" href="https://www.qrcode.com/en/" rel="noopener">QR Code</a>
+            <span class="icon-name">qr</span>
+            <code>0xf022</code>
+          </div>
+          <div class="icon-card" data-search="info-card Info Card">
+            <i class="icon-info-card"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/Information_card" rel="noopener">Info Card</a>
+            <span class="icon-name">info-card</span>
+            <code>0xf024</code>
+          </div>
+          <div class="icon-card" data-search="browserid BrowserID">
+            <i class="icon-browserid"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/Mozilla_Persona" rel="noopener">BrowserID</a>
+            <span class="icon-name">browserid</span>
+            <code>0xf025</code>
+            <a class="icon-source" href="https://github.com/mozilla/persona/blob/dev/resources/assets/browserID-logo.eps" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="remote-storage remoteStorage">
+            <i class="icon-remote-storage"></i>
+            <a class="icon-label" href="https://remotestorage.io/" rel="noopener">remoteStorage</a>
+            <span class="icon-name">remote-storage</span>
+            <code>0xf026</code>
+            <a class="icon-source" href="https://github.com/remotestorage/website/blob/master/public/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="persona Persona">
+            <i class="icon-persona"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/Mozilla_Persona" rel="noopener">Persona</a>
+            <span class="icon-name">persona</span>
+            <code>0xf027</code>
+            <a class="icon-source" href="https://github.com/mozilla/persona/blob/dev/resources/static/pages/i/persona-logo-wordmark.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="opensearch OpenSearch">
+            <i class="icon-opensearch"></i>
+            <a class="icon-label" href="https://github.com/dewitt/opensearch" rel="noopener">OpenSearch</a>
+            <span class="icon-name">opensearch</span>
+            <code>0xf002</code>
+            <a class="icon-source" href="https://github.com/dewitt/opensearch/blob/master/mediawiki/Community/OpenSearch%20icons.wiki" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="bitcoin Bitcoin">
+            <i class="icon-bitcoin"></i>
+            <a class="icon-label" href="https://bitcoin.org/" rel="noopener">Bitcoin</a>
+            <span class="icon-name">bitcoin</span>
+            <code>0xf08f</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Bitcoin.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="bitcoin-simple Bitcoin (simple)">
+            <i class="icon-bitcoin-simple"></i>
+            <a class="icon-label" href="https://bitcoin.org/" rel="noopener">Bitcoin (simple)</a>
+            <span class="icon-name">bitcoin-simple</span>
+            <code>0xf090</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Bitcoin.svg" rel="noopener">logo source</a>
+          </div>
       </div>
 
     </section>
@@ -974,283 +1291,387 @@
     <section>
       <h2>Colored Variants</h2>
       <div class="icon-grid">
-        <div class="icon-card">
-          <i class="icon-apml-colored"></i>
-          <span class="icon-name">apml-colored</span>
-          <code>#AFDD63</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-opensearch-colored"></i>
-          <span class="icon-name">opensearch-colored</span>
-          <code>#5050f3</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-opml-colored"></i>
-          <span class="icon-name">opml-colored</span>
-          <code>#2490A1</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-ostatus-colored"></i>
-          <span class="icon-name">ostatus-colored</span>
-          <code>#FF6600</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-share-colored"></i>
-          <span class="icon-name">share-colored</span>
-          <code>#538439</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-feed-colored"></i>
-          <span class="icon-name">feed-colored</span>
-          <code>#EA680B</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-geo-colored"></i>
-          <span class="icon-name">geo-colored</span>
-          <code>#990000</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-microformats-colored"></i>
-          <span class="icon-name">microformats-colored</span>
-          <code>#85BC07</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-open-share-colored"></i>
-          <span class="icon-name">open-share-colored</span>
-          <code>#538439</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-activity-colored"></i>
-          <span class="icon-name">activity-colored</span>
-          <code>#4FB2D9</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-html5-colored"></i>
-          <span class="icon-name">html5-colored</span>
-          <code>#E34C26</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-epub-colored"></i>
-          <span class="icon-name">epub-colored</span>
-          <code>#85b916</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-info-card-colored"></i>
-          <span class="icon-name">info-card-colored</span>
-          <code>#BF84E5</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-remote-storage-colored"></i>
-          <span class="icon-name">remote-storage-colored</span>
-          <code>#ff4e09</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-odata-colored"></i>
-          <span class="icon-name">odata-colored</span>
-          <code>#EA680B</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-git-colored"></i>
-          <span class="icon-name">git-colored</span>
-          <code>#F05133</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-osi-colored"></i>
-          <span class="icon-name">osi-colored</span>
-          <code>#3DA639</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-javascript-colored"></i>
-          <span class="icon-name">javascript-colored</span>
-          <code>#f0db4f</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-gnusocial-colored"></i>
-          <span class="icon-name">gnusocial-colored</span>
-          <code>#a22430</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-mastodon-simple-colored"></i>
-          <span class="icon-name">mastodon-simple-colored</span>
-          <code>#2b90d9</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-mastodon-colored"></i>
-          <span class="icon-name">mastodon-colored</span>
-          <code>#2b90d9</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-id4me-colored"></i>
-          <span class="icon-name">id4me-colored</span>
-          <code>#007A9D</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-lemmy-colored"></i>
-          <span class="icon-name">lemmy-colored</span>
-          <code>#00BC8C</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-peertube-colored"></i>
-          <span class="icon-name">peertube-colored</span>
-          <code>#F1680D</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-misskey-colored"></i>
-          <span class="icon-name">misskey-colored</span>
-          <code>#99c837</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-akkoma-colored"></i>
-          <span class="icon-name">akkoma-colored</span>
-          <code>#593196</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-bookwyrm-colored"></i>
-          <span class="icon-name">bookwyrm-colored</span>
-          <code>#002549</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-funkwhale-colored"></i>
-          <span class="icon-name">funkwhale-colored</span>
-          <code>#0D47A1</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-gotosocial-colored"></i>
-          <span class="icon-name">gotosocial-colored</span>
-          <code>#F26522</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-forgejo-colored"></i>
-          <span class="icon-name">forgejo-colored</span>
-          <code>#E44729</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-gitea-colored"></i>
-          <span class="icon-name">gitea-colored</span>
-          <code>#609926</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-owncast-colored"></i>
-          <span class="icon-name">owncast-colored</span>
-          <code>#7871FF</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-mobilizon-colored"></i>
-          <span class="icon-name">mobilizon-colored</span>
-          <code>#3E50AF</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-castopod-colored"></i>
-          <span class="icon-name">castopod-colored</span>
-          <code>#00564A</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-kbin-colored"></i>
-          <span class="icon-name">kbin-colored</span>
-          <code>#7B1FA2</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-iceshrimp-colored"></i>
-          <span class="icon-name">iceshrimp-colored</span>
-          <code>#F75E7B</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-discourse-colored"></i>
-          <span class="icon-name">discourse-colored</span>
-          <code>#231F20</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-nextcloud-colored"></i>
-          <span class="icon-name">nextcloud-colored</span>
-          <code>#0082C9</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-bonfire-colored"></i>
-          <span class="icon-name">bonfire-colored</span>
-          <code>#F15B40</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-drupal-colored"></i>
-          <span class="icon-name">drupal-colored</span>
-          <code>#0678BE</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-keyoxide-colored"></i>
-          <span class="icon-name">keyoxide-colored</span>
-          <code>#56A300</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-hubzilla-simple-colored"></i>
-          <span class="icon-name">hubzilla-simple-colored</span>
-          <code>#2E5AA1</code>
-        </div>
-        <div class="icon-card">
-          <i class="icon-flohmarkt-colored"></i>
-          <span class="icon-name">flohmarkt-colored</span>
-          <code>#D93F00</code>
-        </div>
+          <div class="icon-card" data-search="apml-colored APML">
+            <i class="icon-apml-colored"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/Attention_Profiling_Mark-up_Language" rel="noopener">APML</a>
+            <span class="icon-name">apml-colored</span>
+            <code>#AFDD63</code>
+          </div>
+          <div class="icon-card" data-search="opensearch-colored OpenSearch">
+            <i class="icon-opensearch-colored"></i>
+            <a class="icon-label" href="https://github.com/dewitt/opensearch" rel="noopener">OpenSearch</a>
+            <span class="icon-name">opensearch-colored</span>
+            <code>#5050f3</code>
+            <a class="icon-source" href="https://github.com/dewitt/opensearch/blob/master/mediawiki/Community/OpenSearch%20icons.wiki" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="opml-colored OPML">
+            <i class="icon-opml-colored"></i>
+            <a class="icon-label" href="http://opml.org/" rel="noopener">OPML</a>
+            <span class="icon-name">opml-colored</span>
+            <code>#2490A1</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Opml-icon.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="ostatus-colored OStatus">
+            <i class="icon-ostatus-colored"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/OStatus" rel="noopener">OStatus</a>
+            <span class="icon-name">ostatus-colored</span>
+            <code>#FF6600</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Ostatus.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="share-colored Share">
+            <i class="icon-share-colored"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/Share_icon" rel="noopener">Share</a>
+            <span class="icon-name">share-colored</span>
+            <code>#538439</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Openshareicon-128x128.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="feed-colored Feed">
+            <i class="icon-feed-colored"></i>
+            <a class="icon-label" href="https://www.mozilla.org/en-US/foundation/feed-icon-guidelines/" rel="noopener">Feed</a>
+            <span class="icon-name">feed-colored</span>
+            <code>#EA680B</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Feed-icon.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="geo-colored Geo">
+            <i class="icon-geo-colored"></i>
+            <a class="icon-label" href="https://microformats.org/wiki/geo" rel="noopener">Geo</a>
+            <span class="icon-name">geo-colored</span>
+            <code>#990000</code>
+            <a class="icon-source" href="https://microformats.org/wiki/logo" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="microformats-colored Microformats">
+            <i class="icon-microformats-colored"></i>
+            <a class="icon-label" href="https://microformats.org/" rel="noopener">Microformats</a>
+            <span class="icon-name">microformats-colored</span>
+            <code>#85BC07</code>
+            <a class="icon-source" href="https://microformats.org/wiki/logo" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="open-share-colored Open Share">
+            <i class="icon-open-share-colored"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/Share_icon" rel="noopener">Open Share</a>
+            <span class="icon-name">open-share-colored</span>
+            <code>#538439</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Openshareicon-128x128.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="activity-colored Activity">
+            <i class="icon-activity-colored"></i>
+            <a class="icon-label" href="https://activitystrea.ms/" rel="noopener">Activity</a>
+            <span class="icon-name">activity-colored</span>
+            <code>#4FB2D9</code>
+            <a class="icon-source" href="http://wiki.activitystrea.ms/w/page/23953797/Icon" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="html5-colored HTML5">
+            <i class="icon-html5-colored"></i>
+            <a class="icon-label" href="https://www.w3.org/html/logo/" rel="noopener">HTML5</a>
+            <span class="icon-name">html5-colored</span>
+            <code>#E34C26</code>
+            <a class="icon-source" href="https://www.w3.org/html/logo/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="epub-colored EPUB">
+            <i class="icon-epub-colored"></i>
+            <a class="icon-label" href="https://www.w3.org/publishing/epub/" rel="noopener">EPUB</a>
+            <span class="icon-name">epub-colored</span>
+            <code>#85b916</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Epub_logo_color.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="info-card-colored Info Card">
+            <i class="icon-info-card-colored"></i>
+            <a class="icon-label" href="https://en.wikipedia.org/wiki/Information_card" rel="noopener">Info Card</a>
+            <span class="icon-name">info-card-colored</span>
+            <code>#BF84E5</code>
+          </div>
+          <div class="icon-card" data-search="remote-storage-colored remoteStorage">
+            <i class="icon-remote-storage-colored"></i>
+            <a class="icon-label" href="https://remotestorage.io/" rel="noopener">remoteStorage</a>
+            <span class="icon-name">remote-storage-colored</span>
+            <code>#ff4e09</code>
+            <a class="icon-source" href="https://github.com/remotestorage/website/blob/master/public/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="odata-colored OData">
+            <i class="icon-odata-colored"></i>
+            <a class="icon-label" href="https://www.odata.org/" rel="noopener">OData</a>
+            <span class="icon-name">odata-colored</span>
+            <code>#EA680B</code>
+            <a class="icon-source" href="https://www.odata.org/odata-icon-usage-guidelines/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="git-colored Git">
+            <i class="icon-git-colored"></i>
+            <a class="icon-label" href="https://git-scm.com/" rel="noopener">Git</a>
+            <span class="icon-name">git-colored</span>
+            <code>#F05133</code>
+            <a class="icon-source" href="https://git-scm.com/downloads/logos" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="osi-colored Open Source Initiative">
+            <i class="icon-osi-colored"></i>
+            <a class="icon-label" href="https://opensource.org/" rel="noopener">Open Source Initiative</a>
+            <span class="icon-name">osi-colored</span>
+            <code>#3DA639</code>
+            <a class="icon-source" href="https://opensource.org/about/brand-and-trademark-guidelines" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="javascript-colored JavaScript">
+            <i class="icon-javascript-colored"></i>
+            <a class="icon-label" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="noopener">JavaScript</a>
+            <span class="icon-name">javascript-colored</span>
+            <code>#f0db4f</code>
+            <a class="icon-source" href="https://github.com/voodootikigod/logo.js" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="gnusocial-colored GNU social">
+            <i class="icon-gnusocial-colored"></i>
+            <a class="icon-label" href="https://gnusocial.rocks/" rel="noopener">GNU social</a>
+            <span class="icon-name">gnusocial-colored</span>
+            <code>#a22430</code>
+            <a class="icon-source" href="https://www.gnu.org/graphics/social.html" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="mastodon-simple-colored Mastodon (simple)">
+            <i class="icon-mastodon-simple-colored"></i>
+            <a class="icon-label" href="https://joinmastodon.org/" rel="noopener">Mastodon (simple)</a>
+            <span class="icon-name">mastodon-simple-colored</span>
+            <code>#2b90d9</code>
+            <a class="icon-source" href="https://joinmastodon.org/branding" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="mastodon-colored Mastodon">
+            <i class="icon-mastodon-colored"></i>
+            <a class="icon-label" href="https://joinmastodon.org/" rel="noopener">Mastodon</a>
+            <span class="icon-name">mastodon-colored</span>
+            <code>#2b90d9</code>
+            <a class="icon-source" href="https://joinmastodon.org/branding" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="id4me-colored ID4me">
+            <i class="icon-id4me-colored"></i>
+            <a class="icon-label" href="https://id4me.org/" rel="noopener">ID4me</a>
+            <span class="icon-name">id4me-colored</span>
+            <code>#007A9D</code>
+            <a class="icon-source" href="https://id4me.org/media-kit/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="lemmy-colored Lemmy">
+            <i class="icon-lemmy-colored"></i>
+            <a class="icon-label" href="https://join-lemmy.org/" rel="noopener">Lemmy</a>
+            <span class="icon-name">lemmy-colored</span>
+            <code>#00BC8C</code>
+            <a class="icon-source" href="https://github.com/LemmyNet/joinlemmy-site/blob/main/src/assets/images/lemmy.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="peertube-colored PeerTube">
+            <i class="icon-peertube-colored"></i>
+            <a class="icon-label" href="https://joinpeertube.org/" rel="noopener">PeerTube</a>
+            <span class="icon-name">peertube-colored</span>
+            <code>#F1680D</code>
+            <a class="icon-source" href="https://framagit.org/framasoft/peertube/peertube/-/blob/develop/client/src/assets/images/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="misskey-colored Misskey">
+            <i class="icon-misskey-colored"></i>
+            <a class="icon-label" href="https://misskey-hub.net/" rel="noopener">Misskey</a>
+            <span class="icon-name">misskey-colored</span>
+            <code>#99c837</code>
+            <a class="icon-source" href="https://misskey-hub.net/en/brand-assets/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="akkoma-colored Akkoma">
+            <i class="icon-akkoma-colored"></i>
+            <a class="icon-label" href="https://akkoma.dev/" rel="noopener">Akkoma</a>
+            <span class="icon-name">akkoma-colored</span>
+            <code>#593196</code>
+            <a class="icon-source" href="https://akkoma.dev/AkkomaGang/akkoma-fe/src/branch/develop/static/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="bookwyrm-colored BookWyrm">
+            <i class="icon-bookwyrm-colored"></i>
+            <a class="icon-label" href="https://joinbookwyrm.com/" rel="noopener">BookWyrm</a>
+            <span class="icon-name">bookwyrm-colored</span>
+            <code>#002549</code>
+            <a class="icon-source" href="https://github.com/bookwyrm-social/bookwyrm/blob/main/bookwyrm/static/images/logo.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="funkwhale-colored Funkwhale">
+            <i class="icon-funkwhale-colored"></i>
+            <a class="icon-label" href="https://www.funkwhale.audio/" rel="noopener">Funkwhale</a>
+            <span class="icon-name">funkwhale-colored</span>
+            <code>#0D47A1</code>
+            <a class="icon-source" href="https://www.funkwhale.audio/logos/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="gotosocial-colored GoToSocial">
+            <i class="icon-gotosocial-colored"></i>
+            <a class="icon-label" href="https://gotosocial.org/" rel="noopener">GoToSocial</a>
+            <span class="icon-name">gotosocial-colored</span>
+            <code>#F26522</code>
+            <a class="icon-source" href="https://codeberg.org/superseriousbusiness/gotosocial/src/branch/main/web/assets/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="forgejo-colored Forgejo">
+            <i class="icon-forgejo-colored"></i>
+            <a class="icon-label" href="https://forgejo.org/" rel="noopener">Forgejo</a>
+            <span class="icon-name">forgejo-colored</span>
+            <code>#E44729</code>
+            <a class="icon-source" href="https://codeberg.org/forgejo/meta/src/branch/readme/branding" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="gitea-colored Gitea">
+            <i class="icon-gitea-colored"></i>
+            <a class="icon-label" href="https://about.gitea.com/" rel="noopener">Gitea</a>
+            <span class="icon-name">gitea-colored</span>
+            <code>#609926</code>
+            <a class="icon-source" href="https://gitea.com/gitea/design" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="owncast-colored Owncast">
+            <i class="icon-owncast-colored"></i>
+            <a class="icon-label" href="https://owncast.online/" rel="noopener">Owncast</a>
+            <span class="icon-name">owncast-colored</span>
+            <code>#7871FF</code>
+            <a class="icon-source" href="https://github.com/owncast/owncast/blob/develop/static/img/logo.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="mobilizon-colored Mobilizon">
+            <i class="icon-mobilizon-colored"></i>
+            <a class="icon-label" href="https://joinmobilizon.org/" rel="noopener">Mobilizon</a>
+            <span class="icon-name">mobilizon-colored</span>
+            <code>#3E50AF</code>
+            <a class="icon-source" href="https://framagit.org/framasoft/mobilizon/mobilizon/-/blob/main/src/assets/logo.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="castopod-colored Castopod">
+            <i class="icon-castopod-colored"></i>
+            <a class="icon-label" href="https://castopod.org/" rel="noopener">Castopod</a>
+            <span class="icon-name">castopod-colored</span>
+            <code>#00564A</code>
+            <a class="icon-source" href="https://code.castopod.org/adaures/castopod/-/blob/main/docs/src/assets/castopod-logo-inline.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="kbin-colored kbin">
+            <i class="icon-kbin-colored"></i>
+            <span class="icon-label">kbin</span>
+            <span class="icon-name">kbin-colored</span>
+            <code>#7B1FA2</code>
+            <a class="icon-source" href="https://codeberg.org/Kbin/kbin-core/src/branch/develop/assets/images/kbin.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="iceshrimp-colored Iceshrimp">
+            <i class="icon-iceshrimp-colored"></i>
+            <a class="icon-label" href="https://iceshrimp.dev/" rel="noopener">Iceshrimp</a>
+            <span class="icon-name">iceshrimp-colored</span>
+            <code>#F75E7B</code>
+            <a class="icon-source" href="https://iceshrimp.dev/iceshrimp/branding" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="discourse-colored Discourse">
+            <i class="icon-discourse-colored"></i>
+            <a class="icon-label" href="https://www.discourse.org/" rel="noopener">Discourse</a>
+            <span class="icon-name">discourse-colored</span>
+            <code>#231F20</code>
+            <a class="icon-source" href="https://www.discourse.org/brand" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="nextcloud-colored Nextcloud">
+            <i class="icon-nextcloud-colored"></i>
+            <a class="icon-label" href="https://nextcloud.com/" rel="noopener">Nextcloud</a>
+            <span class="icon-name">nextcloud-colored</span>
+            <code>#0082C9</code>
+            <a class="icon-source" href="https://nextcloud.com/brand/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="bonfire-colored Bonfire">
+            <i class="icon-bonfire-colored"></i>
+            <a class="icon-label" href="https://bonfirenetworks.org/" rel="noopener">Bonfire</a>
+            <span class="icon-name">bonfire-colored</span>
+            <code>#F15B40</code>
+            <a class="icon-source" href="https://bonfirenetworks.org/press/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="drupal-colored Drupal">
+            <i class="icon-drupal-colored"></i>
+            <a class="icon-label" href="https://www.drupal.org/" rel="noopener">Drupal</a>
+            <span class="icon-name">drupal-colored</span>
+            <code>#0678BE</code>
+            <a class="icon-source" href="https://www.drupal.org/about/media-kit/logos" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="keyoxide-colored Keyoxide">
+            <i class="icon-keyoxide-colored"></i>
+            <a class="icon-label" href="https://keyoxide.org/" rel="noopener">Keyoxide</a>
+            <span class="icon-name">keyoxide-colored</span>
+            <code>#56A300</code>
+            <a class="icon-source" href="https://codeberg.org/keyoxide/keyoxide-artwork" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="hubzilla-simple-colored Hubzilla (simple)">
+            <i class="icon-hubzilla-simple-colored"></i>
+            <a class="icon-label" href="https://hubzilla.org/" rel="noopener">Hubzilla (simple)</a>
+            <span class="icon-name">hubzilla-simple-colored</span>
+            <code>#2E5AA1</code>
+            <a class="icon-source" href="https://framagit.org/hubzilla/core/-/blob/master/images/hubzilla.svg" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card" data-search="flohmarkt-colored flohmarkt">
+            <i class="icon-flohmarkt-colored"></i>
+            <a class="icon-label" href="https://codeberg.org/flohmarkt/flohmarkt" rel="noopener">flohmarkt</a>
+            <span class="icon-name">flohmarkt-colored</span>
+            <code>#D93F00</code>
+            <a class="icon-source" href="https://codeberg.org/flohmarkt/flohmarkt/src/branch/master/meta/logo.svg" rel="noopener">logo source</a>
+          </div>
       </div>
     </section>
 
     <section>
       <h2>Aliases</h2>
       <div class="icon-grid">
-        <div class="icon-card alias">
-          <i class="icon-rdfa"></i>
-          <span class="icon-name">rdfa</span>
-          <code>alias of rdf</code>
-        </div>
-        <div class="icon-card alias">
-          <i class="icon-owl"></i>
-          <span class="icon-name">owl</span>
-          <code>alias of rdf</code>
-        </div>
-        <div class="icon-card alias">
-          <i class="icon-opensource"></i>
-          <span class="icon-name">opensource</span>
-          <code>alias of osi</code>
-        </div>
-        <div class="icon-card alias">
-          <i class="icon-ofl-attribution"></i>
-          <span class="icon-name">ofl-attribution</span>
-          <code>alias of cc-by</code>
-        </div>
-        <div class="icon-card alias">
-          <i class="icon-ofl-share"></i>
-          <span class="icon-name">ofl-share</span>
-          <code>alias of cc-sa</code>
-        </div>
-        <div class="icon-card alias">
-          <i class="icon-pub"></i>
-          <span class="icon-name">pub</span>
-          <code>alias of pubsubhubbub-pub</code>
-        </div>
-        <div class="icon-card alias">
-          <i class="icon-sub"></i>
-          <span class="icon-name">sub</span>
-          <code>alias of pubsubhubbub-sub</code>
-        </div>
-        <div class="icon-card alias">
-          <i class="icon-hubbub"></i>
-          <span class="icon-name">hubbub</span>
-          <code>alias of pubsubhubbub-pub</code>
-        </div>
+          <div class="icon-card alias" data-search="rdfa RDFa">
+            <i class="icon-rdfa"></i>
+            <a class="icon-label" href="https://www.w3.org/RDF/" rel="noopener">RDFa</a>
+            <span class="icon-name">rdfa</span>
+            <code>alias of rdf</code>
+            <a class="icon-source" href="https://www.w3.org/2007/10/sw-logos.html" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card alias" data-search="owl OWL">
+            <i class="icon-owl"></i>
+            <a class="icon-label" href="https://www.w3.org/RDF/" rel="noopener">OWL</a>
+            <span class="icon-name">owl</span>
+            <code>alias of rdf</code>
+            <a class="icon-source" href="https://www.w3.org/2007/10/sw-logos.html" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card alias" data-search="opensource Open Source">
+            <i class="icon-opensource"></i>
+            <a class="icon-label" href="https://opensource.org/" rel="noopener">Open Source</a>
+            <span class="icon-name">opensource</span>
+            <code>alias of osi</code>
+            <a class="icon-source" href="https://opensource.org/about/brand-and-trademark-guidelines" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card alias" data-search="ofl-attribution OFL Attribution">
+            <i class="icon-ofl-attribution"></i>
+            <a class="icon-label" href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">OFL Attribution</a>
+            <span class="icon-name">ofl-attribution</span>
+            <code>alias of cc-by</code>
+            <a class="icon-source" href="https://creativecommons.org/mission/downloads/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card alias" data-search="ofl-share OFL Share">
+            <i class="icon-ofl-share"></i>
+            <a class="icon-label" href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">OFL Share</a>
+            <span class="icon-name">ofl-share</span>
+            <code>alias of cc-sa</code>
+            <a class="icon-source" href="https://creativecommons.org/mission/downloads/" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card alias" data-search="pub PubSubHubbub (publisher)">
+            <i class="icon-pub"></i>
+            <a class="icon-label" href="https://www.w3.org/TR/websub/" rel="noopener">PubSubHubbub (publisher)</a>
+            <span class="icon-name">pub</span>
+            <code>alias of pubsubhubbub-pub</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Pubsubhubbub.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card alias" data-search="sub PubSubHubbub (subscriber)">
+            <i class="icon-sub"></i>
+            <a class="icon-label" href="https://www.w3.org/TR/websub/" rel="noopener">PubSubHubbub (subscriber)</a>
+            <span class="icon-name">sub</span>
+            <code>alias of pubsubhubbub-sub</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Pubsubhubbub.png" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card alias" data-search="hubbub PubSubHubbub">
+            <i class="icon-hubbub"></i>
+            <a class="icon-label" href="https://www.w3.org/TR/websub/" rel="noopener">PubSubHubbub</a>
+            <span class="icon-name">hubbub</span>
+            <code>alias of pubsubhubbub-pub</code>
+            <a class="icon-source" href="https://commons.wikimedia.org/wiki/File:Pubsubhubbub.png" rel="noopener">logo source</a>
+          </div>
       </div>
     </section>
 
     <section>
       <h2>Compositions</h2>
       <div class="icon-grid">
-        <div class="icon-card composition">
-          <i class="icon-indieweb"></i>
-          <span class="icon-name">indieweb</span>
-          <code>indieweb-indie + indieweb-web</code>
-        </div>
-        <div class="icon-card composition">
-          <i class="icon-indiewebcamp"></i>
-          <span class="icon-name">indiewebcamp</span>
-          <code>indieweb-indie + indieweb-web + indieweb-camp</code>
-        </div>
+          <div class="icon-card composition" data-search="indieweb IndieWeb">
+            <i class="icon-indieweb"></i>
+            <a class="icon-label" href="https://indieweb.org/" rel="noopener">IndieWeb</a>
+            <span class="icon-name">indieweb</span>
+            <code>indieweb-indie + indieweb-web</code>
+            <a class="icon-source" href="https://indieweb.org/logo" rel="noopener">logo source</a>
+          </div>
+          <div class="icon-card composition" data-search="indiewebcamp IndieWebCamp">
+            <i class="icon-indiewebcamp"></i>
+            <a class="icon-label" href="https://indieweb.org/" rel="noopener">IndieWebCamp</a>
+            <span class="icon-name">indiewebcamp</span>
+            <code>indieweb-indie + indieweb-web + indieweb-camp</code>
+            <a class="icon-source" href="https://indieweb.org/logo" rel="noopener">logo source</a>
+          </div>
       </div>
     </section>
   </div>
@@ -1260,12 +1681,13 @@
       <i class="icon-ofl-attribution"></i>
       <i class="icon-ofl-share"></i>
       <i class="icon-ofl-embedding"></i>
-      Licensed under <a href="http://scripts.sil.org/OFL">SIL Open Font License</a>.
+      The font is licensed under the <a href="https://openfontlicense.org/">SIL Open Font License</a>.
       Created by <a href="https://github.com/pfefferle">Matthias Pfefferle</a>.
     </p>
     <p>
       <a href="https://github.com/pfefferle/openwebicons">GitHub</a> &middot;
-      <a href="https://www.npmjs.com/package/openwebicons">npm</a>
+      <a href="https://www.npmjs.com/package/openwebicons">npm</a> &middot;
+      <a href="https://github.com/pfefferle/openwebicons#wordpress">WordPress plugin</a>
     </p>
     <p style="font-size: 0.75rem; max-width: 640px; margin: 12px auto 0;">
       Disclaimer: The individual project logos and icons included in this font are trademarks or registered trademarks of their respective owners. Their inclusion in this icon font does not imply ownership, endorsement, or affiliation. All rights to the original logos remain with their respective copyright holders.
@@ -1276,8 +1698,8 @@
     document.getElementById('search').addEventListener('input', function(e) {
       var q = e.target.value.toLowerCase();
       document.querySelectorAll('.icon-card').forEach(function(card) {
-        var name = card.querySelector('.icon-name').textContent.toLowerCase();
-        card.style.display = name.includes(q) ? '' : 'none';
+        var haystack = (card.getAttribute('data-search') || '').toLowerCase();
+        card.style.display = haystack.includes(q) ? '' : 'none';
       });
     });
   </script>

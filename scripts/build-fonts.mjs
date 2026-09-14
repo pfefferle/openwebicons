@@ -43,32 +43,45 @@ const result = await generateFonts({
 console.log(`  ${Object.keys(result.codepoints).length} glyphs generated`);
 
 // Build template data
+//
+// Every card gets the label and, when icons.json has them, the project
+// homepage and the page the logo was taken from. Aliases and the colored
+// variants show the metadata of the icon they are derived from.
+const card = (name, meta, extra = {}) => ({
+  name,
+  label: meta.label,
+  url: meta.url || null,
+  source: meta.source || null,
+  ...extra,
+});
+
 const coloredIcons = Object.entries(iconsData.icons)
   .filter(([, m]) => m.color)
-  .map(([name, m]) => ({ name, color: m.color }));
+  .map(([name, m]) => card(name, m, { color: m.color }));
 
 const aliasIcons = Object.entries(iconsData.aliases)
-  .map(([name, m]) => ({ name, aliasOf: m.aliasOf }));
+  .map(([name, m]) => card(name, { ...(iconsData.icons[m.aliasOf] || {}), label: m.label }, { aliasOf: m.aliasOf }));
 
 const compositionIcons = Object.entries(iconsData.compositions)
-  .map(([name, m]) => ({ name, glyphs: m.glyphs.join(' + ') }));
+  .map(([name, m]) => card(name, m, { glyphs: m.glyphs.join(' + ') }));
 
 const allGrouped = new Set();
 const groupedIcons = Object.entries(iconsData.groups || {}).map(([groupName, members]) => ({
   groupName,
   icons: members.map(m => {
     allGrouped.add(m);
-    const meta = iconsData.icons[m];
-    return { name: m, codepoint: meta ? meta.codepoint : '?' };
+    const meta = iconsData.icons[m] || { label: m };
+    return card(m, meta, { codepoint: meta.codepoint || '?' });
   }),
 }));
 
 const ungroupedIcons = Object.entries(iconsData.icons)
   .filter(([name]) => !allGrouped.has(name))
-  .map(([name, m]) => ({ name, codepoint: m.codepoint }));
+  .map(([name, m]) => card(name, m, { codepoint: m.codepoint }));
 
 // Render HTML template
 const templateSrc = readFileSync(join(ROOT, 'templates', 'html.hbs'), 'utf8');
+Handlebars.registerHelper('concat', (...args) => args.slice(0, -1).join(''));
 const template = Handlebars.compile(templateSrc);
 
 const html = template({

@@ -125,6 +125,18 @@ for (const [section, entries] of Object.entries({ icons, aliases, compositions }
   }
 }
 
+// url and source are optional, but when they are there the docs page turns
+// them into links, so they have to be absolute http(s) URLs.
+for (const [section, entries] of Object.entries({ icons, aliases, compositions })) {
+  for (const [name, entry] of Object.entries(entries)) {
+    for (const field of ['url', 'source']) {
+      if (entry[field] !== undefined && !/^https?:\/\/\S+$/.test(entry[field])) {
+        error(`icons.json: ${SINGULAR[section]} "${name}" has an invalid ${field}: ${JSON.stringify(entry[field])}`);
+      }
+    }
+  }
+}
+
 // Every icon in icons.json must have a matching SVG
 for (const name of Object.keys(icons)) {
   if (!svgNames.has(name)) {
