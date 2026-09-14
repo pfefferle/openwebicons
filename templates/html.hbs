@@ -70,7 +70,11 @@
       font-size: 36px; margin-bottom: 10px; min-height: 40px;
       display: flex; align-items: center;
     }
-    .icon-card .icon-name { font-size: 0.75rem; font-weight: 500; word-break: break-all; }
+    .icon-card .icon-label { font-size: 0.85rem; font-weight: 600; color: var(--text); text-decoration: none; }
+    .icon-card a.icon-label:hover { color: var(--accent); text-decoration: underline; }
+    .icon-card .icon-name { font-size: 0.7rem; color: var(--muted); word-break: break-all; }
+    .icon-card .icon-source { font-size: 0.65rem; color: var(--muted); margin-top: 6px; }
+    .icon-card .icon-source:hover { color: var(--accent); }
     .icon-card code { font-size: 0.65rem; color: var(--muted); margin-top: 4px; }
     .icon-card.alias { border-style: dashed; }
     .icon-card.composition { border-color: var(--accent); }
@@ -91,6 +95,22 @@
   <link rel="stylesheet" type="text/css" href="{{ name }}.css">
 </head>
 <body>
+  {{#*inline "card"}}
+  <div class="icon-card{{#if class}} {{class}}{{/if}}" data-search="{{name}}{{suffix}} {{label}}">
+    <i class="{{@root.prefix}}-{{name}}{{suffix}}"></i>
+    {{#if url}}
+    <a class="icon-label" href="{{url}}" rel="noopener">{{label}}</a>
+    {{else}}
+    <span class="icon-label">{{label}}</span>
+    {{/if}}
+    <span class="icon-name">{{name}}{{suffix}}</span>
+    <code>{{detail}}</code>
+    {{#if source}}
+    <a class="icon-source" href="{{source}}" rel="noopener">logo source</a>
+    {{/if}}
+  </div>
+  {{/inline}}
+
   <header>
     <h1>OpenWeb Icons</h1>
     <p>Scalable vector icons for open communities, standards, and projects.</p>
@@ -119,11 +139,7 @@
       <h3>{{ this.groupName }}</h3>
       <div class="icon-grid">
         {{# each this.icons }}
-        <div class="icon-card">
-          <i class="{{ ../../prefix }}-{{ this.name }}"></i>
-          <span class="icon-name">{{ this.name }}</span>
-          <code>{{ this.codepoint }}</code>
-        </div>
+        {{> card this detail=this.codepoint }}
         {{/ each }}
       </div>
       {{/ each }}
@@ -132,11 +148,7 @@
       <h3>Ungrouped</h3>
       <div class="icon-grid">
         {{# each ungroupedIcons }}
-        <div class="icon-card">
-          <i class="{{ ../prefix }}-{{ this.name }}"></i>
-          <span class="icon-name">{{ this.name }}</span>
-          <code>{{ this.codepoint }}</code>
-        </div>
+        {{> card this detail=this.codepoint }}
         {{/ each }}
       </div>
       {{/ if }}
@@ -147,11 +159,7 @@
       <h2>Colored Variants</h2>
       <div class="icon-grid">
         {{# each coloredIcons }}
-        <div class="icon-card">
-          <i class="{{ ../prefix }}-{{ this.name }}-colored"></i>
-          <span class="icon-name">{{ this.name }}-colored</span>
-          <code>{{ this.color }}</code>
-        </div>
+        {{> card this suffix="-colored" detail=this.color }}
         {{/ each }}
       </div>
     </section>
@@ -162,11 +170,7 @@
       <h2>Aliases</h2>
       <div class="icon-grid">
         {{# each aliasIcons }}
-        <div class="icon-card alias">
-          <i class="{{ ../prefix }}-{{ this.name }}"></i>
-          <span class="icon-name">{{ this.name }}</span>
-          <code>alias of {{ this.aliasOf }}</code>
-        </div>
+        {{> card this class="alias" detail=(concat "alias of " this.aliasOf) }}
         {{/ each }}
       </div>
     </section>
@@ -177,11 +181,7 @@
       <h2>Compositions</h2>
       <div class="icon-grid">
         {{# each compositionIcons }}
-        <div class="icon-card composition">
-          <i class="{{ ../prefix }}-{{ this.name }}"></i>
-          <span class="icon-name">{{ this.name }}</span>
-          <code>{{ this.glyphs }}</code>
-        </div>
+        {{> card this class="composition" detail=this.glyphs }}
         {{/ each }}
       </div>
     </section>
@@ -193,12 +193,13 @@
       <i class="{{ prefix }}-ofl-attribution"></i>
       <i class="{{ prefix }}-ofl-share"></i>
       <i class="{{ prefix }}-ofl-embedding"></i>
-      Licensed under <a href="http://scripts.sil.org/OFL">SIL Open Font License</a>.
+      The font is licensed under the <a href="https://openfontlicense.org/">SIL Open Font License</a>.
       Created by <a href="https://github.com/pfefferle">Matthias Pfefferle</a>.
     </p>
     <p>
       <a href="https://github.com/pfefferle/openwebicons">GitHub</a> &middot;
-      <a href="https://www.npmjs.com/package/openwebicons">npm</a>
+      <a href="https://www.npmjs.com/package/openwebicons">npm</a> &middot;
+      <a href="https://github.com/pfefferle/openwebicons#wordpress">WordPress plugin</a>
     </p>
     <p style="font-size: 0.75rem; max-width: 640px; margin: 12px auto 0;">
       Disclaimer: The individual project logos and icons included in this font are trademarks or registered trademarks of their respective owners. Their inclusion in this icon font does not imply ownership, endorsement, or affiliation. All rights to the original logos remain with their respective copyright holders.
@@ -209,8 +210,8 @@
     document.getElementById('search').addEventListener('input', function(e) {
       var q = e.target.value.toLowerCase();
       document.querySelectorAll('.icon-card').forEach(function(card) {
-        var name = card.querySelector('.icon-name').textContent.toLowerCase();
-        card.style.display = name.includes(q) ? '' : 'none';
+        var haystack = (card.getAttribute('data-search') || '').toLowerCase();
+        card.style.display = haystack.includes(q) ? '' : 'none';
       });
     });
   </script>

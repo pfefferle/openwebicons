@@ -2,81 +2,115 @@
   "icons": {
     "semantic-web": {
       "label": "Semantic Web",
-      "codepoint": "0xf000"
+      "codepoint": "0xf000",
+      "url": "https://www.w3.org/2001/sw/",
+      "source": "https://www.w3.org/2007/10/sw-logos.html"
     },
     "apml": {
       "label": "APML",
       "codepoint": "0xf001",
-      "color": "#AFDD63"
+      "color": "#AFDD63",
+      "url": "https://en.wikipedia.org/wiki/Attention_Profiling_Mark-up_Language",
+      "source": "https://suda.co.uk/projects/apml/"
     },
     "opensearch": {
       "label": "OpenSearch",
       "codepoint": "0xf002",
-      "color": "#5050f3"
+      "color": "#5050f3",
+      "url": "https://github.com/dewitt/opensearch",
+      "source": "https://github.com/dewitt/opensearch/blob/master/mediawiki/Community/OpenSearch%20icons.wiki"
     },
     "opml": {
       "label": "OPML",
       "codepoint": "0xf003",
-      "color": "#2490A1"
+      "color": "#2490A1",
+      "url": "http://opml.org/",
+      "source": "https://commons.wikimedia.org/wiki/File:Opml-icon.svg"
     },
     "ostatus": {
       "label": "OStatus",
       "codepoint": "0xf004",
-      "color": "#FF6600"
+      "color": "#FF6600",
+      "url": "https://en.wikipedia.org/wiki/OStatus",
+      "source": "https://commons.wikimedia.org/wiki/File:Ostatus.png"
     },
     "ostatus-simple": {
       "label": "OStatus (simple)",
-      "codepoint": "0xf005"
+      "codepoint": "0xf005",
+      "url": "https://en.wikipedia.org/wiki/OStatus",
+      "source": "https://commons.wikimedia.org/wiki/File:Ostatus.png"
     },
     "share": {
       "label": "Share",
       "codepoint": "0xf006",
-      "color": "#538439"
+      "color": "#538439",
+      "url": "https://en.wikipedia.org/wiki/Share_icon",
+      "source": "https://commons.wikimedia.org/wiki/File:Openshareicon-128x128.png"
     },
     "share-simple": {
       "label": "Share (simple)",
-      "codepoint": "0xf007"
+      "codepoint": "0xf007",
+      "url": "https://en.wikipedia.org/wiki/Share_icon",
+      "source": "https://commons.wikimedia.org/wiki/File:Openshareicon-128x128.png"
     },
     "oauth": {
       "label": "OAuth",
-      "codepoint": "0xf008"
+      "codepoint": "0xf008",
+      "url": "https://oauth.net/",
+      "source": "http://wiki.oauth.net/w/page/12238520/Logo"
     },
     "feed": {
       "label": "Feed",
       "codepoint": "0xf009",
-      "color": "#EA680B"
+      "color": "#EA680B",
+      "url": "https://www.mozilla.org/en-US/foundation/feed-icon-guidelines/",
+      "source": "https://commons.wikimedia.org/wiki/File:Feed-icon.svg"
     },
     "feed-simple": {
       "label": "Feed (simple)",
-      "codepoint": "0xf00a"
+      "codepoint": "0xf00a",
+      "url": "https://www.mozilla.org/en-US/foundation/feed-icon-guidelines/",
+      "source": "https://commons.wikimedia.org/wiki/File:Feed-icon.svg"
     },
     "geo": {
       "label": "Geo",
       "codepoint": "0xf00b",
-      "color": "#990000"
+      "color": "#990000",
+      "url": "https://microformats.org/wiki/geo",
+      "source": "https://microformats.org/wiki/logo"
     },
     "microformats": {
       "label": "Microformats",
       "codepoint": "0xf00c",
-      "color": "#85BC07"
+      "color": "#85BC07",
+      "url": "https://microformats.org/",
+      "source": "https://microformats.org/wiki/logo"
     },
     "openid": {
       "label": "OpenID",
-      "codepoint": "0xf00d"
+      "codepoint": "0xf00d",
+      "url": "https://openid.net/",
+      "source": "https://commons.wikimedia.org/wiki/File:OpenID_logo.svg"
     },
     "open-share": {
       "label": "Open Share",
       "codepoint": "0xf00e",
-      "color": "#538439"
+      "color": "#538439",
+      "url": "https://en.wikipedia.org/wiki/Share_icon",
+      "source": "https://commons.wikimedia.org/wiki/File:Openshareicon-128x128.png"
     },
     "open-share-simple": {
       "label": "Open Share (simple)",
-      "codepoint": "0xf00f"
+      "codepoint": "0xf00f",
+      "url": "https://en.wikipedia.org/wiki/Share_icon",
+      "source": "https://commons.wikimedia.org/wiki/File:Openshareicon-128x128.png"
     },
     "activity": {
       "label": "Activity",
       "codepoint": "0xf010",
-      "color": "#4FB2D9"
+      "color": "#4FB2D9",
+      "url": "https://activitystrea.ms/",
+      "source": "http://wiki.activitystrea.ms/w/page/23953797/Icon"
     },
     "federated": {
       "label": "Federated",
@@ -84,239 +118,343 @@
     },
     "open-web": {
       "label": "Open Web",
-      "codepoint": "0xf012"
+      "codepoint": "0xf012",
+      "url": "https://www.openwebfoundation.org/"
     },
     "dataportability": {
       "label": "DataPortability",
-      "codepoint": "0xf013"
+      "codepoint": "0xf013",
+      "url": "https://en.wikipedia.org/wiki/Data_portability",
+      "source": "https://commons.wikimedia.org/wiki/File:Dataportability.jpg"
     },
     "web-intents": {
       "label": "Web Intents",
-      "codepoint": "0xf014"
+      "codepoint": "0xf014",
+      "url": "https://en.wikipedia.org/wiki/Web_Intents"
     },
     "xmpp": {
       "label": "XMPP",
-      "codepoint": "0xf015"
+      "codepoint": "0xf015",
+      "url": "https://xmpp.org/",
+      "source": "https://github.com/xsf/xmpp.org/blob/master/static/images/logos/xmpp-logo.svg"
     },
     "html5": {
       "label": "HTML5",
       "codepoint": "0xf016",
-      "color": "#E34C26"
+      "color": "#E34C26",
+      "url": "https://www.w3.org/html/logo/",
+      "source": "https://www.w3.org/html/logo/"
     },
     "css3": {
       "label": "CSS3",
-      "codepoint": "0xf017"
+      "codepoint": "0xf017",
+      "url": "https://www.w3.org/Style/CSS/",
+      "source": "https://www.w3.org/html/logo/"
     },
     "connectivity": {
       "label": "Connectivity",
-      "codepoint": "0xf018"
+      "codepoint": "0xf018",
+      "url": "https://www.w3.org/html/logo/",
+      "source": "https://www.w3.org/html/logo/"
     },
     "semantics": {
       "label": "Semantics",
-      "codepoint": "0xf019"
+      "codepoint": "0xf019",
+      "url": "https://www.w3.org/html/logo/",
+      "source": "https://www.w3.org/html/logo/"
     },
     "opengraph": {
       "label": "Open Graph",
-      "codepoint": "0xf020"
+      "codepoint": "0xf020",
+      "url": "https://ogp.me/",
+      "source": "https://github.com/facebook/open-graph-protocol/blob/master/open_graph_protocol_logo.png"
     },
     "epub": {
       "label": "EPUB",
       "codepoint": "0xf021",
-      "color": "#85b916"
+      "color": "#85b916",
+      "url": "https://www.w3.org/publishing/epub/",
+      "source": "https://commons.wikimedia.org/wiki/File:Epub_logo_color.svg"
     },
     "qr": {
       "label": "QR Code",
-      "codepoint": "0xf022"
+      "codepoint": "0xf022",
+      "url": "https://www.qrcode.com/en/"
     },
     "foaf": {
       "label": "FOAF",
-      "codepoint": "0xf023"
+      "codepoint": "0xf023",
+      "url": "https://xmlns.com/foaf/spec/",
+      "source": "https://commons.wikimedia.org/wiki/File:Foaf-Logo.svg"
     },
     "info-card": {
       "label": "Info Card",
       "codepoint": "0xf024",
-      "color": "#BF84E5"
+      "color": "#BF84E5",
+      "url": "https://en.wikipedia.org/wiki/Information_card"
     },
     "browserid": {
       "label": "BrowserID",
-      "codepoint": "0xf025"
+      "codepoint": "0xf025",
+      "url": "https://en.wikipedia.org/wiki/Mozilla_Persona",
+      "source": "https://github.com/mozilla/persona/blob/dev/resources/assets/browserID-logo.eps"
     },
     "remote-storage": {
       "label": "remoteStorage",
       "codepoint": "0xf026",
-      "color": "#ff4e09"
+      "color": "#ff4e09",
+      "url": "https://remotestorage.io/",
+      "source": "https://github.com/remotestorage/website/blob/master/public/logo.svg"
     },
     "persona": {
       "label": "Persona",
-      "codepoint": "0xf027"
+      "codepoint": "0xf027",
+      "url": "https://en.wikipedia.org/wiki/Mozilla_Persona",
+      "source": "https://github.com/mozilla/persona/blob/dev/resources/static/pages/i/persona-logo-wordmark.png"
     },
     "odata": {
       "label": "OData",
       "codepoint": "0xf028",
-      "color": "#EA680B"
+      "color": "#EA680B",
+      "url": "https://www.odata.org/",
+      "source": "https://www.odata.org/odata-icon-usage-guidelines/"
     },
     "markdown": {
       "label": "Markdown",
-      "codepoint": "0xf029"
+      "codepoint": "0xf029",
+      "url": "https://daringfireball.net/projects/markdown/",
+      "source": "https://github.com/dcurtis/markdown-mark"
     },
     "tosdr": {
       "label": "Terms of Service; Didn't Read",
-      "codepoint": "0xf030"
+      "codepoint": "0xf030",
+      "url": "https://tosdr.org/",
+      "source": "https://commons.wikimedia.org/wiki/File:Terms_of_Service;_Didn%27t_Read_logo.svg"
     },
     "device-access": {
       "label": "Device Access",
-      "codepoint": "0xf031"
+      "codepoint": "0xf031",
+      "url": "https://www.w3.org/html/logo/",
+      "source": "https://www.w3.org/html/logo/"
     },
     "multimedia": {
       "label": "Multimedia",
-      "codepoint": "0xf032"
+      "codepoint": "0xf032",
+      "url": "https://www.w3.org/html/logo/",
+      "source": "https://www.w3.org/html/logo/"
     },
     "offline-storage": {
       "label": "Offline Storage",
-      "codepoint": "0xf033"
+      "codepoint": "0xf033",
+      "url": "https://www.w3.org/html/logo/",
+      "source": "https://www.w3.org/html/logo/"
     },
     "perfintegration": {
       "label": "Performance & Integration",
-      "codepoint": "0xf034"
+      "codepoint": "0xf034",
+      "url": "https://www.w3.org/html/logo/",
+      "source": "https://www.w3.org/html/logo/"
     },
     "git": {
       "label": "Git",
       "codepoint": "0xf035",
-      "color": "#F05133"
+      "color": "#F05133",
+      "url": "https://git-scm.com/",
+      "source": "https://git-scm.com/downloads/logos"
     },
     "webhooks": {
       "label": "Webhooks",
-      "codepoint": "0xf036"
+      "codepoint": "0xf036",
+      "url": "https://en.wikipedia.org/wiki/Webhook"
     },
     "3deffects": {
       "label": "3D Effects",
-      "codepoint": "0xf037"
+      "codepoint": "0xf037",
+      "url": "https://www.w3.org/html/logo/",
+      "source": "https://www.w3.org/html/logo/"
     },
     "osi": {
       "label": "Open Source Initiative",
       "codepoint": "0xf038",
-      "color": "#3DA639"
+      "color": "#3DA639",
+      "url": "https://opensource.org/",
+      "source": "https://opensource.org/about/brand-and-trademark-guidelines"
     },
     "rdf": {
       "label": "RDF",
-      "codepoint": "0xf039"
+      "codepoint": "0xf039",
+      "url": "https://www.w3.org/RDF/",
+      "source": "https://www.w3.org/2007/10/sw-logos.html"
     },
     "hatom": {
       "label": "hAtom",
-      "codepoint": "0xf040"
+      "codepoint": "0xf040",
+      "url": "https://microformats.org/wiki/hatom",
+      "source": "https://microformats.org/wiki/logo"
     },
     "activity-simple": {
       "label": "Activity (simple)",
-      "codepoint": "0xf041"
+      "codepoint": "0xf041",
+      "url": "https://activitystrea.ms/",
+      "source": "http://wiki.activitystrea.ms/w/page/23953797/Icon"
     },
     "hresume": {
       "label": "hResume",
-      "codepoint": "0xf042"
+      "codepoint": "0xf042",
+      "url": "https://microformats.org/wiki/hresume",
+      "source": "https://microformats.org/wiki/logo"
     },
     "hcard-add": {
       "label": "hCard (add)",
-      "codepoint": "0xf043"
+      "codepoint": "0xf043",
+      "url": "https://microformats.org/wiki/hcard",
+      "source": "https://microformats.org/wiki/logo"
     },
     "hcard-download": {
       "label": "hCard (download)",
-      "codepoint": "0xf044"
+      "codepoint": "0xf044",
+      "url": "https://microformats.org/wiki/hcard",
+      "source": "https://microformats.org/wiki/logo"
     },
     "pubsubhubbub-pub": {
       "label": "PubSubHubbub (publisher)",
-      "codepoint": "0xf045"
+      "codepoint": "0xf045",
+      "url": "https://www.w3.org/TR/websub/",
+      "source": "https://commons.wikimedia.org/wiki/File:Pubsubhubbub.png"
     },
     "pubsubhubbub-sub": {
       "label": "PubSubHubbub (subscriber)",
-      "codepoint": "0xf046"
+      "codepoint": "0xf046",
+      "url": "https://www.w3.org/TR/websub/",
+      "source": "https://commons.wikimedia.org/wiki/File:Pubsubhubbub.png"
     },
     "pubsubhubbub": {
       "label": "PubSubHubbub",
-      "codepoint": "0xf047"
+      "codepoint": "0xf047",
+      "url": "https://www.w3.org/TR/websub/",
+      "source": "https://commons.wikimedia.org/wiki/File:Pubsubhubbub.png"
     },
     "json-ld": {
       "label": "JSON-LD",
-      "codepoint": "0xf048"
+      "codepoint": "0xf048",
+      "url": "https://json-ld.org/",
+      "source": "https://github.com/json-ld/json-ld.org/blob/main/images/json-ld-logo.svg"
     },
     "svg": {
       "label": "SVG",
-      "codepoint": "0xf049"
+      "codepoint": "0xf049",
+      "url": "https://www.w3.org/Graphics/SVG/",
+      "source": "https://www.w3.org/2009/08/svg-logos.html"
     },
     "ofl-renaming": {
       "label": "OFL Renaming",
-      "codepoint": "0xf04a"
+      "codepoint": "0xf04a",
+      "url": "https://openfontlicense.org/"
     },
     "ofl-selling": {
       "label": "OFL Selling",
-      "codepoint": "0xf04b"
+      "codepoint": "0xf04b",
+      "url": "https://openfontlicense.org/"
     },
     "ofl-embedding": {
       "label": "OFL Embedding",
-      "codepoint": "0xf04c"
+      "codepoint": "0xf04c",
+      "url": "https://openfontlicense.org/"
     },
     "webmention": {
       "label": "Webmention",
-      "codepoint": "0xf04d"
+      "codepoint": "0xf04d",
+      "url": "https://webmention.net/",
+      "source": "https://indieweb.org/File:webmention-logo.svg"
     },
     "javascript": {
       "label": "JavaScript",
       "codepoint": "0xf04e",
-      "color": "#f0db4f"
+      "color": "#f0db4f",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "source": "https://github.com/voodootikigod/logo.js"
     },
     "wtfpl": {
       "label": "WTFPL",
-      "codepoint": "0xf04f"
+      "codepoint": "0xf04f",
+      "url": "https://www.wtfpl.net/",
+      "source": "https://www.wtfpl.net/download/"
     },
     "tent": {
       "label": "Tent",
-      "codepoint": "0xf050"
+      "codepoint": "0xf050",
+      "url": "https://github.com/tent",
+      "source": "https://github.com/tent/tent.io/blob/master/source/images/tent.svg"
     },
     "copyleft": {
       "label": "Copyleft",
-      "codepoint": "0xf051"
+      "codepoint": "0xf051",
+      "url": "https://www.gnu.org/licenses/copyleft.en.html",
+      "source": "https://commons.wikimedia.org/wiki/File:Copyleft.svg"
     },
     "gnu": {
       "label": "GNU",
-      "codepoint": "0xf052"
+      "codepoint": "0xf052",
+      "url": "https://www.gnu.org/",
+      "source": "https://www.gnu.org/graphics/heckert_gnu.html"
     },
     "ofl": {
       "label": "SIL Open Font License",
-      "codepoint": "0xf053"
+      "codepoint": "0xf053",
+      "url": "https://openfontlicense.org/"
     },
     "wordpress": {
       "label": "WordPress",
-      "codepoint": "0xf054"
+      "codepoint": "0xf054",
+      "url": "https://wordpress.org/",
+      "source": "https://wordpress.org/about/logos/"
     },
     "owncloud": {
       "label": "ownCloud",
-      "codepoint": "0xf055"
+      "codepoint": "0xf055",
+      "url": "https://owncloud.com/",
+      "source": "https://owncloud.com/trademark/"
     },
     "cccs": {
       "label": "CCCS",
-      "codepoint": "0xf056"
+      "codepoint": "0xf056",
+      "url": "https://www.c3s.cc/",
+      "source": "https://www.c3s.cc/en/press-area/"
     },
     "barcamp": {
       "label": "BarCamp",
-      "codepoint": "0xf057"
+      "codepoint": "0xf057",
+      "url": "http://barcamp.org/",
+      "source": "http://barcamp.org/w/page/405009/SpreadBarCamp"
     },
     "indiehosters": {
       "label": "IndieHosters",
-      "codepoint": "0xf058"
+      "codepoint": "0xf058",
+      "url": "https://indiehosters.net/"
     },
     "known": {
       "label": "Known",
-      "codepoint": "0xf059"
+      "codepoint": "0xf059",
+      "url": "https://withknown.com/",
+      "source": "https://github.com/idno/idno/tree/dev/gfx/logos"
     },
     "mozilla": {
       "label": "Mozilla",
-      "codepoint": "0xf05a"
+      "codepoint": "0xf05a",
+      "url": "https://www.mozilla.org/",
+      "source": "https://commons.wikimedia.org/wiki/File:Mozilla_dinosaur_head_logo.svg"
     },
     "unhosted": {
       "label": "Unhosted",
-      "codepoint": "0xf05b"
+      "codepoint": "0xf05b",
+      "url": "https://unhosted.org/",
+      "source": "https://github.com/unhosted/design"
     },
     "diaspora": {
       "label": "diaspora*",
-      "codepoint": "0xf05c"
+      "codepoint": "0xf05c",
+      "url": "https://diasporafoundation.org/",
+      "source": "https://wiki.diasporafoundation.org/Branding"
     },
     "indie": {
       "label": "Indie",
@@ -324,284 +462,412 @@
     },
     "ghost": {
       "label": "Ghost",
-      "codepoint": "0xf05e"
+      "codepoint": "0xf05e",
+      "url": "https://ghost.org/",
+      "source": "https://docs.ghost.org/logos/"
     },
     "opensourcedesign": {
       "label": "Open Source Design",
-      "codepoint": "0xf060"
+      "codepoint": "0xf060",
+      "url": "https://opensourcedesign.net/",
+      "source": "https://github.com/opensourcedesign/opensourcedesign.net/blob/main/static/images/brand/opensourcedesign-logo.svg"
     },
     "opendesign": {
       "label": "Open Design",
-      "codepoint": "0xf061"
+      "codepoint": "0xf061",
+      "url": "https://en.wikipedia.org/wiki/Open-design_movement"
     },
     "gnusocial": {
       "label": "GNU social",
       "codepoint": "0xf062",
-      "color": "#a22430"
+      "color": "#a22430",
+      "url": "https://gnusocial.rocks/",
+      "source": "https://www.gnu.org/graphics/social.html"
     },
     "gnusocial-simple": {
       "label": "GNU social (simple)",
-      "codepoint": "0xf063"
+      "codepoint": "0xf063",
+      "url": "https://gnusocial.rocks/",
+      "source": "https://www.gnu.org/graphics/social.html"
     },
     "mastodon-simple": {
       "label": "Mastodon (simple)",
       "codepoint": "0xf064",
-      "color": "#2b90d9"
+      "color": "#2b90d9",
+      "url": "https://joinmastodon.org/",
+      "source": "https://joinmastodon.org/branding"
     },
     "mastodon": {
       "label": "Mastodon",
       "codepoint": "0xf065",
-      "color": "#2b90d9"
+      "color": "#2b90d9",
+      "url": "https://joinmastodon.org/",
+      "source": "https://joinmastodon.org/branding"
     },
     "jsonfeed": {
       "label": "JSON Feed",
-      "codepoint": "0xf066"
+      "codepoint": "0xf066",
+      "url": "https://www.jsonfeed.org/",
+      "source": "https://github.com/manton/JSONFeed/blob/master/graphics/icon.svg"
     },
     "pump-io": {
       "label": "Pump.io",
-      "codepoint": "0xf067"
+      "codepoint": "0xf067",
+      "url": "https://en.wikipedia.org/wiki/Pump.io",
+      "source": "https://commons.wikimedia.org/wiki/File:Pump.io.svg"
     },
     "friendica": {
       "label": "Friendica",
-      "codepoint": "0xf068"
+      "codepoint": "0xf068",
+      "url": "https://friendi.ca/",
+      "source": "https://github.com/friendica/friendica/blob/develop/images/friendica.svg"
     },
     "hubzilla": {
       "label": "Hubzilla",
-      "codepoint": "0xf069"
+      "codepoint": "0xf069",
+      "url": "https://hubzilla.org/",
+      "source": "https://framagit.org/hubzilla/core/-/blob/master/images/hubzilla.svg"
     },
     "fediverse": {
       "label": "Fediverse",
-      "codepoint": "0xf06a"
+      "codepoint": "0xf06a",
+      "url": "https://fediverse.info/",
+      "source": "https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg"
     },
     "id4me": {
       "label": "ID4me",
       "codepoint": "0xf06b",
-      "color": "#007A9D"
+      "color": "#007A9D",
+      "url": "https://id4me.org/",
+      "source": "https://id4me.org/media-kit/"
     },
     "movim": {
       "label": "Movim",
-      "codepoint": "0xf06c"
+      "codepoint": "0xf06c",
+      "url": "https://movim.eu/",
+      "source": "https://github.com/movim/movim/blob/master/public/theme/img/app/logo.svg"
     },
     "pleroma": {
       "label": "Pleroma",
-      "codepoint": "0xf06d"
+      "codepoint": "0xf06d",
+      "url": "https://pleroma.social/",
+      "source": "https://commons.wikimedia.org/wiki/File:Pleroma_logo.svg"
     },
     "pixelfed": {
       "label": "Pixelfed",
-      "codepoint": "0xf06e"
+      "codepoint": "0xf06e",
+      "url": "https://pixelfed.org/",
+      "source": "https://github.com/pixelfed/brand-assets"
     },
     "cc": {
       "label": "Creative Commons",
-      "codepoint": "0xf080"
+      "codepoint": "0xf080",
+      "url": "https://creativecommons.org/",
+      "source": "https://creativecommons.org/mission/downloads/"
     },
     "cc-by": {
       "label": "CC Attribution",
-      "codepoint": "0xf081"
+      "codepoint": "0xf081",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://creativecommons.org/mission/downloads/"
     },
     "cc-nc": {
       "label": "CC NonCommercial",
-      "codepoint": "0xf082"
+      "codepoint": "0xf082",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "source": "https://creativecommons.org/mission/downloads/"
     },
     "cc-nc-eu": {
       "label": "CC NonCommercial (EU)",
-      "codepoint": "0xf083"
+      "codepoint": "0xf083",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "source": "https://creativecommons.org/mission/downloads/"
     },
     "cc-nc-jp": {
       "label": "CC NonCommercial (JP)",
-      "codepoint": "0xf084"
+      "codepoint": "0xf084",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "source": "https://creativecommons.org/mission/downloads/"
     },
     "cc-sa": {
       "label": "CC ShareAlike",
-      "codepoint": "0xf085"
+      "codepoint": "0xf085",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://creativecommons.org/mission/downloads/"
     },
     "cc-nd": {
       "label": "CC NoDerivatives",
-      "codepoint": "0xf086"
+      "codepoint": "0xf086",
+      "url": "https://creativecommons.org/licenses/by-nd/4.0/",
+      "source": "https://creativecommons.org/mission/downloads/"
     },
     "cc-public": {
       "label": "CC Public Domain",
-      "codepoint": "0xf087"
+      "codepoint": "0xf087",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://creativecommons.org/mission/downloads/"
     },
     "cc-zero": {
       "label": "CC Zero",
-      "codepoint": "0xf088"
+      "codepoint": "0xf088",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://creativecommons.org/mission/downloads/"
     },
     "cc-share": {
       "label": "CC Share",
-      "codepoint": "0xf089"
+      "codepoint": "0xf089",
+      "url": "https://creativecommons.org/",
+      "source": "https://creativecommons.org/mission/downloads/"
     },
     "cc-remix": {
       "label": "CC Remix",
-      "codepoint": "0xf08a"
+      "codepoint": "0xf08a",
+      "url": "https://creativecommons.org/",
+      "source": "https://creativecommons.org/mission/downloads/"
     },
     "indieweb-indie": {
       "label": "IndieWeb (indie)",
-      "codepoint": "0xf08b"
+      "codepoint": "0xf08b",
+      "url": "https://indieweb.org/",
+      "source": "https://indieweb.org/logo"
     },
     "indieweb-web": {
       "label": "IndieWeb (web)",
-      "codepoint": "0xf08c"
+      "codepoint": "0xf08c",
+      "url": "https://indieweb.org/",
+      "source": "https://indieweb.org/logo"
     },
     "indieweb-camp": {
       "label": "IndieWeb (camp)",
-      "codepoint": "0xf08d"
+      "codepoint": "0xf08d",
+      "url": "https://indieweb.org/",
+      "source": "https://indieweb.org/logo"
     },
     "webfinger": {
       "label": "WebFinger",
-      "codepoint": "0xf08e"
+      "codepoint": "0xf08e",
+      "url": "https://webfinger.net/",
+      "source": "https://github.com/webfinger/assets/tree/main/logo"
     },
     "bitcoin": {
       "label": "Bitcoin",
-      "codepoint": "0xf08f"
+      "codepoint": "0xf08f",
+      "url": "https://bitcoin.org/",
+      "source": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg"
     },
     "bitcoin-simple": {
       "label": "Bitcoin (simple)",
-      "codepoint": "0xf090"
+      "codepoint": "0xf090",
+      "url": "https://bitcoin.org/",
+      "source": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg"
     },
     "activitypub": {
       "label": "ActivityPub",
-      "codepoint": "0xf091"
+      "codepoint": "0xf091",
+      "url": "https://activitypub.rocks/",
+      "source": "https://commons.wikimedia.org/wiki/File:ActivityPub-logo-symbol.svg"
     },
     "wapuu": {
       "label": "Wapuu",
-      "codepoint": "0xf092"
+      "codepoint": "0xf092",
+      "url": "https://wapu.us/",
+      "source": "https://github.com/jawordpressorg/wapuu/blob/gh-pages/wapuu-archive/original-wapuu.png"
     },
     "micro-blog": {
       "label": "Micro.blog",
-      "codepoint": "0xf093"
+      "codepoint": "0xf093",
+      "url": "https://micro.blog/",
+      "source": "https://help.micro.blog/t/micro-blog-icons/91"
     },
     "indieauth": {
       "label": "IndieAuth",
-      "codepoint": "0xf094"
+      "codepoint": "0xf094",
+      "url": "https://indieauth.net/",
+      "source": "https://indieweb.org/File:indieAuthProp.svg"
     },
     "freesoftware": {
       "label": "Free Software",
-      "codepoint": "0xf095"
+      "codepoint": "0xf095",
+      "url": "https://www.gnu.org/philosophy/free-sw.html",
+      "source": "https://commons.wikimedia.org/wiki/File:Free-software-logo.svg"
     },
     "lemmy": {
       "label": "Lemmy",
       "codepoint": "0xf096",
-      "color": "#00BC8C"
+      "color": "#00BC8C",
+      "url": "https://join-lemmy.org/",
+      "source": "https://github.com/LemmyNet/joinlemmy-site/blob/main/src/assets/images/lemmy.svg"
     },
     "peertube": {
       "label": "PeerTube",
       "codepoint": "0xf097",
-      "color": "#F1680D"
+      "color": "#F1680D",
+      "url": "https://joinpeertube.org/",
+      "source": "https://framagit.org/framasoft/peertube/peertube/-/blob/develop/client/src/assets/images/logo.svg"
     },
     "misskey": {
       "label": "Misskey",
       "codepoint": "0xf098",
-      "color": "#99c837"
+      "color": "#99c837",
+      "url": "https://misskey-hub.net/",
+      "source": "https://misskey-hub.net/en/brand-assets/"
     },
     "akkoma": {
       "label": "Akkoma",
       "codepoint": "0xf099",
-      "color": "#593196"
+      "color": "#593196",
+      "url": "https://akkoma.dev/",
+      "source": "https://akkoma.dev/AkkomaGang/akkoma-fe/src/branch/develop/static/logo.svg"
     },
     "bookwyrm": {
       "label": "BookWyrm",
       "codepoint": "0xf09a",
-      "color": "#002549"
+      "color": "#002549",
+      "url": "https://joinbookwyrm.com/",
+      "source": "https://github.com/bookwyrm-social/bookwyrm/blob/main/bookwyrm/static/images/logo.png"
     },
     "funkwhale": {
       "label": "Funkwhale",
       "codepoint": "0xf09b",
-      "color": "#0D47A1"
+      "color": "#0D47A1",
+      "url": "https://www.funkwhale.audio/",
+      "source": "https://www.funkwhale.audio/logos/"
     },
     "gotosocial": {
       "label": "GoToSocial",
       "codepoint": "0xf09c",
-      "color": "#F26522"
+      "color": "#F26522",
+      "url": "https://gotosocial.org/",
+      "source": "https://codeberg.org/superseriousbusiness/gotosocial/src/branch/main/web/assets/logo.svg"
     },
     "forgejo": {
       "label": "Forgejo",
       "codepoint": "0xf09d",
-      "color": "#E44729"
+      "color": "#E44729",
+      "url": "https://forgejo.org/",
+      "source": "https://codeberg.org/forgejo/meta/src/branch/readme/branding"
     },
     "gitea": {
       "label": "Gitea",
       "codepoint": "0xf09e",
-      "color": "#609926"
+      "color": "#609926",
+      "url": "https://about.gitea.com/",
+      "source": "https://gitea.com/gitea/design"
     },
     "owncast": {
       "label": "Owncast",
       "codepoint": "0xf09f",
-      "color": "#7871FF"
+      "color": "#7871FF",
+      "url": "https://owncast.online/",
+      "source": "https://github.com/owncast/owncast/blob/develop/static/img/logo.png"
     },
     "mobilizon": {
       "label": "Mobilizon",
       "codepoint": "0xf0a0",
-      "color": "#3E50AF"
+      "color": "#3E50AF",
+      "url": "https://joinmobilizon.org/",
+      "source": "https://framagit.org/framasoft/mobilizon/mobilizon/-/blob/main/src/assets/logo.svg"
     },
     "castopod": {
       "label": "Castopod",
       "codepoint": "0xf0a1",
-      "color": "#00564A"
+      "color": "#00564A",
+      "url": "https://castopod.org/",
+      "source": "https://code.castopod.org/adaures/castopod/-/blob/main/docs/src/assets/castopod-logo-inline.svg"
     },
     "kbin": {
       "label": "kbin",
       "codepoint": "0xf0a2",
-      "color": "#7B1FA2"
+      "color": "#7B1FA2",
+      "source": "https://codeberg.org/Kbin/kbin-core/src/branch/develop/assets/images/kbin.svg"
     },
     "firefish": {
       "label": "Firefish",
-      "codepoint": "0xf0a3"
+      "codepoint": "0xf0a3",
+      "url": "https://joinfirefish.org/",
+      "source": "https://commons.wikimedia.org/wiki/File:Firefish_splash.svg"
     },
     "iceshrimp": {
       "label": "Iceshrimp",
       "codepoint": "0xf0a4",
-      "color": "#F75E7B"
+      "color": "#F75E7B",
+      "url": "https://iceshrimp.dev/",
+      "source": "https://iceshrimp.dev/iceshrimp/branding"
     },
     "sharkey": {
       "label": "Sharkey",
-      "codepoint": "0xf0a5"
+      "codepoint": "0xf0a5",
+      "url": "https://joinsharkey.org/",
+      "source": "https://activitypub.software/TransFem-org/Sharkey/-/blob/develop/packages/frontend/assets/sharkey.svg"
     },
     "plume": {
       "label": "Plume",
-      "codepoint": "0xf0a6"
+      "codepoint": "0xf0a6",
+      "url": "https://joinplu.me/",
+      "source": "https://github.com/Plume-org/Plume/tree/main/assets/icons/trwnh"
     },
     "discourse": {
       "label": "Discourse",
       "codepoint": "0xf0a7",
-      "color": "#231F20"
+      "color": "#231F20",
+      "url": "https://www.discourse.org/",
+      "source": "https://www.discourse.org/brand"
     },
     "nextcloud": {
       "label": "Nextcloud",
       "codepoint": "0xf0a8",
-      "color": "#0082C9"
+      "color": "#0082C9",
+      "url": "https://nextcloud.com/",
+      "source": "https://nextcloud.com/brand/"
     },
     "loops": {
       "label": "Loops",
-      "codepoint": "0xf0aa"
+      "codepoint": "0xf0aa",
+      "url": "https://joinloops.org/",
+      "source": "https://github.com/joinloops/loops-server/blob/main/public/img/logo-light.svg"
     },
     "bonfire": {
       "label": "Bonfire",
       "codepoint": "0xf0ab",
-      "color": "#F15B40"
+      "color": "#F15B40",
+      "url": "https://bonfirenetworks.org/",
+      "source": "https://bonfirenetworks.org/press/"
     },
     "hometown": {
       "label": "Hometown",
-      "codepoint": "0xf0ac"
+      "codepoint": "0xf0ac",
+      "url": "https://github.com/hometown-fork/hometown",
+      "source": "https://github.com/hometown-fork/hometown/blob/hometown-dev/app/javascript/images/hometown.svg"
     },
     "writefreely": {
       "label": "WriteFreely",
-      "codepoint": "0xf0ad"
+      "codepoint": "0xf0ad",
+      "url": "https://writefreely.org/",
+      "source": "https://writefreely.org/img/writefreely.svg"
     },
     "gancio": {
       "label": "Gancio",
-      "codepoint": "0xf0ae"
+      "codepoint": "0xf0ae",
+      "url": "https://gancio.org/",
+      "source": "https://framagit.org/les/gancio/-/blob/main/docs/public/assets/gancio-light.png"
     },
     "glitch-soc": {
       "label": "glitch-soc",
-      "codepoint": "0xf0af"
+      "codepoint": "0xf0af",
+      "url": "https://glitch-soc.github.io/docs/",
+      "source": "https://github.com/glitch-soc/docs/tree/master/icon"
     },
     "soapbox": {
       "label": "Soapbox",
-      "codepoint": "0xf0b0"
+      "codepoint": "0xf0b0",
+      "url": "https://soapbox.pub/",
+      "source": "https://gitlab.com/soapbox-pub/soapbox/-/blob/main/src/assets/images/soapbox-logo.svg"
     },
     "snac": {
       "label": "snac",
-      "codepoint": "0xf0b1"
+      "codepoint": "0xf0b1",
+      "url": "https://codeberg.org/grunfink/snac2",
+      "source": "https://codeberg.org/grunfink/snac2/src/branch/master/artwork"
     },
     "honk": {
       "label": "honk",
@@ -609,95 +875,138 @@
     },
     "epicyon": {
       "label": "Epicyon",
-      "codepoint": "0xf0b3"
+      "codepoint": "0xf0b3",
+      "url": "https://epicyon.net/",
+      "source": "https://gitlab.com/bashrc2/epicyon/-/blob/main/img/logo.svg"
     },
     "drupal": {
       "label": "Drupal",
       "codepoint": "0xf0b4",
-      "color": "#0678BE"
+      "color": "#0678BE",
+      "url": "https://www.drupal.org/",
+      "source": "https://www.drupal.org/about/media-kit/logos"
     },
     "socialhome": {
       "label": "Socialhome",
-      "codepoint": "0xf0b5"
+      "codepoint": "0xf0b5",
+      "url": "https://socialhome.network/",
+      "source": "https://github.com/jaywink/socialhome/tree/master/socialhome/static/images/logo"
     },
     "keyoxide": {
       "label": "Keyoxide",
       "codepoint": "0xf0b6",
-      "color": "#56A300"
+      "color": "#56A300",
+      "url": "https://keyoxide.org/",
+      "source": "https://codeberg.org/keyoxide/keyoxide-artwork"
     },
     "streams": {
       "label": "streams",
-      "codepoint": "0xf0b7"
+      "codepoint": "0xf0b7",
+      "url": "https://codeberg.org/streams/streams",
+      "source": "https://codeberg.org/streams/streams/src/branch/release/images/streams.svg"
     },
     "takahe": {
       "label": "Takahē",
-      "codepoint": "0xf0b8"
+      "codepoint": "0xf0b8",
+      "url": "https://jointakahe.org/",
+      "source": "https://github.com/jointakahe/takahe/blob/main/static/img/logo.svg"
     },
     "hubzilla-simple": {
       "label": "Hubzilla (simple)",
       "codepoint": "0xf0b9",
-      "color": "#2E5AA1"
+      "color": "#2E5AA1",
+      "url": "https://hubzilla.org/",
+      "source": "https://framagit.org/hubzilla/core/-/blob/master/images/hubzilla.svg"
     },
     "guppe": {
       "label": "Guppe",
-      "codepoint": "0xf0ba"
+      "codepoint": "0xf0ba",
+      "url": "https://a.gup.pe/",
+      "source": "https://github.com/immers-space/guppe/blob/main/public/files/guppe.png"
     },
     "ecko": {
       "label": "Ecko",
-      "codepoint": "0xf0bb"
+      "codepoint": "0xf0bb",
+      "url": "https://github.com/magicstone-dev/ecko",
+      "source": "https://github.com/magicstone-dev/ecko/blob/main/app/javascript/images/logo_full-ecko.svg"
     },
     "fedibird": {
       "label": "Fedibird",
-      "codepoint": "0xf0bc"
+      "codepoint": "0xf0bc",
+      "url": "https://fedibird.com/"
     },
     "forgefed": {
       "label": "ForgeFed",
-      "codepoint": "0xf0bd"
+      "codepoint": "0xf0bd",
+      "url": "https://forgefed.org/",
+      "source": "https://codeberg.org/ForgeFed/ForgeFed/src/branch/main/static/img/logo.svg"
     },
     "gath-io": {
       "label": "Gath.io",
-      "codepoint": "0xf0be"
+      "codepoint": "0xf0be",
+      "url": "https://gath.io/",
+      "source": "https://github.com/lowercasename/gathio/tree/main/public"
     },
     "ktistec": {
       "label": "Ktistec",
-      "codepoint": "0xf0bf"
+      "codepoint": "0xf0bf",
+      "url": "https://github.com/toddsundsted/ktistec",
+      "source": "https://github.com/toddsundsted/ktistec/blob/main/public/images/logo.svg"
     },
     "relatica": {
       "label": "Relatica",
-      "codepoint": "0xf0c0"
+      "codepoint": "0xf0c0",
+      "url": "https://gitlab.com/mysocialportal/relatica",
+      "source": "https://gitlab.com/mysocialportal/relatica/-/blob/main/icon/relatica_logo.svg"
     },
     "shuttlecraft": {
       "label": "Shuttlecraft",
-      "codepoint": "0xf0c1"
+      "codepoint": "0xf0c1",
+      "url": "https://shuttlecraft.net/",
+      "source": "https://shuttlecraft.net/assets/shuttlecraft_fancy.png"
     },
     "flohmarkt": {
       "label": "flohmarkt",
       "codepoint": "0xf0c2",
-      "color": "#D93F00"
+      "color": "#D93F00",
+      "url": "https://codeberg.org/flohmarkt/flohmarkt",
+      "source": "https://codeberg.org/flohmarkt/flohmarkt/src/branch/master/meta/logo.svg"
     },
     "inventaire": {
       "label": "Inventaire",
-      "codepoint": "0xf0c3"
+      "codepoint": "0xf0c3",
+      "url": "https://inventaire.io/",
+      "source": "https://commons.wikimedia.org/wiki/File:Inv-icon-192.svg"
     },
     "disroot": {
       "label": "Disroot",
-      "codepoint": "0xf0c4"
+      "codepoint": "0xf0c4",
+      "url": "https://disroot.org/",
+      "source": "https://git.disroot.org/Disroot/Artwork_assets"
     },
     "fedimarks": {
       "label": "Fedimarks",
-      "codepoint": "0xf0c5"
+      "codepoint": "0xf0c5",
+      "url": "https://sharepostmarks.org/",
+      "source": "https://github.com/ckolderup/postmarks/blob/main/public/postmarks-logo.png"
     },
     "fediverse-symbol": {
       "label": "Fediverse (symbol)",
-      "codepoint": "0xf0c6"
+      "codepoint": "0xf0c6",
+      "url": "https://fediverse.info/",
+      "source": "https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg"
     },
     "seppo": {
       "label": "Seppo",
-      "codepoint": "0xf0c7"
+      "codepoint": "0xf0c7",
+      "url": "https://seppo.mro.name/",
+      "source": "https://codeberg.org/seppo/seppo/src/branch/ma/res/static/logo.svg"
     },
     "fediverse-logo": {
       "label": "Fediverse (logo)",
-      "codepoint": "0xf0c8"
+      "codepoint": "0xf0c8",
+      "url": "https://fediverse.info/",
+      "source": "https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg"
     }
   },
   "aliases": {
@@ -744,7 +1053,9 @@
       "glyphs": [
         "indieweb-indie",
         "indieweb-web"
-      ]
+      ],
+      "url": "https://indieweb.org/",
+      "source": "https://indieweb.org/logo"
     },
     "indiewebcamp": {
       "label": "IndieWebCamp",
@@ -752,7 +1063,9 @@
         "indieweb-indie",
         "indieweb-web",
         "indieweb-camp"
-      ]
+      ],
+      "url": "https://indieweb.org/",
+      "source": "https://indieweb.org/logo"
     }
   },
   "groups": {
