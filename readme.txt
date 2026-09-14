@@ -22,6 +22,8 @@ You can also render an icon yourself:
 
 The icons are also available as a webfont and as CSS, see [the project page](https://pfefferle.dev/openwebicons/).
 
+The plugin code is licensed under the GPL v2 or later. The icons it bundles are licensed under the SIL Open Font License 1.1, see `LICENSE-OFL.txt`.
+
 == Frequently Asked Questions ==
 
 = I do not see the icons =

@@ -93,6 +93,10 @@ Adding a new icon:
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the details.
 
+## License
+
+The icons, the webfont and the CSS are licensed under the [SIL Open Font License 1.1](LICENSE-OFL.txt). The WordPress plugin is licensed under the [GPL v2 or later](LICENSE-GPL.txt). See [LICENSE.md](LICENSE.md) for the details.
+
 ## Project Page
 
 Browse all icons: https://pfefferle.dev/openwebicons/
