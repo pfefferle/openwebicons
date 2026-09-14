@@ -10,7 +10,8 @@
       "label": "APML",
       "codepoint": "0xf001",
       "color": "#AFDD63",
-      "url": "https://en.wikipedia.org/wiki/Attention_Profiling_Mark-up_Language"
+      "url": "https://en.wikipedia.org/wiki/Attention_Profiling_Mark-up_Language",
+      "source": "https://suda.co.uk/projects/apml/"
     },
     "opensearch": {
       "label": "OpenSearch",
