@@ -290,7 +290,7 @@
       "label": "hAtom",
       "codepoint": "0xf040",
       "url": "https://microformats.org/wiki/hatom",
-      "source": "https://microformats.org/wiki/logo"
+      "source": "https://microformats.org/wiki/icons"
     },
     "activity-simple": {
       "label": "Activity (simple)",
@@ -302,19 +302,19 @@
       "label": "hResume",
       "codepoint": "0xf042",
       "url": "https://microformats.org/wiki/hresume",
-      "source": "https://microformats.org/wiki/logo"
+      "source": "https://microformats.org/wiki/icons"
     },
     "hcard-add": {
       "label": "hCard (add)",
       "codepoint": "0xf043",
       "url": "https://microformats.org/wiki/hcard",
-      "source": "https://microformats.org/wiki/logo"
+      "source": "https://microformats.org/wiki/icons"
     },
     "hcard-download": {
       "label": "hCard (download)",
       "codepoint": "0xf044",
       "url": "https://microformats.org/wiki/hcard",
-      "source": "https://microformats.org/wiki/logo"
+      "source": "https://microformats.org/wiki/icons"
     },
     "pubsubhubbub-pub": {
       "label": "PubSubHubbub (publisher)",
