@@ -30,7 +30,8 @@
     "env-start": "wp-env start",
     "env-stop": "wp-env stop",
     "env-clean": "wp-env clean all",
-    "normalize:svg": "node scripts/normalize-svgs.mjs"
+    "normalize:svg": "node scripts/normalize-svgs.mjs",
+    "build:wporg-assets": "node scripts/build-wporg-assets.mjs"
   },
   "devDependencies": {
     "@wordpress/env": "^11.11.0",

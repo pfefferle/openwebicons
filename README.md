@@ -77,6 +77,7 @@ This generates fonts, SCSS variables, CSS files, the composed icons and the demo
 | `npm run validate` | Check the SVGs, `icons.json` and the version numbers |
 | `npm run normalize:svg` | Flatten the transforms in `svg/` into the path data |
 | `npm run build:plugin` | Build `dist/openwebicons.zip`, the installable plugin |
+| `npm run build:wporg-assets` | Render the wordpress.org banner and icon into `.wordpress-org/` (needs librsvg) |
 | `npm run env-start` | Start a WordPress at http://localhost:8893 (needs Docker) |
 | `npm run env-stop` | Stop it again |
 
