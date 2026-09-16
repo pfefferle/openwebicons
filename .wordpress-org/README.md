@@ -11,6 +11,8 @@ Still missing, they have to be made by hand:
 | `icon-512x512.png` | 512 x 512 |
 | `banner-772x250.png` | 772 x 250 |
 | `banner-1544x500.png` | 1544 x 500 |
-| `screenshot-1.png` | the icon library with the collection open |
 
 An `icon.svg` can be used instead of the two PNG icons.
+
+The screenshots are numbered as `screenshot-N.png`, the captions are in the
+`== Screenshots ==` section of `readme.txt`.
