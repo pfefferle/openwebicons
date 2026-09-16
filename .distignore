@@ -23,5 +23,5 @@ README.md
 .wp-env.json
 .wp-env.override.json
 dist
-react
 .wordpress-org
+svg/_template.svg

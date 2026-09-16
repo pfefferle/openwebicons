@@ -2,18 +2,23 @@
 All notable changes to the OpenWebIcons project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [2.0.0] - 2026-08-24
+## [2.0.0] - 2026-09-16
 ### Added
 - WordPress plugin that registers the icons with the icon library added in WordPress 7.1
 - `label` for every entry in `icons.json`, used as the name in the icon picker
+- `url` and `source` for the icons, linked on the docs page
 - `npm run normalize:svg` to flatten newly added icons
+- `scripts/fit-svgs.mjs` to fit a glyph into the shared icon box, and a check in `npm run validate` that catches glyphs outside the viewBox
+- Banner, icon and screenshots for wordpress.org, rendered with `npm run build:wporg-assets`
 
 ### Changed
 - Flattened the transforms in `svg/` into the path data, every icon is now a plain `<svg><path/></svg>`. The rendering is unchanged, verified against every icon and every font glyph
 - The npm package now ships only `css/`, `font/` and `sass/`
+- The font, the CSS and the SVGs are licensed under the OFL 1.1, the plugin under the GPL 2 or later. See `LICENSE.md`
 
 ### Fixed
 - `npm run build` was broken since the fantasticon 4 update
+- Akkoma, Castopod, Epicyon, GoToSocial, Indie, Lemmy, Misskey, Sharkey and WriteFreely were drawn partly outside the viewBox and got clipped in the Icon block
 
 ## [1.7.0] - 2026-02-19
 ### Added

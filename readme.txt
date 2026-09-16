@@ -42,4 +42,4 @@ Yes. The icons use `currentColor`, so they follow the text color.
 == Changelog ==
 
 = 2.0.0 =
-* First release as a plugin.
+* First release as a plugin. Registers all icons with the icon library that came with WordPress 7.1.
