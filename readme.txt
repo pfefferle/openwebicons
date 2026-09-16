@@ -34,6 +34,11 @@ The icon library needs the Icon Registration API, which was added in WordPress 7
 
 Yes. The icons use `currentColor`, so they follow the text color.
 
+== Screenshots ==
+
+1. The icon library in the block editor with the OpenWeb Icons collection open.
+2. A row of Icon blocks with Fediverse icons in a post.
+
 == Changelog ==
 
 = 2.0.0 =
