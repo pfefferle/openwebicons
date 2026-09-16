@@ -18,7 +18,11 @@ This plugin registers all of them as an icon collection, so you can pick them in
 
 You can also render an icon yourself:
 
-`<?php echo wp_get_icon( 'openwebicons/activitypub', array( 'size' => 32 ) ); ?>`
+	<?php
+	echo wp_get_icon(
+		'openwebicons/activitypub',
+		array( 'size' => 32 )
+	);
 
 The icons are also available as a webfont and as CSS, see [the project page](https://pfefferle.dev/openwebicons/).
 
