@@ -15,9 +15,9 @@ const ROOT = join(import.meta.dirname, '..');
 const OUT = join(ROOT, '.wordpress-org');
 const icons = JSON.parse(readFileSync(join(ROOT, 'icons.json'), 'utf8'));
 
-const BG = '#1a1a1a';
-const FG = '#ffffff';
-const MUTED = '#999999';
+const BG = '#ffffff';
+const FG = '#1a1a1a';
+const MUTED = '#666666';
 const FONT = '"Helvetica Neue", Helvetica, Arial, sans-serif';
 
 /**
@@ -89,8 +89,8 @@ function icon(w) {
   const glyphs = CORNERS.map((name, i) =>
     glyph(name, off + (i % 2) * (size + gap), off + Math.floor(i / 2) * (size + gap), size, FG)
   ).join('\n  ');
+  // No background: the icon sits on whatever the plugin directory draws it on.
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${w}" viewBox="0 0 ${w} ${w}">
-  <rect width="${w}" height="${w}" rx="${w * 0.2}" fill="${BG}"/>
   ${glyphs}
 </svg>
 `;
