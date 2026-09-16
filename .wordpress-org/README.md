@@ -3,16 +3,12 @@
 Images for the plugin page. `.github/workflows/assets.yml` pushes them to the
 `assets/` directory of the SVN repository whenever they change on `main`.
 
-Still missing, they have to be made by hand:
+The banner and the icon are rendered from the plugin's own glyphs with
+`npm run build:wporg-assets` (needs `rsvg-convert` from librsvg). Edit
+`scripts/build-wporg-assets.mjs` and rerun it instead of touching the PNGs.
 
 | File | Size |
 |------|------|
-| `icon-256x256.png` | 256 x 256 |
-| `icon-512x512.png` | 512 x 512 |
-| `banner-772x250.png` | 772 x 250 |
-| `banner-1544x500.png` | 1544 x 500 |
-
-An `icon.svg` can be used instead of the two PNG icons.
-
-The screenshots are numbered as `screenshot-N.png`, the captions are in the
-`== Screenshots ==` section of `readme.txt`.
+| `icon.svg`, `icon-256x256.png`, `icon-512x512.png` | plugin icon |
+| `banner-772x250.png`, `banner-1544x500.png` | plugin page header |
+| `screenshot-N.png` | captions are in `== Screenshots ==` of `readme.txt` |
