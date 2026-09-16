@@ -60,6 +60,7 @@ Thank you for your interest in contributing! This guide explains how to add new 
 ## SVG Guidelines
 
 - **viewBox**: Must be `"-10 0 1034 1024"` — all icons use this coordinate space
+- **Glyph box**: Draw within the 850×850 square at (75, 175). Paths outside the viewBox are clipped wherever the SVG is used directly, such as the WordPress Icon block. `node scripts/fit-svgs.mjs your-icon` rescales and centers a glyph into that box for you.
 - **fill**: Use `fill="currentColor"` so icons adapt to text color
 - **No strokes**: Convert all strokes to filled paths
 - **No embedded images**: Raster images cannot be converted to font glyphs

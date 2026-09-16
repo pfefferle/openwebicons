@@ -1,5 +1,6 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { join, basename, extname } from 'node:path';
+import { svgBBox, svgViewBox } from './lib/svg-bbox.mjs';
 
 const ROOT = join(import.meta.dirname, '..');
 const SVG_DIR = join(ROOT, 'svg');
@@ -103,6 +104,25 @@ for (const file of svgFiles) {
   // be skipped without a word.
   if (/<path\b[^>]*(?<!\/)>/.test(content)) {
     error(`${file}: <path> must be self-closing — run "npm run normalize:svg"`);
+  }
+
+  // Paths outside the viewBox are clipped wherever the SVG is used directly
+  // (Icon block, inline SVG) while the webfont still renders them, so the
+  // problem never shows up in the docs. A few older icons brush the edge by a
+  // hair; the tolerance leaves those alone and flags real misplacement.
+  const viewBox = svgViewBox(content);
+  const bbox = svgBBox(content);
+  if (viewBox && bbox) {
+    const TOLERANCE = 30;
+    const overflow = Math.max(
+      viewBox.x - bbox.x,
+      viewBox.y - bbox.y,
+      bbox.x + bbox.w - (viewBox.x + viewBox.w),
+      bbox.y + bbox.h - (viewBox.y + viewBox.h),
+    );
+    if (overflow > TOLERANCE) {
+      error(`${file}: path data extends ${Math.round(overflow)} units outside the viewBox — run "node scripts/fit-svgs.mjs ${basename(file, '.svg')}"`);
+    }
   }
 }
 
