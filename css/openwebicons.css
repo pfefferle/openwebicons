@@ -864,6 +864,16 @@ li[class^=openwebicons-], li[class*=" openwebicons-"] {
   content: "\f0cb";
 }
 
+.icon-tangled:before,
+.openwebicons-tangled:before {
+  content: "\f0cc";
+}
+
+.icon-leaflet:before,
+.openwebicons-leaflet:before {
+  content: "\f0cd";
+}
+
 .icon-rdfa:before,
 .openwebicons-rdfa:before {
   content: "\f039";

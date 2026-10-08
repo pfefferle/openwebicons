@@ -1026,6 +1026,18 @@
       "codepoint": "0xf0cb",
       "url": "https://atproto.com/",
       "source": "https://github.com/bluesky-social/atproto-website/blob/41e60a08da55f13b2b5fcf59cc812114b0950c04/src/components/Logo.tsx"
+    },
+    "tangled": {
+      "label": "Tangled",
+      "codepoint": "0xf0cc",
+      "url": "https://tangled.org/",
+      "source": "https://tangled.org/static/logos/dolly.svg"
+    },
+    "leaflet": {
+      "label": "Leaflet",
+      "codepoint": "0xf0cd",
+      "url": "https://leaflet.pub/",
+      "source": "https://github.com/hyperlink-academy/leaflet/blob/main/public/logos/Logo%20B%26W%2064x64.svg"
     }
   },
   "aliases": {
@@ -1159,7 +1171,9 @@
     "ATmosphere": [
       "standard-site",
       "bluesky",
-      "atproto"
+      "atproto",
+      "tangled",
+      "leaflet"
     ],
     "IndieWeb": [
       "indieweb-indie",

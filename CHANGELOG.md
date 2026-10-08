@@ -4,7 +4,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 ### Added
-- Bluesky, Standard.site and AT Protocol icons in a new ATmosphere group
+- Bluesky, Standard.site, AT Protocol, Tangled and Leaflet icons in a new ATmosphere group
 - Blue colored variant of the Bluesky icon
 
 ### Changed
