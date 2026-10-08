@@ -993,8 +993,8 @@
     "fediverse-symbol": {
       "label": "Fediverse (symbol)",
       "codepoint": "0xf0c6",
-      "url": "https://fediverse.info/",
-      "source": "https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg"
+      "url": "https://symbol.fediverse.info/",
+      "source": "https://codeberg.org/fediverse-symbol/fediverse-symbol"
     },
     "seppo": {
       "label": "Seppo",
@@ -1007,6 +1007,37 @@
       "codepoint": "0xf0c8",
       "url": "https://fediverse.info/",
       "source": "https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg"
+    },
+    "standard-site": {
+      "label": "Standard.site",
+      "codepoint": "0xf0c9",
+      "url": "https://standard.site/",
+      "source": "https://standard.site/"
+    },
+    "bluesky": {
+      "label": "Bluesky",
+      "codepoint": "0xf0ca",
+      "color": "#0085FF",
+      "url": "https://bsky.app/",
+      "source": "https://bsky.social/about/blog/press-faq"
+    },
+    "atproto": {
+      "label": "AT Protocol",
+      "codepoint": "0xf0cb",
+      "url": "https://atproto.com/",
+      "source": "https://github.com/bluesky-social/atproto-website/blob/41e60a08da55f13b2b5fcf59cc812114b0950c04/src/components/Logo.tsx"
+    },
+    "tangled": {
+      "label": "Tangled",
+      "codepoint": "0xf0cc",
+      "url": "https://tangled.org/",
+      "source": "https://tangled.org/static/logos/dolly.svg"
+    },
+    "leaflet": {
+      "label": "Leaflet",
+      "codepoint": "0xf0cd",
+      "url": "https://leaflet.pub/",
+      "source": "https://github.com/hyperlink-academy/leaflet/blob/main/public/logos/Logo%20B%26W%2064x64.svg"
     }
   },
   "aliases": {
@@ -1136,6 +1167,13 @@
       "fediverse-symbol",
       "seppo",
       "fediverse-logo"
+    ],
+    "ATmosphere": [
+      "standard-site",
+      "bluesky",
+      "atproto",
+      "tangled",
+      "leaflet"
     ],
     "IndieWeb": [
       "indieweb-indie",

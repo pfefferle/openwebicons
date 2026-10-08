@@ -849,6 +849,31 @@ li[class^=openwebicons-], li[class*=" openwebicons-"] {
   content: "\f0c8";
 }
 
+.icon-standard-site:before,
+.openwebicons-standard-site:before {
+  content: "\f0c9";
+}
+
+.icon-bluesky:before,
+.openwebicons-bluesky:before {
+  content: "\f0ca";
+}
+
+.icon-atproto:before,
+.openwebicons-atproto:before {
+  content: "\f0cb";
+}
+
+.icon-tangled:before,
+.openwebicons-tangled:before {
+  content: "\f0cc";
+}
+
+.icon-leaflet:before,
+.openwebicons-leaflet:before {
+  content: "\f0cd";
+}
+
 .icon-rdfa:before,
 .openwebicons-rdfa:before {
   content: "\f039";
@@ -1155,6 +1180,12 @@ li[class^=openwebicons-], li[class*=" openwebicons-"] {
 .openwebicons-flohmarkt-colored:before {
   content: "\f0c2";
   color: #D93F00;
+}
+
+.icon-bluesky-colored:before,
+.openwebicons-bluesky-colored:before {
+  content: "\f0ca";
+  color: #0085FF;
 }
 
 .icon-opensource-colored:before,
