@@ -2,6 +2,20 @@
 All notable changes to the OpenWebIcons project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+### Added
+- Bluesky, Standard.site and AT Protocol icons in a new ATmosphere group
+- Blue colored variant of the Bluesky icon
+
+### Changed
+- Updated the wordpress.org banner to a light background and made the icon background transparent
+- Updated build and development dependencies: Sass 1.105.1, @wordpress/env 11.16.0, adm-zip 0.6.1, fast-uri 3.1.8 and ip-address 10.7.2
+
+### Fixed
+- Fediverse symbol links now point to its website and source repository
+- Formatted the WordPress readme's PHP example as a multiline code block
+- Changelog validation now allows an Unreleased section above the latest numbered release
+
 ## [2.0.0] - 2026-09-16
 ### Added
 - WordPress plugin that registers the icons with the icon library added in WordPress 7.1
@@ -143,6 +157,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 * **2012-05-05**: Added *federated social web*, *DataPortability* and *Open Web Foundation* Icon
 * **2012-05-03**: Initial Release
 
+[Unreleased]: https://github.com/pfefferle/openwebicons/compare/2.0.0...HEAD
+[2.0.0]: https://github.com/pfefferle/openwebicons/releases/tag/2.0.0
 [1.7.0]: https://github.com/pfefferle/openwebicons/compare/1.6.2...1.7.0
 [1.6.2]: https://github.com/pfefferle/openwebicons/compare/1.6.1...1.6.2
 [1.6.1]: https://github.com/pfefferle/openwebicons/compare/1.6.0...1.6.1

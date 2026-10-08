@@ -257,7 +257,7 @@ function checkVersion(path, pattern, what) {
 
 checkVersion(PLUGIN, /^\s*\*\s*Version:\s*(\S+)\s*$/m, 'Version header');
 checkVersion(README, /^Stable tag:\s*(\S+)\s*$/m, 'Stable tag');
-checkVersion(CHANGELOG, /^## \[(\S+?)\]/m, 'newest entry');
+checkVersion(CHANGELOG, /^## \[(?!Unreleased\])(\S+?)\]/m, 'newest release entry');
 
 // --- Summary ---
 console.log('');

@@ -681,6 +681,18 @@ li[class^=openwebicons-], li[class*=" openwebicons-"] {
   content: "\f0c8";
 }
 
+.openwebicons-standard-site:before {
+  content: "\f0c9";
+}
+
+.openwebicons-bluesky:before {
+  content: "\f0ca";
+}
+
+.openwebicons-atproto:before {
+  content: "\f0cb";
+}
+
 .openwebicons-rdfa:before {
   content: "\f039";
 }
@@ -934,6 +946,11 @@ li[class^=openwebicons-], li[class*=" openwebicons-"] {
 .openwebicons-flohmarkt-colored:before {
   content: "\f0c2";
   color: #D93F00;
+}
+
+.openwebicons-bluesky-colored:before {
+  content: "\f0ca";
+  color: #0085FF;
 }
 
 .openwebicons-opensource-colored:before {
