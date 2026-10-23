@@ -34,7 +34,7 @@
     "build:wporg-assets": "node scripts/build-wporg-assets.mjs"
   },
   "devDependencies": {
-    "@wordpress/env": "^11.11.0",
+    "@wordpress/env": "^12.0.0",
     "fantasticon": "^4.1.0",
     "sass": "^1.80.0",
     "svgpath": "^2.6.0",
