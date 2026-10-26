@@ -701,6 +701,10 @@ li[class^=openwebicons-], li[class*=" openwebicons-"] {
   content: "\f0cd";
 }
 
+.openwebicons-shareopenly:before {
+  content: "\f0ce";
+}
+
 .openwebicons-rdfa:before {
   content: "\f039";
 }

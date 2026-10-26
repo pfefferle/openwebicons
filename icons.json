@@ -1038,6 +1038,12 @@
       "codepoint": "0xf0cd",
       "url": "https://leaflet.pub/",
       "source": "https://github.com/hyperlink-academy/leaflet/blob/main/public/logos/Logo%20B%26W%2064x64.svg"
+    },
+    "shareopenly": {
+      "label": "ShareOpenly",
+      "codepoint": "0xf0ce",
+      "url": "https://shareopenly.org/",
+      "source": "https://ps.w.org/shareopenly/assets/icon.svg"
     }
   },
   "aliases": {
@@ -1261,7 +1267,8 @@
       "apml",
       "activity",
       "activity-simple",
-      "dataportability"
+      "dataportability",
+      "shareopenly"
     ],
     "Projects & Communities": [
       "wordpress",

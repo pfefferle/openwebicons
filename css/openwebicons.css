@@ -874,6 +874,11 @@ li[class^=openwebicons-], li[class*=" openwebicons-"] {
   content: "\f0cd";
 }
 
+.icon-shareopenly:before,
+.openwebicons-shareopenly:before {
+  content: "\f0ce";
+}
+
 .icon-rdfa:before,
 .openwebicons-rdfa:before {
   content: "\f039";
