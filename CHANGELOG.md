@@ -6,6 +6,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Bluesky, Standard.site, AT Protocol, Tangled and Leaflet icons in a new ATmosphere group
 - Blue colored variant of the Bluesky icon
+- ShareOpenly icon in the Sharing & Feeds group
 
 ### Changed
 - Updated the wordpress.org banner to a light background and made the icon background transparent
