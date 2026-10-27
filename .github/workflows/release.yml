@@ -12,11 +12,13 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          registry-url: 'https://registry.npmjs.org'
       - run: npm ci
       - run: npm run validate
       - run: npm run build:plugin
@@ -27,3 +29,6 @@ jobs:
           gh release view "${GITHUB_REF_NAME}" >/dev/null 2>&1 \
             || gh release create "${GITHUB_REF_NAME}" --generate-notes
           gh release upload "${GITHUB_REF_NAME}" dist/openwebicons.zip --clobber
+      # Trusted publishing (OIDC) needs npm >= 11.5.1; Node 20 ships npm 10.
+      - run: npm install -g npm@^11.5.1
+      - run: npm publish
